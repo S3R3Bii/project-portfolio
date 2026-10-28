@@ -23,11 +23,22 @@
       "data quality"
     ],
     "status": "executed; corrected retrospective evaluation released",
-    "manuscript": "private LaTeX and PDF; all three rendered pages reviewed",
+    "manuscript": "Public GitHub research manuscript and LaTeX; not peer reviewed or accepted for formal publication",
     "novelty": "Scoped operational contribution; no new algorithm or exhaustive literature-gap claim",
     "license_gate": "aggregate data provenance and CFPB terms checked",
     "publication_gate": "public package passed source reconciliation, independent calculations, figure inspection and bounded privacy scan",
-    "repository": "https://github.com/S3R3Bii/complaint-capacity-forecasting"
+    "repository": "https://github.com/S3R3Bii/complaint-capacity-forecasting",
+    "manuscript_publication": {
+      "head": "fa0b8723d3998cdc705c814f89be0e7b7d233bc8",
+      "pdf": "https://github.com/S3R3Bii/complaint-capacity-forecasting/blob/fa0b8723d3998cdc705c814f89be0e7b7d233bc8/paper/manuscript.pdf",
+      "latex": "https://github.com/S3R3Bii/complaint-capacity-forecasting/blob/fa0b8723d3998cdc705c814f89be0e7b7d233bc8/paper/main.tex",
+      "ci": "https://github.com/S3R3Bii/complaint-capacity-forecasting/actions/runs/40782748982",
+      "ci_state": "success",
+      "peer_reviewed": false,
+      "formal_submission_target": false,
+      "pages": 3,
+      "grade": 4
+    }
   },
   {
     "id": "02",
@@ -58,7 +69,7 @@
       "data engineering"
     ],
     "status": "protocol only",
-    "manuscript": "private, after analysis",
+    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
     "novelty": "Candidate contribution; systematic prior-work review not yet completed",
     "license_gate": "unknown until exact dataset terms are checked",
     "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass",
@@ -93,7 +104,7 @@
       "communication"
     ],
     "status": "protocol only",
-    "manuscript": "private, after analysis",
+    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
     "novelty": "Candidate contribution; systematic prior-work review not yet completed",
     "license_gate": "unknown until exact dataset terms are checked",
     "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
@@ -121,7 +132,7 @@
       "optimization"
     ],
     "status": "protocol only",
-    "manuscript": "private, after analysis",
+    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
     "novelty": "Candidate contribution; systematic prior-work review not yet completed",
     "license_gate": "unknown until exact dataset terms are checked",
     "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
@@ -149,7 +160,7 @@
       "R"
     ],
     "status": "protocol only",
-    "manuscript": "private, after analysis",
+    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
     "novelty": "Candidate contribution; systematic prior-work review not yet completed",
     "license_gate": "unknown until exact dataset terms are checked",
     "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
@@ -176,7 +187,7 @@
       "forecasting"
     ],
     "status": "protocol only",
-    "manuscript": "private, after analysis",
+    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
     "novelty": "Candidate contribution; systematic prior-work review not yet completed",
     "license_gate": "unknown until exact dataset terms are checked",
     "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
@@ -204,7 +215,7 @@
       "visualization"
     ],
     "status": "protocol only",
-    "manuscript": "private, after analysis",
+    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
     "novelty": "Candidate contribution; systematic prior-work review not yet completed",
     "license_gate": "unknown until exact dataset terms are checked",
     "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
@@ -231,7 +242,7 @@
       "scenario design"
     ],
     "status": "protocol only",
-    "manuscript": "private, after analysis",
+    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
     "novelty": "Candidate contribution; systematic prior-work review not yet completed",
     "license_gate": "unknown until exact dataset terms are checked",
     "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
@@ -264,7 +275,7 @@
       "measurement validity"
     ],
     "status": "protocol only",
-    "manuscript": "private, after analysis",
+    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
     "novelty": "Candidate contribution; systematic prior-work review not yet completed",
     "license_gate": "unknown until exact dataset terms are checked",
     "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
@@ -298,7 +309,7 @@
       "business analysis"
     ],
     "status": "protocol only",
-    "manuscript": "private, after analysis",
+    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
     "novelty": "Candidate contribution; systematic prior-work review not yet completed",
     "license_gate": "unknown until exact dataset terms are checked",
     "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
@@ -326,7 +337,7 @@
       "entity resolution"
     ],
     "status": "protocol only",
-    "manuscript": "private, after analysis",
+    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
     "novelty": "Candidate contribution; systematic prior-work review not yet completed",
     "license_gate": "unknown until exact dataset terms are checked",
     "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
@@ -353,7 +364,7 @@
       "public finance"
     ],
     "status": "protocol only",
-    "manuscript": "private, after analysis",
+    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
     "novelty": "Candidate contribution; systematic prior-work review not yet completed",
     "license_gate": "unknown until exact dataset terms are checked",
     "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
@@ -380,7 +391,7 @@
       "geospatial analysis"
     ],
     "status": "protocol only",
-    "manuscript": "private, after analysis",
+    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
     "novelty": "Candidate contribution; systematic prior-work review not yet completed",
     "license_gate": "unknown until exact dataset terms are checked",
     "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
@@ -407,7 +418,7 @@
       "time series"
     ],
     "status": "protocol only",
-    "manuscript": "private, after analysis",
+    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
     "novelty": "Candidate contribution; systematic prior-work review not yet completed",
     "license_gate": "unknown until exact dataset terms are checked",
     "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
@@ -435,7 +446,7 @@
       "SQL"
     ],
     "status": "protocol only",
-    "manuscript": "private, after analysis",
+    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
     "novelty": "Candidate contribution; systematic prior-work review not yet completed",
     "license_gate": "unknown until exact dataset terms are checked",
     "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
@@ -463,7 +474,7 @@
       "uncertainty"
     ],
     "status": "protocol only",
-    "manuscript": "private, after analysis",
+    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
     "novelty": "Candidate contribution; systematic prior-work review not yet completed",
     "license_gate": "unknown until exact dataset terms are checked",
     "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
@@ -491,7 +502,7 @@
       "monitoring"
     ],
     "status": "protocol only",
-    "manuscript": "private, after analysis",
+    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
     "novelty": "Candidate contribution; systematic prior-work review not yet completed",
     "license_gate": "unknown until exact dataset terms are checked",
     "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
@@ -518,7 +529,7 @@
       "model validation"
     ],
     "status": "protocol only",
-    "manuscript": "private, after analysis",
+    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
     "novelty": "Candidate contribution; systematic prior-work review not yet completed",
     "license_gate": "unknown until exact dataset terms are checked",
     "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
@@ -552,7 +563,7 @@
       "visualization"
     ],
     "status": "protocol only",
-    "manuscript": "private, after analysis",
+    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
     "novelty": "Candidate contribution; systematic prior-work review not yet completed",
     "license_gate": "unknown until exact dataset terms are checked",
     "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
@@ -581,11 +592,22 @@
       "Python"
     ],
     "status": "executed; retrospective announcement-field evaluation released",
-    "manuscript": "private six-page LaTeX/PDF; rendered and reviewed",
+    "manuscript": "Public GitHub research manuscript and LaTeX; not peer reviewed or accepted for formal publication",
     "novelty": "Scoped predictive implementation extending an established auction-demand question; GAO AppendixII compared; no algorithmic novelty/exhaustive gap claim",
     "license_gate": "raw official aggregate responses/source papers excluded; exact retrieval and hashes retained; original code and derived evidence public",
     "publication_gate": "five contracts, all1312 feature rows independently reconstructed,14 losses/36 test metric rows/4000 bootstrap draws checked; both clean Linux replays pass",
-    "repository": "https://github.com/S3R3Bii/auction-demand-transfer"
+    "repository": "https://github.com/S3R3Bii/auction-demand-transfer",
+    "manuscript_publication": {
+      "head": "9f870d43e4eb560cb84cc3171aa49578b0565da9",
+      "pdf": "https://github.com/S3R3Bii/auction-demand-transfer/blob/9f870d43e4eb560cb84cc3171aa49578b0565da9/paper/manuscript.pdf",
+      "latex": "https://github.com/S3R3Bii/auction-demand-transfer/blob/9f870d43e4eb560cb84cc3171aa49578b0565da9/paper/main.tex",
+      "ci": "https://github.com/S3R3Bii/auction-demand-transfer/actions/runs/40782753014",
+      "ci_state": "success",
+      "peer_reviewed": false,
+      "formal_submission_target": false,
+      "pages": 6,
+      "grade": 4
+    }
   },
   {
     "id": "21",
@@ -609,7 +631,7 @@
       "model monitoring"
     ],
     "status": "COMPLETE: scoped retrospective monitoring study released",
-    "manuscript": "Private LaTeX/PDF; four rendered pages reviewed",
+    "manuscript": "Public GitHub research manuscript and LaTeX; not peer reviewed or accepted for formal publication",
     "novelty": "Candidate contribution; systematic prior-work review not yet completed",
     "license_gate": "unknown until exact dataset terms are checked",
     "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass",
@@ -618,7 +640,18 @@
     "pull_request": "https://github.com/S3R3Bii/funding-alert-burden/pull/1",
     "ci": "https://github.com/S3R3Bii/funding-alert-burden/actions/runs/40754450153",
     "validation_result": "18 candidates; five contract tests; full independent monitor/case recomputation and offline replay pass locally and on Linux CI",
-    "execution_scope": "Current historical SOFR/EFFR snapshot; controlled +10bp interventions; background burden is not economic false-positive rate"
+    "execution_scope": "Current historical SOFR/EFFR snapshot; controlled +10bp interventions; background burden is not economic false-positive rate",
+    "manuscript_publication": {
+      "head": "b4506d6ab34bb4e4d813de9cee422304ac63f97e",
+      "pdf": "https://github.com/S3R3Bii/funding-alert-burden/blob/b4506d6ab34bb4e4d813de9cee422304ac63f97e/paper/manuscript.pdf",
+      "latex": "https://github.com/S3R3Bii/funding-alert-burden/blob/b4506d6ab34bb4e4d813de9cee422304ac63f97e/paper/main.tex",
+      "ci": "https://github.com/S3R3Bii/funding-alert-burden/actions/runs/40782758810",
+      "ci_state": "success",
+      "peer_reviewed": false,
+      "formal_submission_target": false,
+      "pages": 4,
+      "grade": 4
+    }
   },
   {
     "id": "22",
@@ -643,7 +676,7 @@
       "testing"
     ],
     "status": "source-access hold; no study execution",
-    "manuscript": "private, after analysis",
+    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
     "novelty": "Candidate contribution; systematic prior-work review not yet completed",
     "license_gate": "unknown until exact dataset terms are checked",
     "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass",
@@ -675,7 +708,7 @@
       "panel data"
     ],
     "status": "protocol only",
-    "manuscript": "private, after analysis",
+    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
     "novelty": "Candidate contribution; systematic prior-work review not yet completed",
     "license_gate": "unknown until exact dataset terms are checked",
     "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
@@ -702,7 +735,7 @@
       "data provenance"
     ],
     "status": "protocol only",
-    "manuscript": "private, after analysis",
+    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
     "novelty": "Candidate contribution; systematic prior-work review not yet completed",
     "license_gate": "unknown until exact dataset terms are checked",
     "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
@@ -735,7 +768,7 @@
       "energy analytics"
     ],
     "status": "protocol only",
-    "manuscript": "private, after analysis",
+    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
     "novelty": "Candidate contribution; systematic prior-work review not yet completed",
     "license_gate": "unknown until exact dataset terms are checked",
     "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
@@ -762,7 +795,7 @@
       "uncertainty"
     ],
     "status": "protocol only",
-    "manuscript": "private, after analysis",
+    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
     "novelty": "Candidate contribution; systematic prior-work review not yet completed",
     "license_gate": "unknown until exact dataset terms are checked",
     "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
@@ -789,7 +822,7 @@
       "model risk"
     ],
     "status": "protocol only",
-    "manuscript": "private, after analysis",
+    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
     "novelty": "Candidate contribution; systematic prior-work review not yet completed",
     "license_gate": "unknown until exact dataset terms are checked",
     "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
@@ -823,7 +856,7 @@
       "business communication"
     ],
     "status": "protocol only",
-    "manuscript": "private, after analysis",
+    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
     "novelty": "Candidate contribution; systematic prior-work review not yet completed",
     "license_gate": "unknown until exact dataset terms are checked",
     "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
@@ -850,7 +883,7 @@
       "scenario analysis"
     ],
     "status": "protocol only",
-    "manuscript": "private, after analysis",
+    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
     "novelty": "Candidate contribution; systematic prior-work review not yet completed",
     "license_gate": "unknown until exact dataset terms are checked",
     "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
@@ -877,7 +910,7 @@
       "forecasting"
     ],
     "status": "protocol only",
-    "manuscript": "private, after analysis",
+    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
     "novelty": "Candidate contribution; systematic prior-work review not yet completed",
     "license_gate": "unknown until exact dataset terms are checked",
     "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
@@ -910,7 +943,7 @@
       "economic analysis"
     ],
     "status": "protocol only",
-    "manuscript": "private, after analysis",
+    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
     "novelty": "Candidate contribution; systematic prior-work review not yet completed",
     "license_gate": "unknown until exact dataset terms are checked",
     "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
@@ -937,7 +970,7 @@
       "decision analysis"
     ],
     "status": "protocol only",
-    "manuscript": "private, after analysis",
+    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
     "novelty": "Candidate contribution; systematic prior-work review not yet completed",
     "license_gate": "unknown until exact dataset terms are checked",
     "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
@@ -965,7 +998,7 @@
       "panel analysis"
     ],
     "status": "protocol only",
-    "manuscript": "private, after analysis",
+    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
     "novelty": "Candidate contribution; systematic prior-work review not yet completed",
     "license_gate": "unknown until exact dataset terms are checked",
     "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
@@ -992,7 +1025,7 @@
       "international statistics"
     ],
     "status": "protocol only",
-    "manuscript": "private, after analysis",
+    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
     "novelty": "Candidate contribution; systematic prior-work review not yet completed",
     "license_gate": "unknown until exact dataset terms are checked",
     "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
@@ -1025,7 +1058,7 @@
       "public policy analytics"
     ],
     "status": "protocol only",
-    "manuscript": "private, after analysis",
+    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
     "novelty": "Candidate contribution; systematic prior-work review not yet completed",
     "license_gate": "unknown until exact dataset terms are checked",
     "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
@@ -1053,13 +1086,24 @@
       "ML evaluation"
     ],
     "status": "executed scoped road-transfer study; code/data/results released",
-    "manuscript": "private LaTeX and PDF; all four rendered pages reviewed",
+    "manuscript": "Public GitHub research manuscript and LaTeX; not peer reviewed or accepted for formal publication",
     "novelty": "Scoped evaluation; no new algorithm or established global literature gap claimed",
     "license_gate": "unknown until exact dataset terms are checked",
     "publication_gate": "Source license, data lineage, independent calculations, figures and bounded privacy checks passed",
     "execution_scope": "Past-only acceleration-reference reconstruction and frame-alert tradeoff; no independently labeled brake events or event latency result",
     "repository": "https://github.com/S3R3Bii/brake-signal-transfer",
-    "validation_result": "18 configurations; separate fit/selection/test roads; independent metrics and offline replay; five regression tests"
+    "validation_result": "18 configurations; separate fit/selection/test roads; independent metrics and offline replay; five regression tests",
+    "manuscript_publication": {
+      "head": "c997818fc57fe6e7145b09a0975b24b11d20b69d",
+      "pdf": "https://github.com/S3R3Bii/brake-signal-transfer/blob/c997818fc57fe6e7145b09a0975b24b11d20b69d/paper/manuscript.pdf",
+      "latex": "https://github.com/S3R3Bii/brake-signal-transfer/blob/c997818fc57fe6e7145b09a0975b24b11d20b69d/paper/main.tex",
+      "ci": "https://github.com/S3R3Bii/brake-signal-transfer/actions/runs/40782762941",
+      "ci_state": "success",
+      "peer_reviewed": false,
+      "formal_submission_target": false,
+      "pages": 4,
+      "grade": 4
+    }
   },
   {
     "id": "37",
@@ -1083,11 +1127,22 @@
       "survival analysis"
     ],
     "status": "executed; corrected retrospective evaluation released",
-    "manuscript": "private six-page LaTeX/PDF; rendered and reviewed",
+    "manuscript": "Public GitHub research manuscript and LaTeX; not peer reviewed or accepted for formal publication",
     "novelty": "Scoped inspection/error/uncertainty comparison; no algorithmic novelty or exhaustive gap claim",
     "license_gate": "raw NASA source members and original paper excluded; source access/hashes verified; original code and derived evidence public",
     "publication_gate": "six contracts, independent source/metric/decision checks and both clean Linux replays pass",
-    "repository": "https://github.com/S3R3Bii/maintenance-warning-horizons"
+    "repository": "https://github.com/S3R3Bii/maintenance-warning-horizons",
+    "manuscript_publication": {
+      "head": "8fd85cb683025ccb75f9015218fa634e46cecee3",
+      "pdf": "https://github.com/S3R3Bii/maintenance-warning-horizons/blob/8fd85cb683025ccb75f9015218fa634e46cecee3/paper/manuscript.pdf",
+      "latex": "https://github.com/S3R3Bii/maintenance-warning-horizons/blob/8fd85cb683025ccb75f9015218fa634e46cecee3/paper/main.tex",
+      "ci": "https://github.com/S3R3Bii/maintenance-warning-horizons/actions/runs/40782768017",
+      "ci_state": "success",
+      "peer_reviewed": false,
+      "formal_submission_target": false,
+      "pages": 6,
+      "grade": 4
+    }
   },
   {
     "id": "38",
@@ -1112,7 +1167,7 @@
       "calibration"
     ],
     "status": "executed; corrected retrospective sensor-loss study released",
-    "manuscript": "Private5pageLaTeX/PDF;allpages and4standalonefigures reviewed",
+    "manuscript": "Public GitHub research manuscript and LaTeX; not peer reviewed or accepted for formal publication",
     "novelty": "Independent configured-system comparison of established methods; no novel algorithm claim",
     "license_gate": "Current official UCI CC BY4.0; attribution and legacy archive notice discrepancy retained",
     "publication_gate": "Independent optimization/metric checks,8contracts,renderedQA,boundedprivacy/Gitblob audit and exact-headLinux replay pass",
@@ -1142,6 +1197,17 @@
       "manuscript": "private/sensor-abstention-manuscript:5pages/four standalone figures rendered and reviewed; outside Git",
       "workflow": "ReadyPR/main/manual full replay; draft gate/concurrency; no branch/tag duplicate",
       "next_step": "Scoped release complete; no natural-device-failure or production claim"
+    },
+    "manuscript_publication": {
+      "head": "95cb909428e0ac44213d632a36be4157585fc934",
+      "pdf": "https://github.com/S3R3Bii/sensor-loss-abstention/blob/95cb909428e0ac44213d632a36be4157585fc934/paper/manuscript.pdf",
+      "latex": "https://github.com/S3R3Bii/sensor-loss-abstention/blob/95cb909428e0ac44213d632a36be4157585fc934/paper/main.tex",
+      "ci": "https://github.com/S3R3Bii/sensor-loss-abstention/actions/runs/40782870742",
+      "ci_state": "success",
+      "peer_reviewed": false,
+      "formal_submission_target": false,
+      "pages": 5,
+      "grade": 4
     }
   },
   {
@@ -1166,7 +1232,7 @@
       "data quality"
     ],
     "status": "protocol only",
-    "manuscript": "private, after analysis",
+    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
     "novelty": "Candidate contribution; systematic prior-work review not yet completed",
     "license_gate": "unknown until exact dataset terms are checked",
     "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
@@ -1193,7 +1259,7 @@
       "benchmarking"
     ],
     "status": "protocol only",
-    "manuscript": "private, after analysis",
+    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
     "novelty": "Candidate contribution; systematic prior-work review not yet completed",
     "license_gate": "unknown until exact dataset terms are checked",
     "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
@@ -1226,7 +1292,7 @@
       "NLP"
     ],
     "status": "protocol only",
-    "manuscript": "private, after analysis",
+    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
     "novelty": "Candidate contribution; systematic prior-work review not yet completed",
     "license_gate": "unknown until exact dataset terms are checked",
     "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
@@ -1259,7 +1325,7 @@
       "research operations"
     ],
     "status": "protocol only",
-    "manuscript": "private, after analysis",
+    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
     "novelty": "Candidate contribution; systematic prior-work review not yet completed",
     "license_gate": "unknown until exact dataset terms are checked",
     "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
@@ -1286,7 +1352,7 @@
       "software analytics"
     ],
     "status": "protocol only",
-    "manuscript": "private, after analysis",
+    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
     "novelty": "Candidate contribution; systematic prior-work review not yet completed",
     "license_gate": "unknown until exact dataset terms are checked",
     "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
@@ -1313,7 +1379,7 @@
       "anomaly detection"
     ],
     "status": "protocol only",
-    "manuscript": "private, after analysis",
+    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
     "novelty": "Candidate contribution; systematic prior-work review not yet completed",
     "license_gate": "unknown until exact dataset terms are checked",
     "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
@@ -1340,7 +1406,7 @@
       "time series"
     ],
     "status": "protocol only",
-    "manuscript": "private, after analysis",
+    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
     "novelty": "Candidate contribution; systematic prior-work review not yet completed",
     "license_gate": "unknown until exact dataset terms are checked",
     "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
@@ -1368,11 +1434,22 @@
       "reproducibility"
     ],
     "status": "executed; scoped iteration-matched search comparison released",
-    "manuscript": "private LaTeX and PDF; seven rendered pages reviewed",
+    "manuscript": "Public GitHub research manuscript and LaTeX; not peer reviewed or accepted for formal publication",
     "novelty": "Small audited empirical comparison; no new optimizer, exhaustive novelty or global optimum claim",
     "license_gate": "Exact four-source metadata, declared rights and UCI attribution checked; reviewed eligible numerical derivatives",
     "publication_gate": "Six contracts, all1200trial rows, independent source/SQL/metric checks, three figures, private PDF and two exact-head Linux replays pass",
-    "repository": "https://github.com/S3R3Bii/tuning-budget-transfer"
+    "repository": "https://github.com/S3R3Bii/tuning-budget-transfer",
+    "manuscript_publication": {
+      "head": "1a54571bbe83e64cfc0762ed85f7eecb3ccf090a",
+      "pdf": "https://github.com/S3R3Bii/tuning-budget-transfer/blob/1a54571bbe83e64cfc0762ed85f7eecb3ccf090a/paper/manuscript.pdf",
+      "latex": "https://github.com/S3R3Bii/tuning-budget-transfer/blob/1a54571bbe83e64cfc0762ed85f7eecb3ccf090a/paper/main.tex",
+      "ci": "https://github.com/S3R3Bii/tuning-budget-transfer/actions/runs/40782877927",
+      "ci_state": "success",
+      "peer_reviewed": false,
+      "formal_submission_target": false,
+      "pages": 7,
+      "grade": 4
+    }
   },
   {
     "id": "47",
@@ -1396,7 +1473,7 @@
       "ML monitoring"
     ],
     "status": "executed; corrected retrospective calibration comparison released",
-    "manuscript": "private7pageLaTeX/PDF;allpages rendered/reviewed",
+    "manuscript": "Public GitHub research manuscript and LaTeX; not peer reviewed or accepted for formal publication",
     "novelty": "Independent controlled comparison of established methods; no novel algorithm or literature-wide gap claim",
     "license_gate": "Original UCI CC BY4.0 attribution preserved for both exact OpenML variants",
     "publication_gate": "8contracts,independent source/optimization/metric checks,privatePDF,boundedprivacy/Gitblob audit and exact-headLinux replay pass",
@@ -1427,6 +1504,17 @@
       "manuscript": "private/prior-shift-manuscript:7pages rendered and reviewed;no Git parent",
       "workflow": "Full replay on ready PR/main/manual only; draft gate,concurrency;no branch/tag duplicate",
       "next_step": "Scoped release complete; no universal calibration or production claim"
+    },
+    "manuscript_publication": {
+      "head": "6ce6643357351797ec003aaf8a9ee1f5b60d5064",
+      "pdf": "https://github.com/S3R3Bii/prior-shift-recalibration/blob/6ce6643357351797ec003aaf8a9ee1f5b60d5064/paper/manuscript.pdf",
+      "latex": "https://github.com/S3R3Bii/prior-shift-recalibration/blob/6ce6643357351797ec003aaf8a9ee1f5b60d5064/paper/main.tex",
+      "ci": "https://github.com/S3R3Bii/prior-shift-recalibration/actions/runs/40783027561",
+      "ci_state": "success",
+      "peer_reviewed": false,
+      "formal_submission_target": false,
+      "pages": 7,
+      "grade": 4
     }
   },
   {
@@ -1451,7 +1539,7 @@
       "statistical validation"
     ],
     "status": "executed; scoped explanation-stability comparison released",
-    "manuscript": "Private six-page LaTeX/PDF; rendered pages and three figures reviewed",
+    "manuscript": "Public GitHub research manuscript and LaTeX; not peer reviewed or accepted for formal publication",
     "novelty": "Audited empirical comparison of established methods; no new algorithm or exhaustive novelty claim",
     "license_gate": "Exact original UCI BikeSharing CC BY4.0 verified; source CSV fully reconciled",
     "publication_gate": "Eight contracts, independent source/optimization/metric checks, private PDF, bounded privacy/Git-blob audit and exact-head Linux replay pass",
@@ -1481,6 +1569,17 @@
       "tag": "v0.1.0",
       "tree": "cf53fe4ac8d81b85b04dc818362ccae76545aa72",
       "manuscript": "Private six-page LaTeX/PDF with three figures; current hashes match reviewed version; outside Git."
+    },
+    "manuscript_publication": {
+      "head": "1364fe2e7c46505be837a6c72ed88a62abb18359",
+      "pdf": "https://github.com/S3R3Bii/demand-explanation-stability/blob/1364fe2e7c46505be837a6c72ed88a62abb18359/paper/manuscript.pdf",
+      "latex": "https://github.com/S3R3Bii/demand-explanation-stability/blob/1364fe2e7c46505be837a6c72ed88a62abb18359/paper/main.tex",
+      "ci": "https://github.com/S3R3Bii/demand-explanation-stability/actions/runs/40783033111",
+      "ci_state": "success",
+      "peer_reviewed": false,
+      "formal_submission_target": false,
+      "pages": 6,
+      "grade": 4
     }
   },
   {
@@ -1504,11 +1603,12 @@
       "forecasting",
       "international data"
     ],
-    "status": "protocol only",
-    "manuscript": "private, after analysis",
+    "status": "Protocol committed and source retrieval in progress; no fitting or results",
+    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
     "novelty": "Candidate contribution; systematic prior-work review not yet completed",
-    "license_gate": "unknown until exact dataset terms are checked",
-    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+    "license_gate": "Wikimedia Analytics API and Wikidata structured data CC0 verified; exact source/coverage checks pending",
+    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass",
+    "repository": "https://github.com/S3R3Bii/cross-language-attention"
   },
   {
     "id": "50",
@@ -1545,10 +1645,21 @@
       "observability"
     ],
     "status": "executed; scoped synthetic-fault research release complete",
-    "manuscript": "private LaTeX and PDF; six rendered pages reviewed",
+    "manuscript": "Public GitHub research manuscript and LaTeX; not peer reviewed or accepted for formal publication",
     "novelty": "Controlled decision-weighted comparison; no new algorithm or exhaustive novelty claim",
     "license_gate": "Exact eligible CFPB aggregate source/provenance and terms checked; no individual records",
     "publication_gate": "Independent source/decision/SQL checks, seven contracts, three figures, private PDF and two clean Linux replays pass",
-    "repository": "https://github.com/S3R3Bii/decision-changing-pipeline-faults"
+    "repository": "https://github.com/S3R3Bii/decision-changing-pipeline-faults",
+    "manuscript_publication": {
+      "head": "87b74c785404e13148a30874c5f4f4ecb290b718",
+      "pdf": "https://github.com/S3R3Bii/decision-changing-pipeline-faults/blob/87b74c785404e13148a30874c5f4f4ecb290b718/paper/manuscript.pdf",
+      "latex": "https://github.com/S3R3Bii/decision-changing-pipeline-faults/blob/87b74c785404e13148a30874c5f4f4ecb290b718/paper/main.tex",
+      "ci": "https://github.com/S3R3Bii/decision-changing-pipeline-faults/actions/runs/40783039239",
+      "ci_state": "success",
+      "peer_reviewed": false,
+      "formal_submission_target": false,
+      "pages": 6,
+      "grade": 4
+    }
   }
 ]

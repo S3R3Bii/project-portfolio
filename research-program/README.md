@@ -2,7 +2,7 @@
 
 Fifty independent studies organized around decisions, measurement problems and testable methods. These are research protocols, not fifty completed projects. Strong findings, negative results and failed data-access gates are recorded as they occur.
 
-Public packages contain eligible data, retrieval scripts, analysis, SQL, figures, source references and validation receipts. Manuscript drafts live outside every public repository. A project advances only after its data and results exist.
+Public packages contain eligible data, retrieval scripts, analysis, SQL, figures, source references and validation receipts. Independent research manuscripts may accompany their reviewed GitHub study packages; manuscripts intended for formal publication remain private. A project advances only after its data and results exist.
 
 [Model validation standard](MODEL_VALIDATION_STANDARD.md) requires declared objectives, protected validation/test splits and independent metric recomputation.
 
@@ -10,7 +10,7 @@ Public packages contain eligible data, retrieval scripts, analysis, SQL, figures
 
 ## Current releases
 
-**10 studies released; 40 await execution or release.** Released: [complaint capacity](https://github.com/S3R3Bii/complaint-capacity-forecasting), [auction-demand transfer](https://github.com/S3R3Bii/auction-demand-transfer), [funding-alert burden](https://github.com/S3R3Bii/funding-alert-burden), [acceleration reconstruction](https://github.com/S3R3Bii/brake-signal-transfer), [maintenance inspection capture](https://github.com/S3R3Bii/maintenance-warning-horizons), [decision-changing pipeline faults](https://github.com/S3R3Bii/decision-changing-pipeline-faults), [tuning-budget transfer](https://github.com/S3R3Bii/tuning-budget-transfer), [prior-shift calibration](https://github.com/S3R3Bii/prior-shift-recalibration), [sensor-loss abstention](https://github.com/S3R3Bii/sensor-loss-abstention), and [demand explanation stability](https://github.com/S3R3Bii/demand-explanation-stability). The sensor numerical hold is resolved by independently certified Newton fits and unchanged-tolerance Linux replay. Corrected retrospective studies retain original failures. Manuscript drafts remain private. SEC22 has an access hold; EIA02 needs release-vintage evidence.
+**10 studies released; 40 await execution or release.** Released: [complaint capacity](https://github.com/S3R3Bii/complaint-capacity-forecasting), [auction-demand transfer](https://github.com/S3R3Bii/auction-demand-transfer), [funding-alert burden](https://github.com/S3R3Bii/funding-alert-burden), [acceleration reconstruction](https://github.com/S3R3Bii/brake-signal-transfer), [maintenance inspection capture](https://github.com/S3R3Bii/maintenance-warning-horizons), [decision-changing pipeline faults](https://github.com/S3R3Bii/decision-changing-pipeline-faults), [tuning-budget transfer](https://github.com/S3R3Bii/tuning-budget-transfer), [prior-shift calibration](https://github.com/S3R3Bii/prior-shift-recalibration), [sensor-loss abstention](https://github.com/S3R3Bii/sensor-loss-abstention), and [demand explanation stability](https://github.com/S3R3Bii/demand-explanation-stability). The sensor numerical hold is resolved by independently certified Newton fits and unchanged-tolerance Linux replay. Corrected retrospective studies retain original failures. Independent manuscripts may be shared after their publication checks; formal-publication projects remain private. SEC22 has an access hold; EIA02 needs release-vintage evidence.
 
 ## Project register
 

@@ -1,12 +1,17 @@
 {
-  "timestamp_utc": "2026-10-28T22:37:01.451698+00:00",
-  "status": "PASS_BOUNDED_SCAN",
-  "files_checked": 114,
+  "timestamp_utc": "2026-10-28T22:57:04.194280+00:00",
+  "status": "FAIL",
+  "files_checked": 115,
   "scope": "Exact staged Git index bytes; decompressed text; forbidden paths/extensions, high-confidence key and private machine path patterns; local Markdown links. Image/PDF contents require separate visual/source review. This is not universal secret detection.",
-  "findings": [],
+  "findings": [
+    {
+      "file": "research-program/MANUSCRIPTS.md",
+      "kind": "forbidden publication path"
+    }
+  ],
   "sha256": {
     ".gitignore": "e529ff4e26c507b2c2f37a7fdec529eab74b3c0522787a85431062d02e1fa8ae",
-    "README.md": "2fd85b3fb51045d945fa43b61f8c1f3d8857e568316f736802a2f5a7011f74cc",
+    "README.md": "337761ba406843ffc6b09831783135f2741056691a64b2d7d93b1392fb2ffe5d",
     "a-vessel-for-a-soul.md": "96888d765aef8169007909159e611e177d28bab8c84cdb9ff66f6db9cb28ae51",
     "agent-aegis.md": "f521a2ecb0a4fe022de5fbe4d479e7edd21405cddd3cbbc99f6d5f31efdb6265",
     "agent-evaluation-workbench.md": "dcef57cb3e46079b49e3479924df8cbb893b8eae157ff3c4c50fb8111e2b3aa5",
@@ -58,11 +63,11 @@
     "pikivu.md": "95baf3a9b6e36c70ac8e92e9e7dda30fd02458ec0d29446d9def9076333aae0f",
     "pokemon-tcg-strategy-research.md": "4ce433dc07f8dc4c721e5f4a730f8c0c210d51932088cfbf99523c52622d3cc4",
     "postgresql-data-integrity.md": "c266a33e58fe4be83cd6af01400d9d1188dc1677d82cb879c36a5dacbda2900a",
-    "research-program/GITHUB_WORKFLOW.md": "26aa5e881525b31453929d69a6cd9907342f4802f62ece32f8e0283c47c855b9",
-    "research-program/MODEL_VALIDATION_STANDARD.md": "23f24302cefcf1ddf374c03236ce5ffc85943fdaece43f58826ddfe5b0edf8a4",
-    "research-program/README.md": "f1e40532c5dc687efdc7b45e77ecc55b3274bde53266bafcae9913b0ea441c3a",
+    "research-program/GITHUB_WORKFLOW.md": "bb2ce99b6d713d6771bd15b61ff3ad7f98550a3647ee1d507a833cceee2e2b9e",
+    "research-program/MODEL_VALIDATION_STANDARD.md": "40f9cab5117e572ed4727620e8952269c40e3118c117d6c0ea438aead3195c01",
+    "research-program/README.md": "8ea63b1d79b02434fed7ef9c9868ab48e8b8470cea4e336047735fb46e323512",
     "research-program/SKILLS_AND_SEQUENCE.md": "cbcbc910ffadd3b429a89c4313e58bd77bdb278c030394eba5655fe4c12cc099",
-    "research-program/catalog.json": "4b5aca0e5887688e9b83e4d55704584afdb35dd44755ba5d2622960bcbbdbdd8",
+    "research-program/catalog.json": "27f7b10d236327f5af0c17ad5a703fcd872544b484c89d4e1c797145c4586f7b",
     "research-program/protocols/airport-taxi-dispatch-with-asymmetric-waiting-costs.md": "32ae8498671290916df19d9eea7bcfcc4aefb0675534d137f6d9896f676d12c0",
     "research-program/protocols/attention-forecasting-across-languages.md": "9bf996b2d86fd41590e01e672b62e993e14abb20c68ac9d7bbc104d18f8cdcae",
     "research-program/protocols/bike-rebalancing-when-station-geography-changes.md": "3830ab95033dc53181ffb5b008d1f9f7dcfd938a6103c7db1406d5377043c7c1",
@@ -120,5 +125,6 @@
     "wifi-signal-lab.md": "394d734629a632c2a58283c75ec4e680811b6daa25930491eb12e5ec947a35e2"
   },
   "raw_source_members_excluded": true,
-  "manuscripts_excluded": true
+  "unapproved_manuscripts_excluded": true,
+  "approved_independent_paper_files": []
 }

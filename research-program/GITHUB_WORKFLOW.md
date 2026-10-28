@@ -37,7 +37,7 @@ Preserve failed runs as evidence. Distinguish actual numerical or source defects
 
 ## Public/private boundary
 
-Public commits contain only reviewed code, eligible data, derived results and visuals. Manuscript drafts stay in a separate private location outside public repository history. Business-sensitive projects such as PikiVu use approved visual case studies rather than source publication. Do not commit keys, personal records, local machine paths, environment files or proprietary datasets.
+Public commits contain only reviewed code, eligible data, derived results and visuals. Independent manuscripts in this 50-study program may be shared on their project-specific GitHub repositories after source, numerical, privacy and rendered-document checks. James explicitly authorized this on October 28, 2026. Manuscripts intended for formal publication, including the separate Azure optimization study, remain private unless separately authorized. Third-party source papers, excluded datasets, secrets and private records remain excluded. Business-sensitive projects such as PikiVu use approved visual case studies rather than source publication. Do not commit keys, personal records, local machine paths, environment files or proprietary datasets.
 
 Use the account's verified GitHub noreply identity for commits. Run a focused privacy check on the staged diff before pushing. Check GitHub's actual state before claiming a push, check, pull request or release succeeded.
 
