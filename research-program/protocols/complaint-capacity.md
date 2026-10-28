@@ -1,5 +1,9 @@
 # Complaint capacity under delayed information
 
+## Execution update — 28 October 2026
+
+Executed, with a corrected retrospective test. The initial implementation delayed predictors but not all training labels and normalization observations. The repaired release retains the original history and independent checks; it makes no new untouched-test claim. See https://github.com/S3R3Bii/complaint-capacity-forecasting. The original design below is retained as history.
+
 **State: protocol only. No result or novelty claim yet.**
 
 ## Decision

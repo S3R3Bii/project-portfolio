@@ -4,11 +4,13 @@ Fifty independent studies organized around decisions, measurement problems and t
 
 Public packages contain eligible data, retrieval scripts, analysis, SQL, figures, source references and validation receipts. Manuscript drafts live outside every public repository. A project advances only after its data and results exist.
 
+[Model validation standard](MODEL_VALIDATION_STANDARD.md) requires declared objectives, protected validation/test splits and independent metric recomputation.
+
 [GitHub working process](GITHUB_WORKFLOW.md): focused commits, issues, pull requests and verifiable releases throughout each study.
 
 ## Current releases
 
-**1 study released; 49 protocols awaiting execution.** [Complaint capacity forecasting](https://github.com/S3R3Bii/complaint-capacity-forecasting) includes aggregate data, SQL, all model comparisons, figures and independent checks. The private manuscript compiles; rendered-page review is pending.
+**2 studies executed and released; 48 remain unexecuted.** [Complaint capacity forecasting](https://github.com/S3R3Bii/complaint-capacity-forecasting) retains the corrected retrospective evaluation and independent MAE/MSE/RMSE checks. [Acceleration reconstruction across roads](https://github.com/S3R3Bii/brake-signal-transfer) retains all 18 candidates, frozen selection, held-out-road predictions and an explicit low-recall result. Both manuscripts remain private; their rendered PDFs have been reviewed. Study 22 is held at source access (SEC HTTP 403), with no results claimed.
 
 ## Project register
 

@@ -13,7 +13,7 @@
       }
     ],
     "proposed_analysis": "Lag-aware pooled forecasting and quantile capacity policies",
-    "validation_plan": "Rolling temporal folds; untouched 24-month test; product and lag sensitivity; loss-ratio sweep",
+    "validation_plan": "Three forward folds and 24-month retrospective test; training-label and normalization availability corrected after original test inspection",
     "contribution_to_test": "Evaluate capacity regret under reporting delay instead of another complaint sentiment classifier",
     "skills": [
       "SQL",
@@ -22,8 +22,8 @@
       "decision analysis",
       "data quality"
     ],
-    "status": "study executed; code, aggregate data and figures released",
-    "manuscript": "private LaTeX draft compiled; rendered-page review pending",
+    "status": "executed; corrected retrospective evaluation released",
+    "manuscript": "private LaTeX and PDF; all three rendered pages reviewed",
     "novelty": "Scoped operational contribution; no new algorithm or exhaustive literature-gap claim",
     "license_gate": "aggregate data provenance and CFPB terms checked",
     "publication_gate": "public package passed source reconciliation, independent calculations, figure inspection and bounded privacy scan",
@@ -633,11 +633,16 @@
       "data lineage",
       "testing"
     ],
-    "status": "protocol only",
+    "status": "source-access hold; no study execution",
     "manuscript": "private, after analysis",
     "novelty": "Candidate contribution; systematic prior-work review not yet completed",
     "license_gate": "unknown until exact dataset terms are checked",
-    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass",
+    "access_evidence": {
+      "date_utc": "2026-10-28",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000320193.json",
+      "result": "HTTP 403 with declared research user agent; no data obtained; no bypass attempted"
+    }
   },
   {
     "id": "23",
@@ -1023,10 +1028,10 @@
     "decision": "Can a detector identify abrupt deceleration with a fixed false-alert budget on unseen traffic settings?",
     "sources": [
       {
-        "key": "BERKELEY",
-        "publisher_dataset": "California PATH vehicle trajectories",
-        "landing_url": "https://highways.dot.gov/research/research-data-resources/next-generation-simulation-ngsim",
-        "status": "targeted; exact export and rights must be verified"
+        "key": "NGSIM",
+        "publisher_dataset": "FHWA/DOT NGSIM vehicle trajectories",
+        "landing_url": "https://data.transportation.gov/Automobiles/Next-Generation-Simulation-NGSIM-Vehicle-Trajectories/8ect-6jqj",
+        "status": "246144 licensed source rows; six hashes and independent counts reconcile"
       }
     ],
     "proposed_analysis": "Trajectory smoothing and event detection",
@@ -1038,11 +1043,14 @@
       "time series",
       "ML evaluation"
     ],
-    "status": "protocol only",
-    "manuscript": "private, after analysis",
-    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
+    "status": "executed scoped road-transfer study; code/data/results released",
+    "manuscript": "private LaTeX and PDF; all four rendered pages reviewed",
+    "novelty": "Scoped evaluation; no new algorithm or established global literature gap claimed",
     "license_gate": "unknown until exact dataset terms are checked",
-    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+    "publication_gate": "Source license, data lineage, independent calculations, figures and bounded privacy checks passed",
+    "execution_scope": "Past-only acceleration-reference reconstruction and frame-alert tradeoff; no independently labeled brake events or event latency result",
+    "repository": "https://github.com/S3R3Bii/brake-signal-transfer",
+    "validation_result": "18 configurations; separate fit/selection/test roads; independent metrics and offline replay; five regression tests"
   },
   {
     "id": "37",

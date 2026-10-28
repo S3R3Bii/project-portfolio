@@ -1,5 +1,9 @@
 # Brake-event detection that transfers across roads
 
+## Execution update — 28 October 2026
+
+A narrower study was executed under a fixed repository protocol: past-only acceleration-reference reconstruction and frame-alert transfer across three roads. It does not establish independent brake-event detection or latency. All 18 candidates, source data and held-out results are at https://github.com/S3R3Bii/brake-signal-transfer. The broader proposal below remains history and a source of future experiments.
+
 **State: protocol only. No result or novelty claim yet.**
 
 ## Decision
