@@ -8,7 +8,7 @@ I build analytical tools and applications that make complex work easier to inspe
 
 ## Research directed at demanding data roles
 
-The [50-study research register](research-program/README.md) connects specific business questions to public data and measurable tests. The [skills map](research-program/SKILLS_AND_SEQUENCE.md) emphasizes SQL, data validation, temporal evaluation, model tuning, kinematics and decision communication. The register separates nine released studies and 41 awaiting execution or release. Every model-selection claim requires retained optimization and independent metric evidence.
+The [50-study research register](research-program/README.md) connects specific business questions to public data and measurable tests. The [skills map](research-program/SKILLS_AND_SEQUENCE.md) emphasizes SQL, data validation, temporal evaluation, model tuning, kinematics and decision communication. The register separates ten released studies and 40 awaiting execution or release. Every model-selection claim requires retained optimization and independent metric evidence.
 
 
 ## Start here
@@ -24,6 +24,7 @@ The [50-study research register](research-program/README.md) connects specific b
 | [Tuning-budget transfer](https://github.com/S3R3Bii/tuning-budget-transfer) | Whole-group splits, all 1,200 trial losses, an extra validation audit and independent checks of 1.56 million validation predictions |
 | [Prior-shift calibration](https://github.com/S3R3Bii/prior-shift-recalibration) | Convex optimization certificates, all 340 fits and 10,000 group draws, plus probability-versus-decision tradeoffs |
 | [Sensor-loss abstention](https://github.com/S3R3Bii/sensor-loss-abstention) | Participant-held evaluation, complete threshold/model trials, independent Newton convergence checks and a quantified confident-error failure |
+| [Demand explanation stability](https://github.com/S3R3Bii/demand-explanation-stability) | Protected-year prediction error, 24 retained settings, 56 convex fitting certificates and a weather-driver headline that changes in 7 of 12 boosted refits |
 | [PikiVu](pikivu.md) | A compact recording interface and validated edit/export workflow |
 | [Model Evidence](model-evidence.md) | Statistical diagnostics presented as readable reports |
 | [Open Research Commons](open-research-commons.md) | Shared human/agent workflow with independent release checks |

@@ -1443,18 +1443,18 @@
       }
     ],
     "proposed_analysis": "GAM/tree baselines versus boosted models with explanation sensitivity",
-    "validation_plan": "Nested tuning; correlated-feature tests; rank stability and predictive loss evaluated together",
+    "validation_plan": "Three forward 2011 folds; 24 configurations, 72 trials; frozen 2012 observed-weather evaluation and 52 full/week-resampled variants",
     "contribution_to_test": "Make explanation stability a measured tradeoff rather than a decorative SHAP plot",
     "skills": [
       "interpretable ML",
       "robustness",
       "statistical validation"
     ],
-    "status": "source verified and initial model implementation; no fitting yet",
-    "manuscript": "private, after analysis",
-    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
+    "status": "executed; scoped explanation-stability comparison released",
+    "manuscript": "Private six-page LaTeX/PDF; rendered pages and three figures reviewed",
+    "novelty": "Audited empirical comparison of established methods; no new algorithm or exhaustive novelty claim",
     "license_gate": "Exact original UCI BikeSharing CC BY4.0 verified; source CSV fully reconciled",
-    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass",
+    "publication_gate": "Eight contracts, independent source/optimization/metric checks, private PDF, bounded privacy/Git-blob audit and exact-head Linux replay pass",
     "original_source_plan": [
       {
         "key": "OPENML",
@@ -1462,7 +1462,26 @@
         "landing_url": "https://www.openml.org/",
         "status": "targeted; exact export and rights must be verified"
       }
-    ]
+    ],
+    "repository": "https://github.com/S3R3Bii/demand-explanation-stability",
+    "release": {
+      "checkout": "studies/explanation-stability",
+      "repository": "https://github.com/S3R3Bii/demand-explanation-stability",
+      "state": "COMPLETE_SCOPED_RELEASE",
+      "head": "3cda3716748ccb1edff37362e66f7182a5d881a3",
+      "pr": "https://github.com/S3R3Bii/demand-explanation-stability/pull/1",
+      "freeze_commit": "ef81e565ad311ffc1097d936baac878d7895ee83",
+      "source": "UCI BikeSharing original hourly CSV17379rows;165missinghours absent;metadata discrepancy retained",
+      "checks": "Eight contracts; 124 fits, 56 independent convex certificates; all validation, test and permutation exports independently reconciled; Windows and exact-head Linux replay pass at unchanged tolerances; 226 Git-blob hashes and private manuscript hashes verified at handoff.",
+      "result": "Boosted testMSE17165.77vs24664.94hour-workday baseline;weatherleaderchanges7/12. Additive top3Jaccard1in12/12butleaderchanges6/12;worseRMSEthanbaseline",
+      "next_step": "Scoped release complete. Test external demand systems before generalizing historical model-reliance findings.",
+      "scope": "Observed-weather historical reliance,not causal effects or exanteforecast;resamplesdependent;manuscript private",
+      "tested_head": "815de4b2eca8f1a3959504dd852b1f3d550b5875",
+      "ci": "https://github.com/S3R3Bii/demand-explanation-stability/actions/runs/40779544934",
+      "tag": "v0.1.0",
+      "tree": "cf53fe4ac8d81b85b04dc818362ccae76545aa72",
+      "manuscript": "Private six-page LaTeX/PDF with three figures; current hashes match reviewed version; outside Git."
+    }
   },
   {
     "id": "49",
