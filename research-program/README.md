@@ -4,6 +4,10 @@ Fifty independent studies organized around decisions, measurement problems and t
 
 Public packages contain eligible data, retrieval scripts, analysis, SQL, figures, source references and validation receipts. Manuscript drafts live outside every public repository. A project advances only after its data and results exist.
 
+## Current releases
+
+**1 study released; 49 protocols awaiting execution.** [Complaint capacity forecasting](https://github.com/S3R3Bii/complaint-capacity-forecasting) includes aggregate data, SQL, all model comparisons, figures and independent checks. The private manuscript compiles; rendered-page review is pending.
+
 ## Project register
 
 | ID | Study and decision | Skills demonstrated by the planned work |

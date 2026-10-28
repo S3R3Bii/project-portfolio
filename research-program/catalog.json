@@ -9,7 +9,7 @@
         "key": "CFPB",
         "publisher_dataset": "Consumer Financial Protection Bureau",
         "landing_url": "https://www.consumerfinance.gov/data-research/consumer-complaints/",
-        "status": "targeted; exact export and rights must be verified"
+        "status": "official API verified; 102 snapshots retained and full-period totals reconciled"
       }
     ],
     "proposed_analysis": "Lag-aware pooled forecasting and quantile capacity policies",
@@ -22,11 +22,12 @@
       "decision analysis",
       "data quality"
     ],
-    "status": "protocol only",
-    "manuscript": "private, after analysis",
-    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
-    "license_gate": "unknown until exact dataset terms are checked",
-    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+    "status": "study executed; code, aggregate data and figures released",
+    "manuscript": "private LaTeX draft compiled; rendered-page review pending",
+    "novelty": "Scoped operational contribution; no new algorithm or exhaustive literature-gap claim",
+    "license_gate": "aggregate data provenance and CFPB terms checked",
+    "publication_gate": "public package passed source reconciliation, independent calculations, figure inspection and bounded privacy scan",
+    "repository": "https://github.com/S3R3Bii/complaint-capacity-forecasting"
   },
   {
     "id": "02",
