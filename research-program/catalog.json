@@ -1,0 +1,1451 @@
+[
+  {
+    "id": "01",
+    "slug": "complaint-capacity",
+    "title": "Complaint capacity under delayed information",
+    "decision": "How much monthly review capacity should a product team reserve when a missed surge is more costly than unused capacity?",
+    "sources": [
+      {
+        "key": "CFPB",
+        "publisher_dataset": "Consumer Financial Protection Bureau",
+        "landing_url": "https://www.consumerfinance.gov/data-research/consumer-complaints/",
+        "status": "targeted; exact export and rights must be verified"
+      }
+    ],
+    "proposed_analysis": "Lag-aware pooled forecasting and quantile capacity policies",
+    "validation_plan": "Rolling temporal folds; untouched 24-month test; product and lag sensitivity; loss-ratio sweep",
+    "contribution_to_test": "Evaluate capacity regret under reporting delay instead of another complaint sentiment classifier",
+    "skills": [
+      "SQL",
+      "Python",
+      "forecasting",
+      "decision analysis",
+      "data quality"
+    ],
+    "status": "protocol only",
+    "manuscript": "private, after analysis",
+    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
+    "license_gate": "unknown until exact dataset terms are checked",
+    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+  },
+  {
+    "id": "02",
+    "slug": "electricity-forecasts-that-respect-release-time",
+    "title": "Electricity forecasts that respect release time",
+    "decision": "When does correcting the balancing authority demand forecast improve the next-day reserve estimate?",
+    "sources": [
+      {
+        "key": "EIA930",
+        "publisher_dataset": "EIA balancing authority operations",
+        "landing_url": "https://www.eia.gov/electricity/930-content/about.html",
+        "status": "targeted; exact export and rights must be verified"
+      },
+      {
+        "key": "NOAAISD",
+        "publisher_dataset": "NOAA integrated surface observations",
+        "landing_url": "https://www.ncei.noaa.gov/products/land-based-station/integrated-surface-database",
+        "status": "targeted; exact export and rights must be verified"
+      }
+    ],
+    "proposed_analysis": "Residual models and calibrated prediction intervals",
+    "validation_plan": "Strict forecast-vintage alignment; held-out seasons and authorities; coverage by load regime",
+    "contribution_to_test": "Separate weather hindsight from information actually available when reserves are scheduled",
+    "skills": [
+      "time series",
+      "feature engineering",
+      "calibration",
+      "data engineering"
+    ],
+    "status": "protocol only",
+    "manuscript": "private, after analysis",
+    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
+    "license_gate": "unknown until exact dataset terms are checked",
+    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+  },
+  {
+    "id": "03",
+    "slug": "cancellation-aware-airport-service-reliability",
+    "title": "Cancellation-aware airport service reliability",
+    "decision": "Which arrival-risk metric remains useful when airlines cancel their most disrupted flights?",
+    "sources": [
+      {
+        "key": "BTS",
+        "publisher_dataset": "Bureau of Transportation Statistics aviation data",
+        "landing_url": "https://www.transtats.bts.gov/",
+        "status": "targeted; exact export and rights must be verified"
+      },
+      {
+        "key": "NOAAISD",
+        "publisher_dataset": "NOAA integrated surface observations",
+        "landing_url": "https://www.ncei.noaa.gov/products/land-based-station/integrated-surface-database",
+        "status": "targeted; exact export and rights must be verified"
+      }
+    ],
+    "proposed_analysis": "Competing outcomes and route-standardized reliability decomposition",
+    "validation_plan": "Airline and future-year holdouts; cancellation denominator audit; matched-route sensitivity",
+    "contribution_to_test": "Treat cancellation as an outcome rather than silently removing it from delay evaluation",
+    "skills": [
+      "SQL",
+      "statistical inference",
+      "survival analysis",
+      "communication"
+    ],
+    "status": "protocol only",
+    "manuscript": "private, after analysis",
+    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
+    "license_gate": "unknown until exact dataset terms are checked",
+    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+  },
+  {
+    "id": "04",
+    "slug": "airport-taxi-dispatch-with-asymmetric-waiting-costs",
+    "title": "Airport taxi dispatch with asymmetric waiting costs",
+    "decision": "Should airport pickup planning use the median or a higher demand quantile by hour?",
+    "sources": [
+      {
+        "key": "TLC",
+        "publisher_dataset": "NYC Taxi and Limousine Commission trip records",
+        "landing_url": "https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page",
+        "status": "targeted; exact export and rights must be verified"
+      }
+    ],
+    "proposed_analysis": "Quantile forecasts and bounded dispatch-capacity simulation",
+    "validation_plan": "Month-blocked tuning; holiday stress test; missing trip and zone consistency checks",
+    "contribution_to_test": "Translate forecast error into excess vehicles versus unmet observed trip demand without claiming rider wait-time ground truth",
+    "skills": [
+      "SQL",
+      "Python",
+      "quantile regression",
+      "optimization"
+    ],
+    "status": "protocol only",
+    "manuscript": "private, after analysis",
+    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
+    "license_gate": "unknown until exact dataset terms are checked",
+    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+  },
+  {
+    "id": "05",
+    "slug": "service-backlog-estimates-with-unfinished-cases",
+    "title": "Service backlog estimates with unfinished cases",
+    "decision": "How misleading is the average closure time when many service requests remain open?",
+    "sources": [
+      {
+        "key": "NYC311",
+        "publisher_dataset": "NYC 311 service requests",
+        "landing_url": "https://data.cityofnewyork.us/resource/erm2-nwe9",
+        "status": "targeted; exact export and rights must be verified"
+      }
+    ],
+    "proposed_analysis": "Survival estimates and restricted mean closure time",
+    "validation_plan": "Censoring audit; agency and future-cohort holdouts; sensitivity to status recoding",
+    "contribution_to_test": "Compare what a live manager could know with a completed-cases-only retrospective dashboard",
+    "skills": [
+      "survival analysis",
+      "SQL",
+      "operational metrics",
+      "R"
+    ],
+    "status": "protocol only",
+    "manuscript": "private, after analysis",
+    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
+    "license_gate": "unknown until exact dataset terms are checked",
+    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+  },
+  {
+    "id": "06",
+    "slug": "bike-rebalancing-when-station-geography-changes",
+    "title": "Bike rebalancing when station geography changes",
+    "decision": "Can a demand model transfer to new or relocated stations without overstating dock availability?",
+    "sources": [
+      {
+        "key": "CITIBIKE",
+        "publisher_dataset": "Citi Bike system data",
+        "landing_url": "https://citibikenyc.com/system-data",
+        "status": "targeted; exact export and rights must be verified"
+      }
+    ],
+    "proposed_analysis": "Station embeddings versus spatial and seasonal baselines",
+    "validation_plan": "Leave-station-out and future-month splits; station-ID lineage; no trip-to-occupancy inference",
+    "contribution_to_test": "Measure cold-start transfer and the value of geographical pooling, not generic trip-count prediction",
+    "skills": [
+      "geospatial ML",
+      "feature engineering",
+      "forecasting"
+    ],
+    "status": "protocol only",
+    "manuscript": "private, after analysis",
+    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
+    "license_gate": "unknown until exact dataset terms are checked",
+    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+  },
+  {
+    "id": "07",
+    "slug": "transit-reliability-when-reporting-goes-missing",
+    "title": "Transit reliability when reporting goes missing",
+    "decision": "Which apparent service recoveries disappear once missing operator-months are treated as missing rather than zero?",
+    "sources": [
+      {
+        "key": "NTD",
+        "publisher_dataset": "Federal Transit Administration National Transit Database",
+        "landing_url": "https://www.transit.dot.gov/ntd/ntd-data",
+        "status": "targeted; exact export and rights must be verified"
+      }
+    ],
+    "proposed_analysis": "Panel reconciliation and bounded missingness sensitivity",
+    "validation_plan": "Published agency-total reconciliation; reporting-break checks; withheld-month recovery experiment",
+    "contribution_to_test": "Make dashboard reliability the primary outcome rather than ranking operators on incomplete totals",
+    "skills": [
+      "SQL",
+      "data engineering",
+      "missing data",
+      "visualization"
+    ],
+    "status": "protocol only",
+    "manuscript": "private, after analysis",
+    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
+    "license_gate": "unknown until exact dataset terms are checked",
+    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+  },
+  {
+    "id": "08",
+    "slug": "freight-rerouting-under-concentration-stress",
+    "title": "Freight rerouting under concentration stress",
+    "decision": "Which commodity corridors lose the most route diversity when one hub is unavailable?",
+    "sources": [
+      {
+        "key": "FAF",
+        "publisher_dataset": "Freight Analysis Framework",
+        "landing_url": "https://faf.ornl.gov/faf5/",
+        "status": "targeted; exact export and rights must be verified"
+      }
+    ],
+    "proposed_analysis": "Network concentration and constrained rerouting scenarios",
+    "validation_plan": "Flow conservation; alternative capacity assumptions; hold out commodities for stress design",
+    "contribution_to_test": "Expose fragility without presenting scenario rerouting as an observed disruption or realized savings",
+    "skills": [
+      "network analysis",
+      "optimization",
+      "scenario design"
+    ],
+    "status": "protocol only",
+    "manuscript": "private, after analysis",
+    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
+    "license_gate": "unknown until exact dataset terms are checked",
+    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+  },
+  {
+    "id": "09",
+    "slug": "flight-forecast-transfer-across-aviation-systems",
+    "title": "Flight forecast transfer across aviation systems",
+    "decision": "Does a delay model tuned on US airports retain useful calibration on European operational aggregates?",
+    "sources": [
+      {
+        "key": "BTS",
+        "publisher_dataset": "Bureau of Transportation Statistics aviation data",
+        "landing_url": "https://www.transtats.bts.gov/",
+        "status": "targeted; exact export and rights must be verified"
+      },
+      {
+        "key": "EUROCONTROL",
+        "publisher_dataset": "EUROCONTROL aviation intelligence",
+        "landing_url": "https://ansperformance.eu/data/",
+        "status": "targeted; exact export and rights must be verified"
+      }
+    ],
+    "proposed_analysis": "Domain shift and aggregate forecast calibration",
+    "validation_plan": "Common-unit reconciliation; region holdout; matched seasonal windows",
+    "contribution_to_test": "Test when cross-region transfer should be rejected instead of advertising one universal model",
+    "skills": [
+      "transfer learning",
+      "calibration",
+      "measurement validity"
+    ],
+    "status": "protocol only",
+    "manuscript": "private, after analysis",
+    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
+    "license_gate": "unknown until exact dataset terms are checked",
+    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+  },
+  {
+    "id": "10",
+    "slug": "local-hiring-signals-without-misleading-denominators",
+    "title": "Local hiring signals without misleading denominators",
+    "decision": "Which industries show sustained labor pressure after separating employment growth from establishment turnover?",
+    "sources": [
+      {
+        "key": "BLS",
+        "publisher_dataset": "BLS public time series",
+        "landing_url": "https://www.bls.gov/data/",
+        "status": "targeted; exact export and rights must be verified"
+      },
+      {
+        "key": "CENSUS",
+        "publisher_dataset": "US Census data APIs",
+        "landing_url": "https://www.census.gov/data/developers/data-sets.html",
+        "status": "targeted; exact export and rights must be verified"
+      }
+    ],
+    "proposed_analysis": "Hierarchical growth estimates and change-point detection",
+    "validation_plan": "Vintage and industry-code audits; future-quarter evaluation; small-cell sensitivity",
+    "contribution_to_test": "Distinguish hiring demand from changes in the reporting population",
+    "skills": [
+      "R",
+      "SQL",
+      "hierarchical modeling",
+      "business analysis"
+    ],
+    "status": "protocol only",
+    "manuscript": "private, after analysis",
+    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
+    "license_gate": "unknown until exact dataset terms are checked",
+    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+  },
+  {
+    "id": "11",
+    "slug": "contract-modification-exposure-before-award",
+    "title": "Contract modification exposure before award",
+    "decision": "Can pre-award information identify contracts likely to require repeated modifications without using future fields?",
+    "sources": [
+      {
+        "key": "USASPENDING",
+        "publisher_dataset": "USAspending API",
+        "landing_url": "https://api.usaspending.gov/docs/",
+        "status": "targeted; exact export and rights must be verified"
+      }
+    ],
+    "proposed_analysis": "Entity resolution and calibrated risk ranking",
+    "validation_plan": "Agency-held-out and time-held-out evaluation; leakage blacklist; precision at review capacity",
+    "contribution_to_test": "Frame outputs as workload prioritization, never fraud accusations or vendor eligibility decisions",
+    "skills": [
+      "SQL",
+      "classification",
+      "calibration",
+      "entity resolution"
+    ],
+    "status": "protocol only",
+    "manuscript": "private, after analysis",
+    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
+    "license_gate": "unknown until exact dataset terms are checked",
+    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+  },
+  {
+    "id": "12",
+    "slug": "disaster-assistance-reporting-latency",
+    "title": "Disaster assistance reporting latency",
+    "decision": "How long must analysts wait before a county-level disaster spending comparison becomes stable?",
+    "sources": [
+      {
+        "key": "FEMA",
+        "publisher_dataset": "OpenFEMA data sets",
+        "landing_url": "https://www.fema.gov/about/openfema/data-sets",
+        "status": "targeted; exact export and rights must be verified"
+      }
+    ],
+    "proposed_analysis": "Revision curves and snapshot-stability analysis",
+    "validation_plan": "Historical snapshots required; if unavailable report a data-availability study instead of reconstructed vintages",
+    "contribution_to_test": "Evaluate the reliability of early dashboards rather than claiming spending causes recovery",
+    "skills": [
+      "data provenance",
+      "time series",
+      "public finance"
+    ],
+    "status": "protocol only",
+    "manuscript": "private, after analysis",
+    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
+    "license_gate": "unknown until exact dataset terms are checked",
+    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+  },
+  {
+    "id": "13",
+    "slug": "storm-damage-ranking-under-incomplete-reporting",
+    "title": "Storm damage ranking under incomplete reporting",
+    "decision": "Which regional risk rankings survive plausible underreporting and heavy-tailed loss assumptions?",
+    "sources": [
+      {
+        "key": "NOAA",
+        "publisher_dataset": "NOAA storm events",
+        "landing_url": "https://www.ncei.noaa.gov/access/storm-events-database/",
+        "status": "targeted; exact export and rights must be verified"
+      }
+    ],
+    "proposed_analysis": "Robust ranking and tail-sensitive aggregation",
+    "validation_plan": "Era-consistent event coverage; damage-unit audit; bootstrap by event; missing-versus-zero sensitivity",
+    "contribution_to_test": "Produce a ranking stability envelope, not a falsely precise map of expected insured loss",
+    "skills": [
+      "robust statistics",
+      "uncertainty",
+      "geospatial analysis"
+    ],
+    "status": "protocol only",
+    "manuscript": "private, after analysis",
+    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
+    "license_gate": "unknown until exact dataset terms are checked",
+    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+  },
+  {
+    "id": "14",
+    "slug": "river-monitoring-with-a-limited-sensor-budget",
+    "title": "River monitoring with a limited sensor budget",
+    "decision": "Which gauges add the most independent warning information for downstream water-level changes?",
+    "sources": [
+      {
+        "key": "USGS",
+        "publisher_dataset": "USGS water data APIs",
+        "landing_url": "https://api.waterdata.usgs.gov/",
+        "status": "targeted; exact export and rights must be verified"
+      }
+    ],
+    "proposed_analysis": "Lagged conditional dependence and sensor subset selection",
+    "validation_plan": "Basin-held-out and chronological testing; missing telemetry stress; lead-time audit",
+    "contribution_to_test": "Optimize informational redundancy while distinguishing predictive association from hydrologic causality",
+    "skills": [
+      "sensor analytics",
+      "feature selection",
+      "time series"
+    ],
+    "status": "protocol only",
+    "manuscript": "private, after analysis",
+    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
+    "license_gate": "unknown until exact dataset terms are checked",
+    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+  },
+  {
+    "id": "15",
+    "slug": "industrial-inspection-queues-under-selective-observation",
+    "title": "Industrial inspection queues under selective observation",
+    "decision": "How much can an inspection model be trusted when outcomes exist mainly for inspected facilities?",
+    "sources": [
+      {
+        "key": "EPA",
+        "publisher_dataset": "EPA Enforcement and Compliance History Online",
+        "landing_url": "https://echo.epa.gov/tools/data-downloads",
+        "status": "targeted; exact export and rights must be verified"
+      }
+    ],
+    "proposed_analysis": "Selection-bias diagnostics and bounded risk ranking",
+    "validation_plan": "Time and facility holdouts; coverage maps; inverse-weighting sensitivity only with defensible propensity inputs",
+    "contribution_to_test": "Identify where an automated queue must abstain because labels are selectively observed",
+    "skills": [
+      "ML evaluation",
+      "selection bias",
+      "calibration",
+      "SQL"
+    ],
+    "status": "protocol only",
+    "manuscript": "private, after analysis",
+    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
+    "license_gate": "unknown until exact dataset terms are checked",
+    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+  },
+  {
+    "id": "16",
+    "slug": "injury-rate-stability-for-small-establishments",
+    "title": "Injury rate stability for small establishments",
+    "decision": "When does partial pooling change which workplaces appear to have unusually high reported injury rates?",
+    "sources": [
+      {
+        "key": "OSHA",
+        "publisher_dataset": "OSHA establishment injury and illness records",
+        "landing_url": "https://www.osha.gov/Establishment-Specific-Injury-and-Illness-Data",
+        "status": "targeted; exact export and rights must be verified"
+      }
+    ],
+    "proposed_analysis": "Exposure-adjusted hierarchical count models",
+    "validation_plan": "Year-held-out scoring; denominator checks; interval calibration; suppression sensitivity",
+    "contribution_to_test": "Compare raw rates with shrinkage under sparse exposure, without identifying workers",
+    "skills": [
+      "R",
+      "Bayesian modeling",
+      "rate estimation",
+      "uncertainty"
+    ],
+    "status": "protocol only",
+    "manuscript": "private, after analysis",
+    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
+    "license_gate": "unknown until exact dataset terms are checked",
+    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+  },
+  {
+    "id": "17",
+    "slug": "recall-signals-without-duplicate-product-inflation",
+    "title": "Recall signals without duplicate product inflation",
+    "decision": "How much do duplicate and amended enforcement notices distort a product-category alert stream?",
+    "sources": [
+      {
+        "key": "FDA",
+        "publisher_dataset": "openFDA APIs",
+        "landing_url": "https://open.fda.gov/apis/",
+        "status": "targeted; exact export and rights must be verified"
+      }
+    ],
+    "proposed_analysis": "Event entity resolution and sequential anomaly detection",
+    "validation_plan": "Human-audited public-label sample; amendment lineage; future-time alert evaluation",
+    "contribution_to_test": "Separate notification churn from distinct recall events before detecting anomalies",
+    "skills": [
+      "NLP",
+      "SQL",
+      "record linkage",
+      "monitoring"
+    ],
+    "status": "protocol only",
+    "manuscript": "private, after analysis",
+    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
+    "license_gate": "unknown until exact dataset terms are checked",
+    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+  },
+  {
+    "id": "18",
+    "slug": "vehicle-recall-remedy-delays",
+    "title": "Vehicle recall remedy delays",
+    "decision": "Which recall characteristics predict a long period before remedy availability, using only initial notice information?",
+    "sources": [
+      {
+        "key": "NHTSA",
+        "publisher_dataset": "NHTSA recall APIs",
+        "landing_url": "https://www.nhtsa.gov/nhtsa-datasets-and-apis",
+        "status": "targeted; exact export and rights must be verified"
+      }
+    ],
+    "proposed_analysis": "Time-to-event modeling and censored evaluation",
+    "validation_plan": "Manufacturer-held-out and chronological tests; initial-versus-amended field audit",
+    "contribution_to_test": "Model service planning lead time rather than classifying vehicle safety for individuals",
+    "skills": [
+      "survival analysis",
+      "feature provenance",
+      "model validation"
+    ],
+    "status": "protocol only",
+    "manuscript": "private, after analysis",
+    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
+    "license_gate": "unknown until exact dataset terms are checked",
+    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+  },
+  {
+    "id": "19",
+    "slug": "road-safety-rankings-that-survive-exposure-choices",
+    "title": "Road safety rankings that survive exposure choices",
+    "decision": "Which road-user risk comparisons reverse when the exposure denominator changes?",
+    "sources": [
+      {
+        "key": "FARS",
+        "publisher_dataset": "NHTSA Fatality Analysis Reporting System",
+        "landing_url": "https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars",
+        "status": "targeted; exact export and rights must be verified"
+      },
+      {
+        "key": "CENSUS",
+        "publisher_dataset": "US Census data APIs",
+        "landing_url": "https://www.census.gov/data/developers/data-sets.html",
+        "status": "targeted; exact export and rights must be verified"
+      }
+    ],
+    "proposed_analysis": "Standardization and denominator sensitivity analysis",
+    "validation_plan": "Recompute public totals; stratify time and road user; explicitly bound unavailable travel exposure",
+    "contribution_to_test": "Make the choice of denominator a visible decision rather than burying it in a footnote",
+    "skills": [
+      "R",
+      "causal reasoning",
+      "measurement",
+      "visualization"
+    ],
+    "status": "protocol only",
+    "manuscript": "private, after analysis",
+    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
+    "license_gate": "unknown until exact dataset terms are checked",
+    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+  },
+  {
+    "id": "20",
+    "slug": "treasury-auction-demand-outside-the-training-regime",
+    "title": "Treasury auction demand outside the training regime",
+    "decision": "Do demand models generalize across maturity and auction-size changes after respecting announcement timing?",
+    "sources": [
+      {
+        "key": "TREASURY",
+        "publisher_dataset": "Treasury auction query",
+        "landing_url": "https://treasurydirect.gov/auctions/auction-query/",
+        "status": "targeted; exact export and rights must be verified"
+      }
+    ],
+    "proposed_analysis": "Hierarchical residual forecasts and rolling model comparison",
+    "validation_plan": "Rolling-origin test; maturity holdout; announcement-time feature audit; no investment-return claim",
+    "contribution_to_test": "Predict auction mechanics rather than backtest a trading strategy with unavailable pre-auction facts",
+    "skills": [
+      "time series",
+      "quant research",
+      "validation",
+      "Python"
+    ],
+    "status": "protocol only",
+    "manuscript": "private, after analysis",
+    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
+    "license_gate": "unknown until exact dataset terms are checked",
+    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+  },
+  {
+    "id": "21",
+    "slug": "sofr-publication-day-anomaly-triage",
+    "title": "SOFR publication-day anomaly triage",
+    "decision": "Can an alert distinguish a large but routine calendar effect from a persistent change in funding conditions?",
+    "sources": [
+      {
+        "key": "NYFED",
+        "publisher_dataset": "New York Fed markets data",
+        "landing_url": "https://www.newyorkfed.org/markets/reference-rates/sofr",
+        "status": "targeted; exact export and rights must be verified"
+      }
+    ],
+    "proposed_analysis": "Robust seasonal decomposition and change detection",
+    "validation_plan": "Forward-only thresholds; calendar ablations; fixed false-alert budget",
+    "contribution_to_test": "Evaluate alert burden and delay, not hindsight labels of financial crises",
+    "skills": [
+      "time series",
+      "anomaly detection",
+      "model monitoring"
+    ],
+    "status": "protocol only",
+    "manuscript": "private, after analysis",
+    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
+    "license_gate": "unknown until exact dataset terms are checked",
+    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+  },
+  {
+    "id": "22",
+    "slug": "financial-statement-restatements-as-a-data-engineering-test",
+    "title": "Financial-statement restatements as a data engineering test",
+    "decision": "How often does a naive latest-value join rewrite the historical features used in a model?",
+    "sources": [
+      {
+        "key": "SEC",
+        "publisher_dataset": "SEC EDGAR APIs",
+        "landing_url": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces",
+        "status": "targeted; exact export and rights must be verified"
+      }
+    ],
+    "proposed_analysis": "Point-in-time XBRL panel construction and revision audit",
+    "validation_plan": "Accession-date joins; unit and taxonomy checks; duplicate-fact tests; manual filing reconciliation",
+    "contribution_to_test": "Quantify leakage introduced by revision handling before fitting any financial model",
+    "skills": [
+      "SQL",
+      "data engineering",
+      "data lineage",
+      "testing"
+    ],
+    "status": "protocol only",
+    "manuscript": "private, after analysis",
+    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
+    "license_gate": "unknown until exact dataset terms are checked",
+    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+  },
+  {
+    "id": "23",
+    "slug": "revenue-forecasting-with-firm-specific-reporting-calendars",
+    "title": "Revenue forecasting with firm-specific reporting calendars",
+    "decision": "Does fiscal-quarter alignment outperform calendar-quarter pooling when forecasting reported revenue?",
+    "sources": [
+      {
+        "key": "SEC",
+        "publisher_dataset": "SEC EDGAR APIs",
+        "landing_url": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces",
+        "status": "targeted; exact export and rights must be verified"
+      }
+    ],
+    "proposed_analysis": "Panel forecasting with filing-time covariates",
+    "validation_plan": "Company and future-filing holdouts; amendment embargo; scale-normalized losses",
+    "contribution_to_test": "Treat reporting-calendar design as an empirical modeling choice",
+    "skills": [
+      "forecasting",
+      "feature engineering",
+      "panel data"
+    ],
+    "status": "protocol only",
+    "manuscript": "private, after analysis",
+    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
+    "license_gate": "unknown until exact dataset terms are checked",
+    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+  },
+  {
+    "id": "24",
+    "slug": "economic-forecasts-with-revision-safe-evaluation",
+    "title": "Economic forecasts with revision-safe evaluation",
+    "decision": "Which model wins change when first-release economic data replace the latest revised series?",
+    "sources": [
+      {
+        "key": "FRED",
+        "publisher_dataset": "Federal Reserve economic data",
+        "landing_url": "https://fred.stlouisfed.org/",
+        "status": "targeted; exact export and rights must be verified"
+      }
+    ],
+    "proposed_analysis": "Vintage-aware forecasting and ranking comparison",
+    "validation_plan": "ALFRED vintage availability gate; identical information sets; rolling origins",
+    "contribution_to_test": "Measure the price of hindsight explicitly instead of publishing one backtest score",
+    "skills": [
+      "quant research",
+      "time series",
+      "data provenance"
+    ],
+    "status": "protocol only",
+    "manuscript": "private, after analysis",
+    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
+    "license_gate": "unknown until exact dataset terms are checked",
+    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+  },
+  {
+    "id": "25",
+    "slug": "plant-level-fuel-efficiency-and-dispatch-mix",
+    "title": "Plant-level fuel efficiency and dispatch mix",
+    "decision": "How much of a change in fleet heat rate comes from plant operation versus changing generation shares?",
+    "sources": [
+      {
+        "key": "EIA860",
+        "publisher_dataset": "EIA electricity generator inventory",
+        "landing_url": "https://www.eia.gov/electricity/data/eia860/",
+        "status": "targeted; exact export and rights must be verified"
+      },
+      {
+        "key": "EIA923",
+        "publisher_dataset": "EIA power plant operations",
+        "landing_url": "https://www.eia.gov/electricity/data/eia923/",
+        "status": "targeted; exact export and rights must be verified"
+      }
+    ],
+    "proposed_analysis": "Index decomposition and uncertainty-aware peer comparison",
+    "validation_plan": "Plant-generator key checks; unit reconciliation; matched-fleet sensitivity",
+    "contribution_to_test": "Separate operational improvement from composition effects in energy reporting",
+    "skills": [
+      "SQL",
+      "decomposition",
+      "energy analytics"
+    ],
+    "status": "protocol only",
+    "manuscript": "private, after analysis",
+    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
+    "license_gate": "unknown until exact dataset terms are checked",
+    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+  },
+  {
+    "id": "26",
+    "slug": "reserve-planning-when-renewable-forecasts-are-biased",
+    "title": "Reserve planning when renewable forecasts are biased",
+    "decision": "When does correcting persistent regional forecast bias reduce reserve shortfalls more than optimizing average error?",
+    "sources": [
+      {
+        "key": "EIA930",
+        "publisher_dataset": "EIA balancing authority operations",
+        "landing_url": "https://www.eia.gov/electricity/930-content/about.html",
+        "status": "targeted; exact export and rights must be verified"
+      }
+    ],
+    "proposed_analysis": "Quantile correction and asymmetric reserve policies",
+    "validation_plan": "Season-blocked folds; authority holdout; capacity-ratio sensitivity",
+    "contribution_to_test": "Evaluate the decision loss associated with forecast bias rather than reporting RMSE alone",
+    "skills": [
+      "forecasting",
+      "optimization",
+      "uncertainty"
+    ],
+    "status": "protocol only",
+    "manuscript": "private, after analysis",
+    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
+    "license_gate": "unknown until exact dataset terms are checked",
+    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+  },
+  {
+    "id": "27",
+    "slug": "retrofit-targeting-under-modelled-building-assumptions",
+    "title": "Retrofit targeting under modelled building assumptions",
+    "decision": "Which retrofit rankings remain stable across occupancy and weather assumptions in building simulations?",
+    "sources": [
+      {
+        "key": "NREL",
+        "publisher_dataset": "National laboratory building end-use profiles",
+        "landing_url": "https://www.nlr.gov/buildings/end-use-load-profiles",
+        "status": "targeted; exact export and rights must be verified"
+      }
+    ],
+    "proposed_analysis": "Scenario sensitivity and robust multiobjective ranking",
+    "validation_plan": "Label simulated load profiles throughout; held-out building archetypes; parameter ranges from source documentation",
+    "contribution_to_test": "Recommend measurements needed before investment rather than treating simulated savings as field evidence",
+    "skills": [
+      "sensitivity analysis",
+      "optimization",
+      "model risk"
+    ],
+    "status": "protocol only",
+    "manuscript": "private, after analysis",
+    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
+    "license_gate": "unknown until exact dataset terms are checked",
+    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+  },
+  {
+    "id": "28",
+    "slug": "commercial-building-energy-residuals",
+    "title": "Commercial building energy residuals",
+    "decision": "Can peer-adjusted energy-use residuals identify buildings worth an engineering review without ranking them on size alone?",
+    "sources": [
+      {
+        "key": "NYCENERGY",
+        "publisher_dataset": "NYC energy and water benchmarking",
+        "landing_url": "https://www.nyc.gov/site/buildings/codes/benchmarking.page",
+        "status": "targeted; exact export and rights must be verified"
+      },
+      {
+        "key": "NOAAISD",
+        "publisher_dataset": "NOAA integrated surface observations",
+        "landing_url": "https://www.ncei.noaa.gov/products/land-based-station/integrated-surface-database",
+        "status": "targeted; exact export and rights must be verified"
+      }
+    ],
+    "proposed_analysis": "Robust GAM and gradient-boosted residual benchmarks",
+    "validation_plan": "Building-held-out and future-year test; weather normalization; floor-area quality checks",
+    "contribution_to_test": "Use calibrated review bands and abstention for implausible records",
+    "skills": [
+      "R",
+      "ML",
+      "regression diagnostics",
+      "business communication"
+    ],
+    "status": "protocol only",
+    "manuscript": "private, after analysis",
+    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
+    "license_gate": "unknown until exact dataset terms are checked",
+    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+  },
+  {
+    "id": "29",
+    "slug": "solar-resource-uncertainty-and-site-ranking",
+    "title": "Solar resource uncertainty and site ranking",
+    "decision": "How sensitive is a solar site shortlist to interannual variability and missing weather observations?",
+    "sources": [
+      {
+        "key": "NSRDB",
+        "publisher_dataset": "National Solar Radiation Database",
+        "landing_url": "https://nsrdb.nrel.gov/",
+        "status": "targeted; exact export and rights must be verified"
+      }
+    ],
+    "proposed_analysis": "Spatial uncertainty and robust ranking",
+    "validation_plan": "Multi-year blocks; held-out stations where available; explicit radiation-to-output assumptions",
+    "contribution_to_test": "Distinguish resource screening from financial feasibility and actual plant performance",
+    "skills": [
+      "geospatial statistics",
+      "uncertainty",
+      "scenario analysis"
+    ],
+    "status": "protocol only",
+    "manuscript": "private, after analysis",
+    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
+    "license_gate": "unknown until exact dataset terms are checked",
+    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+  },
+  {
+    "id": "30",
+    "slug": "crop-price-alerts-under-changing-product-grades",
+    "title": "Crop-price alerts under changing product grades",
+    "decision": "Can an alert retain precision when reporting markets change product-grade definitions?",
+    "sources": [
+      {
+        "key": "USDA",
+        "publisher_dataset": "USDA agricultural market reports",
+        "landing_url": "https://mymarketnews.ams.usda.gov/",
+        "status": "targeted; exact export and rights must be verified"
+      }
+    ],
+    "proposed_analysis": "Schema-aware anomaly detection and hierarchical price models",
+    "validation_plan": "Market-held-out and future-period evaluation; grade crosswalk audits",
+    "contribution_to_test": "Treat taxonomy drift as part of the model rather than silently concatenating prices",
+    "skills": [
+      "data engineering",
+      "anomaly detection",
+      "forecasting"
+    ],
+    "status": "protocol only",
+    "manuscript": "private, after analysis",
+    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
+    "license_gate": "unknown until exact dataset terms are checked",
+    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+  },
+  {
+    "id": "31",
+    "slug": "import-dependence-with-substitution-constraints",
+    "title": "Import dependence with substitution constraints",
+    "decision": "Which food import portfolios remain vulnerable after allowing realistic supplier substitution?",
+    "sources": [
+      {
+        "key": "FAO",
+        "publisher_dataset": "FAOSTAT",
+        "landing_url": "https://www.fao.org/faostat/en/#data",
+        "status": "targeted; exact export and rights must be verified"
+      },
+      {
+        "key": "UNCOMTRADE",
+        "publisher_dataset": "UN Comtrade",
+        "landing_url": "https://comtradeplus.un.org/",
+        "status": "targeted; exact export and rights must be verified"
+      }
+    ],
+    "proposed_analysis": "Network exposure and constrained substitution scenarios",
+    "validation_plan": "Reconcile quantity/value units; mirrored-trade sensitivity; commodity aggregation checks",
+    "contribution_to_test": "Avoid equating trade concentration with observed shortage probability",
+    "skills": [
+      "network analysis",
+      "optimization",
+      "economic analysis"
+    ],
+    "status": "protocol only",
+    "manuscript": "private, after analysis",
+    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
+    "license_gate": "unknown until exact dataset terms are checked",
+    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+  },
+  {
+    "id": "32",
+    "slug": "cold-chain-planning-from-temperature-extremes",
+    "title": "Cold-chain planning from temperature extremes",
+    "decision": "Which cities require materially different storage contingency plans when extremes replace monthly averages?",
+    "sources": [
+      {
+        "key": "NOAAISD",
+        "publisher_dataset": "NOAA integrated surface observations",
+        "landing_url": "https://www.ncei.noaa.gov/products/land-based-station/integrated-surface-database",
+        "status": "targeted; exact export and rights must be verified"
+      }
+    ],
+    "proposed_analysis": "Extreme-value estimates and threshold-exceedance duration",
+    "validation_plan": "Station completeness; year-block bootstrap; threshold sensitivity; no product-specific spoilage claim",
+    "contribution_to_test": "Translate weather evidence into scenario hours above a declared operating threshold",
+    "skills": [
+      "extreme value analysis",
+      "time series",
+      "decision analysis"
+    ],
+    "status": "protocol only",
+    "manuscript": "private, after analysis",
+    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
+    "license_gate": "unknown until exact dataset terms are checked",
+    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+  },
+  {
+    "id": "33",
+    "slug": "regional-employment-revisions-in-japan",
+    "title": "Regional employment revisions in Japan",
+    "decision": "How stable are regional labor-demand signals across release revisions and industry classifications?",
+    "sources": [
+      {
+        "key": "JAPAN",
+        "publisher_dataset": "Japan government statistics",
+        "landing_url": "https://www.e-stat.go.jp/en",
+        "status": "targeted; exact export and rights must be verified"
+      }
+    ],
+    "proposed_analysis": "Revision-aware regional panel models",
+    "validation_plan": "Verify English metadata and historical vintages; industry crosswalks; next-release prediction",
+    "contribution_to_test": "Show whether a translated statistical label preserves the original definition",
+    "skills": [
+      "international data",
+      "R",
+      "measurement",
+      "panel analysis"
+    ],
+    "status": "protocol only",
+    "manuscript": "private, after analysis",
+    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
+    "license_gate": "unknown until exact dataset terms are checked",
+    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+  },
+  {
+    "id": "34",
+    "slug": "european-manufacturing-energy-exposure",
+    "title": "European manufacturing energy exposure",
+    "decision": "Which industry-region combinations retain high exposure after adjusting for output mix and price bases?",
+    "sources": [
+      {
+        "key": "EUROSTAT",
+        "publisher_dataset": "Eurostat database",
+        "landing_url": "https://ec.europa.eu/eurostat/data/database",
+        "status": "targeted; exact export and rights must be verified"
+      }
+    ],
+    "proposed_analysis": "Shift-share decomposition and panel sensitivity",
+    "validation_plan": "Common classification and base year; withheld-country reconciliation; no causal energy-shock claim",
+    "contribution_to_test": "Separate production decline from price-driven expenditure increases",
+    "skills": [
+      "SQL",
+      "econometrics",
+      "international statistics"
+    ],
+    "status": "protocol only",
+    "manuscript": "private, after analysis",
+    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
+    "license_gate": "unknown until exact dataset terms are checked",
+    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+  },
+  {
+    "id": "35",
+    "slug": "broadband-planning-under-map-version-changes",
+    "title": "Broadband planning under map-version changes",
+    "decision": "Which apparent service improvements are revisions to the availability map rather than new coverage?",
+    "sources": [
+      {
+        "key": "FCC",
+        "publisher_dataset": "FCC broadband data downloads",
+        "landing_url": "https://broadbandmap.fcc.gov/data-download",
+        "status": "targeted; exact export and rights must be verified"
+      },
+      {
+        "key": "CENSUS",
+        "publisher_dataset": "US Census data APIs",
+        "landing_url": "https://www.census.gov/data/developers/data-sets.html",
+        "status": "targeted; exact export and rights must be verified"
+      }
+    ],
+    "proposed_analysis": "Versioned spatial joins and change attribution",
+    "validation_plan": "Location-ID lineage; comparable map releases; availability versus adoption separation",
+    "contribution_to_test": "Audit the data product before treating mapped coverage changes as investment impact",
+    "skills": [
+      "geospatial SQL",
+      "data lineage",
+      "public policy analytics"
+    ],
+    "status": "protocol only",
+    "manuscript": "private, after analysis",
+    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
+    "license_gate": "unknown until exact dataset terms are checked",
+    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+  },
+  {
+    "id": "36",
+    "slug": "brake-event-detection-that-transfers-across-roads",
+    "title": "Brake-event detection that transfers across roads",
+    "decision": "Can a detector identify abrupt deceleration with a fixed false-alert budget on unseen traffic settings?",
+    "sources": [
+      {
+        "key": "BERKELEY",
+        "publisher_dataset": "California PATH vehicle trajectories",
+        "landing_url": "https://highways.dot.gov/research/research-data-resources/next-generation-simulation-ngsim",
+        "status": "targeted; exact export and rights must be verified"
+      }
+    ],
+    "proposed_analysis": "Trajectory smoothing and event detection",
+    "validation_plan": "Vehicle-group and site holdouts; derivative-noise sensitivity; independently checked kinematics",
+    "contribution_to_test": "Quantify the tradeoff between smoothing latency and missed events",
+    "skills": [
+      "kinematics",
+      "signal processing",
+      "time series",
+      "ML evaluation"
+    ],
+    "status": "protocol only",
+    "manuscript": "private, after analysis",
+    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
+    "license_gate": "unknown until exact dataset terms are checked",
+    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+  },
+  {
+    "id": "37",
+    "slug": "remaining-life-predictions-with-realistic-maintenance-horizons",
+    "title": "Remaining-life predictions with realistic maintenance horizons",
+    "decision": "Which model gives useful warnings early enough to schedule maintenance under a fixed inspection budget?",
+    "sources": [
+      {
+        "key": "NASA",
+        "publisher_dataset": "NASA prognostics data repository",
+        "landing_url": "https://www.nasa.gov/intelligent-systems-division/discovery-and-systems-health/pcoe/pcoe-data-set-repository/",
+        "status": "targeted; exact export and rights must be verified"
+      }
+    ],
+    "proposed_analysis": "Survival or sequence models versus simple degradation baselines",
+    "validation_plan": "Engine-unit holdout; operating-regime holdout; lead-time-specific calibration",
+    "contribution_to_test": "Score maintenance decisions and warning timeliness instead of random-window RMSE",
+    "skills": [
+      "predictive maintenance",
+      "ML tuning",
+      "survival analysis"
+    ],
+    "status": "protocol only",
+    "manuscript": "private, after analysis",
+    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
+    "license_gate": "unknown until exact dataset terms are checked",
+    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+  },
+  {
+    "id": "38",
+    "slug": "sensor-dropout-and-abstention-in-movement-classification",
+    "title": "Sensor dropout and abstention in movement classification",
+    "decision": "When should an activity classifier refuse to classify after a wearable sensor fails?",
+    "sources": [
+      {
+        "key": "UCI",
+        "publisher_dataset": "UCI machine learning repository",
+        "landing_url": "https://archive.ics.uci.edu/",
+        "status": "targeted; exact export and rights must be verified"
+      }
+    ],
+    "proposed_analysis": "Sensor ablations and calibrated selective classification",
+    "validation_plan": "Subject-held-out splits; missing-sensor patterns; coverage-risk curves",
+    "contribution_to_test": "Optimize reliable coverage rather than hiding failure behind overall accuracy",
+    "skills": [
+      "human factors",
+      "sensor analytics",
+      "classification",
+      "calibration"
+    ],
+    "status": "protocol only",
+    "manuscript": "private, after analysis",
+    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
+    "license_gate": "unknown until exact dataset terms are checked",
+    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+  },
+  {
+    "id": "39",
+    "slug": "physiological-signal-quality-before-prediction",
+    "title": "Physiological signal quality before prediction",
+    "decision": "Can simple signal-quality checks prevent confident errors when recording conditions change?",
+    "sources": [
+      {
+        "key": "PHYSIONET",
+        "publisher_dataset": "PhysioNet research data",
+        "landing_url": "https://physionet.org/",
+        "status": "targeted; exact export and rights must be verified"
+      }
+    ],
+    "proposed_analysis": "Signal quality features and out-of-distribution detection",
+    "validation_plan": "Only openly licensed noncredentialed recordings; subject-held-out validation; recording-device sensitivity",
+    "contribution_to_test": "Evaluate the quality gate separately from any downstream clinical inference",
+    "skills": [
+      "signal processing",
+      "uncertainty",
+      "data quality"
+    ],
+    "status": "protocol only",
+    "manuscript": "private, after analysis",
+    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
+    "license_gate": "unknown until exact dataset terms are checked",
+    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+  },
+  {
+    "id": "40",
+    "slug": "flight-trajectory-compression-for-operational-analytics",
+    "title": "Flight trajectory compression for operational analytics",
+    "decision": "How much can trajectory storage be reduced before route and delay metrics become misleading?",
+    "sources": [
+      {
+        "key": "OPENSKY",
+        "publisher_dataset": "OpenSky Network data",
+        "landing_url": "https://opensky-network.org/data/",
+        "status": "targeted; exact export and rights must be verified"
+      }
+    ],
+    "proposed_analysis": "Error-bounded compression and query benchmarking",
+    "validation_plan": "Terms and access gate; flight-held-out test; spatial and timing error budgets",
+    "contribution_to_test": "Connect compression tolerance to analytical decision accuracy",
+    "skills": [
+      "data engineering",
+      "algorithms",
+      "benchmarking"
+    ],
+    "status": "protocol only",
+    "manuscript": "private, after analysis",
+    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
+    "license_gate": "unknown until exact dataset terms are checked",
+    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+  },
+  {
+    "id": "41",
+    "slug": "research-evidence-retrieval-with-an-abstain-option",
+    "title": "Research evidence retrieval with an abstain option",
+    "decision": "Can a transparent retrieval system return the right supporting study and decline weak matches?",
+    "sources": [
+      {
+        "key": "OPENALEX",
+        "publisher_dataset": "OpenAlex API documentation",
+        "landing_url": "https://docs.openalex.org/",
+        "status": "targeted; exact export and rights must be verified"
+      },
+      {
+        "key": "CROSSREF",
+        "publisher_dataset": "Crossref REST API",
+        "landing_url": "https://www.crossref.org/documentation/retrieve-metadata/rest-api/",
+        "status": "targeted; exact export and rights must be verified"
+      }
+    ],
+    "proposed_analysis": "Lexical retrieval versus embeddings on a hand-audited question set",
+    "validation_plan": "Frozen corpus; independent relevance labels; topic-held-out evaluation; citation verification",
+    "contribution_to_test": "Evaluate evidence sufficiency and abstention, not fluent answer generation",
+    "skills": [
+      "information retrieval",
+      "AI evaluation",
+      "NLP"
+    ],
+    "status": "protocol only",
+    "manuscript": "private, after analysis",
+    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
+    "license_gate": "unknown until exact dataset terms are checked",
+    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+  },
+  {
+    "id": "42",
+    "slug": "scientific-claim-to-data-link-reliability",
+    "title": "Scientific claim-to-data link reliability",
+    "decision": "Which metadata rules find broken research data links without overwhelming maintainers with false alarms?",
+    "sources": [
+      {
+        "key": "CROSSREF",
+        "publisher_dataset": "Crossref REST API",
+        "landing_url": "https://www.crossref.org/documentation/retrieve-metadata/rest-api/",
+        "status": "targeted; exact export and rights must be verified"
+      },
+      {
+        "key": "OPENALEX",
+        "publisher_dataset": "OpenAlex API documentation",
+        "landing_url": "https://docs.openalex.org/",
+        "status": "targeted; exact export and rights must be verified"
+      }
+    ],
+    "proposed_analysis": "DOI and repository-link resolution with calibrated rules",
+    "validation_plan": "Public metadata only; bounded requests; human-checked positive/negative sample; time-separated recheck",
+    "contribution_to_test": "A reproducibility maintenance tool whose false positives are measured",
+    "skills": [
+      "data engineering",
+      "record linkage",
+      "research operations"
+    ],
+    "status": "protocol only",
+    "manuscript": "private, after analysis",
+    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
+    "license_gate": "unknown until exact dataset terms are checked",
+    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+  },
+  {
+    "id": "43",
+    "slug": "open-source-release-risk-from-public-activity-signals",
+    "title": "Open-source release risk from public activity signals",
+    "decision": "Do release-cadence and contributor-concentration signals predict maintenance interruptions on unseen projects?",
+    "sources": [
+      {
+        "key": "GITHUB",
+        "publisher_dataset": "GitHub public event archive",
+        "landing_url": "https://www.gharchive.org/",
+        "status": "targeted; exact export and rights must be verified"
+      }
+    ],
+    "proposed_analysis": "Repository-level survival models",
+    "validation_plan": "Repository and future-time holdouts; bots and forks handled; avoid developer-level employment judgments",
+    "contribution_to_test": "Distinguish project resilience from raw popularity",
+    "skills": [
+      "SQL",
+      "survival analysis",
+      "software analytics"
+    ],
+    "status": "protocol only",
+    "manuscript": "private, after analysis",
+    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
+    "license_gate": "unknown until exact dataset terms are checked",
+    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+  },
+  {
+    "id": "44",
+    "slug": "package-download-anomalies-caused-by-infrastructure",
+    "title": "Package download anomalies caused by infrastructure",
+    "decision": "Which package-demand spikes vanish after removing known automation and mirror effects?",
+    "sources": [
+      {
+        "key": "PYPI",
+        "publisher_dataset": "PyPI BigQuery download statistics",
+        "landing_url": "https://docs.pypi.org/api/bigquery/",
+        "status": "targeted; exact export and rights must be verified"
+      }
+    ],
+    "proposed_analysis": "Robust aggregation and anomaly triage",
+    "validation_plan": "Document bot-filter limits; version-level and time holdouts; free-query cost guard",
+    "contribution_to_test": "Measure data-pipeline artifacts before inferring user adoption",
+    "skills": [
+      "SQL",
+      "data quality",
+      "anomaly detection"
+    ],
+    "status": "protocol only",
+    "manuscript": "private, after analysis",
+    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
+    "license_gate": "unknown until exact dataset terms are checked",
+    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+  },
+  {
+    "id": "45",
+    "slug": "storage-workload-forecasting-under-cache-changes",
+    "title": "Storage workload forecasting under cache changes",
+    "decision": "When does a predictor trained on one cache regime fail after an operational configuration change?",
+    "sources": [
+      {
+        "key": "USENIX",
+        "publisher_dataset": "USENIX FAST storage traces",
+        "landing_url": "https://www.usenix.org/conference/fast",
+        "status": "targeted; exact export and rights must be verified"
+      }
+    ],
+    "proposed_analysis": "Sequence forecasts and workload change detection",
+    "validation_plan": "Dataset and redistribution permission gate; chronological replay; regime-held-out evaluation",
+    "contribution_to_test": "Treat deployment shift as the experiment rather than fitting another generic trace predictor",
+    "skills": [
+      "systems ML",
+      "performance analysis",
+      "time series"
+    ],
+    "status": "protocol only",
+    "manuscript": "private, after analysis",
+    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
+    "license_gate": "unknown until exact dataset terms are checked",
+    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+  },
+  {
+    "id": "46",
+    "slug": "model-selection-under-a-fixed-compute-budget",
+    "title": "Model selection under a fixed compute budget",
+    "decision": "Which tuning strategy yields the most reliable improvement per unit of compute across heterogeneous tabular tasks?",
+    "sources": [
+      {
+        "key": "OPENML",
+        "publisher_dataset": "OpenML benchmark data and tasks",
+        "landing_url": "https://www.openml.org/",
+        "status": "targeted; exact export and rights must be verified"
+      }
+    ],
+    "proposed_analysis": "Nested benchmark of random search and successive halving",
+    "validation_plan": "Dataset-level holdout; fixed budgets and seeds; tuning-time accounting; test set isolation",
+    "contribution_to_test": "Report unsuccessful searches and variability, not just the winning run",
+    "skills": [
+      "ML tuning",
+      "experimental design",
+      "benchmarking",
+      "reproducibility"
+    ],
+    "status": "protocol only",
+    "manuscript": "private, after analysis",
+    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
+    "license_gate": "unknown until exact dataset terms are checked",
+    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+  },
+  {
+    "id": "47",
+    "slug": "calibration-transfer-under-changing-class-prevalence",
+    "title": "Calibration transfer under changing class prevalence",
+    "decision": "When can a cheap recalibration step replace full retraining after the target rate changes?",
+    "sources": [
+      {
+        "key": "OPENML",
+        "publisher_dataset": "OpenML benchmark data and tasks",
+        "landing_url": "https://www.openml.org/",
+        "status": "targeted; exact export and rights must be verified"
+      }
+    ],
+    "proposed_analysis": "Planned prevalence-shift experiments and recalibration",
+    "validation_plan": "Untouched datasets; controlled shift clearly labelled experimental; proper scoring rules",
+    "contribution_to_test": "Separate a controlled stress experiment from evidence of real production drift",
+    "skills": [
+      "calibration",
+      "classification",
+      "ML monitoring"
+    ],
+    "status": "protocol only",
+    "manuscript": "private, after analysis",
+    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
+    "license_gate": "unknown until exact dataset terms are checked",
+    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+  },
+  {
+    "id": "48",
+    "slug": "human-readable-models-versus-explanation-stability",
+    "title": "Human-readable models versus explanation stability",
+    "decision": "Which models retain stable explanations after small, plausible data perturbations?",
+    "sources": [
+      {
+        "key": "OPENML",
+        "publisher_dataset": "OpenML benchmark data and tasks",
+        "landing_url": "https://www.openml.org/",
+        "status": "targeted; exact export and rights must be verified"
+      }
+    ],
+    "proposed_analysis": "GAM/tree baselines versus boosted models with explanation sensitivity",
+    "validation_plan": "Nested tuning; correlated-feature tests; rank stability and predictive loss evaluated together",
+    "contribution_to_test": "Make explanation stability a measured tradeoff rather than a decorative SHAP plot",
+    "skills": [
+      "interpretable ML",
+      "robustness",
+      "statistical validation"
+    ],
+    "status": "protocol only",
+    "manuscript": "private, after analysis",
+    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
+    "license_gate": "unknown until exact dataset terms are checked",
+    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+  },
+  {
+    "id": "49",
+    "slug": "attention-forecasting-across-languages",
+    "title": "Attention forecasting across languages",
+    "decision": "Can English-language attention improve forecasts for related Spanish and Japanese pages without leaking future popularity?",
+    "sources": [
+      {
+        "key": "WIKIMEDIA",
+        "publisher_dataset": "Wikimedia pageview APIs",
+        "landing_url": "https://doc.wikimedia.org/generated-data-platform/aqs/analytics-api/",
+        "status": "targeted; exact export and rights must be verified"
+      }
+    ],
+    "proposed_analysis": "Cross-series lag models and change detection",
+    "validation_plan": "Language and topic holdouts; page-renaming lineage; no inferred speaker fluency",
+    "contribution_to_test": "Measure cross-language transfer and asymmetric lag structure",
+    "skills": [
+      "NLP",
+      "forecasting",
+      "international data"
+    ],
+    "status": "protocol only",
+    "manuscript": "private, after analysis",
+    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
+    "license_gate": "unknown until exact dataset terms are checked",
+    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+  },
+  {
+    "id": "50",
+    "slug": "operational-metrics-that-survive-data-pipeline-changes",
+    "title": "Operational metrics that survive data pipeline changes",
+    "decision": "Which integrity checks catch a broken reporting feed before it changes a business decision?",
+    "sources": [
+      {
+        "key": "CFPB",
+        "publisher_dataset": "Consumer Financial Protection Bureau",
+        "landing_url": "https://www.consumerfinance.gov/data-research/consumer-complaints/",
+        "status": "targeted; exact export and rights must be verified"
+      },
+      {
+        "key": "TLC",
+        "publisher_dataset": "NYC Taxi and Limousine Commission trip records",
+        "landing_url": "https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page",
+        "status": "targeted; exact export and rights must be verified"
+      },
+      {
+        "key": "EIA930",
+        "publisher_dataset": "EIA balancing authority operations",
+        "landing_url": "https://www.eia.gov/electricity/930-content/about.html",
+        "status": "targeted; exact export and rights must be verified"
+      }
+    ],
+    "proposed_analysis": "Replay of documented schema changes plus explicitly injected faults",
+    "validation_plan": "Separate real revisions from synthetic faults; independent expected outputs; latency and false-alert accounting",
+    "contribution_to_test": "Benchmark decision-changing failures instead of counting generic null checks",
+    "skills": [
+      "SQL",
+      "data engineering",
+      "testing",
+      "observability"
+    ],
+    "status": "protocol only",
+    "manuscript": "private, after analysis",
+    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
+    "license_gate": "unknown until exact dataset terms are checked",
+    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+  }
+]
