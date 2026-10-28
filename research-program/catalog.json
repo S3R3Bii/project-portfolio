@@ -1457,18 +1457,19 @@
       }
     ],
     "proposed_analysis": "Replay of documented schema changes plus explicitly injected faults",
-    "validation_plan": "Separate real revisions from synthetic faults; independent expected outputs; latency and false-alert accounting",
-    "contribution_to_test": "Benchmark decision-changing failures instead of counting generic null checks",
+    "validation_plan": "Fourteen finite validation settings; selection frozen before later synthetic mechanisms; quarter-block uncertainty; later review-budget failure disclosed",
+    "contribution_to_test": "Weight detection by an explicit downstream allocation change while measuring review burden",
     "skills": [
       "SQL",
       "data engineering",
       "testing",
       "observability"
     ],
-    "status": "protocol only",
-    "manuscript": "private, after analysis",
-    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
-    "license_gate": "unknown until exact dataset terms are checked",
-    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+    "status": "executed; scoped synthetic-fault research release complete",
+    "manuscript": "private LaTeX and PDF; six rendered pages reviewed",
+    "novelty": "Controlled decision-weighted comparison; no new algorithm or exhaustive novelty claim",
+    "license_gate": "Exact eligible CFPB aggregate source/provenance and terms checked; no individual records",
+    "publication_gate": "Independent source/decision/SQL checks, seven contracts, three figures, private PDF and two clean Linux replays pass",
+    "repository": "https://github.com/S3R3Bii/decision-changing-pipeline-faults"
   }
 ]
