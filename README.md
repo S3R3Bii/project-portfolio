@@ -1,14 +1,14 @@
-# James Jean · Projects in use
+# James Jean Â· Projects in use
 
 I build analytical tools and applications that make complex work easier to inspect, explain and use. This gallery connects each project to a concrete problem, an interface or result, and the evidence behind it.
 
-**Research data · Python · R · SQL · Statistical analysis · Product engineering**
+**Research data Â· Python Â· R Â· SQL Â· Statistical analysis Â· Product engineering**
 
-[Professional profile](https://github.com/S3R3Bii) · [Publications](https://github.com/S3R3Bii/S3R3Bii/blob/main/PUBLICATIONS.md) · [Interactive portfolio](https://james-jean-data-science.s3r3bii.chatgpt.site)
+[Professional profile](https://github.com/S3R3Bii) Â· [Publications](https://github.com/S3R3Bii/S3R3Bii/blob/main/PUBLICATIONS.md) Â· [Interactive portfolio](https://james-jean-data-science.s3r3bii.chatgpt.site)
 
 ## Research directed at demanding data roles
 
-The [50-study research register](research-program/README.md) connects specific business questions to public data and measurable tests. The [skills map](research-program/SKILLS_AND_SEQUENCE.md) emphasizes SQL, data validation, temporal evaluation, model tuning, kinematics and decision communication. The register separates eight released studies, one executed study with a reproducibility hold, and 41 awaiting execution or release. Every model-selection claim requires retained optimization and independent metric evidence.
+The [50-study research register](research-program/README.md) connects specific business questions to public data and measurable tests. The [skills map](research-program/SKILLS_AND_SEQUENCE.md) emphasizes SQL, data validation, temporal evaluation, model tuning, kinematics and decision communication. The register separates nine released studies and 41 awaiting execution or release. Every model-selection claim requires retained optimization and independent metric evidence.
 
 
 ## Start here
@@ -23,6 +23,7 @@ The [50-study research register](research-program/README.md) connects specific b
 | [Decision-changing pipeline faults](https://github.com/S3R3Bii/decision-changing-pipeline-faults) | Exact public aggregate fixture, fourteen monitor settings, independent SQL/decision arithmetic and an explicit review-budget failure |
 | [Tuning-budget transfer](https://github.com/S3R3Bii/tuning-budget-transfer) | Whole-group splits, all 1,200 trial losses, an extra validation audit and independent checks of 1.56 million validation predictions |
 | [Prior-shift calibration](https://github.com/S3R3Bii/prior-shift-recalibration) | Convex optimization certificates, all 340 fits and 10,000 group draws, plus probability-versus-decision tradeoffs |
+| [Sensor-loss abstention](https://github.com/S3R3Bii/sensor-loss-abstention) | Participant-held evaluation, complete threshold/model trials, independent Newton convergence checks and a quantified confident-error failure |
 | [PikiVu](pikivu.md) | A compact recording interface and validated edit/export workflow |
 | [Model Evidence](model-evidence.md) | Statistical diagnostics presented as readable reports |
 | [Open Research Commons](open-research-commons.md) | Shared human/agent workflow with independent release checks |
@@ -31,7 +32,7 @@ The [50-study research register](research-program/README.md) connects specific b
 
 ## See the work
 
-<table><tr><td width="50%"><a href="mimic-the-living-card-game.md"><img src="images/mimic-gameplay.png" alt="Actual MIMIC gameplay interface"></a><br><b>MIMIC — game engineering</b></td><td width="50%"><a href="pdac-genomics-evidence.md"><img src="images/pdac-genomics-evidence.jpg" alt="PDAC evidence atlas interface"></a><br><b>PDAC — an evidence-first research interface</b></td></tr><tr><td><a href="snowflake-finance-analytics.md"><img src="images/snowflake-finance-analytics.jpg" alt="Synthetic finance variance dashboard"></a><br><b>Finance analytics — synthetic decision case</b></td><td><a href="model-evidence.md"><img src="images/model-evidence-synthetic-report.png" alt="Model Evidence synthetic diagnostic report"></a><br><b>Model Evidence — readable statistical checks</b></td></tr></table>
+<table><tr><td width="50%"><a href="mimic-the-living-card-game.md"><img src="images/mimic-gameplay.png" alt="Actual MIMIC gameplay interface"></a><br><b>MIMIC â€” game engineering</b></td><td width="50%"><a href="pdac-genomics-evidence.md"><img src="images/pdac-genomics-evidence.jpg" alt="PDAC evidence atlas interface"></a><br><b>PDAC â€” an evidence-first research interface</b></td></tr><tr><td><a href="snowflake-finance-analytics.md"><img src="images/snowflake-finance-analytics.jpg" alt="Synthetic finance variance dashboard"></a><br><b>Finance analytics â€” synthetic decision case</b></td><td><a href="model-evidence.md"><img src="images/model-evidence-synthetic-report.png" alt="Model Evidence synthetic diagnostic report"></a><br><b>Model Evidence â€” readable statistical checks</b></td></tr></table>
 
 ## Product engineering
 
@@ -39,7 +40,7 @@ The [50-study research register](research-program/README.md) connects specific b
 |---|---|
 | [PikiVu](pikivu.md) | A Windows recording and editing application that preserves original media while turning captured sessions into reviewable exports. |
 | [JeanAcres Owner Reporting](jeanacres-owner-reporting.md) | Built an owner-reporting application that assembles operational summaries from normalized sales and stock inputs. The example report was generated by the application using an explicitly synthetic test fixture. |
-| [MIMIC — The Living Card Game](mimic-the-living-card-game.md) | Built a deterministic TypeScript card-game system with 306 governed cards, legal-action enumeration, shared action reduction and replay state hashes. The Vite interface and Electron package use the same runtime. |
+| [MIMIC â€” The Living Card Game](mimic-the-living-card-game.md) | Built a deterministic TypeScript card-game system with 306 governed cards, legal-action enumeration, shared action reduction and replay state hashes. The Vite interface and Electron package use the same runtime. |
 | [THE MANY](the-many.md) | Built a deterministic asymmetric survival game with React/Vite presentation and a Fastify authority, separating authoritative state from player projections. |
 | [Patient Data Tracking Dashboard](patient-data-tracking-dashboard.md) | Created a Streamlit recording-inventory interface to summarize gait and pull-table processing status. The demonstration uses synthetic records. |
 | [WiFi Signal Lab](wifi-signal-lab.md) | Explored read-only WLAN signal strength, channel and link-rate collection on a Windows PC. |
@@ -80,9 +81,9 @@ The [50-study research register](research-program/README.md) connects specific b
 | [Daily Data Stories: Digital Divide](daily-data-stories-digital-divide.md) | Compared ITU internet-use estimates by income group. |
 | [Daily Data Stories: Safe Water Gap](daily-data-stories-safe-water-gap.md) | Compared rural and urban safely managed drinking-water estimates. |
 | [Daily Data Stories: Temperature Record](daily-data-stories-temperature-record.md) | Analyzed NASA GISTEMP annual temperature anomalies over 146 complete years, preserving published ties and comparing the recent decade with the historical distribution. |
-| [Daily Data Stories: GDP and Longevity](daily-data-stories-gdp-and-longevity.md) | Compared PPP GDP per person with life expectancy across 195 economies in 2024 using a descriptive log-linear fit and an illustrative Sri Lanka–South Africa comparison. |
+| [Daily Data Stories: GDP and Longevity](daily-data-stories-gdp-and-longevity.md) | Compared PPP GDP per person with life expectancy across 195 economies in 2024 using a descriptive log-linear fit and an illustrative Sri Lankaâ€“South Africa comparison. |
 | [Daily Data Stories: World Population Projections](daily-data-stories-world-population-projections.md) | Explained the UN World Population Prospects 2024 median projection and its 80% and 95% prediction intervals, distinguishing historical estimates from model-based projections. |
-| [Daily Data Stories: Growth Across Incomes](daily-data-stories-growth-across-incomes.md) | Compared Brazil’s 2019 and 2024 income distributions using the March 2026 World Bank PIP release. Compound growth of group means was 4.8% per year for the lower 40% and 0.7% for the upper 10%. |
+| [Daily Data Stories: Growth Across Incomes](daily-data-stories-growth-across-incomes.md) | Compared Brazilâ€™s 2019 and 2024 income distributions using the March 2026 World Bank PIP release. Compound growth of group means was 4.8% per year for the lower 40% and 0.7% for the upper 10%. |
 | [Daily Data Stories: Food Price Forecast Test](daily-data-stories-food-price-forecast-test.md) | Tested retrospective one-step food-price forecasts against simple baselines. |
 | [Daily Data Stories: Child Survival](daily-data-stories-child-survival.md) | Compared 1990 and 2024 under-five mortality point estimates for 196 matched economies. Estimates were lower in 194, while distribution summaries retained equal economy weights. |
 | [Daily Data Stories: R Demographic Trajectories](daily-data-stories-r-demographic-trajectories.md) | Used an executed R workflow to compare selected demographic trajectories. |
@@ -100,4 +101,4 @@ Screenshots are actual interface captures or generated analytical outputs, not i
 
 This repository is a public showcase. Proprietary product code, client and patient data, private recordings, financial information, credentials, job-search records and school assignments are not included. Selected safe source projects are linked separately.
 
-© James N. Jean IV. Product images and original prose are provided for portfolio review. Linked projects and third-party data retain their own licenses.
+Â© James N. Jean IV. Product images and original prose are provided for portfolio review. Linked projects and third-party data retain their own licenses.

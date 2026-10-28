@@ -1096,10 +1096,10 @@
     "decision": "When should an activity classifier refuse to classify after a wearable sensor fails?",
     "sources": [
       {
-        "key": "UCI",
-        "publisher_dataset": "UCI machine learning repository",
-        "landing_url": "https://archive.ics.uci.edu/",
-        "status": "targeted; exact export and rights must be verified"
+        "key": "UCI240",
+        "publisher_dataset": "UCI Human Activity Recognition Using Smartphones",
+        "landing_url": "https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones",
+        "status": "Current CC BY4.0;24exact source members/anonymous participant windows"
       }
     ],
     "proposed_analysis": "Sensor ablations and calibrated selective classification",
@@ -1111,15 +1111,38 @@
       "classification",
       "calibration"
     ],
-    "status": "INCOMPLETE RELEASE: executed; Linux logistic refit portability check failed after environment-pin retry",
-    "manuscript": "Private LaTeX/PDF; four rendered pages reviewed",
-    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
-    "license_gate": "unknown until exact dataset terms are checked",
-    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass",
+    "status": "executed; corrected retrospective sensor-loss study released",
+    "manuscript": "Private5pageLaTeX/PDF;allpages and4standalonefigures reviewed",
+    "novelty": "Independent configured-system comparison of established methods; no novel algorithm claim",
+    "license_gate": "Current official UCI CC BY4.0; attribution and legacy archive notice discrepancy retained",
+    "publication_gate": "Independent optimization/metric checks,8contracts,renderedQA,boundedprivacy/Gitblob audit and exact-headLinux replay pass",
     "repository": "https://github.com/S3R3Bii/sensor-loss-abstention",
     "pull_request": "https://github.com/S3R3Bii/sensor-loss-abstention/pull/1",
-    "validation_result": "Original Windows replay and independent arithmetic pass; Linux refits differ from published metrics at required tolerance",
-    "next_action": "Isolate numerical optimizer/BLAS sensitivity in a separate investigation; preserve original comparison tolerance and test outputs"
+    "validation_result": "8contracts;17candidate refits;8independent logistic optimization certificates;all probability/metric/81participant/90reliability-bin checks;fresh Windows and exact-headLinux pass at unchanged tolerances;92audited Gitblob hashes",
+    "next_action": "Complete within scoped evidence; continue next study",
+    "release": {
+      "checkout": "studies/sensor-abstention",
+      "state": "COMPLETE_SCOPED_CORRECTED_RETROSPECTIVE_RELEASE",
+      "repository": "https://github.com/S3R3Bii/sensor-loss-abstention",
+      "head": "9609421480d5b0d4a89e87841076df7cd1826bfd",
+      "tested_head": "92a78b89dc4706c5881134361727b47bfce6fbda",
+      "pr": "https://github.com/S3R3Bii/sensor-loss-abstention/pull/1",
+      "ci": "https://github.com/S3R3Bii/sensor-loss-abstention/actions/runs/40775714983",
+      "job": 123124358051,
+      "tag": "v0.1.0",
+      "checks": "8contracts;17candidate refits;8independent logistic optimization certificates;all probability/metric/81participant/90reliability-bin checks;fresh Windows and exact-headLinux pass at unchanged tolerances;92audited Gitblob hashes",
+      "source_verification_scope": "24source hashes and row identities;14fixed-window independent feature arithmetic spot checks, not all feature values",
+      "result": "Clean-only model accepts317accelerometer-missing windows with0correct; selected augmented model misses90%selective-accuracy target for both controlled loss conditions",
+      "original_failed_ci": [
+        40752165410,
+        40752855416
+      ],
+      "corrected_freeze_commit": "75d7b829b57e33249ff651a70ca3ce86bc004a2f",
+      "correction": "Same-objective Newton solver; maximum independent gradient2.17e-13; unchanged model selection/thresholds/grid/splits/tolerance; corrected retrospective",
+      "manuscript": "private/sensor-abstention-manuscript:5pages/four standalone figures rendered and reviewed; outside Git",
+      "workflow": "ReadyPR/main/manual full replay; draft gate/concurrency; no branch/tag duplicate",
+      "next_step": "Scoped release complete; no natural-device-failure or production claim"
+    }
   },
   {
     "id": "39",
@@ -1427,10 +1450,10 @@
       "robustness",
       "statistical validation"
     ],
-    "status": "protocol and independently reconciled source; no fitting yet",
+    "status": "source verified and initial model implementation; no fitting yet",
     "manuscript": "private, after analysis",
     "novelty": "Candidate contribution; systematic prior-work review not yet completed",
-    "license_gate": "unknown until exact dataset terms are checked",
+    "license_gate": "Exact original UCI BikeSharing CC BY4.0 verified; source CSV fully reconciled",
     "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass",
     "original_source_plan": [
       {
