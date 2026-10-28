@@ -1372,11 +1372,39 @@
       "classification",
       "ML monitoring"
     ],
-    "status": "protocol only",
-    "manuscript": "private, after analysis",
-    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
-    "license_gate": "unknown until exact dataset terms are checked",
-    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+    "status": "executed; corrected retrospective calibration comparison released",
+    "manuscript": "private7pageLaTeX/PDF;allpages rendered/reviewed",
+    "novelty": "Independent controlled comparison of established methods; no novel algorithm or literature-wide gap claim",
+    "license_gate": "Original UCI CC BY4.0 attribution preserved for both exact OpenML variants",
+    "publication_gate": "8contracts,independent source/optimization/metric checks,privatePDF,boundedprivacy/Gitblob audit and exact-headLinux replay pass",
+    "repository": "https://github.com/S3R3Bii/prior-shift-recalibration",
+    "release": {
+      "checkout": "studies/prior-shift-recalibration",
+      "state": "COMPLETE_SCOPED_CORRECTED_RETROSPECTIVE_RELEASE:8contracts,independent optimization/source/metric checks,private7pagePDF and clean exact-headLinux replay;merged/tagged",
+      "repository": "https://github.com/S3R3Bii/prior-shift-recalibration",
+      "head": "95677c5a0d0623af63f3187657b40f5755b4e9d8",
+      "tested_head": "c438a95888a1b6d3cd1b5fd7c2fd85ff08f11774",
+      "pr": "https://github.com/S3R3Bii/prior-shift-recalibration/pull/2",
+      "issue": "https://github.com/S3R3Bii/prior-shift-recalibration/issues/1",
+      "ci": "https://github.com/S3R3Bii/prior-shift-recalibration/actions/runs/40772075299",
+      "prior_passing_checks": [
+        "https://github.com/S3R3Bii/prior-shift-recalibration/actions/runs/40771434152",
+        "https://github.com/S3R3Bii/prior-shift-recalibration/actions/runs/40771430547"
+      ],
+      "original_failed_ci": [
+        "https://github.com/S3R3Bii/prior-shift-recalibration/actions/runs/40769936341",
+        "https://github.com/S3R3Bii/prior-shift-recalibration/actions/runs/40769898589"
+      ],
+      "original_freeze_commit": "155b69c0bea4fd815b34d23b745810d471f9ea43",
+      "corrected_freeze_commit": "49162586d96592f69b8787b241091c5df79a7048",
+      "tag": "v0.1.0",
+      "checks": "All86374source rows;340optimizer attempts/1352trace points;71706validation and386112test predictions;240metrics/48medians/10000draws;all68audited hashes matchGit blobs",
+      "result": "Odds correction versus fixed-penalty refit mixed;1/5MAGIC and3/5MiniBooNE rare-prior wins;MAGICadaptations issue noalerts atq<=20% underhypotheticalcost",
+      "correction": "N1convexNewtonpolish;originalfailures retained;all10alphas andall decision losses unchanged;maxloglosschange3.56e-8;corrected retrospective",
+      "manuscript": "private/prior-shift-manuscript:7pages rendered and reviewed;no Git parent",
+      "workflow": "Full replay on ready PR/main/manual only; draft gate,concurrency;no branch/tag duplicate",
+      "next_step": "Scoped release complete; no universal calibration or production claim"
+    }
   },
   {
     "id": "48",
@@ -1385,10 +1413,10 @@
     "decision": "Which models retain stable explanations after small, plausible data perturbations?",
     "sources": [
       {
-        "key": "OPENML",
-        "publisher_dataset": "OpenML benchmark data and tasks",
-        "landing_url": "https://www.openml.org/",
-        "status": "targeted; exact export and rights must be verified"
+        "key": "UCI_BIKE_SHARING",
+        "publisher_dataset": "UCI Bike Sharing hourly original CSV",
+        "landing_url": "https://archive.ics.uci.edu/dataset/275/bike+sharing+dataset",
+        "status": "CC BY4.0 verified;17379CSVrows/allvalues independently reconciled;165missing hours and official count mismatch retained"
       }
     ],
     "proposed_analysis": "GAM/tree baselines versus boosted models with explanation sensitivity",
@@ -1399,11 +1427,19 @@
       "robustness",
       "statistical validation"
     ],
-    "status": "protocol only",
+    "status": "protocol and independently reconciled source; no fitting yet",
     "manuscript": "private, after analysis",
     "novelty": "Candidate contribution; systematic prior-work review not yet completed",
     "license_gate": "unknown until exact dataset terms are checked",
-    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass",
+    "original_source_plan": [
+      {
+        "key": "OPENML",
+        "publisher_dataset": "OpenML benchmark data and tasks",
+        "landing_url": "https://www.openml.org/",
+        "status": "targeted; exact export and rights must be verified"
+      }
+    ]
   },
   {
     "id": "49",

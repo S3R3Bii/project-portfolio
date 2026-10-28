@@ -27,6 +27,14 @@ These are meaningful work units, not a commit quota. Combine inseparable changes
 - Record negative findings, corrected defects and failed approaches when they inform the result. A short evidence note is more useful than a long generic progress log.
 - Use releases for reproducible study milestones: exact source snapshot, code revision, environment, results and limitations. A release is not a journal publication.
 
+## CI should validate a coherent candidate
+
+Keep committing and pushing meaningful checkpoints, with local proportionate checks. A checkpoint need not contain a complete set of regenerated research results. Use a draft pull request during unfinished execution; mark it ready only when the current code, source snapshot and result exports agree and the local full replay passes.
+
+For new or actively revised study workflows, run the complete research replay on ready pull requests and pushes to main, with an optional explicit workflow dispatch. Do not duplicate it on every research-branch push or annotated tag. Pull-request events include ready_for_review; a draft pull request must not run an incomplete full release candidate. Use workflow/ref-or-PR concurrency with cancel-in-progress so a newer candidate supersedes an obsolete running candidate. Preserve every numerical, source and privacy check inside the full replay; do not mask failures, relax tolerances, disable tests or treat a draft's lack of a full run as a passing release.
+
+Preserve failed runs as evidence. Distinguish actual numerical or source defects from intermediate code/results mismatch. A completion claim requires a successful full replay at the exact reviewed revision and unchanged tested content at merge/tag. For existing completed studies, preserve the tested release tag; any workflow-maintenance change gets a new ordinary commit and verification, not a rewritten release history.
+
 ## Public/private boundary
 
 Public commits contain only reviewed code, eligible data, derived results and visuals. Manuscript drafts stay in a separate private location outside public repository history. Business-sensitive projects such as PikiVu use approved visual case studies rather than source publication. Do not commit keys, personal records, local machine paths, environment files or proprietary datasets.
