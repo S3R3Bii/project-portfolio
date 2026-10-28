@@ -1336,19 +1336,20 @@
       }
     ],
     "proposed_analysis": "Nested benchmark of random search and successive halving",
-    "validation_plan": "Dataset-level holdout; fixed budgets and seeds; tuning-time accounting; test set isolation",
-    "contribution_to_test": "Report unsuccessful searches and variability, not just the winning run",
+    "validation_plan": "Whole-feature-group three-way splits, six overlapping seeds, development/held dataset roles,540requested iterations per search and separate1620iteration audit",
+    "contribution_to_test": "Link early elimination to finite-pool validation regret, paired later loss and actual cold-fit cost",
     "skills": [
       "ML tuning",
       "experimental design",
       "benchmarking",
       "reproducibility"
     ],
-    "status": "protocol only",
-    "manuscript": "private, after analysis",
-    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
-    "license_gate": "unknown until exact dataset terms are checked",
-    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+    "status": "executed; scoped iteration-matched search comparison released",
+    "manuscript": "private LaTeX and PDF; seven rendered pages reviewed",
+    "novelty": "Small audited empirical comparison; no new optimizer, exhaustive novelty or global optimum claim",
+    "license_gate": "Exact four-source metadata, declared rights and UCI attribution checked; reviewed eligible numerical derivatives",
+    "publication_gate": "Six contracts, all1200trial rows, independent source/SQL/metric checks, three figures, private PDF and two exact-head Linux replays pass",
+    "repository": "https://github.com/S3R3Bii/tuning-budget-transfer"
   },
   {
     "id": "47",

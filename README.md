@@ -8,7 +8,7 @@ I build analytical tools and applications that make complex work easier to inspe
 
 ## Research directed at demanding data roles
 
-The [50-study research register](research-program/README.md) connects specific business questions to public data and measurable tests. The [skills map](research-program/SKILLS_AND_SEQUENCE.md) emphasizes SQL, data validation, temporal evaluation, model tuning, kinematics and decision communication. The register separates six released studies, one executed study with a reproducibility hold, and 43 awaiting execution or release. Every model-selection claim requires retained optimization and independent metric evidence.
+The [50-study research register](research-program/README.md) connects specific business questions to public data and measurable tests. The [skills map](research-program/SKILLS_AND_SEQUENCE.md) emphasizes SQL, data validation, temporal evaluation, model tuning, kinematics and decision communication. The register separates seven released studies, one executed study with a reproducibility hold, and 42 awaiting execution or release. Every model-selection claim requires retained optimization and independent metric evidence.
 
 
 ## Start here
@@ -21,6 +21,7 @@ The [50-study research register](research-program/README.md) connects specific b
 | [Maintenance inspection capture](https://github.com/S3R3Bii/maintenance-warning-horizons) | Fifteen retained model trials, engine-held-out calibration, inspection-budget decisions and preserved numerical corrections |
 | [Auction-demand transfer](https://github.com/S3R3Bii/auction-demand-transfer) | Every feature independently reconstructed in SQL, fourteen retained candidate losses and calendar-quarter uncertainty |
 | [Decision-changing pipeline faults](https://github.com/S3R3Bii/decision-changing-pipeline-faults) | Exact public aggregate fixture, fourteen monitor settings, independent SQL/decision arithmetic and an explicit review-budget failure |
+| [Tuning-budget transfer](https://github.com/S3R3Bii/tuning-budget-transfer) | Whole-group splits, all 1,200 trial losses, an extra validation audit and independent checks of 1.56 million validation predictions |
 | [PikiVu](pikivu.md) | A compact recording interface and validated edit/export workflow |
 | [Model Evidence](model-evidence.md) | Statistical diagnostics presented as readable reports |
 | [Open Research Commons](open-research-commons.md) | Shared human/agent workflow with independent release checks |
