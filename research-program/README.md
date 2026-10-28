@@ -10,7 +10,7 @@ Public packages contain eligible data, retrieval scripts, analysis, SQL, figures
 
 ## Current releases
 
-**2 studies executed and released; 48 remain unexecuted.** [Complaint capacity forecasting](https://github.com/S3R3Bii/complaint-capacity-forecasting) retains the corrected retrospective evaluation and independent MAE/MSE/RMSE checks. [Acceleration reconstruction across roads](https://github.com/S3R3Bii/brake-signal-transfer) retains all 18 candidates, frozen selection, held-out-road predictions and an explicit low-recall result. Both manuscripts remain private; their rendered PDFs have been reviewed. Study 22 is held at source access (SEC HTTP 403), with no results claimed.
+**3 studies released; 1 executed study has a reproducibility hold; 46 are unexecuted.** Released studies: [complaint capacity](https://github.com/S3R3Bii/complaint-capacity-forecasting), [acceleration reconstruction](https://github.com/S3R3Bii/brake-signal-transfer), and [funding-alert burden](https://github.com/S3R3Bii/funding-alert-burden). The [sensor-loss study](https://github.com/S3R3Bii/sensor-loss-abstention/pull/1) remains open because Linux refitting differs from the released Windows results. Manuscript drafts remain private. Source22 is held at SEC access; source02 needs release-vintage evidence.
 
 ## Project register
 

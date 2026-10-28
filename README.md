@@ -8,7 +8,7 @@ I build analytical tools and applications that make complex work easier to inspe
 
 ## Research directed at demanding data roles
 
-The [50-study research register](research-program/README.md) connects specific business questions to public data and measurable tests. The [skills map](research-program/SKILLS_AND_SEQUENCE.md) emphasizes SQL, data validation, temporal evaluation, model tuning, kinematics and decision communication. The register separates two executed studies from 48 unexecuted protocols. Every model-selection claim requires retained optimization and independent metric evidence.
+The [50-study research register](research-program/README.md) connects specific business questions to public data and measurable tests. The [skills map](research-program/SKILLS_AND_SEQUENCE.md) emphasizes SQL, data validation, temporal evaluation, model tuning, kinematics and decision communication. The register separates three released studies, one executed study with a reproducibility hold, and 46 unexecuted protocols. Every model-selection claim requires retained optimization and independent metric evidence.
 
 
 ## Start here
@@ -17,6 +17,7 @@ The [50-study research register](research-program/README.md) connects specific b
 |---|---|
 | [Complaint capacity forecasting](https://github.com/S3R3Bii/complaint-capacity-forecasting) | SQL lineage, 15-candidate model comparison, temporal validation and decision uncertainty |
 | [Acceleration reconstruction across roads](https://github.com/S3R3Bii/brake-signal-transfer) | 246,144 source rows, 18-candidate search, held-out-road MSE and the tradeoff between error and missed braking frames |
+| [Funding-alert burden](https://github.com/S3R3Bii/funding-alert-burden) | Exact SQL rate joins, 18 monitoring configurations, a protected later period and independent case-level detection checks |
 | [PikiVu](pikivu.md) | A compact recording interface and validated edit/export workflow |
 | [Model Evidence](model-evidence.md) | Statistical diagnostics presented as readable reports |
 | [Open Research Commons](open-research-commons.md) | Shared human/agent workflow with independent release checks |
