@@ -10,7 +10,7 @@ Public packages contain eligible data, retrieval scripts, analysis, SQL, figures
 
 ## Current releases
 
-**3 studies released; 1 executed study has a reproducibility hold; 46 are unexecuted.** Released studies: [complaint capacity](https://github.com/S3R3Bii/complaint-capacity-forecasting), [acceleration reconstruction](https://github.com/S3R3Bii/brake-signal-transfer), and [funding-alert burden](https://github.com/S3R3Bii/funding-alert-burden). The [sensor-loss study](https://github.com/S3R3Bii/sensor-loss-abstention/pull/1) remains open because Linux refitting differs from the released Windows results. Manuscript drafts remain private. Source22 is held at SEC access; source02 needs release-vintage evidence.
+**5 studies released; 1 executed study has a reproducibility hold; 44 await execution or release.** Released: [complaint capacity](https://github.com/S3R3Bii/complaint-capacity-forecasting), [auction-demand transfer](https://github.com/S3R3Bii/auction-demand-transfer), [funding-alert burden](https://github.com/S3R3Bii/funding-alert-burden), [acceleration reconstruction](https://github.com/S3R3Bii/brake-signal-transfer), and [maintenance inspection capture](https://github.com/S3R3Bii/maintenance-warning-horizons). The [sensor-loss study](https://github.com/S3R3Bii/sensor-loss-abstention/pull/1) remains open for numerical reproducibility. Corrected retrospective studies retain original failures. Manuscript drafts remain private. SEC22 has an access hold; EIA02 needs release-vintage evidence.
 
 ## Project register
 

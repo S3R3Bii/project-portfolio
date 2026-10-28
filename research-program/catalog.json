@@ -567,23 +567,25 @@
         "key": "TREASURY",
         "publisher_dataset": "Treasury auction query",
         "landing_url": "https://treasurydirect.gov/auctions/auction-query/",
-        "status": "targeted; exact export and rights must be verified"
+        "status": "official aggregate Fiscal Data API accessed without credentials;6046records; seven exact query responses hashed"
       }
     ],
     "proposed_analysis": "Hierarchical residual forecasts and rolling model comparison",
-    "validation_plan": "Rolling-origin test; maturity holdout; announcement-time feature audit; no investment-return claim",
+    "validation_plan": "One forward tuning period; frozen later test and10-year parameter holdout; original publication vintages unverified",
     "contribution_to_test": "Predict auction mechanics rather than backtest a trading strategy with unavailable pre-auction facts",
     "skills": [
+      "SQL",
       "time series",
       "quant research",
-      "validation",
+      "model validation",
       "Python"
     ],
-    "status": "protocol only",
-    "manuscript": "private, after analysis",
-    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
-    "license_gate": "unknown until exact dataset terms are checked",
-    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+    "status": "executed; retrospective announcement-field evaluation released",
+    "manuscript": "private six-page LaTeX/PDF; rendered and reviewed",
+    "novelty": "Scoped predictive implementation extending an established auction-demand question; GAO AppendixII compared; no algorithmic novelty/exhaustive gap claim",
+    "license_gate": "raw official aggregate responses/source papers excluded; exact retrieval and hashes retained; original code and derived evidence public",
+    "publication_gate": "five contracts, all1312 feature rows independently reconstructed,14 losses/36 test metric rows/4000 bootstrap draws checked; both clean Linux replays pass",
+    "repository": "https://github.com/S3R3Bii/auction-demand-transfer"
   },
   {
     "id": "21",
@@ -1069,22 +1071,23 @@
         "key": "NASA",
         "publisher_dataset": "NASA prognostics data repository",
         "landing_url": "https://www.nasa.gov/intelligent-systems-division/discovery-and-systems-health/pcoe/pcoe-data-set-repository/",
-        "status": "targeted; exact export and rights must be verified"
+        "status": "official NASA-linked archive verified; hashes pinned; raw members retained locally"
       }
     ],
     "proposed_analysis": "Survival or sequence models versus simple degradation baselines",
-    "validation_plan": "Engine-unit holdout; operating-regime holdout; lead-time-specific calibration",
+    "validation_plan": "Engine-held-out fit/tune/calibration; corrected retrospective FD001 and FD002 tests; original failures retained",
     "contribution_to_test": "Score maintenance decisions and warning timeliness instead of random-window RMSE",
     "skills": [
       "predictive maintenance",
       "ML tuning",
       "survival analysis"
     ],
-    "status": "protocol only",
-    "manuscript": "private, after analysis",
-    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
-    "license_gate": "unknown until exact dataset terms are checked",
-    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+    "status": "executed; corrected retrospective evaluation released",
+    "manuscript": "private six-page LaTeX/PDF; rendered and reviewed",
+    "novelty": "Scoped inspection/error/uncertainty comparison; no algorithmic novelty or exhaustive gap claim",
+    "license_gate": "raw NASA source members and original paper excluded; source access/hashes verified; original code and derived evidence public",
+    "publication_gate": "six contracts, independent source/metric/decision checks and both clean Linux replays pass",
+    "repository": "https://github.com/S3R3Bii/maintenance-warning-horizons"
   },
   {
     "id": "38",
