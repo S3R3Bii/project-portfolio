@@ -1,6 +1,10 @@
 # Research evidence retrieval with an abstain option
 
-**State: protocol only. No result or novelty claim yet.**
+## Execution update — 29 October 2026
+
+A scoped study is executed and released at https://github.com/S3R3Bii/research-paper-recommender. Working explainable local UI, CLI and API plus learner exercise and reference solution. Frozen Jaccard threshold 0.3 recovers a deposited citation in the top five for 12/29 evaluable held queries (41.4%), exactly matching the simple baseline; all 29 are answered. It abstains on 8/8 authored unrelated controls. Only 86/536 catalog titles enter citation scoring; 17 held no-hit suggestions remain unjudged. No human relevance or claim-support certification. Read its fixed executable protocol, complete exclusions and validation. The broader proposal below is retained as historical design context; it is not the release specification. Independent program manuscripts are public after checks; separate formal-publication projects remain private.
+
+**Historical proposal, superseded by the scoped release above.**
 
 ## Decision
 

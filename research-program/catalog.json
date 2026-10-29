@@ -1608,18 +1608,42 @@
       }
     ],
     "proposed_analysis": "Lexical retrieval versus embeddings on a hand-audited question set",
-    "validation_plan": "Frozen corpus; independent relevance labels; topic-held-out evaluation; citation verification",
+    "validation_plan": "Eight requests and minimal source projection fixed before collection. First four query acquisition strata are development and final four held, with strictly earlier-year candidates and unique query DOI separation. All ten Jaccard/cosine-threshold candidates retained; exact mean hypothetical utility selects on 57 development queries, with 34 dependencies committed before 29 held outcomes. Independent NumPy/SQL/fraction reconstruction, offline replay, API/exercise contracts, authored negatives and inspected UI/figures/paper.",
     "contribution_to_test": "Evaluate evidence sufficiency and abstention, not fluent answer generation",
     "skills": [
       "information retrieval",
       "AI evaluation",
       "NLP"
     ],
-    "status": "protocol only",
-    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
-    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
-    "license_gate": "unknown until exact dataset terms are checked",
-    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+    "status": "executed; local recommendation product and implementation exercise with scoped citation-proxy evaluation released",
+    "manuscript": "Public reviewed six-page independent LaTeX/PDF and three original figures; not peer reviewed; separate formal-publication projects excluded.",
+    "novelty": "Working transparent recommendation product and teaching exercise using established Jaccard and log-TF/IDF cosine. Finite citation-recovery/abstention benchmark with retained baseline tie; no new estimator,embedding training,independent human relevance validation,exhaustive novelty or operational-benefit claim.",
+    "license_gate": "Crossref permits metadata reuse with separate abstract/full-paper rights; minimal DOI/title/year/type and DOI-only citation edges attributed. Complete raw responses,expressive reference strings,abstracts,source papers,author/contact/profile fields,credentials,confidential data and formal-publication manuscripts excluded.",
+    "publication_gate": "All scoped source, scientific, separation, replay, figure, manuscript, privacy and exact-head Linux/merge/tag gates pass",
+    "repository": "https://github.com/S3R3Bii/research-paper-recommender",
+    "release": {
+      "checkout": "studies/research-paper-recommender",
+      "finding": "Working explainable local UI, CLI and API plus learner exercise and reference solution. Frozen Jaccard threshold 0.3 recovers a deposited citation in the top five for 12/29 evaluable held queries (41.4%), exactly matching the simple baseline; all 29 are answered. It abstains on 8/8 authored unrelated controls. Only 86/536 catalog titles enter citation scoring; 17 held no-hit suggestions remain unjudged. No human relevance or claim-support certification.",
+      "checks": "17 product/API tests and 10 reference assertions; 536 eligible articles from 800 returned records; 16,228 source checks; 34 dependencies frozen before held summaries; 26,812 development and 4,316 held independent checks; 32,518 exact replay CSV fields, 10,319 contribution fields within 2e-12 and four documents; 34 figure values, 272 SVG coordinates and nine hashes; 182 paper checks, 70 table values and six rendered pages; desktop/phone UI and canonical Git audits.",
+      "manuscript": "Public reviewed six-page independent LaTeX/PDF and three original figures; not peer reviewed; separate formal-publication projects excluded.",
+      "limitations": "Current search-ranked Crossref slice and deposited citation proxy; only 86 of 536 titles are evaluable. No independent human relevance or support labels, original vintages, semantic family/topic independence, probability calibration, general rejection guarantee, production deployment or realized benefit. Shared candidate catalog and limited English-oriented title tokens are disclosed.",
+      "next_step": "Run the product and implement the learner ranker; obtain independent task-specific relevance labels and a broader protected corpus before comparing a semantic model or deploying. Read original eligible source evidence before citing support.",
+      "state": "COMPLETE_SCOPED_RELEASE",
+      "repository": "https://github.com/S3R3Bii/research-paper-recommender",
+      "head": "20047e13f11eb1e61e33e9e9b32f86f3fe6cb27d",
+      "tested_head": "7a38cd8f9283faa0c1e6548f0ac1ddd3e20e84db",
+      "tree": "1aa78057c933cc76d6aa6e9e80dcbc8b320d792a",
+      "tag": "v0.1.0",
+      "pr": "https://github.com/S3R3Bii/research-paper-recommender/pull/2",
+      "ci": "https://github.com/S3R3Bii/research-paper-recommender/actions/runs/40974654693",
+      "merged_ci": "https://github.com/S3R3Bii/research-paper-recommender/actions/runs/40974727831"
+    },
+    "manuscript_publication": {
+      "head": "20047e13f11eb1e61e33e9e9b32f86f3fe6cb27d",
+      "pdf": "https://github.com/S3R3Bii/research-paper-recommender/blob/20047e13f11eb1e61e33e9e9b32f86f3fe6cb27d/paper/manuscript.pdf",
+      "source": "https://github.com/S3R3Bii/research-paper-recommender/blob/20047e13f11eb1e61e33e9e9b32f86f3fe6cb27d/paper/main.tex",
+      "ci": "https://github.com/S3R3Bii/research-paper-recommender/actions/runs/40974727831"
+    }
   },
   {
     "id": "42",
