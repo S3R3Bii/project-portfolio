@@ -10,7 +10,7 @@ Public packages contain eligible data, retrieval scripts, analysis, SQL, figures
 
 ## Current releases
 
-**14 studies released; 36 await execution or release.** The [manuscript index](RESEARCH_PAPERS.md) lists every released study. The latest released comparison is [Recall counting granularity](https://github.com/S3R3Bii/recall-count-granularity). The sensor numerical hold is resolved by independently certified Newton fits and unchanged-tolerance Linux replay. Corrected retrospective studies retain original failures. Independent manuscripts may be shared after their publication checks; formal-publication projects remain private. SEC22 has an access hold; EIA02 needs release-vintage evidence. Vehicle-remedy study18 needs verified final-remedy labels and initial-field vintages before modeling.
+**15 studies released; 35 await execution or release.** The [manuscript index](RESEARCH_PAPERS.md) lists every released study. The latest released comparison is [State fatality denominator sensitivity](https://github.com/S3R3Bii/road-safety-denominators). The sensor numerical hold is resolved by independently certified Newton fits and unchanged-tolerance Linux replay. Corrected retrospective studies retain original failures. Independent manuscripts may be shared after their publication checks; formal-publication projects remain private. SEC22 has an access hold; EIA02 needs release-vintage evidence. Vehicle-remedy study18 needs verified final-remedy labels and initial-field vintages before modeling.
 
 ## Project register
 

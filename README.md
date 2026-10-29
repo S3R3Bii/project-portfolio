@@ -8,7 +8,7 @@ I build analytical tools and applications that make complex work easier to inspe
 
 ## Research directed at demanding data roles
 
-The [50-study research register](research-program/README.md) connects specific business questions to public data and measurable tests. The [skills map](research-program/SKILLS_AND_SEQUENCE.md) emphasizes SQL, data validation, temporal evaluation, model tuning, kinematics and decision communication. The register separates fourteen released studies and 36 awaiting execution or release. Every model-selection claim requires retained optimization and independent metric evidence. The [research manuscripts](research-program/RESEARCH_PAPERS.md) explain the released studies and link their checked source editions.
+The [50-study research register](research-program/README.md) connects specific business questions to public data and measurable tests. The [skills map](research-program/SKILLS_AND_SEQUENCE.md) emphasizes SQL, data validation, temporal evaluation, model tuning, kinematics and decision communication. The register separates fifteen released studies and 35 awaiting execution or release. Every model-selection claim requires retained optimization and independent metric evidence. The [research manuscripts](research-program/RESEARCH_PAPERS.md) explain the released studies and link their checked source editions.
 
 
 ## Start here
@@ -29,6 +29,7 @@ The [50-study research register](research-program/README.md) connects specific b
 | [Manufacturing energy price-basis sensitivity](https://github.com/S3R3Bii/manufacturing-energy-exposure) | 82 of 608 industry trend signs change with the output denominator, while every 2023 top-five industry set stays the same; four countries, full exclusions and independent accounting checks |
 | [Storm-damage ranking sensitivity](https://github.com/S3R3Bii/storm-damage-ranking) | Six fixed reporting/tail scenarios change Illinois from rank 2 to 6; full episode/event resampling, original-to-subset verification and all conditional limits retained |
 | [Recall counting granularity](https://github.com/S3R3Bii/recall-count-granularity) | Matched product/event calibration changes 41-versus-one flagged months to one each, while selecting different months; lossless records, frozen evaluation and full sensitivity accounting |
+| [State fatality denominator sensitivity](https://github.com/S3R3Bii/road-safety-denominators) | 222 of 1,275 state-pair orders reverse under population versus vehicle miles; exact source cells, full precision ranges and an enhanced-report exact-count comparator retained |
 | [PikiVu](pikivu.md) | A compact recording interface and validated edit/export workflow |
 | [Model Evidence](model-evidence.md) | Statistical diagnostics presented as readable reports |
 | [Open Research Commons](open-research-commons.md) | Shared human/agent workflow with independent release checks |

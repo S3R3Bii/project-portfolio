@@ -1,6 +1,10 @@
 # Road safety rankings that survive exposure choices
 
-**State: protocol only. No result or novelty claim yet.**
+## Execution update — 29 October 2026
+
+A scoped study is executed and released at https://github.com/S3R3Bii/road-safety-denominators. Population versus vehicle-mile denominators reverse 222 of 1,275 state-pair orders in the fixed 2023 report, with a largest rank movement of 21 places. The fair exact-count subgroup comparator shows why rounded shares cannot be treated as exact fatalities. Read its fixed executable protocol, complete exclusions and validation. The broader proposal below is retained as historical design context; it is not the release specification. Independent program manuscripts are public after checks; separate formal-publication projects remain private.
+
+**Historical proposal, superseded by the scoped release above.**
 
 ## Decision
 

@@ -609,7 +609,7 @@
       }
     ],
     "proposed_analysis": "Standardization and denominator sensitivity analysis",
-    "validation_plan": "Recompute public totals; stratify time and road user; explicitly bound unavailable travel exposure",
+    "validation_plan": "2019/2021 development; nineteen canonical dependencies publicly frozen before 2023 analytic ranking outcomes; source cells and format/numeric consistency inspected without blinding; all state/denominator/precision comparisons retained; independent source-engine, SQL, decimal and integer checks plus isolated replay",
     "contribution_to_test": "Make the choice of denominator a visible decision rather than burying it in a footnote",
     "skills": [
       "R",
@@ -617,11 +617,35 @@
       "measurement",
       "visualization"
     ],
-    "status": "protocol only",
-    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
-    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
-    "license_gate": "unknown until exact dataset terms are checked",
-    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+    "status": "executed; scoped denominator and reported-precision comparison released",
+    "manuscript": "Public reviewed eight-page independent LaTeX/PDF and three original figures; not peer reviewed; formal-publication projects excluded.",
+    "novelty": "Bounded reproducible comparison using established exact ratios, ranks and conservative rounding intervals; NHTSA already publishes multiple denominators; no new estimator or exhaustive novelty claim",
+    "license_gate": "Selected factual NHTSA/FARS, Census and FHWA statistical cells attributed; all source-report PDFs, copyrighted registration fields and person-level records excluded; no blanket source CC0 or endorsement claim",
+    "publication_gate": "All scoped source, scientific, separation, replay, figure, manuscript, privacy and exact-head Linux/merge/tag gates pass",
+    "repository": "https://github.com/S3R3Bii/road-safety-denominators",
+    "release": {
+      "checkout": "studies/road-safety-denominators",
+      "finding": "Population versus vehicle-mile denominators reverse 222 of 1,275 state-pair orders in the fixed 2023 report, with a largest rank movement of 21 places. The fair exact-count subgroup comparator shows why rounded shares cannot be treated as exact fatalities.",
+      "checks": "Thirteen boundary tests; 1,872 numeric source checks; 3,498 independently matched selected PDF cells/locators; six inspected source pages; 127,530 development and 63,765 evaluation values plus 72,126 exact-subgroup checks; 653,886 exact and 5,517 floating replay fields; 138 plotted values; 61 paper checks; eight rendered manuscript pages; 80-file staged audit and 79 canonical Git blobs.",
+      "manuscript": "Public reviewed eight-page independent LaTeX/PDF and three original figures; not peer reviewed; formal-publication projects excluded.",
+      "limitations": "Separate published ARF vintages, not latest harmonized FARS. Rounded-share/VMT display ranges are conditional sufficient guarantees, not sharp joint confidence or true exposure bounds. The 2023 source supplies exact subgroup counts and its rounded representation is explicitly coarsened. Population is not resident mortality risk; motor-vehicle miles are not pedestrian/cyclist person-distance. No causal-policy, individual-safety, novel-method, human-audited label, prospective or peer-review claim.",
+      "next_step": "Report count, denominator, location basis, vintage and precision together; use available exact counts and obtain consistent road-user travel exposure before risk or allocation decisions.",
+      "state": "COMPLETE_SCOPED_RELEASE",
+      "repository": "https://github.com/S3R3Bii/road-safety-denominators",
+      "head": "c549c1bd342fa36ede5d9638c2aeb5ea8547c0e6",
+      "tested_head": "92dfdbcc12469d91c80919d05ddea3589891e014",
+      "tree": "4c987bfef3a855c0606b47115b323d3b696de594",
+      "tag": "v0.1.0",
+      "pr": "https://github.com/S3R3Bii/road-safety-denominators/pull/2",
+      "ci": "https://github.com/S3R3Bii/road-safety-denominators/actions/runs/40931964991",
+      "merged_ci": "https://github.com/S3R3Bii/road-safety-denominators/actions/runs/40932321629"
+    },
+    "manuscript_publication": {
+      "head": "c549c1bd342fa36ede5d9638c2aeb5ea8547c0e6",
+      "pdf": "https://github.com/S3R3Bii/road-safety-denominators/blob/c549c1bd342fa36ede5d9638c2aeb5ea8547c0e6/paper/manuscript.pdf",
+      "source": "https://github.com/S3R3Bii/road-safety-denominators/blob/c549c1bd342fa36ede5d9638c2aeb5ea8547c0e6/paper/main.tex",
+      "ci": "https://github.com/S3R3Bii/road-safety-denominators/actions/runs/40932321629"
+    }
   },
   {
     "id": "20",
