@@ -1,6 +1,10 @@
 # Service backlog estimates with unfinished cases
 
-**State: protocol only. No result or novelty claim yet.**
+## Execution update — 29 October 2026
+
+A scoped study is executed and released at https://github.com/S3R3Bii/closure-time-censoring. Across eight primary held NYC311 panels, censoring-aware 28-day restricted means have equal-panel MAE 0.033 calendar days versus 1.689 for capped completed-case summaries against the later captured-record benchmark. Every one of 96 held sensitivities favors the restricted mean; synthetic cutoffs and unverified censoring assumptions limit interpretation. Read its fixed executable protocol, complete exclusions and validation. The broader proposal below is retained as historical design context; it is not the release specification. Independent program manuscripts are public after checks; separate formal-publication projects remain private.
+
+**Historical proposal, superseded by the scoped release above.**
 
 ## Decision
 

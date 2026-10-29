@@ -151,7 +151,7 @@
       }
     ],
     "proposed_analysis": "Survival estimates and restricted mean closure time",
-    "validation_plan": "Censoring audit; agency and future-cohort holdouts; sensitivity to status recoding",
+    "validation_plan": "Four DOT/DEP April/May development panels and eight held panels; twenty canonical source/code dependencies frozen publicly before held analytic outcomes; visible inputs and quality/status coherence not blinded; all 144 settings retained; independent SQLite/integer/90-digit decimal calculations and aggregate-only isolated replay",
     "contribution_to_test": "Compare what a live manager could know with a completed-cases-only retrospective dashboard",
     "skills": [
       "survival analysis",
@@ -159,11 +159,35 @@
       "operational metrics",
       "R"
     ],
-    "status": "protocol only",
-    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
-    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
-    "license_gate": "unknown until exact dataset terms are checked",
-    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+    "status": "executed; scoped captured-record censoring comparison released",
+    "manuscript": "Public reviewed eight-page independent LaTeX/PDF and three original figures; not peer reviewed; formal-publication projects excluded.",
+    "novelty": "Executed finite-cohort comparison of established product-limit survival, restricted means and completed-case selection; no new estimator, exhaustive novelty, true-resolution label or prospective performance claim",
+    "license_gate": "Official NYC Open Data FAQ and portal terms attributed; minimized five-field responses private; only aggregate timing/quality cells public; identifiers, exact timestamps, raw statuses, locations, narratives and third-party source documents excluded",
+    "publication_gate": "All scoped source, scientific, separation, replay, figure, manuscript, privacy and exact-head Linux/merge/tag gates pass",
+    "repository": "https://github.com/S3R3Bii/closure-time-censoring",
+    "release": {
+      "checkout": "studies/closure-time-censoring",
+      "finding": "Across eight primary held NYC311 panels, censoring-aware 28-day restricted means have equal-panel MAE 0.033 calendar days versus 1.689 for capped completed-case summaries against the later captured-record benchmark. Every one of 96 held sensitivities favors the restricted mean; synthetic cutoffs and unverified censoring assumptions limit interpretation.",
+      "checks": "Fourteen boundary fixtures; 1,368,205 selected source fields and 69,874 aggregate scalar values independently reconciled; 11,040 exact scalar, 3,408 reported-float and 2,112 independent decimal checks; 97,920 exact replay fields/documents; twenty frozen dependencies; 368 plotted values; 77 paper checks; eight rendered pages; 60-file staged audit and 59 canonical Git blobs.",
+      "manuscript": "Public reviewed eight-page independent LaTeX/PDF and three original figures; not peer reviewed; formal-publication projects excluded.",
+      "limitations": "Later captured administrative records with synthetic earlier cutoffs, not actual historical dashboard vintages. Recorded closure and current status do not establish true resolution, first closure or reopening history. Censoring independence and stable closure distributions remain unverified; short-horizon zero errors partly reflect no censoring within the horizon. Finite selected panels, no prospective, causal, operational-benefit or novel-estimator claim.",
+      "next_step": "Expose fixed cohort, restricted horizon, unfinished fraction and observation bounds; preserve dated exports and audit closure/reopening meaning before prospective dashboard use.",
+      "state": "COMPLETE_SCOPED_RELEASE",
+      "repository": "https://github.com/S3R3Bii/closure-time-censoring",
+      "head": "d3e1653acb4055f081d7627cad8cd6c9f0b76209",
+      "tested_head": "818d40301d2fb062215c7850b53dcfd67b18cbb8",
+      "tree": "61b8e63c1e0b6bf0f5d1d2eeb61ac711f9b93e02",
+      "tag": "v0.1.0",
+      "pr": "https://github.com/S3R3Bii/closure-time-censoring/pull/2",
+      "ci": "https://github.com/S3R3Bii/closure-time-censoring/actions/runs/40936695902",
+      "merged_ci": "https://github.com/S3R3Bii/closure-time-censoring/actions/runs/40936823328"
+    },
+    "manuscript_publication": {
+      "head": "d3e1653acb4055f081d7627cad8cd6c9f0b76209",
+      "pdf": "https://github.com/S3R3Bii/closure-time-censoring/blob/d3e1653acb4055f081d7627cad8cd6c9f0b76209/paper/manuscript.pdf",
+      "source": "https://github.com/S3R3Bii/closure-time-censoring/blob/d3e1653acb4055f081d7627cad8cd6c9f0b76209/paper/main.tex",
+      "ci": "https://github.com/S3R3Bii/closure-time-censoring/actions/runs/40936823328"
+    }
   },
   {
     "id": "06",
