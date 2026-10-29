@@ -1596,19 +1596,42 @@
       }
     ],
     "proposed_analysis": "Cross-series lag models and change detection",
-    "validation_plan": "Language and topic holdouts; page-renaming lineage; no inferred speaker fluency",
+    "validation_plan": "Spanish development-only forward 2024 selection; 567 validation fits and 78 final refits frozen before 2025 inference; held topics and Japanese selection-rule transfer; all metrics and month draws independently checked",
     "contribution_to_test": "Measure cross-language transfer and asymmetric lag structure",
     "skills": [
       "NLP",
       "forecasting",
       "international data"
     ],
-    "status": "Protocol committed and source retrieval in progress; no fitting or results",
-    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
-    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
-    "license_gate": "Wikimedia Analytics API and Wikidata structured data CC0 verified; exact source/coverage checks pending",
-    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass",
-    "repository": "https://github.com/S3R3Bii/cross-language-attention"
+    "status": "executed; scoped retrospective cross-language comparison released",
+    "manuscript": "Public reviewed six-page independent research PDF/LaTeX; not peer reviewed",
+    "novelty": "Transparent comparison and negative transfer case using established methods; no new algorithm or exhaustive novelty claim",
+    "license_gate": "CC0 Analytics API/Wikidata metadata; 289 retained responses; bounded title lineage; 26 eligible pairs and six exclusions",
+    "publication_gate": "Source, numerical, independent metrics, replay, figures, manuscript, privacy and exact-head Linux/merge/tag checks pass",
+    "repository": "https://github.com/S3R3Bii/cross-language-attention",
+    "release": {
+      "state": "COMPLETE_SCOPED_RELEASE",
+      "checkout": "studies/cross-language-attention",
+      "repository": "https://github.com/S3R3Bii/cross-language-attention",
+      "head": "c6c8505facedf717fe1409f53139ddb3cf8b50b6",
+      "tested_head": "32659c1e14c9e27b87929eeeeecb0d9770704fec",
+      "tree": "0d01adf61f5b6a224400704326178d0a923b9ff2",
+      "tag": "v0.1.0",
+      "pr": "https://github.com/S3R3Bii/cross-language-attention/pull/2",
+      "ci": "https://github.com/S3R3Bii/cross-language-attention/actions/runs/40792367966",
+      "merged_ci": "https://github.com/S3R3Bii/cross-language-attention/actions/runs/40793099710",
+      "finding": "Fast-English held-topic RMSLE improves from 0.2964 to 0.2933 in Spanish but worsens from 0.3017 to 0.3052 in Japanese. Both conditional intervals cross zero. A larger Tsunami loss reverses three of four Japanese page wins.",
+      "checks": "Eight contracts; 69,300 source rows; 567 validation and 78 final independent QR/objective/gradient certificates; every validation/test prediction, metric, 16,000 draws and figure/manuscript value; fresh Windows/Linux replay at unchanged tolerances.",
+      "manuscript": "Public six-page reviewed independent LaTeX/PDF and three figures; not peer reviewed; formal-publication projects excluded.",
+      "limitations": "Retrospective fixed-title convenience panel; bounded alias lineage; assumed two-day input availability; parameter-selection transfer with each page fitted to its own history; conditional twelve-month intervals; no causal, prospective, deployment or realized-value claim.",
+      "next_step": "New protected period with actual API publication vintages and an explicit operational loss."
+    },
+    "manuscript_publication": {
+      "head": "c6c8505facedf717fe1409f53139ddb3cf8b50b6",
+      "pdf": "https://github.com/S3R3Bii/cross-language-attention/blob/c6c8505facedf717fe1409f53139ddb3cf8b50b6/paper/manuscript.pdf",
+      "source": "https://github.com/S3R3Bii/cross-language-attention/blob/c6c8505facedf717fe1409f53139ddb3cf8b50b6/paper/main.tex",
+      "ci": "https://github.com/S3R3Bii/cross-language-attention/actions/runs/40793099710"
+    }
   },
   {
     "id": "50",

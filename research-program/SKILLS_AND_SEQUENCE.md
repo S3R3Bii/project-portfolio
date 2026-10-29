@@ -13,7 +13,7 @@ The program prioritizes work that demonstrates a decision process, not just fami
 | Model risk and monitoring | Calibration, abstention, drift tests, failure examples, latency and false-alert cost | 15, 37, 39, 47 |
 | Human factors and sensor analytics | Signal processing, correct kinematics, subject/site separation, missing sensors and operational timing | 14, 36, 38, 39 |
 | AI and information retrieval | Audited labels, transparent retrieval baselines, citation validity, topic holdouts and explicit abstention | 41, 42 |
-| Communication | One strong lead figure, a plain-language decision summary, readable code, complete results and a concise private manuscript | Every completed study |
+| Communication | One strong lead figure, a plain-language decision summary, readable code, complete results and a concise reviewed independent manuscript | Every completed study |
 
 ## Current source grounding
 
@@ -31,4 +31,4 @@ Verified from official job pages on 28 October 2026. This is a skills map, not a
 4. Kinematic event detection: a direct connection to movement analysis and subject/site generalization.
 5. Fixed-budget model selection: tuning quality, reproducibility and compute efficiency across datasets.
 
-The remaining projects broaden the evidence rather than repeating these five under new titles. Dataset terms and feasibility determine execution order. Manuscripts remain private, outside public repository histories.
+The remaining projects broaden the evidence rather than repeating these five under new titles. Dataset terms and feasibility determine execution order. Reviewed independent manuscripts may accompany their GitHub study packages; formal-publication projects remain private.
