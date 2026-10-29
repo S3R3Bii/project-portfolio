@@ -1,5 +1,9 @@
 # Flight forecast transfer across aviation systems
 
+## Source-readiness update — 29 October 2026
+
+Unreleased: the published US and European threshold indicators are not the same event, and matched reporting populations/vintages remain unverified. Read the [bounded common-unit hold](../source-holds/study09-flight-common-units.md). No transfer model, calibration score or completed-study claim.
+
 **State: protocol only. No result or novelty claim yet.**
 
 ## Decision

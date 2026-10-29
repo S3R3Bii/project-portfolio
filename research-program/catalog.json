@@ -95,7 +95,7 @@
       }
     ],
     "proposed_analysis": "Competing outcomes and route-standardized reliability decomposition",
-    "validation_plan": "Airline and future-year holdouts; cancellation denominator audit; matched-route sensitivity",
+    "validation_plan": "Protocol before analytical source retrieval;  fixed four nominal codes,2019 baseline airport weights and complete-year eligibility;  AA/DL 2020â€“2022 development, UA/WN 2023â€“2025 primary held panels;  all other fixed panels secondary;  no fitting; 25 dependencies frozen before held summaries;  all 4 deterministic conversion settings retained;  independent SQLite counts/weights and exact rational metrics plus isolated replay.",
     "contribution_to_test": "Treat cancellation as an outcome rather than silently removing it from delay evaluation",
     "skills": [
       "SQL",
@@ -103,11 +103,35 @@
       "survival analysis",
       "communication"
     ],
-    "status": "protocol only",
-    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
-    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
-    "license_gate": "unknown until exact dataset terms are checked",
-    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+    "status": "executed; scoped retrospective cancellation-denominator comparison released",
+    "manuscript": "Public reviewed seven-page independent LaTeX/PDF and three original figures; not peer reviewed; formal-publication projects excluded.",
+    "novelty": "Executed finite published-count denominator and fixed-airport-weight comparison using established partition/rate arithmetic; no new estimator, route/weather/survival model, exhaustive novelty or operational-benefit claim.",
+    "license_gate": "Official public BTS export, minimal factual eight-field aggregate count/key projection with source attribution and original code/figures. Bounded factual-data assessment, not a source-wide public-domain or unrestricted license claim. Raw ZIP/CSV, website/report prose, third-party articles, logos, flight/customer/tail identifiers and formal-publication/confidential projects excluded.",
+    "publication_gate": "All scoped source, scientific, separation, replay, figure, manuscript, privacy and exact-head Linux/merge/tag gates pass",
+    "repository": "https://github.com/S3R3Bii/cancellation-aware-reliability",
+    "release": {
+      "checkout": "studies/cancellation-aware-reliability",
+      "finding": "Across six prespecified UA/WN carrier-year panels in 2023â€“2025, a constructed completed-flight view raises the fixed-airport-weight on-time rate by 0.708â€“1.353 percentage points. Official BTS percentages already use scheduled totals. Converting half the delayed counts to cancellations synthetically raises the conditional percentage by 9.236â€“10.160 pp while scheduled on-time remains exactly unchanged;  no airline-action or passenger-benefit claim.",
+      "checks": "15 fixtures; 161415 official source rows and 38069 minimal selected rows; 1291320 independent parser scalars and 8 official controls; 25 dependencies frozen before held summaries; 1590658 exact stage fields and 304200 conversion-identity checks; 1399126 exact replay CSV fields plus 4 documents; 168 actual figure values,6 gap annotations,24 heatmap labels/contrast checks,9 hashes; 365 paper checks; 7 rendered final pages;  scoped staged/canonical Git audits.",
+      "manuscript": "Public reviewed seven-page independent LaTeX/PDF and three original figures; not peer reviewed; formal-publication projects excluded.",
+      "limitations": "Nominal published carrier count cells are not independently verified operating-only/disjoint populations, passenger truth or complete schedules. Complete-year airport panels change population. Fixed 2019 weights control recorded airport mix, not routes, season, weather or passengers. Original blanks and unknown totals remain explicit;  exact structural bounds do not justify arbitrary zero filling. Historical publication vintages, actual cancellation choices and future service remain unknown. No causal, passenger-benefit, savings or novelty claim.",
+      "next_step": "Show scheduled on-time, cancellation/diversion shares, exact denominators and cohort coverage; obtain dated snapshots and authoritative reporting scope before a service comparison, then prospectively specify route/season controls. Passenger conclusions require itinerary and rebooking evidence.",
+      "state": "COMPLETE_SCOPED_RELEASE",
+      "repository": "https://github.com/S3R3Bii/cancellation-aware-reliability",
+      "head": "801fa158889d087038372f49e8ef1bfdf544ee08",
+      "tested_head": "2a55324afa7a8307cf15ce32fecd97448f412156",
+      "tree": "9e482b3c26c06a084cf083a06f53cc8867b6f1db",
+      "tag": "v0.1.0",
+      "pr": "https://github.com/S3R3Bii/cancellation-aware-reliability/pull/2",
+      "ci": "https://github.com/S3R3Bii/cancellation-aware-reliability/actions/runs/40963799629",
+      "merged_ci": "https://github.com/S3R3Bii/cancellation-aware-reliability/actions/runs/40963995324"
+    },
+    "manuscript_publication": {
+      "head": "801fa158889d087038372f49e8ef1bfdf544ee08",
+      "pdf": "https://github.com/S3R3Bii/cancellation-aware-reliability/blob/801fa158889d087038372f49e8ef1bfdf544ee08/paper/manuscript.pdf",
+      "source": "https://github.com/S3R3Bii/cancellation-aware-reliability/blob/801fa158889d087038372f49e8ef1bfdf544ee08/paper/main.tex",
+      "ci": "https://github.com/S3R3Bii/cancellation-aware-reliability/actions/runs/40963995324"
+    }
   },
   {
     "id": "04",
@@ -394,11 +418,19 @@
       "calibration",
       "measurement validity"
     ],
-    "status": "protocol only",
+    "status": "source hold; arrival threshold and reporting-population comparability unresolved",
     "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
     "novelty": "Candidate contribution; systematic prior-work review not yet completed",
     "license_gate": "unknown until exact dataset terms are checked",
-    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass",
+    "source_readiness": {
+      "state": "HOLD",
+      "public_note": "source-holds/study09-flight-common-units.md",
+      "direct_label_equivalence": "FAIL",
+      "population_and_vintages": "UNKNOWN",
+      "fitting_started": false,
+      "release_counted": false
+    }
   },
   {
     "id": "10",

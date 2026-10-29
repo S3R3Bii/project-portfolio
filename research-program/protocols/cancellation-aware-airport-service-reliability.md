@@ -1,6 +1,10 @@
 # Cancellation-aware airport service reliability
 
-**State: protocol only. No result or novelty claim yet.**
+## Execution update — 29 October 2026
+
+A scoped study is executed and released at https://github.com/S3R3Bii/cancellation-aware-reliability. Across six prespecified UA/WN carrier-year panels in 2023â€“2025, a constructed completed-flight view raises the fixed-airport-weight on-time rate by 0.708â€“1.353 percentage points. Official BTS percentages already use scheduled totals. Converting half the delayed counts to cancellations synthetically raises the conditional percentage by 9.236â€“10.160 pp while scheduled on-time remains exactly unchanged;  no airline-action or passenger-benefit claim. Read its fixed executable protocol, complete exclusions and validation. The broader proposal below is retained as historical design context; it is not the release specification. Independent program manuscripts are public after checks; separate formal-publication projects remain private.
+
+**Historical proposal, superseded by the scoped release above.**
 
 ## Decision
 

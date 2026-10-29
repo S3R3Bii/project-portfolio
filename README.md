@@ -8,7 +8,7 @@ I build analytical tools and applications that make complex work easier to inspe
 
 ## Research directed at demanding data roles
 
-The [50-study research register](research-program/README.md) connects specific business questions to public data and measurable tests. The [skills map](research-program/SKILLS_AND_SEQUENCE.md) emphasizes SQL, data validation, temporal evaluation, model tuning, kinematics and decision communication. The register separates twenty-one released studies and 29 awaiting execution or release. Every model-selection claim requires retained optimization and independent metric evidence. The [research manuscripts](research-program/RESEARCH_PAPERS.md) explain the released studies and link their checked source editions.
+The [50-study research register](research-program/README.md) connects specific business questions to public data and measurable tests. The [skills map](research-program/SKILLS_AND_SEQUENCE.md) emphasizes SQL, data validation, temporal evaluation, model tuning, kinematics and decision communication. The register separates twenty-two released studies and 28 awaiting execution or release. Every model-selection claim requires retained optimization and independent metric evidence. The [research manuscripts](research-program/RESEARCH_PAPERS.md) explain the released studies and link their checked source editions.
 
 
 ## Start here
@@ -36,6 +36,7 @@ The [50-study research register](research-program/README.md) connects specific b
 | [Airport pickup capacity](https://github.com/S3R3Bii/airport-pickup-capacity) | Frozen quantile policies, all declared capacity/cost scenarios and retained holiday failures under an explicit retrospective availability assumption |
 | [Transit reporting gaps](https://github.com/S3R3Bii/transit-reporting-missingness) | Complete synthetic reporting-gap comparisons with explicit unit/volume coverage and independently checked component-cap failures |
 | [Station count transfer](https://github.com/S3R3Bii/station-geography-transfer) | Complete cold-start model-bundle comparison with all held groups, worse cases and fixed coordinate sensitivities independently checked |
+| [Cancellation-aware reliability](https://github.com/S3R3Bii/cancellation-aware-reliability) | Complete fixed denominator and airport-mix comparisons with original source blanks, explicit cohort coverage and independently checked synthetic conversions |
 | [PikiVu](pikivu.md) | A compact recording interface and validated edit/export workflow |
 | [Model Evidence](model-evidence.md) | Statistical diagnostics presented as readable reports |
 | [Open Research Commons](open-research-commons.md) | Shared human/agent workflow with independent release checks |
