@@ -1017,18 +1017,42 @@
       }
     ],
     "proposed_analysis": "Shift-share decomposition and panel sensitivity",
-    "validation_plan": "Common classification and base year; withheld-country reconciliation; no causal energy-shock claim",
+    "validation_plan": "Fixed source gate; three-country development; code committed and frozen before Belgium analytic outputs; independent SQL and 50-digit Decimal reconstruction; full offline replay",
     "contribution_to_test": "Separate production decline from price-driven expenditure increases",
     "skills": [
       "SQL",
       "econometrics",
       "international statistics"
     ],
-    "status": "protocol only",
-    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
-    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
-    "license_gate": "unknown until exact dataset terms are checked",
-    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+    "status": "executed; scoped matched-price energy accounting released",
+    "manuscript": "Public reviewed seven-page independent research PDF/LaTeX; not peer reviewed",
+    "novelty": "Bounded nominal-versus-matched-price comparison and stable-ranking counterpoint using established LMDI; no new method or exhaustive novelty claim",
+    "license_gate": "Eurostat aggregate statistical data/metadata reuse with attribution and modification notice; 12 exact retained responses; ES/IT exclusions preserved",
+    "publication_gate": "Source, coverage, scientific values, separation, replay, figures, manuscript, privacy and exact-head Linux/merge/tag checks pass",
+    "repository": "https://github.com/S3R3Bii/manufacturing-energy-exposure",
+    "release": {
+      "state": "COMPLETE_SCOPED_RELEASE",
+      "checkout": "studies/manufacturing-energy-exposure",
+      "repository": "https://github.com/S3R3Bii/manufacturing-energy-exposure",
+      "head": "586b69103fdb3f9d5eda4969492c1b64d5d30a3f",
+      "tested_head": "20028b73fb4794a35e9aebd62b2374b45d8205f9",
+      "tree": "9f063b7ced6c090288361bed1995b999c3392492",
+      "tag": "v0.1.0",
+      "pr": "https://github.com/S3R3Bii/manufacturing-energy-exposure/pull/2",
+      "ci": "https://github.com/S3R3Bii/manufacturing-energy-exposure/actions/runs/40918173205",
+      "merged_ci": "https://github.com/S3R3Bii/manufacturing-energy-exposure/actions/runs/40918474475",
+      "finding": "82 of 608 annual industry intensity changes have opposite signs under nominal versus matched-price output. Germany’s 2019–2023 intensity attribution changes from −1,524.4 to −420.6 PJ; all four 2023 top-five industry sets stay the same.",
+      "checks": "7 scientific boundary tests; 4,320 source cells decoded independently; 16,724 Decimal analysis checks; 42,515 CSV numbers freshly replayed; 1,376 plotted coordinates checked; 7 rendered manuscript pages; 78-file staged audit and exact-head Linux CI.",
+      "manuscript": "Public reviewed seven-page independent LaTeX/PDF and three original figures; not peer reviewed; formal-publication projects excluded.",
+      "limitations": "Four-country convenience panel; ES/IT excluded with 28.9% of 2023 candidate-set energy; German provisional flags; net domestic energy includes non-energy uses; gross output is not GDP; accounting is not causality or engineering efficiency; historical revisions are not real-time vintages.",
+      "next_step": "Obtain process-level energy, output/product mix, operating conditions and actual prices before plant or investment decisions."
+    },
+    "manuscript_publication": {
+      "head": "586b69103fdb3f9d5eda4969492c1b64d5d30a3f",
+      "pdf": "https://github.com/S3R3Bii/manufacturing-energy-exposure/blob/586b69103fdb3f9d5eda4969492c1b64d5d30a3f/paper/manuscript.pdf",
+      "source": "https://github.com/S3R3Bii/manufacturing-energy-exposure/blob/586b69103fdb3f9d5eda4969492c1b64d5d30a3f/paper/main.tex",
+      "ci": "https://github.com/S3R3Bii/manufacturing-energy-exposure/actions/runs/40918474475"
+    }
   },
   {
     "id": "35",
