@@ -383,18 +383,42 @@
       }
     ],
     "proposed_analysis": "Robust ranking and tail-sensitive aggregation",
-    "validation_plan": "Era-consistent event coverage; damage-unit audit; bootstrap by event; missing-versus-zero sensitivity",
+    "validation_plan": "2015–2019 scenario calibration; committed twelve-dependency code freeze before 2020–2023 outcomes; all scenarios and both resampling units retained; independent SQL/rational/indexed-row checks and isolated minimized-snapshot replay",
     "contribution_to_test": "Produce a ranking stability envelope, not a falsely precise map of expected insured loss",
     "skills": [
       "robust statistics",
       "uncertainty",
       "geospatial analysis"
     ],
-    "status": "protocol only",
-    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
-    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
-    "license_gate": "unknown until exact dataset terms are checked",
-    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+    "status": "executed; scoped reporting and resampling comparison released",
+    "manuscript": "Public reviewed eight-page independent LaTeX/PDF and three original figures; not peer reviewed; formal-publication projects excluded.",
+    "novelty": "Bounded comparison of reporting assumptions, tail influence and resampling units using established methods; no general incompleteness, new-bootstrap or exhaustive scientific-novelty claim",
+    "license_gate": "NOAA/NWS statistical data attributed under published reuse terms; nine full originals remain outside Git; all selected strings independently compared; narratives, precise locations and person-level fields excluded",
+    "publication_gate": "All scoped source, scientific, separation, replay, figure, manuscript, privacy and exact-head Linux/merge/tag gates pass",
+    "repository": "https://github.com/S3R3Bii/storm-damage-ranking",
+    "release": {
+      "checkout": "studies/storm-damage-ranking",
+      "finding": "Illinois ranges from rank 2 to 6 across six fixed reporting/tail scenarios. Michigan ranks first in five scenarios but third under combined P90 blank assignment and capping. Episode resampling widens all six comparator intervals in this finite panel.",
+      "checks": "Eight boundary tests; 401,994 original fields and 535,992 normalized fields checked; 874,218 development and 738,546 evaluation values independently reconstructed; 1,855,811 exact and 147,422 floating fields replayed; 120 plotted values; eight rendered manuscript pages; 92-file staged audit and 91 canonical Git blobs.",
+      "manuscript": "Public reviewed eight-page independent LaTeX/PDF and three original figures; not peer reviewed; formal-publication projects excluded.",
+      "limitations": "Six-state, five-type convenience panel; later historical revisions; fixed blank/cap conventions do not identify actual missing losses. Conditional bootstrap assumes within-year exchangeability and incomplete episode lineage. Shared NumPy PCG64 is not independent RNG certification. No exposed-asset, true-risk, prospective, causal or financial-allocation claim.",
+      "next_step": "Investigate source completeness and influential records; obtain verified loss ascertainment and exposed-asset denominators before risk-based allocation.",
+      "state": "COMPLETE_SCOPED_RELEASE",
+      "repository": "https://github.com/S3R3Bii/storm-damage-ranking",
+      "head": "d392e52f1601fff2c2ffaf1492e25f28c1b9315f",
+      "tested_head": "6067c236dd24f4cbf223bba457b91605985c2a7e",
+      "tree": "44d5cf7616e71ca4fe42e2ebc594131d687cc965",
+      "tag": "v0.1.0",
+      "pr": "https://github.com/S3R3Bii/storm-damage-ranking/pull/2",
+      "ci": "https://github.com/S3R3Bii/storm-damage-ranking/actions/runs/40923649120",
+      "merged_ci": "https://github.com/S3R3Bii/storm-damage-ranking/actions/runs/40924007714"
+    },
+    "manuscript_publication": {
+      "head": "d392e52f1601fff2c2ffaf1492e25f28c1b9315f",
+      "pdf": "https://github.com/S3R3Bii/storm-damage-ranking/blob/d392e52f1601fff2c2ffaf1492e25f28c1b9315f/paper/manuscript.pdf",
+      "source": "https://github.com/S3R3Bii/storm-damage-ranking/blob/d392e52f1601fff2c2ffaf1492e25f28c1b9315f/paper/main.tex",
+      "ci": "https://github.com/S3R3Bii/storm-damage-ranking/actions/runs/40924007714"
+    }
   },
   {
     "id": "14",

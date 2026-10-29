@@ -1,6 +1,10 @@
 # European manufacturing energy exposure
 
-**State: protocol only. No result or novelty claim yet.**
+## Execution update — 29 October 2026
+
+A scoped study is executed and released at https://github.com/S3R3Bii/manufacturing-energy-exposure. 82 of 608 annual industry intensity changes have opposite signs under nominal versus matched-price output. Germany’s 2019–2023 intensity attribution changes from −1,524.4 to −420.6 PJ; all four 2023 top-five industry sets stay the same. Read its fixed executable protocol, complete exclusions and validation. The broader proposal below is retained as historical design context; it is not the release specification. Independent program manuscripts are public after checks; separate formal-publication projects remain private.
+
+**Historical proposal, superseded by the scoped release above.**
 
 ## Decision
 

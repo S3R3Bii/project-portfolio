@@ -1,6 +1,10 @@
 # Storm damage ranking under incomplete reporting
 
-**State: protocol only. No result or novelty claim yet.**
+## Execution update — 29 October 2026
+
+A scoped study is executed and released at https://github.com/S3R3Bii/storm-damage-ranking. Illinois ranges from rank 2 to 6 across six fixed reporting/tail scenarios. Michigan ranks first in five scenarios but third under combined P90 blank assignment and capping. Episode resampling widens all six comparator intervals in this finite panel. Read its fixed executable protocol, complete exclusions and validation. The broader proposal below is retained as historical design context; it is not the release specification. Independent program manuscripts are public after checks; separate formal-publication projects remain private.
+
+**Historical proposal, superseded by the scoped release above.**
 
 ## Decision
 
