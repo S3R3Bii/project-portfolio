@@ -576,11 +576,18 @@
       "feature provenance",
       "model validation"
     ],
-    "status": "protocol only",
+    "status": "source hold; final-remedy label and initial-information provenance unverified",
     "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
     "novelty": "Candidate contribution; systematic prior-work review not yet completed",
     "license_gate": "unknown until exact dataset terms are checked",
-    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass",
+    "source_readiness": {
+      "state": "HOLD",
+      "public_note": "source-holds/study18-remedy-labels.md",
+      "target_label": "UNKNOWN",
+      "initial_feature_vintages": "UNKNOWN",
+      "fitting_started": false
+    }
   },
   {
     "id": "19",

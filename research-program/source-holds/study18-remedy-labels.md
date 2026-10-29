@@ -1,0 +1,7 @@
+# Study 18: final-remedy labels and initial-information hold
+
+The planned vehicle-remedy prediction study remains **unreleased**. The official [29-field recall layout](https://static.nhtsa.gov/odi/ffdd/rcl/RCL.txt) defines ODATE as the date the manufacturer notified owners. That definition alone does not establish a final-remedy-availability label. A documented [campaign API example](https://api.nhtsa.gov/recalls/campaignNumber?campaignNumber=12V176000) exposes current remedy prose and report date, without a structured final-remedy timestamp or initial/amended field history.
+
+NHTSA's [2024 annual report](https://www.nhtsa.gov/sites/nhtsa.gov/files/2025-04/2024-annual-recalls-report.pdf), pages 8–10, distinguishes interim/final notification and pending remedies. Its aggregate charts do not provide the campaign-level label and initial-feature provenance needed for the proposed chronological and manufacturer holdouts.
+
+The target label and initial-information gates are **unknown** after this bounded source check. No model was fitted and no release was counted. This does not establish that suitable public records do not exist. The next step is an audited cohort of dated initial Part 573 reports and final-remedy notification histories with an explicit censoring cutoff. Continue unaffected studies while preserving this gate. This note is a readiness result, not a completed research study.

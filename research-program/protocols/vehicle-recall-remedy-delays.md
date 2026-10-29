@@ -1,5 +1,9 @@
 # Vehicle recall remedy delays
 
+## Source-readiness update — 29 October 2026
+
+This study is unreleased: final-remedy labels and initial-versus-amended feature provenance remain unverified. Read the [bounded source hold](../source-holds/study18-remedy-labels.md). No fitting or result claim.
+
 **State: protocol only. No result or novelty claim yet.**
 
 ## Decision
