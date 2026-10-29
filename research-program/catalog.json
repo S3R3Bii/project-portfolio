@@ -123,7 +123,7 @@
       }
     ],
     "proposed_analysis": "Quantile forecasts and bounded dispatch-capacity simulation",
-    "validation_plan": "Month-blocked tuning; holiday stress test; missing trip and zone consistency checks",
+    "validation_plan": "Protocol before retrieval; all18 window/calendar/quantile candidates and baseline retained; July-September selection frozen before October-December summaries; idealized past-only indexing, DST exclusions, independent SQL histories and integer/rational/tolerance math, complete scenario and stress comparisons, isolated replay. Actual historical-vintage availability remains outside the claim.",
     "contribution_to_test": "Translate forecast error into excess vehicles versus unmet observed trip demand without claiming rider wait-time ground truth",
     "skills": [
       "SQL",
@@ -131,11 +131,35 @@
       "quantile regression",
       "optimization"
     ],
-    "status": "protocol only",
-    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
-    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
-    "license_gate": "unknown until exact dataset terms are checked",
-    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+    "status": "executed; scoped retrospective pickup-count policy comparison released",
+    "manuscript": "Public reviewed five-page independent LaTeX/PDF and three original figures; not peer reviewed; formal-publication projects excluded.",
+    "novelty": "Executed finite-source policy/assumption comparison using established nearest-rank empirical quantiles; no new algorithm, exhaustive novelty, operational readiness or realized benefit claim.",
+    "license_gate": "Attributed minimal NYC/TLC coarse aggregate count facts and original derivative figures/code; no individual trip rows, private exact timestamp extrema, fares, IDs, dropoffs, passenger records, full source documents or artwork public. No formal-publication or confidential business project included.",
+    "publication_gate": "All scoped source, scientific, separation, replay, figure, manuscript, privacy and exact-head Linux/merge/tag gates pass",
+    "repository": "https://github.com/S3R3Bii/airport-pickup-capacity",
+    "release": {
+      "checkout": "studies/airport-pickup-capacity",
+      "finding": "The frozen 75th-percentile policy has 4.5% lower held modeled cost than the median in the declared 250-services-per-zone-hour, 3:1 cost scenario, despite higher raw count error. On the two fixed holiday dates its cost is 15.1% higher. Both findings are retained; actual dispatch availability, queues and savings are not established.",
+      "checks": "Twelve fixtures; 3285485 airport records in 17568 coarse civil grid cells reconciled by 106538 independent SQL/control checks; 21 canonical dependencies frozen before held summaries; 956489 exact/history/rational and tolerance checks across all predictions and 2592 metric rows; 1177457 replay fields/documents; 37 actual figure values, 9 annotation/contrast checks and 9 hashes; 289 paper checks and five rendered pages; final staged and canonical Git-blob audit.",
+      "manuscript": "Public reviewed five-page independent LaTeX/PDF and three original figures; not peer reviewed; formal-publication projects excluded.",
+      "limitations": "Historical TLC published counts are delayed and do not establish real-time availability, latent requests, physical queues or wait times. The comparison assumes immediate prior-day count availability, one service per vehicle-hour, fixed illustrative capacity/costs and no inter-hour carryover. Source record accuracy/completeness, historical vintages, empirical cost calibration and future coverage remain unestablished. No operational-readiness, causal benefit, savings or novelty claim.",
+      "next_step": "Obtain timestamped dispatch telemetry, actual supply/costs, vehicle service cycles and queue outcomes before a prospective policy test.",
+      "state": "COMPLETE_SCOPED_RELEASE",
+      "repository": "https://github.com/S3R3Bii/airport-pickup-capacity",
+      "head": "aff712c56601547c44aaf48c7d63cc3a67bf7276",
+      "tested_head": "c8c128b4457845cc482d25a5514647b7c8971d81",
+      "tree": "de6a7e82e41d8d0982e05f9ecfea79f967760670",
+      "tag": "v0.1.0",
+      "pr": "https://github.com/S3R3Bii/airport-pickup-capacity/pull/2",
+      "ci": "https://github.com/S3R3Bii/airport-pickup-capacity/actions/runs/40951141287",
+      "merged_ci": "https://github.com/S3R3Bii/airport-pickup-capacity/actions/runs/40951309512"
+    },
+    "manuscript_publication": {
+      "head": "aff712c56601547c44aaf48c7d63cc3a67bf7276",
+      "pdf": "https://github.com/S3R3Bii/airport-pickup-capacity/blob/aff712c56601547c44aaf48c7d63cc3a67bf7276/paper/manuscript.pdf",
+      "source": "https://github.com/S3R3Bii/airport-pickup-capacity/blob/aff712c56601547c44aaf48c7d63cc3a67bf7276/paper/main.tex",
+      "ci": "https://github.com/S3R3Bii/airport-pickup-capacity/actions/runs/40951309512"
+    }
   },
   {
     "id": "05",

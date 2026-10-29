@@ -8,7 +8,7 @@ I build analytical tools and applications that make complex work easier to inspe
 
 ## Research directed at demanding data roles
 
-The [50-study research register](research-program/README.md) connects specific business questions to public data and measurable tests. The [skills map](research-program/SKILLS_AND_SEQUENCE.md) emphasizes SQL, data validation, temporal evaluation, model tuning, kinematics and decision communication. The register separates eighteen released studies and 32 awaiting execution or release. Every model-selection claim requires retained optimization and independent metric evidence. The [research manuscripts](research-program/RESEARCH_PAPERS.md) explain the released studies and link their checked source editions.
+The [50-study research register](research-program/README.md) connects specific business questions to public data and measurable tests. The [skills map](research-program/SKILLS_AND_SEQUENCE.md) emphasizes SQL, data validation, temporal evaluation, model tuning, kinematics and decision communication. The register separates nineteen released studies and 31 awaiting execution or release. Every model-selection claim requires retained optimization and independent metric evidence. The [research manuscripts](research-program/RESEARCH_PAPERS.md) explain the released studies and link their checked source editions.
 
 
 ## Start here
@@ -33,6 +33,7 @@ The [50-study research register](research-program/README.md) connects specific b
 | [Closure-time summaries with unfinished requests](https://github.com/S3R3Bii/closure-time-censoring) | Eight primary held panels: 0.033-day restricted-mean MAE versus 1.689 for capped completed cases; complete endpoint/cutoff/horizon grid and observation bounds retained |
 | [Monthly means and reported temperature extremes](https://github.com/S3R3Bii/weather-aggregation-extremes) | Monthly means hide 53.9% of reported 30 C exceedance slots; all three thresholds, missing-slot bounds, complete confusion counts and shared-year resampling retained |
 | [Freight entry-state substitution](https://github.com/S3R3Bii/freight-substitution-stress) | All 512 hypothetical freight allocations carry exact flow/cut certificates; complete 16-case held primary table and declared capacity/support sensitivities |
+| [Airport pickup capacity](https://github.com/S3R3Bii/airport-pickup-capacity) | Frozen quantile policies, all declared capacity/cost scenarios and retained holiday failures under an explicit retrospective availability assumption |
 | [PikiVu](pikivu.md) | A compact recording interface and validated edit/export workflow |
 | [Model Evidence](model-evidence.md) | Statistical diagnostics presented as readable reports |
 | [Open Research Commons](open-research-commons.md) | Shared human/agent workflow with independent release checks |

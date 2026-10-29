@@ -1,6 +1,10 @@
 # Airport taxi dispatch with asymmetric waiting costs
 
-**State: protocol only. No result or novelty claim yet.**
+## Execution update — 29 October 2026
+
+A scoped study is executed and released at https://github.com/S3R3Bii/airport-pickup-capacity. The frozen 75th-percentile policy has 4.5% lower held modeled cost than the median in the declared 250-services-per-zone-hour, 3:1 cost scenario, despite higher raw count error. On the two fixed holiday dates its cost is 15.1% higher. Both findings are retained; actual dispatch availability, queues and savings are not established. Read its fixed executable protocol, complete exclusions and validation. The broader proposal below is retained as historical design context; it is not the release specification. Independent program manuscripts are public after checks; separate formal-publication projects remain private.
+
+**Historical proposal, superseded by the scoped release above.**
 
 ## Decision
 
