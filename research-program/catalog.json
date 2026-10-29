@@ -227,18 +227,42 @@
       }
     ],
     "proposed_analysis": "Station embeddings versus spatial and seasonal baselines",
-    "validation_plan": "Leave-station-out and future-month splits; station-ID lineage; no trip-to-occupancy inference",
+    "validation_plan": "Protocol and schema/source gate before model outcomes; fixed initial-quarter cohort and coordinate-component groups; April–June validation, July–December held targets; 54 geographic configurations with fixed tie rules and a fixed pooled baseline; 24 dependencies frozen before held scores; all 12 groups, 6 months and 16 fixed coordinate-displacement cases retained; independent SQL history, geometry and exact-loss checks plus isolated replay.",
     "contribution_to_test": "Measure cold-start transfer and the value of geographical pooling, not generic trip-count prediction",
     "skills": [
       "geospatial ML",
       "feature engineering",
       "forecasting"
     ],
-    "status": "protocol only",
-    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
-    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
-    "license_gate": "unknown until exact dataset terms are checked",
-    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+    "status": "executed; scoped retrospective cold-start model-bundle comparison released",
+    "manuscript": "Public reviewed seven-page independent LaTeX/PDF and three original figures; not peer reviewed; formal-publication projects excluded.",
+    "novelty": "Executed finite retrospective station-group transfer and coordinate-sensitivity comparison using established rolling means and nearest-neighbor regression; no new estimator, isolated geographic contribution, exhaustive novelty or operational-benefit claim.",
+    "license_gate": "Official operator-linked monthly archives used under the data-sharing policy in a noncommercial independent study. Publish original code/figures and minimal coarse count/coordinate derivatives within the study. Full source archives, ride/customer rows, source trajectories, trademarks/endorsement and third-party documents excluded. This is a bounded rights assessment, not a public-domain claim or legal opinion. Formal-publication and confidential business projects excluded.",
+    "publication_gate": "All scoped source, scientific, separation, replay, figure, manuscript, privacy and exact-head Linux/merge/tag gates pass",
+    "repository": "https://github.com/S3R3Bii/station-geography-transfer",
+    "release": {
+      "checkout": "studies/station-geography-transfer",
+      "finding": "Across 12 held coordinate groups and 2,208 station-days, selected-model MAE is 11.621 departures/day versus 21.047 for the pooled baseline, a 44.8% reduction. Two groups have higher error. Temporal settings also differ, so this model-bundle comparison does not isolate geography. All 16 fixed coordinate-displacement cases and all group failures are retained.",
+      "checks": "19 fixtures; 1052451 official departure rows; 4209804 independently parsed source scalars; 92152 geometry and 91490 grid/control exact checks plus 99 radius tolerance checks; 24 dependencies frozen before held scores; 1673256 exact and 477012 tolerance result fields; isolated replay with 1643477 exact and 505372 tolerance fields plus 3 verification documents; 278 actual figure values, 12 map labels, 16 annotation/contrast checks and 9 hashes; 778 paper checks; 7 final rendered pages; scoped staged and canonical Git-blob audits.",
+      "manuscript": "Public reviewed seven-page independent LaTeX/PDF and three original figures; not peer reviewed; formal-publication projects excluded.",
+      "limitations": "Published departure-row counts and nominal coordinate medians do not establish true demand, stock, dock availability or actual openings/relocations. Cold start and coordinate shifts are synthetic on historically observed IDs. Complete prior-day donor inputs are an idealized retrospective assumption; actual publication vintages remain unknown. Selected and pooled models differ in temporal settings. Finite group-resampling ranges do not guarantee future coverage. No causal, operational-benefit, savings or novelty claim.",
+      "next_step": "Run a matched-setting comparison on a new held cohort after verifying station identity and dated input availability; obtain stock, dock availability and opening/relocation telemetry before a rebalancing decision.",
+      "state": "COMPLETE_SCOPED_RELEASE",
+      "repository": "https://github.com/S3R3Bii/station-geography-transfer",
+      "head": "abef0ca8507261a2ae2e85196d9f23feefac4b92",
+      "tested_head": "2763943aaf52ed0f6dc82ee305d172f909295aed",
+      "tree": "389fe85d4b2dd77a191c977c3db56803baf521c3",
+      "tag": "v0.1.0",
+      "pr": "https://github.com/S3R3Bii/station-geography-transfer/pull/2",
+      "ci": "https://github.com/S3R3Bii/station-geography-transfer/actions/runs/40961091146",
+      "merged_ci": "https://github.com/S3R3Bii/station-geography-transfer/actions/runs/40961473420"
+    },
+    "manuscript_publication": {
+      "head": "abef0ca8507261a2ae2e85196d9f23feefac4b92",
+      "pdf": "https://github.com/S3R3Bii/station-geography-transfer/blob/abef0ca8507261a2ae2e85196d9f23feefac4b92/paper/manuscript.pdf",
+      "source": "https://github.com/S3R3Bii/station-geography-transfer/blob/abef0ca8507261a2ae2e85196d9f23feefac4b92/paper/main.tex",
+      "ci": "https://github.com/S3R3Bii/station-geography-transfer/actions/runs/40961473420"
+    }
   },
   {
     "id": "07",

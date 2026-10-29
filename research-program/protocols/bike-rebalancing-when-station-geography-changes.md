@@ -1,6 +1,10 @@
 # Bike rebalancing when station geography changes
 
-**State: protocol only. No result or novelty claim yet.**
+## Execution update — 29 October 2026
+
+A scoped study is executed and released at https://github.com/S3R3Bii/station-geography-transfer. Across 12 held coordinate groups and 2,208 station-days, selected-model MAE is 11.621 departures/day versus 21.047 for the pooled baseline, a 44.8% reduction. Two groups have higher error. Temporal settings also differ, so this model-bundle comparison does not isolate geography. All 16 fixed coordinate-displacement cases and all group failures are retained. Read its fixed executable protocol, complete exclusions and validation. The broader proposal below is retained as historical design context; it is not the release specification. Independent program manuscripts are public after checks; separate formal-publication projects remain private.
+
+**Historical proposal, superseded by the scoped release above.**
 
 ## Decision
 
