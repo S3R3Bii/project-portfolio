@@ -1,6 +1,10 @@
 # Local hiring signals without misleading denominators
 
-**State: protocol only. No result or novelty claim yet.**
+## Execution update — 29 October 2026
+
+A scoped study is executed and released at https://github.com/S3R3Bii/establishment-growth-signals. The frozen 25% own-history/75% other-state pool has held equal-series MAE 3.125 percentage points versus 3.327 for own lag, a 6.1% reduction over 934 state-sector series and 3736 annual cases. It is worse in 428 series and 4 of 19 sectors, and slightly worse in 2023. Composition retains 21 unavailable cases and one 1-job residual;  this is not worker hires, vacancies or a verified real-time forecast. Read its fixed executable protocol, complete exclusions and validation. The broader proposal below is retained as historical design context; it is not the release specification. Independent program manuscripts are public after checks; separate formal-publication projects remain private.
+
+**Historical proposal, superseded by the scoped release above.**
 
 ## Decision
 

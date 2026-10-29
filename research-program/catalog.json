@@ -452,7 +452,7 @@
       }
     ],
     "proposed_analysis": "Hierarchical growth estimates and change-point detection",
-    "validation_plan": "Vintage and industry-code audits; future-quarter evaluation; small-cell sensitivity",
+    "validation_plan": "Protocol before analyzable snapshot; 2010–2015 source quality/size cohort; 5 fixed own/pool weights;  global equal-series MAE selection on 2016–2019; 26 dependencies frozen before 2020–2023 held summaries. Past-only leave-one-state-out same-sector donors;  all years, sectors, series and 3 fixed prior-denominator subsets retained;  direct public components only;  independent SQL and rational/decimal scoring plus exact isolated replay.",
     "contribution_to_test": "Distinguish hiring demand from changes in the reporting population",
     "skills": [
       "R",
@@ -460,11 +460,35 @@
       "hierarchical modeling",
       "business analysis"
     ],
-    "status": "protocol only",
-    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
-    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
-    "license_gate": "unknown until exact dataset terms are checked",
-    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+    "status": "executed; scoped retrospective continuer-growth pooling comparison released",
+    "manuscript": "Public reviewed eight-page independent LaTeX/PDF and three original figures; not peer reviewed; formal-publication projects excluded.",
+    "novelty": "Executed finite annual state-sector convex partial-pooling and establishment-composition comparison using established job-flow/rate arithmetic; no new estimator, Bayesian hierarchy, change-point/R execution, exhaustive novelty or operational-benefit claim.",
+    "license_gate": "Official public Census 2023 BDS factual aggregate projection and original code/figures with attribution;  release-specific classification/flags and current methodology notice retained. Bounded source scope, not a license for third-party expressive material. Raw complete CSV/manuals, employer/person microdata, suppression recovery, credentials, clinical/confidential business data and formal-publication projects excluded.",
+    "publication_gate": "All scoped source, scientific, separation, replay, figure, manuscript, privacy and exact-head Linux/merge/tag gates pass",
+    "repository": "https://github.com/S3R3Bii/establishment-growth-signals",
+    "release": {
+      "checkout": "studies/establishment-growth-signals",
+      "finding": "The frozen 25% own-history/75% other-state pool has held equal-series MAE 3.125 percentage points versus 3.327 for own lag, a 6.1% reduction over 934 state-sector series and 3736 annual cases. It is worse in 428 series and 4 of 19 sectors, and slightly worse in 2023. Composition retains 21 unavailable cases and one 1-job residual;  this is not worker hires, vacancies or a verified real-time forecast.",
+      "checks": "16 fixtures; 44574 official source rows and 13566 minimal selected rows; 668610 independent parser scalars and 336 SQL controls; 26 dependencies frozen before held summaries; 481375 exact stage fields and 393584 SQL lineage checks; 476500 exact replay CSV fields plus 5 documents; 84 plotted values,114 geometry checks,8 annotations,19 sector labels,9 hashes; 438 paper checks; 8 final rendered pages;  scoped staged/canonical Git audits.",
+      "manuscript": "Public reviewed eight-page independent LaTeX/PDF and three original figures; not peer reviewed; formal-publication projects excluded.",
+      "limitations": "Captured disclosure-protected/revised BDS cells are not verified employer microdata.934 baseline state-sector series exclude 35 small/flagged series. The target is expanding-continuer job gains per 100 reported DHS-average employees, not hires, vacancies or a demonstrated shortage. Complete prior-year inputs are idealized;  original vintages and live feasibility remain unverified. Fixed size subsets change population. No suppression recovery, causal explanation, realized savings, R execution or novelty claim.",
+      "next_step": "Retain own lag and local failure evidence beside the pooled benchmark; separate opening and continuing components and preserve unavailable cells. Verify dated source availability and a new decision-specific evaluation before operational forecasts; staffing or hiring claims require timely vacancy and worker-flow evidence.",
+      "state": "COMPLETE_SCOPED_RELEASE",
+      "repository": "https://github.com/S3R3Bii/establishment-growth-signals",
+      "head": "96d02fe669aade7ae6fe9b97c6e80ef473212812",
+      "tested_head": "65aae5a5dc599c3518a5f0642a861935b71198c2",
+      "tree": "94980477b4504ff8cfdc66dda792bd79f65d6520",
+      "tag": "v0.1.0",
+      "pr": "https://github.com/S3R3Bii/establishment-growth-signals/pull/2",
+      "ci": "https://github.com/S3R3Bii/establishment-growth-signals/actions/runs/40971391623",
+      "merged_ci": "https://github.com/S3R3Bii/establishment-growth-signals/actions/runs/40972566012"
+    },
+    "manuscript_publication": {
+      "head": "96d02fe669aade7ae6fe9b97c6e80ef473212812",
+      "pdf": "https://github.com/S3R3Bii/establishment-growth-signals/blob/96d02fe669aade7ae6fe9b97c6e80ef473212812/paper/manuscript.pdf",
+      "source": "https://github.com/S3R3Bii/establishment-growth-signals/blob/96d02fe669aade7ae6fe9b97c6e80ef473212812/paper/main.tex",
+      "ci": "https://github.com/S3R3Bii/establishment-growth-signals/actions/runs/40972566012"
+    }
   },
   {
     "id": "11",
