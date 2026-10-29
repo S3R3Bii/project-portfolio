@@ -1,6 +1,10 @@
 # Cold-chain planning from temperature extremes
 
-**State: protocol only. No result or novelty claim yet.**
+## Execution update — 29 October 2026
+
+A scoped study is executed and released at https://github.com/S3R3Bii/weather-aggregation-extremes. Across eight held airport cases in 2017-2024, the 30 C monthly-mean view hides 26,642 of 49,423 reported positive hourly slots (53.9%), while labeling 8,059 observed non-exceeding slots positive. Minneapolis has 15.6% unknown held slots, leaving its full-grid count ordering unresolved. Read its fixed executable protocol, complete exclusions and validation. The broader proposal below is retained as historical design context; it is not the release specification. Independent program manuscripts are public after checks; separate formal-publication projects remain private.
+
+**Historical proposal, superseded by the scoped release above.**
 
 ## Decision
 

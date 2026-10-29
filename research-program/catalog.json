@@ -1079,18 +1079,42 @@
       }
     ],
     "proposed_analysis": "Extreme-value estimates and threshold-exceedance duration",
-    "validation_plan": "Station completeness; year-block bootstrap; threshold sensitivity; no product-specific spoilage claim",
+    "validation_plan": "2010-2016 development and 2017-2024 held descriptive summaries; 18 canonical source/code dependencies publicly frozen before held analytical outcomes; all inputs and source-quality checks visible without blinding; every threshold, station, year, month and all missing slots retained; independent whitespace/source-locator parsing, SQL grouped/window/order-statistic checks, exact year-index/bootstrap reconstruction and isolated replay",
     "contribution_to_test": "Translate weather evidence into scenario hours above a declared operating threshold",
     "skills": [
       "extreme value analysis",
       "time series",
       "decision analysis"
     ],
-    "status": "protocol only",
-    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
-    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
-    "license_gate": "unknown until exact dataset terms are checked",
-    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+    "status": "executed; scoped reported-temperature aggregation and missingness comparison released",
+    "manuscript": "Public reviewed eight-page independent LaTeX/PDF and three original figures; not peer reviewed; formal-publication projects excluded.",
+    "novelty": "Executed finite-source aggregation/tail/missingness comparison with established integer/rational arithmetic and whole-year resampling; no new estimator, exhaustive novelty or actual cold-chain validation claim",
+    "license_gate": "Attributed NOAA NODD selected station/time/temperature facts and original derivative analysis; full source files/documents/artwork outside Git; no NOAA endorsement or claim that derivatives are unaltered agency output; no personal/passenger/clinical/product records",
+    "publication_gate": "All scoped source, scientific, separation, replay, figure, manuscript, privacy and exact-head Linux/merge/tag gates pass",
+    "repository": "https://github.com/S3R3Bii/weather-aggregation-extremes",
+    "release": {
+      "checkout": "studies/weather-aggregation-extremes",
+      "finding": "Across eight held airport cases in 2017-2024, the 30 C monthly-mean view hides 26,642 of 49,423 reported positive hourly slots (53.9%), while labeling 8,059 observed non-exceeding slots positive. Minneapolis has 15.6% unknown held slots, leaving its full-grid count ordering unresolved.",
+      "checks": "Twelve fixtures; 120 official source objects and 1,051,655 rows; 5,258,275 selected-field and 8,413,240 projected-scalar source checks; 18 canonical dependencies frozen before held summaries; 190,540 exact and 66,840 reported-float independent SQL/integer checks; all 24,000 year-block replicate rows checked; 330,561 exact replay fields/documents; 200 plotted values plus 96 text/96 contrast checks; 97 paper checks; eight rendered pages; 65-file staged audit and 64 canonical Git blobs.",
+      "manuscript": "Public reviewed eight-page independent LaTeX/PDF and three original figures; not peer reviewed; formal-publication projects excluded.",
+      "limitations": "Conditional comparison of reported near-hour outdoor source readings, not continuous exposure duration, actual facility/product conditions or current weather. Lite omits full QC flags and carries an unresolved general merge notice; individual weather QC remains unknown. Missing temperatures can change counts and complete-month means. Whole-year resampling conditions on observed records/missingness; trends, multi-year dependence and airport representativeness limit future interpretation. No fitted extreme-value estimator, prospective alert, causal, generalized-city, product-safety, realized-benefit or novelty claim.",
+      "next_step": "Show threshold counts, coverage and missing-slot bounds beside monthly means; obtain full quality-bearing observations and authorized facility/product measurements before an operational contingency decision.",
+      "state": "COMPLETE_SCOPED_RELEASE",
+      "repository": "https://github.com/S3R3Bii/weather-aggregation-extremes",
+      "head": "4f6057d83cadd004bc7c42f9fa2f1b9057fad03c",
+      "tested_head": "655917492d347f6e366dad87abe5d6406cb2f517",
+      "tree": "415418935bf79cb57b805fb2b13a435c82b2f11d",
+      "tag": "v0.1.0",
+      "pr": "https://github.com/S3R3Bii/weather-aggregation-extremes/pull/2",
+      "ci": "https://github.com/S3R3Bii/weather-aggregation-extremes/actions/runs/40943265361",
+      "merged_ci": "https://github.com/S3R3Bii/weather-aggregation-extremes/actions/runs/40943606484"
+    },
+    "manuscript_publication": {
+      "head": "4f6057d83cadd004bc7c42f9fa2f1b9057fad03c",
+      "pdf": "https://github.com/S3R3Bii/weather-aggregation-extremes/blob/4f6057d83cadd004bc7c42f9fa2f1b9057fad03c/paper/manuscript.pdf",
+      "source": "https://github.com/S3R3Bii/weather-aggregation-extremes/blob/4f6057d83cadd004bc7c42f9fa2f1b9057fad03c/paper/main.tex",
+      "ci": "https://github.com/S3R3Bii/weather-aggregation-extremes/actions/runs/40943606484"
+    }
   },
   {
     "id": "33",
