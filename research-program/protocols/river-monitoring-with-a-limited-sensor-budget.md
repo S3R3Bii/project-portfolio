@@ -1,5 +1,9 @@
 # River monitoring with a limited sensor budget
 
+## Source-readiness update —29October2026
+
+Unreleased: the fixed Approved-day source-coverage gate failed before fitting; read the [bounded source hold](../source-holds/study14-approval-coverage.md). No predictive result or completed study counted.
+
 **State: protocol only. No result or novelty claim yet.**
 
 ## Decision

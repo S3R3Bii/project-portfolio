@@ -465,11 +465,18 @@
       "feature selection",
       "time series"
     ],
-    "status": "protocol only",
+    "status": "source hold; fixed Approved-day coverage fails in three2025station-years",
     "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
     "novelty": "Candidate contribution; systematic prior-work review not yet completed",
     "license_gate": "unknown until exact dataset terms are checked",
-    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass",
+    "source_readiness": {
+      "state": "HOLD",
+      "public_note": "source-holds/study14-approval-coverage.md",
+      "source_approval": "FAIL",
+      "model_fitting_started": false,
+      "repository": "https://github.com/S3R3Bii/gauge-information-budget"
+    }
   },
   {
     "id": "15",
