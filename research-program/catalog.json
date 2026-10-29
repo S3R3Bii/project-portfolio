@@ -258,18 +258,42 @@
       }
     ],
     "proposed_analysis": "Network concentration and constrained rerouting scenarios",
-    "validation_plan": "Flow conservation; alternative capacity assumptions; hold out commodities for stress design",
+    "validation_plan": "Fixed FAF6.0 2022 water-import-to-truck scope; four development and four held commodities, four entry-state closures and all 512 declared settings retained; 17 canonical dependencies frozen before held analytical summaries; raw inputs and quality visible without blinding; independent source parsing/SQL, exact flow/cut and deterministic greedy reconstruction, monotonicity and isolated replay; no model fitting or parameter selection",
     "contribution_to_test": "Expose fragility without presenting scenario rerouting as an observed disruption or realized savings",
     "skills": [
       "network analysis",
       "optimization",
       "scenario design"
     ],
-    "status": "protocol only",
-    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
-    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
-    "license_gate": "unknown until exact dataset terms are checked",
-    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+    "status": "executed; scoped hypothetical freight allocation comparison released",
+    "manuscript": "Public reviewed seven-page independent LaTeX/PDF and three original figures; not peer reviewed; formal-publication projects excluded.",
+    "novelty": "Executed finite-source allocation and assumption-sensitivity comparison using established flow/cut optimality; original implementation; no new algorithm, exhaustive novelty, operational capacity or realized benefit claim",
+    "license_gate": "Attributed BTS/FAF selected aggregate facts, code/name metadata and original derivative analysis; full source archive/workbook, monetary values and third-party guide/artwork excluded; no personal, clinical, carrier-private or confidential business data and no agency endorsement",
+    "publication_gate": "All scoped source, scientific, separation, replay, figure, manuscript, privacy and exact-head Linux/merge/tag gates pass",
+    "repository": "https://github.com/S3R3Bii/freight-substitution-stress",
+    "release": {
+      "checkout": "studies/freight-substitution-stress",
+      "finding": "Across all 16 held primary commodity/closure cases, conditional recovery ranges from 0% to 100% under fixed hypothetical headroom and strict support. Exact optimization improves on the specified greedy baseline in 27 of 256 held settings, including 3 of 16 primary cases; no operational capacity or realized benefit is established.",
+      "checks": "Twelve fixtures; 599,529-row official source archive; 8,563 selected facts and 102,756 independent-parser scalar checks; 85,632 projection checks; 17 canonical dependencies frozen before held summaries; all 512 flow/cut and greedy certificates independently reconstructed; 1,747,549 exact result checks and 2,304 monotonicity checks; 759,047 exact replay fields; 288 actual figure artist values plus 16 annotation/16 contrast checks; 267 paper checks; seven rendered pages; 57-file staged audit and 56 canonical Git blobs.",
+      "manuscript": "Public reviewed seven-page independent LaTeX/PDF and three original figures; not peer reviewed; formal-publication projects excluded.",
+      "limitations": "FAF6.0 contains 2022 estimated state-entry commodity flows, not actual spare capacity, individual ports, physical road/ocean routes, carrier contracts or observed disruption responses. Headroom, origin/gateway limits and corridor support factors are illustrative and untuned. Each commodity and closure is solved separately, without simultaneous multi-commodity capacity claims. Source estimate uncertainty and operational feasibility remain unestablished; no predictive, causal, savings or novelty claim.",
+      "next_step": "Use the scenario lattice to prioritize operator evidence on entry-facility capacity, physical routes, carrier commitments and disruption timing before making transport commitments.",
+      "state": "COMPLETE_SCOPED_RELEASE",
+      "repository": "https://github.com/S3R3Bii/freight-substitution-stress",
+      "head": "7ba072b2ca938a81cc3b759a1db1f03f9ae4fb42",
+      "tested_head": "bb667b151d35701fd98783b2135d2f37d29ebd8c",
+      "tree": "f3bd0f3b20fa9712e656d7ede08af59e42eab6e6",
+      "tag": "v0.1.0",
+      "pr": "https://github.com/S3R3Bii/freight-substitution-stress/pull/2",
+      "ci": "https://github.com/S3R3Bii/freight-substitution-stress/actions/runs/40946457740",
+      "merged_ci": "https://github.com/S3R3Bii/freight-substitution-stress/actions/runs/40946798322"
+    },
+    "manuscript_publication": {
+      "head": "7ba072b2ca938a81cc3b759a1db1f03f9ae4fb42",
+      "pdf": "https://github.com/S3R3Bii/freight-substitution-stress/blob/7ba072b2ca938a81cc3b759a1db1f03f9ae4fb42/paper/manuscript.pdf",
+      "source": "https://github.com/S3R3Bii/freight-substitution-stress/blob/7ba072b2ca938a81cc3b759a1db1f03f9ae4fb42/paper/main.tex",
+      "ci": "https://github.com/S3R3Bii/freight-substitution-stress/actions/runs/40946798322"
+    }
   },
   {
     "id": "09",
