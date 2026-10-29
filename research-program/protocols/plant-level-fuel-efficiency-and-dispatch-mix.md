@@ -1,5 +1,9 @@
 # Plant-level fuel efficiency and dispatch mix
 
+## Source-readiness update — 29 October 2026
+
+Unreleased: the fixed source-key and plant-year CHP-classification gate failed before decomposition. Read the [bounded source hold](../source-holds/study25-chp-key-conflict.md). No completed study counted.
+
 **State: protocol only. No result or novelty claim yet.**
 
 ## Decision

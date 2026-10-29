@@ -908,11 +908,18 @@
       "decomposition",
       "energy analytics"
     ],
-    "status": "protocol only",
+    "status": "source hold; conflicting CHP classifications on a duplicate2018source key",
     "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
     "novelty": "Candidate contribution; systematic prior-work review not yet completed",
     "license_gate": "unknown until exact dataset terms are checked",
-    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass",
+    "source_readiness": {
+      "state": "HOLD",
+      "public_note": "source-holds/study25-chp-key-conflict.md",
+      "source_key": "FAIL",
+      "analysis_started": false,
+      "repository": "https://github.com/S3R3Bii/heat-rate-composition"
+    }
   },
   {
     "id": "26",
