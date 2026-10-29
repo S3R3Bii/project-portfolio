@@ -254,7 +254,7 @@
       }
     ],
     "proposed_analysis": "Panel reconciliation and bounded missingness sensitivity",
-    "validation_plan": "Published agency-total reconciliation; reporting-break checks; withheld-month recovery experiment",
+    "validation_plan": "Protocol before source counts;  fixed 2019 cohort and complete prior/current-year eligibility; 2020–2022 development,2023–2025 held targets; 18 dependencies frozen before held summaries;  all 27 deterministic gaps,3 point views and 3 cap assumptions retained;  independent SQLite cohorts/window ranks and exact ratio/interval math plus isolated replay;  no fitting or selection.",
     "contribution_to_test": "Make dashboard reliability the primary outcome rather than ranking operators on incomplete totals",
     "skills": [
       "SQL",
@@ -262,11 +262,35 @@
       "missing data",
       "visualization"
     ],
-    "status": "protocol only",
-    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
-    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
-    "license_gate": "unknown until exact dataset terms are checked",
-    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+    "status": "executed; scoped published-count reporting-gap comparison released",
+    "manuscript": "Public reviewed seven-page independent LaTeX/PDF and three original figures; not peer reviewed; formal-publication projects excluded.",
+    "novelty": "Executed finite published-record reporting-gap and assumption-validity comparison using established panel/ratio/bound arithmetic; no new estimator, exhaustive novelty, real missingness frequency or operational-benefit claim.",
+    "license_gate": "Official DOT/FTA public-domain license; minimal agency-service/month federal UPT facts, selected schema/revision metadata and original code/figures. Full portal/contact metadata, safety fields, individual passengers and third-party documents excluded. Formal-publication and confidential business projects excluded.",
+    "publication_gate": "All scoped source, scientific, separation, replay, figure, manuscript, privacy and exact-head Linux/merge/tag gates pass",
+    "repository": "https://github.com/S3R3Bii/transit-reporting-missingness",
+    "release": {
+      "checkout": "studies/transit-reporting-missingness",
+      "finding": "In the fixed prior-year gap masking about 10% of units but 74.1–74.5% of baseline volume, zero-fill growth MAE is 319.349 percentage points versus 1.289 for the matched panel over 36 held months. The matched panel still misses one positive-growth month. Twice-2019 caps contain all 972 aggregate benchmarks, while 470 cases violate a component cap;  containment does not validate assumptions.",
+      "checks": "16 fixtures; 38584 official minimal federal rows; 192920 independent parse and 10083 server-control scalar checks; 18 dependencies frozen before held summaries; 344274 exact result and 2160 summary fields independently reconstructed; 346434 exact replay fields plus 3 verification documents; 333 actual figure values,27 annotation/contrast and 9 hashes; 1025 paper checks; 7 final rendered pages;  scoped staged and canonical Git-blob audits.",
+      "manuscript": "Public reviewed seven-page independent LaTeX/PDF and three original figures; not peer reviewed; formal-publication projects excluded.",
+      "limitations": "Captured revised published UPT entries are boardings rather than verified passenger truth or service reliability. Complete-case populations vary by year and exclude incomplete/entering services. Synthetic persistent gaps do not estimate real missingness; matched panels change population and count rescaling assumes representative omissions. Caps are untuned sensitivity assumptions with retained violations, not confidence bounds. Original historical vintages, estimation provenance, actual service eligibility and future coverage remain unknown. No causal, operational-benefit, savings or novelty claim.",
+      "next_step": "Display reporting coverage, unit/volume shares and population beside growth; preserve zero/null/absence; obtain service-status and dated reporting snapshots before certifying real increases or applying count caps.",
+      "state": "COMPLETE_SCOPED_RELEASE",
+      "repository": "https://github.com/S3R3Bii/transit-reporting-missingness",
+      "head": "d94d64c4b1d3edde2bfee324bc3668665b15a0ad",
+      "tested_head": "c2439a98a7c15b54a22043ac346164c104f3a620",
+      "tree": "b8d3ad3fe0146ae1e4d8c4027c1468832ffc6b69",
+      "tag": "v0.1.0",
+      "pr": "https://github.com/S3R3Bii/transit-reporting-missingness/pull/2",
+      "ci": "https://github.com/S3R3Bii/transit-reporting-missingness/actions/runs/40954390533",
+      "merged_ci": "https://github.com/S3R3Bii/transit-reporting-missingness/actions/runs/40954630063"
+    },
+    "manuscript_publication": {
+      "head": "d94d64c4b1d3edde2bfee324bc3668665b15a0ad",
+      "pdf": "https://github.com/S3R3Bii/transit-reporting-missingness/blob/d94d64c4b1d3edde2bfee324bc3668665b15a0ad/paper/manuscript.pdf",
+      "source": "https://github.com/S3R3Bii/transit-reporting-missingness/blob/d94d64c4b1d3edde2bfee324bc3668665b15a0ad/paper/main.tex",
+      "ci": "https://github.com/S3R3Bii/transit-reporting-missingness/actions/runs/40954630063"
+    }
   },
   {
     "id": "08",

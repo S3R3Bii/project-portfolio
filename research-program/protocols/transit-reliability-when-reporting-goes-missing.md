@@ -1,6 +1,10 @@
 # Transit reliability when reporting goes missing
 
-**State: protocol only. No result or novelty claim yet.**
+## Execution update — 29 October 2026
+
+A scoped study is executed and released at https://github.com/S3R3Bii/transit-reporting-missingness. In the fixed prior-year gap masking about 10% of units but 74.1–74.5% of baseline volume, zero-fill growth MAE is 319.349 percentage points versus 1.289 for the matched panel over 36 held months. The matched panel still misses one positive-growth month. Twice-2019 caps contain all 972 aggregate benchmarks, while 470 cases violate a component cap;  containment does not validate assumptions. Read its fixed executable protocol, complete exclusions and validation. The broader proposal below is retained as historical design context; it is not the release specification. Independent program manuscripts are public after checks; separate formal-publication projects remain private.
+
+**Historical proposal, superseded by the scoped release above.**
 
 ## Decision
 
