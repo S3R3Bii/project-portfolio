@@ -517,7 +517,7 @@
       }
     ],
     "proposed_analysis": "Event entity resolution and sequential anomaly detection",
-    "validation_plan": "Human-audited public-label sample; amendment lineage; future-time alert evaluation",
+    "validation_plan": "2017–2021 fixed rational-quantile calibration; twelve canonical dependencies publicly frozen before 2022–2025 event/fanout/flag outcomes; complete fair and mismatched policies plus all quantile/class/year-omission sensitivities; independent SQL/decimal/rational checks and isolated minimized-source replay",
     "contribution_to_test": "Separate notification churn from distinct recall events before detecting anomalies",
     "skills": [
       "NLP",
@@ -525,11 +525,35 @@
       "record linkage",
       "monitoring"
     ],
-    "status": "protocol only",
-    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
-    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
-    "license_gate": "unknown until exact dataset terms are checked",
-    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+    "status": "executed; scoped administrative counting comparison released",
+    "manuscript": "Public reviewed seven-page independent LaTeX/PDF and three original figures; not peer reviewed; formal-publication projects excluded.",
+    "novelty": "Reproducible bounded comparison using established distinct counting and sample quantiles; no new algorithm, human-audited amendment lineage, exhaustive novelty or peer-review claim",
+    "license_gate": "Official food-only administrative fields under openFDA CC0 default and stated exceptions; 21 full originals excluded; all selected strings checked; no device/GMDN, patient, address, firm or free-text data",
+    "publication_gate": "All scoped source, scientific, separation, replay, figure, manuscript, privacy and exact-head Linux/merge/tag gates pass",
+    "repository": "https://github.com/S3R3Bii/recall-count-granularity",
+    "release": {
+      "checkout": "studies/recall-count-granularity",
+      "finding": "An event threshold applied to product counts flags 41 of 48 evaluation months versus one for event counts. Separately calibrated product and event policies each flag one month, but select different months. All legitimate products remain intact.",
+      "checks": "Nine boundary tests; 261,184 selected/normalized source fields; 13,608 development and 10,685 evaluation values independently reconstructed; 196,440 exact fields/documents and 1,296 floating fields replayed; 528 plotted values; 70 manuscript table/text checks; seven rendered pages; 83-file staged audit and 82 canonical Git blobs.",
+      "manuscript": "Public reviewed seven-page independent LaTeX/PDF and three original figures; not peer reviewed; formal-publication projects excluded.",
+      "limitations": "Later historical snapshot, not original information vintages, amendment history or lifecycle evidence. Illustrative internal data-review queue policies have no verified hazard or labor labels. Different legitimate products are not duplicate errors. No public alerts, medical advice, causal effect, prospective validation, novel algorithm, human-audited linkage or realized savings claim.",
+      "next_step": "Keep both counting grains and match calibration units to the review task; obtain actual queue-action and historical-availability evidence before operational performance claims.",
+      "state": "COMPLETE_SCOPED_RELEASE",
+      "repository": "https://github.com/S3R3Bii/recall-count-granularity",
+      "head": "3880158c4ca571109bb634a9b6a0a2a1dd3daa97",
+      "tested_head": "92c326be1377c2a97aa6837b70a6a8b6f4353557",
+      "tree": "5c0859ba78840464621bc2cd23f7c42219d00845",
+      "tag": "v0.1.0",
+      "pr": "https://github.com/S3R3Bii/recall-count-granularity/pull/2",
+      "ci": "https://github.com/S3R3Bii/recall-count-granularity/actions/runs/40927522142",
+      "merged_ci": "https://github.com/S3R3Bii/recall-count-granularity/actions/runs/40927676146"
+    },
+    "manuscript_publication": {
+      "head": "3880158c4ca571109bb634a9b6a0a2a1dd3daa97",
+      "pdf": "https://github.com/S3R3Bii/recall-count-granularity/blob/3880158c4ca571109bb634a9b6a0a2a1dd3daa97/paper/manuscript.pdf",
+      "source": "https://github.com/S3R3Bii/recall-count-granularity/blob/3880158c4ca571109bb634a9b6a0a2a1dd3daa97/paper/main.tex",
+      "ci": "https://github.com/S3R3Bii/recall-count-granularity/actions/runs/40927676146"
+    }
   },
   {
     "id": "18",

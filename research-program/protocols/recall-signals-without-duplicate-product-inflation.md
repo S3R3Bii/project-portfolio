@@ -1,6 +1,10 @@
 # Recall signals without duplicate product inflation
 
-**State: protocol only. No result or novelty claim yet.**
+## Execution update — 29 October 2026
+
+A scoped study is executed and released at https://github.com/S3R3Bii/recall-count-granularity. An event threshold applied to product counts flags 41 of 48 evaluation months versus one for event counts. Separately calibrated product and event policies each flag one month, but select different months. All legitimate products remain intact. Read its fixed executable protocol, complete exclusions and validation. The broader proposal below is retained as historical design context; it is not the release specification. Independent program manuscripts are public after checks; separate formal-publication projects remain private.
+
+**Historical proposal, superseded by the scoped release above.**
 
 ## Decision
 
