@@ -1,5 +1,9 @@
 # Injury rate stability for small establishments
 
+## Source-readiness update — 29 October 2026
+
+Unreleased: official summary downloads returned HTTP403; no source records or fitted model. Any later year-linked evaluation also needs an identity/attrition audit. Read the [bounded source hold](../source-holds/study16-summary-access.md).
+
 **State: protocol only. No result or novelty claim yet.**
 
 ## Decision
