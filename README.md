@@ -8,7 +8,7 @@ I build analytical tools and applications that make complex work easier to inspe
 
 ## Research directed at demanding data roles
 
-The [50-study research register](research-program/README.md) connects specific business questions to public data and measurable tests. The [skills map](research-program/SKILLS_AND_SEQUENCE.md) emphasizes SQL, data validation, temporal evaluation, model tuning, kinematics and decision communication. The register separates thirty-one released studies and 19 awaiting execution or release. Every model-selection claim requires retained optimization and independent metric evidence. The [research manuscripts](research-program/RESEARCH_PAPERS.md) explain the released studies and link their checked source editions.
+The [50-study research register](research-program/README.md) connects specific business questions to public data and measurable tests. The [skills map](research-program/SKILLS_AND_SEQUENCE.md) emphasizes SQL, data validation, temporal evaluation, model tuning, kinematics and decision communication. The register separates thirty-two released studies and 18 awaiting execution or release. Every model-selection claim requires retained optimization and independent metric evidence. The [research manuscripts](research-program/RESEARCH_PAPERS.md) explain the released studies and link their checked source editions.
 
 
 ## Start here
@@ -46,6 +46,7 @@ The [50-study research register](research-program/README.md) connects specific b
 | [Check a modeled retrofit choice against another weather case](https://github.com/S3R3Bii/retrofit-weather-choice) | A list of modeled choices to review: 17 of 112 held IDs change their unique top retrofit across two supplied cases; costs and field validation remain necessary |
 | [Check a solar-resource shortlist](https://github.com/S3R3Bii/solar-resource-shortlist) | A solar-resource review showing stable western choices, weaker eastern transfer and shortlist changes under explicitly artificial daily gaps |
 | [Keep cotton quality in price alerts](https://github.com/S3R3Bii/cotton-grade-price-alerts) | A runnable cotton quote comparison showing how an added grade creates false price alerts, with explicit unknown-identity handling |
+| [Compare employment on a consistent population base](https://github.com/S3R3Bii/japan-employment-vintages) | Shows how mixing employment dataset versions can reverse a growth signal, with an offline guard and explicit rounding ambiguity |
 | [PikiVu](pikivu.md) | A compact recording interface and validated edit/export workflow |
 | [Model Evidence](model-evidence.md) | Statistical diagnostics presented as readable reports |
 | [Open Research Commons](open-research-commons.md) | Shared human/agent workflow with independent release checks |

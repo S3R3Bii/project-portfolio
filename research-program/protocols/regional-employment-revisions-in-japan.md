@@ -1,6 +1,10 @@
 # Regional employment revisions in Japan
 
-**State: protocol only. No result or novelty claim yet.**
+## Execution update — 30 October 2026
+
+A scoped study is executed and released at https://github.com/S3R3Bii/japan-employment-vintages. Across 72 later region-month pairs, an authored mixed-version splice differs from current coherent year-on-year employment growth by 0.326578703 percentage points on average in absolute value, with a 0.577200577-point maximum. Four published point signs reverse; two remain opposite under conservative count-rounding enclosures. These finite retrospective comparisons do not establish true employment error, isolated census effects, actual dashboard incidents or a live error rate. Read its fixed executable protocol, complete exclusions and validation. The broader proposal below is retained as historical design context; it is not the release specification. Independent program manuscripts are public after checks; separate formal-publication projects remain private.
+
+**Historical proposal, superseded by the scoped release above.**
 
 ## Decision
 

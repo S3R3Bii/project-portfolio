@@ -1525,30 +1525,73 @@
   {
     "id": "33",
     "slug": "regional-employment-revisions-in-japan",
-    "title": "Regional employment revisions in Japan",
-    "decision": "How stable are regional labor-demand signals across release revisions and industry classifications?",
+    "title": "Compare employment on a consistent population base",
+    "decision": "How much can mixing population-base versions distort a year-on-year regional employment comparison, including conservative rounding ambiguity?",
     "sources": [
+      {
+        "key": "Japan_LFS_PopulationBaseVersions",
+        "publisher_dataset": "Statistics Bureau Japan Labour Force Survey, pre-2022 benchmark archive and e-Stat historical reference table1-e-1, monthly Southern-Kanto/Kinki employed-person counts",
+        "landing_url": "https://www.stat.go.jp/english/data/roudou/220201/index.html",
+        "status": "executed;two privately preserved exact official XLSX snapshots,288 attributed native count cells, independent original-cell reconciliation and exact version comparisons"
+      }
+    ],
+    "proposed_analysis": "Revision-aware regional panel models",
+    "validation_plan": "Commit the fixed two-source/two-region/count-vintage protocol before workbook capture. Preserve original bytes and bind native Japanese/English concepts, visible era/Gregorian month labels, count units and source cells after capture. Require all 288 fixed count cells; independently reconcile original cells with Openpyxl/calendar and raw tokens. Commit 24 dependency hashes after 48 earlier comparisons and before 72 later summaries. Retain coherent old/current contrasts separately from the authored splice, both thresholds and every rounding-ambiguous case. Independently reconstruct exact arithmetic, replay in separate paths, inspect all figures/paper pages and verify exact candidate/main CI, merged-tree identity, tag and metadata.",
+    "contribution_to_test": "Show whether a translated statistical label preserves the original definition",
+    "skills": [
+      "international source reconciliation",
+      "measurement definitions",
+      "SQL and exact arithmetic",
+      "version lineage",
+      "rounding-aware data engineering",
+      "independent implementation validation"
+    ],
+    "status": "executed; retrospective regional count-version audit and implementation exercise released",
+    "manuscript": "Public reviewed six-page independent LaTeX/PDF with three original figures; not peer reviewed; formal-publication projects excluded.",
+    "novelty": "Transparent retrospective measurement audit and elementary version-identity exercise, with source-specific growth discrepancies and conservative rounding certification. No scientific-priority, new-estimator, forecast, live performance or realized-benefit claim.",
+    "license_gate": "Statistics Bureau and e-Stat numerical count facts are attributed with processed-data notices. The Bureau website refers to PDL1.0 and numerical-fact reuse; e-Stat terms separately cover numerical facts and attribution/change notices with third-party exceptions. Only a minimal native count projection and new calculations are public. Complete workbooks, publisher PDF/HTML, logos, contacts, private records and formal-publication drafts remain excluded; no government endorsement or blanket third-party relicensing.",
+    "publication_gate": "All scoped source, scientific, separation, replay, figure, manuscript, privacy and exact-head Linux/merge/tag gates pass",
+    "historical_proposed_title": "Regional employment revisions in Japan",
+    "historical_proposed_decision": "How stable are regional labor-demand signals across release revisions and industry classifications?",
+    "historical_proposed_skills": [
+      "international data",
+      "R",
+      "measurement",
+      "panel analysis"
+    ],
+    "executed_analysis": "Exact paired-vintage count reconciliation, coherent/archive/current and authored mixed-vintage year-on-year comparisons, rounding enclosures, fixed threshold classifications and offline version guard. Panel forecasting, next-release prediction, industry crosswalks and R remain unexecuted historical proposal context.",
+    "repository": "https://github.com/S3R3Bii/japan-employment-vintages",
+    "release": {
+      "checkout": "studies/japan-employment-vintages",
+      "finding": "Across 72 later region-month pairs, an authored mixed-version splice differs from current coherent year-on-year employment growth by 0.326578703 percentage points on average in absolute value, with a 0.577200577-point maximum. Four published point signs reverse; two remain opposite under conservative count-rounding enclosures. These finite retrospective comparisons do not establish true employment error, isolated census effects, actual dashboard incidents or a live error rate.",
+      "checks": "Two preserved original workbooks; 288 fixed native count cells reconcile in 2,600 independent conditions; 24 committed dependencies before later summaries; 4,930 development and 6,922 later arithmetic conditions; 44 finite fixtures; Python 3.10.11/3.12.14 replay of 14,260 CSV fields and four JSON documents; 296 figure values, 496 actual SVG coordinates and nine hashes; 89 manuscript displays, 194 checks and six inspected pages; 73 canonical Git blobs and five scoped paper files.",
+      "manuscript": "Public reviewed six-page independent LaTeX/PDF with three original figures; not peer reviewed; formal-publication projects excluded.",
+      "limitations": "Two monthly regional reference series have lower sampling precision than national estimates; rounding enclosures do not quantify sampling uncertainty. The archive is a pre-2022 benchmark version rather than every first delivery, and the current version was retrieved in 2026, so differences can include cumulative revisions. The splice is authored, months share survey/revision information, and threshold examples are not operationally calibrated. No next-release forecast, industry panel, isolated census causality, true-employment ground truth, new estimator, R implementation, deployment or measured financial benefit is established.",
+      "next_step": "Preserve publisher/version lineage and reload comparison history when accepting revised series. Record unavailable identities and rounding ambiguity. Collect source arrivals and independently labeled ingestion incidents, measure actual reconciliation workload, and apply publisher sampling-error guidance before choosing operating thresholds or interpreting regional changes.",
+      "state": "COMPLETE_SCOPED_RELEASE",
+      "repository": "https://github.com/S3R3Bii/japan-employment-vintages",
+      "head": "083daf42ab2ddeb0c59b1efe575352302bd3045a",
+      "tested_head": "ee229ce153a78d2b9fbcab1eb1df52d87a690f74",
+      "tree": "f2420ac235724525ce6f1c83a26e972fd6b0ae7b",
+      "tag": "v0.1.0",
+      "pr": "https://github.com/S3R3Bii/japan-employment-vintages/pull/2",
+      "ci": "https://github.com/S3R3Bii/japan-employment-vintages/actions/runs/41116576769",
+      "merged_ci": "https://github.com/S3R3Bii/japan-employment-vintages/actions/runs/41116726317"
+    },
+    "manuscript_publication": {
+      "head": "083daf42ab2ddeb0c59b1efe575352302bd3045a",
+      "pdf": "https://github.com/S3R3Bii/japan-employment-vintages/blob/083daf42ab2ddeb0c59b1efe575352302bd3045a/paper/manuscript.pdf",
+      "source": "https://github.com/S3R3Bii/japan-employment-vintages/blob/083daf42ab2ddeb0c59b1efe575352302bd3045a/paper/main.tex",
+      "ci": "https://github.com/S3R3Bii/japan-employment-vintages/actions/runs/41116726317"
+    },
+    "historical_proposed_sources": [
       {
         "key": "JAPAN",
         "publisher_dataset": "Japan government statistics",
         "landing_url": "https://www.e-stat.go.jp/en",
         "status": "targeted; exact export and rights must be verified"
       }
-    ],
-    "proposed_analysis": "Revision-aware regional panel models",
-    "validation_plan": "Verify English metadata and historical vintages; industry crosswalks; next-release prediction",
-    "contribution_to_test": "Show whether a translated statistical label preserves the original definition",
-    "skills": [
-      "international data",
-      "R",
-      "measurement",
-      "panel analysis"
-    ],
-    "status": "protocol only",
-    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
-    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
-    "license_gate": "unknown until exact dataset terms are checked",
-    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+    ]
   },
   {
     "id": "34",
