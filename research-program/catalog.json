@@ -2057,29 +2057,72 @@
   {
     "id": "43",
     "slug": "open-source-release-risk-from-public-activity-signals",
-    "title": "Open-source release risk from public activity signals",
-    "decision": "Do release-cadence and contributor-concentration signals predict maintenance interruptions on unseen projects?",
+    "title": "A better cadence score can still leave the review queue empty",
+    "decision": "Do three past stable-release intervals improve a ninety-day release-gap probability on other projects and later dates, and does the fixed review policy surface any observed gap?",
     "sources": [
+      {
+        "key": "GITHUB_PUBLIC_RELEASE_METADATA",
+        "publisher_dataset": "GitHub public release API: fixed eight-repository complete current snapshot, minimal fields only",
+        "landing_url": "https://docs.github.com/en/rest/releases/releases",
+        "status": "executed; eighteen exact private responses reconciled to 484 public minimal release records, without source assets or profile/prose redistribution"
+      }
+    ],
+    "proposed_analysis": "Repository-level survival models",
+    "validation_plan": "Commit the exact eight-project cohort, complete bounded public-API pagination, rights/minimal-field boundary, group assignment and time/horizon/candidate rules before acquisition. Preserve exact private originals; independently reconstruct minimal fields and pagination using DuckDB JSON/SQL. Derive development only, retain all nine candidates and runtimes, and independently reconstruct chronology/scores with SQLite/Fraction/Decimal. Freeze 32 dependencies before other-project final features/labels/scores. Retain all subgroup and threshold failures. Replay separate full-history clones under two Python runtimes, verify actual figure geometry and every source-bound paper page, then require exact candidate/main Linux CI, matching tree and annotated remote tag.",
+    "contribution_to_test": "Distinguish project resilience from raw popularity",
+    "skills": [
+      "SQL and data quality",
+      "temporal feature availability",
+      "probability evaluation",
+      "censored-duration summaries",
+      "independent numerical validation",
+      "reproducible research software"
+    ],
+    "status": "executed; retrospective release-cadence benchmark and offline review exercise released",
+    "manuscript": "Public reviewed six-page independent LaTeX/PDF with three original figures; not peer reviewed; separate formal-publication projects remain private.",
+    "novelty": "A small auditable retrospective benchmark and implementation exercise using authored frequency smoothing and standard probability/duration summaries. No new estimator, comprehensive scientific-priority claim, original-vintage forecast, maintainer diagnosis or operational benefit.",
+    "license_gate": "Minimal factual IDs, dates, flags, hashes and new calculations from the public GitHub API under documented API access/terms. Complete response bodies, release prose, profiles, avatars, assets, source archives, credentials and formal-publication manuscripts excluded. Project MIT code does not relicense third-party content. GH Archive event archives were not acquired or assumed covered by its software license.",
+    "publication_gate": "All scoped source, scientific, separation, replay, figure, manuscript, privacy and exact-head Linux/merge/tag gates pass",
+    "historical_proposed_title": "Open-source release risk from public activity signals",
+    "historical_proposed_decision": "Do release-cadence and contributor-concentration signals predict maintenance interruptions on unseen projects?",
+    "historical_proposed_skills": [
+      "SQL",
+      "survival analysis",
+      "software analytics"
+    ],
+    "executed_analysis": "A fixed eight-repository public GitHub release snapshot; current stable-release chronology, one pooled baseline and nine retained cadence/prior settings; exact macro-Brier selection; other-project and later-date final evaluation; descriptive right-censored duration summaries and an offline contextual review exercise.",
+    "repository": "https://github.com/S3R3Bii/release-cadence-review",
+    "release": {
+      "checkout": "studies/release-cadence-review",
+      "finding": "On 39 final release origins from four other projects, the frozen cadence rule lowers macro Brier from 0.2861623152 to 0.2497268094 and micro Brier from 0.2230423210 to 0.1917280829. Its predeclared 0.5 review threshold emits no flags and misses all ten observed 90-day gaps. Brier improves for each final project while encode/httpx log loss worsens. The release preserves the failed review policy and recommends contextual review rather than automatic routing.",
+      "checks": "Eighteen private exact response entities, 2,248,070 decoded bytes and 484 minimal release records from eight fixed repositories;6,024 independent native JSON/SQL conditions;21 fixture methods. All nine candidates and 300 validation predictions retained across 168 training and 30 validation origins;8,970 independent SQLite/Fraction/Decimal development conditions. Thirty-two dependencies committed before final analytical extraction;39 final origins, 78 predictions and 2,272 independent final conditions. Python 3.10.11/3.12.14 isolated full-history replays reproduce 13,713 exact and 1,010 tolerant fields per runtime with nine saved source JSON files unchanged and no source requests. Three inspected figures, 27 source values, 194 actual SVG coordinates and nine hashes;68 source-bound paper displays, 230 checks and six inspected pages;71 audited canonical Git blobs and five scoped paper files.",
+      "manuscript": "Public reviewed six-page independent LaTeX/PDF with three original figures; not peer reviewed; separate formal-publication projects remain private.",
+      "limitations": "Authored familiar Python-tooling cohort and current public release metadata, without original historical vintages or deleted-record recovery. GitHub releases omit ordinary Git tags and other publishing channels. Origins overlap and organizations/ecosystems are shared. Source envelopes include protected metadata before analytical freeze; collection was not blinded. The 60-day cut and prior 1 are finite-grid boundary winners. No independent population interval, contributor/bot attribution, actual maintenance or abandonment label, causal effect, security diagnosis, deployment, workload reduction, adoption or realized saving is established. The unchanged 0.5 policy misses all observed final gaps.",
+      "next_step": "Keep cadence as context alongside actual release channels and maintenance evidence. Do not route reviews automatically with the failed 0.5 rule. Collect a broader prospective cohort with real review decisions/outcomes before choosing a new operating policy or claiming operational benefit.",
+      "state": "COMPLETE_SCOPED_RELEASE",
+      "repository": "https://github.com/S3R3Bii/release-cadence-review",
+      "head": "efe370db73beb009dd29eeae1611061fbea9d15e",
+      "tested_head": "ad6981991ebdc4dd29d05e35dc3d7f9566da235d",
+      "tree": "d07df004ce2d0c1b990c90a60f80a30823ff790c",
+      "tag": "v0.1.0",
+      "pr": "https://github.com/S3R3Bii/release-cadence-review/pull/2",
+      "ci": "https://github.com/S3R3Bii/release-cadence-review/actions/runs/41131436170",
+      "merged_ci": "https://github.com/S3R3Bii/release-cadence-review/actions/runs/41131594507"
+    },
+    "manuscript_publication": {
+      "head": "efe370db73beb009dd29eeae1611061fbea9d15e",
+      "pdf": "https://github.com/S3R3Bii/release-cadence-review/blob/efe370db73beb009dd29eeae1611061fbea9d15e/paper/manuscript.pdf",
+      "source": "https://github.com/S3R3Bii/release-cadence-review/blob/efe370db73beb009dd29eeae1611061fbea9d15e/paper/main.tex",
+      "ci": "https://github.com/S3R3Bii/release-cadence-review/actions/runs/41131594507"
+    },
+    "historical_proposed_sources": [
       {
         "key": "GITHUB",
         "publisher_dataset": "GitHub public event archive",
         "landing_url": "https://www.gharchive.org/",
         "status": "targeted; exact export and rights must be verified"
       }
-    ],
-    "proposed_analysis": "Repository-level survival models",
-    "validation_plan": "Repository and future-time holdouts; bots and forks handled; avoid developer-level employment judgments",
-    "contribution_to_test": "Distinguish project resilience from raw popularity",
-    "skills": [
-      "SQL",
-      "survival analysis",
-      "software analytics"
-    ],
-    "status": "protocol only",
-    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
-    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
-    "license_gate": "unknown until exact dataset terms are checked",
-    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+    ]
   },
   {
     "id": "44",

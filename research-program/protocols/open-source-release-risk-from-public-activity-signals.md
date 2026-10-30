@@ -1,6 +1,10 @@
 # Open-source release risk from public activity signals
 
-**State: protocol only. No result or novelty claim yet.**
+## Execution update — 30 October 2026
+
+A scoped study is executed and released at https://github.com/S3R3Bii/release-cadence-review. On 39 final release origins from four other projects, the frozen cadence rule lowers macro Brier from 0.2861623152 to 0.2497268094 and micro Brier from 0.2230423210 to 0.1917280829. Its predeclared 0.5 review threshold emits no flags and misses all ten observed 90-day gaps. Brier improves for each final project while encode/httpx log loss worsens. The release preserves the failed review policy and recommends contextual review rather than automatic routing. Read its fixed executable protocol, complete exclusions and validation. The broader proposal below is retained as historical design context; it is not the release specification. Independent program manuscripts are public after checks; separate formal-publication projects remain private.
+
+**Historical proposal, superseded by the scoped release above.**
 
 ## Decision
 
