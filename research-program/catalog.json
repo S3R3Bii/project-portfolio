@@ -1035,18 +1035,42 @@
       }
     ],
     "proposed_analysis": "Vintage-aware forecasting and ranking comparison",
-    "validation_plan": "ALFRED vintage availability gate; identical information sets; rolling origins",
+    "validation_plan": "Protocol before capture; 100 planned origins, 48 development quarters, eight unscored separation quarters and 42 eligible held quarters after two predeclared timing exclusions. Six fixed rules in four common-origin regimes; development-only MAE selection and 26 committed dependency hashes before held scores. Original-XML source reconciliation, independent SQLite/Decimal/exact-loss reconstruction, all years/eras, offline replay and inspected paper/figures.",
     "contribution_to_test": "Measure the price of hindsight explicitly instead of publishing one backtest score",
     "skills": [
       "quant research",
       "time series",
       "data provenance"
     ],
-    "status": "protocol only",
-    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
-    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
-    "license_gate": "unknown until exact dataset terms are checked",
-    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+    "status": "executed; corrected retrospective GDP vintage audit released",
+    "manuscript": "Public reviewed six-page independent LaTeX/PDF and three original figures; not peer reviewed; formal-publication projects excluded.",
+    "novelty": "Transparent implementation of established real-time data and forecast-evaluation methods, separating target revisions from input hindsight. No new estimator, exhaustive scientific-novelty or measured decision-benefit claim.",
+    "license_gate": "Philadelphia Fed informational, educational and research-use terms verified. Publish attributed minimal factual numeric projections, not original workbooks, source documents, logos or unused content. No blanket CC0, endorsement or commercial-service right is claimed. Exact capture requests and originals retained privately; formal-publication manuscripts and secrets excluded.",
+    "publication_gate": "All scoped source, scientific, separation, replay, figure, manuscript, privacy and exact-head Linux/merge/tag gates pass",
+    "repository": "https://github.com/S3R3Bii/gdp-vintage-forecast-audit",
+    "release": {
+      "checkout": "studies/gdp-vintage-forecast-audit",
+      "finding": "On 42 held quarters, the development-selected 50% blend has MAE 3.629 versus 2.987 for the plain 20-quarter mean using origin inputs and early GDP. Later targets change these to 3.641 and 3.012. Mean 20 leads all four regimes; target changes reverse one other pair under hindsight inputs and none under origin inputs. No trading or operational benefit is measured.",
+      "checks": "23 finite synthetic fixtures; 2,323 selected cells and 102 vintages reconciled by 45,528 private-original OOXML checks; 26 dependencies committed before held scores; 22,320 development and 22,565 held independent checks; 63,116 exact replay CSV fields and five JSON documents; 38 figure values, 304 SVG coordinates and nine hashes; 178 paper checks, 68 numeric displays and six rendered pages; scoped canonical audits.",
+      "manuscript": "Public reviewed six-page independent LaTeX/PDF and three original figures; not peer reviewed; formal-publication projects excluded.",
+      "limitations": "Corrected source-interpretation retrospective evaluation; original First comparison failed and agreement is established only at observed four-decimal source precision. Quarterly snapshots do not establish exact-day historical access. Revised inputs use hindsight; 2026Q3 is one later estimate. Small serially dependent univariate cohort, no significance, new estimator, trading return, deployment or operational benefit.",
+      "next_step": "When reviewing a macroeconomic backtest, require both input and target vintage identifiers, original forecasts and controlled target-only/input-only comparisons. Keep the plain mean baseline; define decision timing and loss before a new operational evaluation.",
+      "state": "COMPLETE_SCOPED_RELEASE",
+      "repository": "https://github.com/S3R3Bii/gdp-vintage-forecast-audit",
+      "head": "f7210f7889236a9da27804ef126787811a80e2d7",
+      "tested_head": "02470304257d9dd8084675b66208e6422a030310",
+      "tree": "2c18ca8519216f82dc08a296115f82e684e0d97f",
+      "tag": "v0.1.0",
+      "pr": "https://github.com/S3R3Bii/gdp-vintage-forecast-audit/pull/2",
+      "ci": "https://github.com/S3R3Bii/gdp-vintage-forecast-audit/actions/runs/41094828639",
+      "merged_ci": "https://github.com/S3R3Bii/gdp-vintage-forecast-audit/actions/runs/41094976559"
+    },
+    "manuscript_publication": {
+      "head": "f7210f7889236a9da27804ef126787811a80e2d7",
+      "pdf": "https://github.com/S3R3Bii/gdp-vintage-forecast-audit/blob/f7210f7889236a9da27804ef126787811a80e2d7/paper/manuscript.pdf",
+      "source": "https://github.com/S3R3Bii/gdp-vintage-forecast-audit/blob/f7210f7889236a9da27804ef126787811a80e2d7/paper/main.tex",
+      "ci": "https://github.com/S3R3Bii/gdp-vintage-forecast-audit/actions/runs/41094976559"
+    }
   },
   {
     "id": "25",
