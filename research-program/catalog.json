@@ -2239,29 +2239,72 @@
   {
     "id": "45",
     "slug": "storage-workload-forecasting-under-cache-changes",
-    "title": "Storage workload forecasting under cache changes",
-    "decision": "When does a predictor trained on one cache regime fail after an operational configuration change?",
+    "title": "Check a simple baseline before refitting a cache forecast",
+    "decision": "Does a linear miss-fraction forecast selected under one simulated cache capacity retain MAE performance after shrink/expansion relative to a previous-block baseline, and does a different loss reverse the comparison?",
     "sources": [
+      {
+        "key": "MSR_CAMBRIDGE_CC_BY_CONVERTED_PREFIXES",
+        "publisher_dataset": "Open-source Cache Dataset curated/converted by Juncheng Yang: six fixed Microsoft Cambridge OracleGeneral prefixes",
+        "landing_url": "https://github.com/cacheMon/cache_dataset",
+        "status": "executed; six complete compressed objects and 1.2 million transformed ordinal requests, CC BY 4.0 attribution/modifications recorded; future access excluded"
+      }
+    ],
+    "proposed_analysis": "Sequence forecasts and workload change detection",
+    "validation_plan": "Fix rights, metadata-only size cohort, exact source bounds, ordinal projection and future-field exclusion before trace values. Independently reconstruct every ordinal from exact private compressed sources. Retain every penalty and development prediction; freeze 47 dependencies before all final-volume simulation/features/scores. Independently verify each request miss with heap state, SQL lag boundaries, NumPy solve, exact rational metrics, selection and both loss rankings. Replay two full-history clones and inspect source-bound figures and all current rendered pages before exact candidate/main Linux CI, matching tree, annotated tag and program registration.",
+    "contribution_to_test": "Treat deployment shift as the experiment rather than fitting another generic trace predictor",
+    "skills": [
+      "trace data engineering",
+      "temporal feature availability",
+      "cache simulation and performance analysis",
+      "linear autoregression",
+      "independent SQL and numerical validation",
+      "reproducible research software"
+    ],
+    "status": "executed; conditional cache-change forecast benchmark and offline exercise released",
+    "manuscript": "Public reviewed six-page independent LaTeX/PDF with three original figures; not peer reviewed; separate formal-publication projects remain private.",
+    "novelty": "A bounded trace-based conditional simulation benchmark and implementation exercise using standard LRU, linear autoregression and declared losses. No new estimator, comprehensive priority claim, measured operational intervention or production benefit.",
+    "license_gate": "The cacheMon/cache_dataset collection explicitly licenses converted traces under CC BY 4.0, attributed to curator/converter Juncheng Yang and the original Narayanan/Donnelly/Rowstron FAST 2008 Microsoft Cambridge study. Prefix selection, ordinal remapping and simulations are modifications. MIT covers our code. Complete raw traces, per-request raw identities/clocks/sizes, future-access fields, credentials and formal-publication manuscripts excluded. Source thirteen-trace summary versus fourteen-object folder mismatch retained.",
+    "publication_gate": "All scoped source, scientific, separation, replay, figure, manuscript, privacy and exact-head Linux/merge/tag gates pass",
+    "historical_proposed_title": "Storage workload forecasting under cache changes",
+    "historical_proposed_decision": "When does a predictor trained on one cache regime fail after an operational configuration change?",
+    "historical_proposed_skills": [
+      "systems ML",
+      "performance analysis",
+      "time series"
+    ],
+    "executed_analysis": "Six metadata-size-selected licensed trace prefixes, each 200,000 recorded requests; ordinal identity projection with future access excluded; equal-object LRU with preserved resize state; exact rational ridge fit and three retained penalties, separate-volume/later-block final evaluation under unchanged/shrink/expand scenarios, and an offline configuration-context exercise.",
+    "repository": "https://github.com/S3R3Bii/cache-change-forecast-audit",
+    "release": {
+      "checkout": "studies/cache-change-forecast-audit",
+      "finding": "The previous-block baseline has lower MAE in all nine final volume/scenario groups, including unchanged controls. Across changed groups, macro MAE is 0.054979 versus 0.070884 for the frozen linear model; development also favors the baseline. Combined changed MSE instead favors the linear model, 0.011782 versus 0.012023. The recommendation is specific to the predeclared MAE objective; cache changes alone do not explain the linear model weakness.",
+      "checks": "Six exact private compressed objects, 126,293,595 bytes; independent reconstruction of 1.2 million ordinal requests in 1,200,060 native conditions, without decoding future access. Three development volumes provide 351 training and 120 validation origins, three retained candidates and 480 predictions. Independent heap/SQLite/NumPy/Fraction checks cover 603,643 development conditions including 600,000 request misses. Forty-seven dependencies committed before final-volume simulation/features/scores; 720 final predictions, 360 origins per model and 240 changed origins per model, with 1,806,171 conditions including 1,800,000 request misses. Twenty-seven fixture methods and three authored cases. Separate full-history CPython 3.10.11/3.12.14 replays with NumPy 2.2.5 reproduce 2,424,692 exact and 2,703 tolerant fields each with ten source files unchanged. Three inspected figures, 102 mapped source values, 276 actual SVG coordinates and nine hashes; 70 bound paper values, 321 paper conditions and six current inspected pages; 95 audited canonical Git blobs and five scoped paper files.",
+      "manuscript": "Public reviewed six-page independent LaTeX/PDF with three original figures; not peer reviewed; separate formal-publication projects remain private.",
+      "limitations": "Size-selected convenience prefixes from converted 2007 enterprise traces; two final volumes share a server label, prefixes and scenarios are dependent, and fixed request counts do not imply equal elapsed time. Equal-object cold-start LRU ignores source sizes, operation types, admission, prefetching, concurrency and actual storage layers. Capacity changes and miss targets are simulated conditional on the recorded sequence, not observed operational interventions. Source request IDs were present before analytical freeze; collection was not blinded. Lambda 0.01 is a lower-grid boundary winner. MAE and MSE favor different models. No production miss-rate, IOPS, latency, energy, savings, adoption, scientific novelty or causal generalization is established.",
+      "next_step": "Keep the simple baseline, configuration boundaries and decision-relevant loss in the evaluation. Under MAE this exercise does not justify replacing the baseline with the tested linear model. Obtain prospective byte-aware production measurements and explicit decision costs before selecting an operational forecast or cache capacity.",
+      "state": "COMPLETE_SCOPED_RELEASE",
+      "repository": "https://github.com/S3R3Bii/cache-change-forecast-audit",
+      "head": "406a058a3d726dd9f86af5f54baa54790e2cf953",
+      "tested_head": "11e369f2cc48baebc7784c89116e2b23ef13656f",
+      "tree": "b43e76a6b985ea35051225d4a719600626b0d56a",
+      "tag": "v0.1.0",
+      "pr": "https://github.com/S3R3Bii/cache-change-forecast-audit/pull/2",
+      "ci": "https://github.com/S3R3Bii/cache-change-forecast-audit/actions/runs/41138597799",
+      "merged_ci": "https://github.com/S3R3Bii/cache-change-forecast-audit/actions/runs/41138933204"
+    },
+    "manuscript_publication": {
+      "head": "406a058a3d726dd9f86af5f54baa54790e2cf953",
+      "pdf": "https://github.com/S3R3Bii/cache-change-forecast-audit/blob/406a058a3d726dd9f86af5f54baa54790e2cf953/paper/manuscript.pdf",
+      "source": "https://github.com/S3R3Bii/cache-change-forecast-audit/blob/406a058a3d726dd9f86af5f54baa54790e2cf953/paper/main.tex",
+      "ci": "https://github.com/S3R3Bii/cache-change-forecast-audit/actions/runs/41138933204"
+    },
+    "historical_proposed_sources": [
       {
         "key": "USENIX",
         "publisher_dataset": "USENIX FAST storage traces",
         "landing_url": "https://www.usenix.org/conference/fast",
         "status": "targeted; exact export and rights must be verified"
       }
-    ],
-    "proposed_analysis": "Sequence forecasts and workload change detection",
-    "validation_plan": "Dataset and redistribution permission gate; chronological replay; regime-held-out evaluation",
-    "contribution_to_test": "Treat deployment shift as the experiment rather than fitting another generic trace predictor",
-    "skills": [
-      "systems ML",
-      "performance analysis",
-      "time series"
-    ],
-    "status": "protocol only",
-    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
-    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
-    "license_gate": "unknown until exact dataset terms are checked",
-    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+    ]
   },
   {
     "id": "46",
