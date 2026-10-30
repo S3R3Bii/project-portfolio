@@ -1,6 +1,10 @@
 # Broadband planning under map-version changes
 
-**State: protocol only. No result or novelty claim yet.**
+## Execution update — 30 October 2026
+
+A scoped study is executed and released at https://github.com/S3R3Bii/broadband-map-denominators. Among 90 later state-transitions with 100/20 Mbps reported-share gains, 20 have a positive denominator component. Across all 102 later transitions, the equal-geography mean reported-share change is 0.749748902 percentage points, the mean served-quantity component is 1.148377635 points and the mean denominator component is -0.398628733 points. The fixed served-quantity counterfactual is infeasible for one DC transition at each speed. These are exact accounting comparisons using fraction-implied quantities, without construction, adoption or causal attribution. Read its fixed executable protocol, complete exclusions and validation. The broader proposal below is retained as historical design context; it is not the release specification. Independent program manuscripts are public after checks; separate formal-publication projects remain private.
+
+**Historical proposal, superseded by the scoped release above.**
 
 ## Decision
 

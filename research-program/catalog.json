@@ -1647,9 +1647,65 @@
   {
     "id": "35",
     "slug": "broadband-planning-under-map-version-changes",
-    "title": "Broadband planning under map-version changes",
-    "decision": "Which apparent service improvements are revisions to the availability map rather than new coverage?",
+    "title": "Check the denominator before claiming broadband coverage gains",
+    "decision": "How much of a reported broadband availability share change is associated arithmetically with its changing unit denominator, and when is a fixed served-quantity counterfactual infeasible?",
     "sources": [
+      {
+        "key": "FCC_BDC_Geography_Summaries",
+        "publisher_dataset": "FCC National Broadband Map, Fixed Broadband Summary by Geography Type, four historical data dates from December 2023 through June 2025; State/Total/R/Any Terrestrial",
+        "landing_url": "https://broadbandmap.fcc.gov/data-download",
+        "status": "executed; four privately preserved public aggregate ZIPs, 204 attributed native rows, independent original-token reconciliation and exact accounting; no individual Fabric records"
+      }
+    ],
+    "proposed_analysis": "Versioned spatial joins and change attribution",
+    "validation_plan": "Commit four dates, 51 native state/DC identities, native residential/terrestrial intent, two speed columns and exact symmetric formulas before downloads. Bind the native Any Terrestrial literal before comparisons and retain publisher-specification qualifications. Preserve and CRC/hash all four originals privately; require all 204 fixed rows and independently reconcile native tokens, row ordinals, hashes and eligibility using DuckDB/SQL and exact fractions. Commit 32 dependencies after the first transition and before both later transitions. Retain every counterfactual infeasibility and all fixed sensitivity corners. Replay in separate paths, inspect the three figures and all six paper pages, then verify exact candidate/main CI, tested-tree identity and the remote annotated tag.",
+    "contribution_to_test": "Audit the data product before treating mapped coverage changes as investment impact",
+    "skills": [
+      "official aggregate source reconciliation",
+      "measurement definitions",
+      "SQL and exact arithmetic",
+      "denominator accounting",
+      "version lineage",
+      "independent implementation validation"
+    ],
+    "status": "executed; retrospective aggregate broadband denominator accounting and implementation exercise released",
+    "manuscript": "Public reviewed six-page independent LaTeX/PDF with three original figures; not peer reviewed; formal-publication projects excluded.",
+    "novelty": "Transparent retrospective aggregate denominator accounting and a practical implementation exercise using elementary exact identities and source-specific feasibility checks. No scientific-priority, new-estimator, causal, forecast, live-performance or realized-benefit claim.",
+    "license_gate": "The official FCC map About/License page permits free reuse of the aggregate Broadband Data Collection availability and Census data without copyright restriction, with suggested attribution. The separately owned CostQuest individual Fabric location identifiers, coordinates, addresses, unit counts and building codes are excluded. Only a minimal 204-row public aggregate projection and new calculations are published. Complete ZIPs, metadata PDF and captured pages remain private; no publisher endorsement or blanket third-party relicensing.",
+    "publication_gate": "All scoped source, scientific, separation, replay, figure, manuscript, privacy and exact-head Linux/merge/tag gates pass",
+    "historical_proposed_title": "Broadband planning under map-version changes",
+    "historical_proposed_decision": "Which apparent service improvements are revisions to the availability map rather than new coverage?",
+    "historical_proposed_skills": [
+      "geospatial SQL",
+      "data lineage",
+      "public policy analytics"
+    ],
+    "executed_analysis": "Exact symmetric accounting of fraction-implied served quantities and native aggregate-unit denominators, with fixed counterfactual feasibility checks and authored share sensitivity. No model fitting, individual-location matching, construction attribution or causal evaluation.",
+    "repository": "https://github.com/S3R3Bii/broadband-map-denominators",
+    "release": {
+      "checkout": "studies/broadband-map-denominators",
+      "finding": "Among 90 later state-transitions with 100/20 Mbps reported-share gains, 20 have a positive denominator component. Across all 102 later transitions, the equal-geography mean reported-share change is 0.749748902 percentage points, the mean served-quantity component is 1.148377635 points and the mean denominator component is -0.398628733 points. The fixed served-quantity counterfactual is infeasible for one DC transition at each speed. These are exact accounting comparisons using fraction-implied quantities, without construction, adoption or causal attribution.",
+      "checks": "Four preserved official ZIPs; 204 fixed keys and 612 native numeric cells; 2,892 independent original-reader conditions; 32 committed dependencies before 204 later comparisons; 6,395 development and 12,023 later arithmetic conditions; 42 finite fixtures; Python 3.10.11/3.12.14 replay of 27,336 CSV fields and four JSON documents; 126 figure values, 312 actual SVG coordinates and nine hashes; 90 manuscript displays, 196 checks and six inspected pages; 74 canonical Git blobs and five scoped paper files.",
+      "manuscript": "Public reviewed six-page independent LaTeX/PDF with three original figures; not peer reviewed; formal-publication projects excluded.",
+      "limitations": "Native R/Any Terrestrial aggregate units are not subscriptions, adopting households, people or individual locations. The publisher specification uses All Terrestrial while these files use Any Terrestrial; the fixed literal and qualification are explicit. Shares have nine native decimals and imply fractional served quantities, rather than exact observed integer counts. The fixed sensitivity is authored, not a source-error bound or sampling interval. State/date/speed rows share inputs, historical downloads were retrieved in 2026 rather than at first release, and filenames, UI update dates and data dates can differ. No isolated cause, live operational benefit, deployment or calibrated priority threshold is established.",
+      "next_step": "Retain the data date, download revision, native unit definition and denominator with every coverage comparison. Decompose the change and preserve infeasible cases before interpreting it as new service. Validate any actual construction claim against independently verified location histories and field evidence under appropriate source permissions.",
+      "state": "COMPLETE_SCOPED_RELEASE",
+      "repository": "https://github.com/S3R3Bii/broadband-map-denominators",
+      "head": "d8bcb2d4c082fdb8d426a7fbe24a263c70666c05",
+      "tested_head": "dcaf6fc59ab0d87d0f3a313fbb4cdbf78a244512",
+      "tree": "8774c1ad42bbd79853b7010ce89383ba5a4465b9",
+      "tag": "v0.1.0",
+      "pr": "https://github.com/S3R3Bii/broadband-map-denominators/pull/2",
+      "ci": "https://github.com/S3R3Bii/broadband-map-denominators/actions/runs/41120579443",
+      "merged_ci": "https://github.com/S3R3Bii/broadband-map-denominators/actions/runs/41120734600"
+    },
+    "manuscript_publication": {
+      "head": "d8bcb2d4c082fdb8d426a7fbe24a263c70666c05",
+      "pdf": "https://github.com/S3R3Bii/broadband-map-denominators/blob/d8bcb2d4c082fdb8d426a7fbe24a263c70666c05/paper/manuscript.pdf",
+      "source": "https://github.com/S3R3Bii/broadband-map-denominators/blob/d8bcb2d4c082fdb8d426a7fbe24a263c70666c05/paper/main.tex",
+      "ci": "https://github.com/S3R3Bii/broadband-map-denominators/actions/runs/41120734600"
+    },
+    "historical_proposed_sources": [
       {
         "key": "FCC",
         "publisher_dataset": "FCC broadband data downloads",
@@ -1662,20 +1718,7 @@
         "landing_url": "https://www.census.gov/data/developers/data-sets.html",
         "status": "targeted; exact export and rights must be verified"
       }
-    ],
-    "proposed_analysis": "Versioned spatial joins and change attribution",
-    "validation_plan": "Location-ID lineage; comparable map releases; availability versus adoption separation",
-    "contribution_to_test": "Audit the data product before treating mapped coverage changes as investment impact",
-    "skills": [
-      "geospatial SQL",
-      "data lineage",
-      "public policy analytics"
-    ],
-    "status": "protocol only",
-    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
-    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
-    "license_gate": "unknown until exact dataset terms are checked",
-    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+    ]
   },
   {
     "id": "36",
