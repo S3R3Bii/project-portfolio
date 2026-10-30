@@ -1028,10 +1028,10 @@
     "decision": "Which model wins change when first-release economic data replace the latest revised series?",
     "sources": [
       {
-        "key": "FRED",
-        "publisher_dataset": "Federal Reserve economic data",
-        "landing_url": "https://fred.stlouisfed.org/",
-        "status": "targeted; exact export and rights must be verified"
+        "key": "PhiladelphiaFedRTDSM",
+        "publisher_dataset": "Philadelphia Fed Real-Time Data Set for Macroeconomists, real output and first-release growth",
+        "landing_url": "https://www.philadelphiafed.org/surveys-and-data/real-time-data-research/routput",
+        "status": "executed; attributed minimal projections from two captured official workbooks, privately reconciled"
       }
     ],
     "proposed_analysis": "Vintage-aware forecasting and ranking comparison",
@@ -1070,7 +1070,15 @@
       "pdf": "https://github.com/S3R3Bii/gdp-vintage-forecast-audit/blob/f7210f7889236a9da27804ef126787811a80e2d7/paper/manuscript.pdf",
       "source": "https://github.com/S3R3Bii/gdp-vintage-forecast-audit/blob/f7210f7889236a9da27804ef126787811a80e2d7/paper/main.tex",
       "ci": "https://github.com/S3R3Bii/gdp-vintage-forecast-audit/actions/runs/41094976559"
-    }
+    },
+    "historical_proposed_sources": [
+      {
+        "key": "FRED",
+        "publisher_dataset": "Federal Reserve economic data",
+        "landing_url": "https://fred.stlouisfed.org/",
+        "status": "targeted; exact export and rights must be verified"
+      }
+    ]
   },
   {
     "id": "25",

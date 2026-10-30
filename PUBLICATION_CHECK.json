@@ -1,5 +1,5 @@
 {
-  "timestamp_utc": "2026-10-30T17:01:41.541512+00:00",
+  "timestamp_utc": "2026-10-30T17:02:15.561636+00:00",
   "status": "PASS_BOUNDED_SCAN",
   "files_checked": 123,
   "scope": "Exact staged Git index bytes; decompressed text; forbidden paths/extensions, high-confidence key and private machine path patterns; local Markdown links. Image/PDF contents require separate visual/source review. This is not universal secret detection.",
@@ -63,7 +63,7 @@
     "research-program/README.md": "9cd171a42b53991621e878e360f52a510efa0027b14ef9ca1548183bd2fa938d",
     "research-program/RESEARCH_PAPERS.md": "a99d1e8883874267611e2e79f48d69907251336d85dbc73c4fca3e14d55028a8",
     "research-program/SKILLS_AND_SEQUENCE.md": "c323c20adbfa47a56becf707f7638b13e37e73db7515940a6323e96cfa2b5598",
-    "research-program/catalog.json": "f91a864725d84d0cb38d25d71fa12b2cf5115591d6f89f6b84c4d815a39c2e7e",
+    "research-program/catalog.json": "cdcb4cd4970985b8ea0696171faae7fc1cfce02fb166cb49f4fe1dc2376b6cab",
     "research-program/protocols/airport-taxi-dispatch-with-asymmetric-waiting-costs.md": "500e57fdf94f64548cabad8e7041f269097ffcc070be07c561300b148bef6ffd",
     "research-program/protocols/attention-forecasting-across-languages.md": "9bf996b2d86fd41590e01e672b62e993e14abb20c68ac9d7bbc104d18f8cdcae",
     "research-program/protocols/bike-rebalancing-when-station-geography-changes.md": "8e3654407ca8e1922fe3b6df792aabbc901a302e5defb4e48e187c90a51f12ab",
