@@ -1,6 +1,10 @@
 # Flight trajectory compression for operational analytics
 
-**State: protocol only. No result or novelty claim yet.**
+## Execution update — 30 October 2026
+
+A scoped study is executed and released at https://github.com/S3R3Bii/flight-compression-query-audit. Every point-reducing setting fails at least one fixed budget on a development run, so the selector retains the original points. On 65 final runs from 17 different aircraft, geometric 25 m retains 8.1% of point-record bytes but fails a budget on every run. Time-aware 10 m retains 33.0% and fails only the route-length budget on 12 runs. No final-set reselection occurs. Read its fixed executable protocol, complete exclusions and validation. The broader proposal below is retained as historical design context; it is not the release specification. Independent program manuscripts are public after checks; separate formal-publication projects remain private.
+
+**Historical proposal, superseded by the scoped release above.**
 
 ## Decision
 

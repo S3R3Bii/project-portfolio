@@ -1945,29 +1945,71 @@
   {
     "id": "40",
     "slug": "flight-trajectory-compression-for-operational-analytics",
-    "title": "Flight trajectory compression for operational analytics",
-    "decision": "How much can trajectory storage be reduced before route and delay metrics become misleading?",
+    "title": "Keep flight replay timing accurate when reducing trajectory storage",
+    "decision": "Does point reduction preserve time-aligned position, horizontal route length and sampled zone timing within authored budgets, or should the original point records be retained?",
     "sources": [
+      {
+        "key": "TRAJAIR_FIXED_LICENSED_WEEK",
+        "publisher_dataset": "TrajAir general-aviation trajectory dataset, 7days1.zip, fixed first 24 numeric processed scenes",
+        "landing_url": "https://theairlab.org/trajair/",
+        "status": "executed; exact bounded private source, explicit CC BY 4.0, independently checked units/cohort/split; no recorded coordinates published"
+      }
+    ],
+    "proposed_analysis": "Error-bounded compression and query benchmarking",
+    "validation_plan": "Fix rights, archive and bounded metadata-selected scenes before acquisition. Independently verify native records and aircraft-separated cohorts. Retain every configuration; freeze 34 analytical dependencies and development selection before final scores. Verify actual binary payloads, all point diagnostics, every split branch, Decimal query boundaries and SQL aggregates. Replay two full-history clones; inspect source-bound figures and all current paper pages; require exact candidate/main Linux success, matching tree, annotated tag and publication/metadata hashes.",
+    "contribution_to_test": "Connect compression tolerance to analytical decision accuracy",
+    "skills": [
+      "trajectory data engineering",
+      "geometric and time-aligned simplification",
+      "query-fidelity evaluation",
+      "independent Decimal and SQL validation",
+      "reproducible numerical software"
+    ],
+    "status": "executed; fixed trajectory query-fidelity audit and offline exercise released",
+    "manuscript": "Public reviewed six-page independent LaTeX/PDF with three original figures; not peer reviewed; formal-publication projects remain private.",
+    "novelty": "A bounded supplied-record fidelity audit and teaching implementation using standard geometric and time-aligned simplification. No new algorithm or operational validation claim.",
+    "license_gate": "Official TrajAir project and Figshare DOI 10.1184/R1/14866251.v1 explicitly identify CC BY 4.0. Attribute Jay Patrikar, Brady Moon, Sourish Ghosh, Jean Oh and Sebastian Scherer. Cohort selection, gap splitting, unit conversion and audit metrics are modifications. MIT covers code. Recorded coordinates, aircraft identifiers, absolute source times, raw archives, encoded payloads, credentials and formal-publication manuscripts excluded.",
+    "publication_gate": "All scoped source, scientific, separation, replay, figure, manuscript, privacy and exact-head Linux/merge/tag gates pass",
+    "historical_proposed_title": "Flight trajectory compression for operational analytics",
+    "historical_proposed_decision": "How much can trajectory storage be reduced before route and delay metrics become misleading?",
+    "historical_proposed_skills": [
+      "data engineering",
+      "algorithms",
+      "benchmarking"
+    ],
+    "executed_analysis": "One fixed CC BY 4.0 TrajAir archive; first 24 numeric processed scenes; contiguous runs and aircraft-separated development/final cohorts; eleven standard point-reduction configurations, actual binary point-record byte counts, explicit query-fidelity guards and an offline authored implementation exercise.",
+    "repository": "https://github.com/S3R3Bii/flight-compression-query-audit",
+    "release": {
+      "checkout": "studies/flight-compression-query-audit",
+      "finding": "Every point-reducing setting fails at least one fixed budget on a development run, so the selector retains the original points. On 65 final runs from 17 different aircraft, geometric 25 m retains 8.1% of point-record bytes but fails a budget on every run. Time-aware 10 m retains 33.0% and fails only the route-length budget on 12 runs. No final-set reselection occurs.",
+      "checks": "Exact 37,509,701-byte source with publisher MD5 and SHA-256; separate ZIP/SQLite/Decimal source checker, 480,761 conditions for 43,542 native rows and 43,541 qualified points in 106 runs. Thirteen development aircraft/41 runs and 17 final aircraft/65 runs; 34 frozen analytical dependencies. Independent encoded-payload, point-diagnostic, split-tree, Decimal and SQL verification: 1,210,248 development conditions/451 cases and 2,680,129 final conditions/715 cases. Two isolated full-history CPython 3.10.11/3.12.14 analysis replays with NumPy 2.2.5 each reproduce 168,193 exact and 16,863 numeric facts, with 2,340 regenerated independently checked as-run hashes and unchanged source. Thirty-four fixture methods and three authored cases/18 closed-form checks. Three inspected figures with 470 mapped values, 778 SVG coordinates, 44 numeric labels and nine hashes; 66 bound manuscript values/300 conditions and all six current rendered pages. Seventy-six audited canonical Git blobs and five scoped paper files.",
+      "manuscript": "Public reviewed six-page independent LaTeX/PDF with three original figures; not peer reviewed; formal-publication projects remain private.",
+      "limitations": "Single-airport convenience slice of filtered cubic-interpolated 1 Hz processed trajectories; not sensor ground truth or complete independent flights. Runs share aircraft and source processing; source-quality coordinates were already present before final analytical freeze. Authored 25 m/1%/2 s budgets are not operational standards, and route length may preserve source fluctuations. A finite grid failure does not rule out other representations or uses. Point-record bytes are not ZIP/cloud cost. No operational safety, actual airline delay, latency, savings, deployment, causal generalization or new-algorithm claim.",
+      "next_step": "Keep the supplied records under these budgets. Agree downstream query tolerances with intended users and validate source fidelity independently before freezing a new protocol and cohort for another representation.",
+      "state": "COMPLETE_SCOPED_RELEASE",
+      "repository": "https://github.com/S3R3Bii/flight-compression-query-audit",
+      "head": "b6fb53ef725a37127ac13c5a0b6b73170130a1e9",
+      "tested_head": "486596541aa93e28c5b6fe6c2dd917aedfb07d50",
+      "tree": "1fc1c055389ecebfa69632f648f00a63f8599ca4",
+      "tag": "v0.1.0",
+      "pr": "https://github.com/S3R3Bii/flight-compression-query-audit/pull/2",
+      "ci": "https://github.com/S3R3Bii/flight-compression-query-audit/actions/runs/41146467705",
+      "merged_ci": "https://github.com/S3R3Bii/flight-compression-query-audit/actions/runs/41146601640"
+    },
+    "manuscript_publication": {
+      "head": "b6fb53ef725a37127ac13c5a0b6b73170130a1e9",
+      "pdf": "https://github.com/S3R3Bii/flight-compression-query-audit/blob/b6fb53ef725a37127ac13c5a0b6b73170130a1e9/paper/manuscript.pdf",
+      "source": "https://github.com/S3R3Bii/flight-compression-query-audit/blob/b6fb53ef725a37127ac13c5a0b6b73170130a1e9/paper/main.tex",
+      "ci": "https://github.com/S3R3Bii/flight-compression-query-audit/actions/runs/41146601640"
+    },
+    "historical_proposed_sources": [
       {
         "key": "OPENSKY",
         "publisher_dataset": "OpenSky Network data",
         "landing_url": "https://opensky-network.org/data/",
         "status": "targeted; exact export and rights must be verified"
       }
-    ],
-    "proposed_analysis": "Error-bounded compression and query benchmarking",
-    "validation_plan": "Terms and access gate; flight-held-out test; spatial and timing error budgets",
-    "contribution_to_test": "Connect compression tolerance to analytical decision accuracy",
-    "skills": [
-      "data engineering",
-      "algorithms",
-      "benchmarking"
-    ],
-    "status": "protocol only",
-    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
-    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
-    "license_gate": "unknown until exact dataset terms are checked",
-    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+    ]
   },
   {
     "id": "41",
