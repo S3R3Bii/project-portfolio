@@ -512,11 +512,12 @@
       "calibration",
       "entity resolution"
     ],
-    "status": "protocol only",
+    "status": "source timing hold; pre-award field availability unverified",
     "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
     "novelty": "Candidate contribution; systematic prior-work review not yet completed",
     "license_gate": "unknown until exact dataset terms are checked",
-    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+    "publication_gate": "Incomplete: required source timing/history evidence remains unverified; no model or release claim",
+    "source_readiness_note": "source-holds/study11-contract-preaward-availability.md"
   },
   {
     "id": "12",
@@ -539,11 +540,12 @@
       "time series",
       "public finance"
     ],
-    "status": "protocol only",
+    "status": "source history hold; prior county spending snapshots unverified",
     "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
     "novelty": "Candidate contribution; systematic prior-work review not yet completed",
     "license_gate": "unknown until exact dataset terms are checked",
-    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+    "publication_gate": "Incomplete: required source timing/history evidence remains unverified; no model or release claim",
+    "source_readiness_note": "source-holds/study12-disaster-snapshot-history.md"
   },
   {
     "id": "13",

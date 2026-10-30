@@ -1,7 +1,7 @@
 {
-  "timestamp_utc": "2026-10-29T23:41:17.488391+00:00",
+  "timestamp_utc": "2026-10-30T15:24:07.523807+00:00",
   "status": "PASS_BOUNDED_SCAN",
-  "files_checked": 120,
+  "files_checked": 122,
   "scope": "Exact staged Git index bytes; decompressed text; forbidden paths/extensions, high-confidence key and private machine path patterns; local Markdown links. Image/PDF contents require separate visual/source review. This is not universal secret detection.",
   "findings": [],
   "sha256": {
@@ -63,7 +63,7 @@
     "research-program/README.md": "8e9457fad06fc85dee30b1ed9d409a7e9cfb1e6ca9d59fe12ff62984f0b00bac",
     "research-program/RESEARCH_PAPERS.md": "687aaf39b25012bf09f88b379a4e23043bcec8c8485830e577b2dd25fdb336f3",
     "research-program/SKILLS_AND_SEQUENCE.md": "c323c20adbfa47a56becf707f7638b13e37e73db7515940a6323e96cfa2b5598",
-    "research-program/catalog.json": "129b8fba82ea77ce8bce8456d7c7e351183e33e6e87455df77c9d4e75d7854bf",
+    "research-program/catalog.json": "a566e8d2a711cbcfba9b0d5d58d5dffb9559d50eb862dce5907658524a21ae6f",
     "research-program/protocols/airport-taxi-dispatch-with-asymmetric-waiting-costs.md": "500e57fdf94f64548cabad8e7041f269097ffcc070be07c561300b148bef6ffd",
     "research-program/protocols/attention-forecasting-across-languages.md": "9bf996b2d86fd41590e01e672b62e993e14abb20c68ac9d7bbc104d18f8cdcae",
     "research-program/protocols/bike-rebalancing-when-station-geography-changes.md": "8e3654407ca8e1922fe3b6df792aabbc901a302e5defb4e48e187c90a51f12ab",
@@ -115,6 +115,8 @@
     "research-program/protocols/treasury-auction-demand-outside-the-training-regime.md": "ece4f8b33d2b8cb132e8f3158fc5421908e90d25983bd3d24eaedb7f1a66a10d",
     "research-program/protocols/vehicle-recall-remedy-delays.md": "c59a1a30f6b6969b662047975d448aad716be46ddff14a2afec28e4eb41f5384",
     "research-program/source-holds/study09-flight-common-units.md": "d7c118ebd027009507b2222eb89d95ff8d1f8f27b2cf0d680e50f2afe3c7b01f",
+    "research-program/source-holds/study11-contract-preaward-availability.md": "752b6a83c975004444b5cbbbef47571b9ea94cfca4aff36cb584a2fbdea69472",
+    "research-program/source-holds/study12-disaster-snapshot-history.md": "6526938117dafc44295469670361785da5ace060f5e7dac3a6f3e3ec781ae6b0",
     "research-program/source-holds/study14-approval-coverage.md": "8b90fae9d13ae9999685cc1fe094f373549a5a752485c9b627a0de605eacea12",
     "research-program/source-holds/study16-summary-access.md": "e37bb6a58a604eb2e8cd1e41f2bdeab1a424c8980392718e9c65a7dafea8cce8",
     "research-program/source-holds/study18-remedy-labels.md": "9d194411076da8d475c269f3b631c3e5633432a8f1423df928e22ee71b1b460c",
