@@ -1,6 +1,10 @@
 # Retrofit targeting under modelled building assumptions
 
-**State: protocol only. No result or novelty claim yet.**
+## Execution update — 30 October 2026
+
+A scoped study is executed and released at https://github.com/S3R3Bii/retrofit-weather-choice. Among 112 held Hotel and Warehouse model cases, 17 have a strict unique-top reversal across the two supplied simulation cases. Maximin changes 8 nominal choices; minimax regret changes 10. Mean worst-case regret is 0.119 percentage points for nominal and 0.053 for minimax regret. The objective inequality is mathematical, not empirical field superiority. One development action/case cell has negative gain; all alternatives, ties and unknowns remain visible. Read its fixed executable protocol, complete exclusions and validation. The broader proposal below is retained as historical design context; it is not the release specification. Independent program manuscripts are public after checks; separate formal-publication projects remain private.
+
+**Historical proposal, superseded by the scoped release above.**
 
 ## Decision
 

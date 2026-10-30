@@ -1186,25 +1186,57 @@
     "decision": "Which retrofit rankings remain stable across occupancy and weather assumptions in building simulations?",
     "sources": [
       {
-        "key": "NREL",
-        "publisher_dataset": "National laboratory building end-use profiles",
-        "landing_url": "https://www.nlr.gov/buildings/end-use-load-profiles",
-        "status": "targeted; exact export and rights must be verified"
+        "key": "ComStock2025R2PairedCases",
+        "publisher_dataset": "NLR/DOE ComStock 2025 Release 2, AMY2012 and AMY2018, Chittenden County, Vermont; baseline 0 and upgrades 39, 40, 45 and 48",
+        "landing_url": "https://comstock.nlr.gov/page/datasets",
+        "status": "executed; ten captured public Parquet files, minimal attributed CC BY 4.0 projection and independent original-file checks"
       }
     ],
     "proposed_analysis": "Scenario sensitivity and robust multiobjective ranking",
-    "validation_plan": "Label simulated load profiles throughout; held-out building archetypes; parameter ranges from source documentation",
+    "validation_plan": "Commit the ten-file source protocol before collection. Reconcile selected native cells with separate PyArrow and DuckDB readers; retain full ID, copy, applicability and coverage ledgers. Execute Office/Retail development, then commit 28 dependency hashes before Hotel/Warehouse descriptives. Retain all three fixed exact-rational rules with lower-ID tie priority and no learned parameters or policy selection. Independently verify qualification, decisions, all alternatives and strata, original-preserving replay and rendered artifacts.",
     "contribution_to_test": "Recommend measurements needed before investment rather than treating simulated savings as field evidence",
     "skills": [
       "sensitivity analysis",
       "optimization",
       "model risk"
     ],
-    "status": "protocol only",
-    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
-    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
-    "license_gate": "unknown until exact dataset terms are checked",
-    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+    "status": "executed; fixed retrofit choices compared across two published simulation cases",
+    "manuscript": "Public reviewed six-page independent LaTeX/PDF and three original figures; not peer reviewed; formal-publication projects excluded.",
+    "novelty": "Transparent implementation of established nominal, maximin and minimax-regret rules for a finite paired simulation cohort. No learned estimator, new method, exhaustive novelty, peer review or field-benefit claim.",
+    "license_gate": "The official OEDI ComStock collection links CC BY 4.0. NLR/DOE attribution, reference citation, source and license links, change notice and research/as-is/no-endorsement limits are retained. Only a minimal factual simulation projection and derivatives are public. Original Parquets, source PDFs, full dictionaries, unused geographic/contact metadata, secrets and formal-publication drafts are excluded.",
+    "publication_gate": "All scoped source, scientific, separation, replay, figure, manuscript, privacy and exact-head Linux/merge/tag gates pass",
+    "repository": "https://github.com/S3R3Bii/retrofit-weather-choice",
+    "release": {
+      "checkout": "studies/retrofit-weather-choice",
+      "finding": "Among 112 held Hotel and Warehouse model cases, 17 have a strict unique-top reversal across the two supplied simulation cases. Maximin changes 8 nominal choices; minimax regret changes 10. Mean worst-case regret is 0.119 percentage points for nominal and 0.053 for minimax regret. The objective inequality is mathematical, not empirical field superiority. One development action/case cell has negative gain; all alternatives, ties and unknowns remain visible.",
+      "checks": "29 finite fixtures; 28,510 source rows reconciled through 342,144 independent original-Parquet comparisons; 328,115 input checks; 28 dependencies committed before held summaries; 87,283 development and 23,087 held checks; Python 3.10/3.12.14 replay of 447,801 CSV fields and six JSON documents; 32 figure values, 256 SVG coordinates and nine hashes; 103 manuscript displays, 251 checks and six inspected pages; canonical Git audits.",
+      "manuscript": "Public reviewed six-page independent LaTeX/PDF and three original figures; not peer reviewed; formal-publication projects excluded.",
+      "limitations": "One county, two supplied simulation cases, four separate modeled measures and unweighted model IDs. Only identical selected technical projections are collapsed; the full physical configurations are not independently audited. Duration strata are not occupancy experiments, and calendar or execution details may confound a weather-only interpretation. Both cases are known optimization inputs. No installed cost, tariff, field saving, national total, adoption, new method or investment-performance evidence is established.",
+      "next_step": "Inspect changed model IDs and their full alternatives. Obtain site characteristics, actual costs, tariffs, feasibility and field validation before an investment decision. Keep missing scenarios unknown and compare combined measures only when jointly modeled as a package.",
+      "state": "COMPLETE_SCOPED_RELEASE",
+      "repository": "https://github.com/S3R3Bii/retrofit-weather-choice",
+      "head": "14472ecc7a701fbfada71c5f23cbbfb18c2b4bce",
+      "tested_head": "32b39529311d88a5b50685e66584fc298307900a",
+      "tree": "c746ceea15416497747549602e936f4c2d32a740",
+      "tag": "v0.1.0",
+      "pr": "https://github.com/S3R3Bii/retrofit-weather-choice/pull/2",
+      "ci": "https://github.com/S3R3Bii/retrofit-weather-choice/actions/runs/41102133214",
+      "merged_ci": "https://github.com/S3R3Bii/retrofit-weather-choice/actions/runs/41103136499"
+    },
+    "manuscript_publication": {
+      "head": "14472ecc7a701fbfada71c5f23cbbfb18c2b4bce",
+      "pdf": "https://github.com/S3R3Bii/retrofit-weather-choice/blob/14472ecc7a701fbfada71c5f23cbbfb18c2b4bce/paper/manuscript.pdf",
+      "source": "https://github.com/S3R3Bii/retrofit-weather-choice/blob/14472ecc7a701fbfada71c5f23cbbfb18c2b4bce/paper/main.tex",
+      "ci": "https://github.com/S3R3Bii/retrofit-weather-choice/actions/runs/41103136499"
+    },
+    "historical_proposed_sources": [
+      {
+        "key": "NREL",
+        "publisher_dataset": "National laboratory building end-use profiles",
+        "landing_url": "https://www.nlr.gov/buildings/end-use-load-profiles",
+        "status": "targeted; exact export and rights must be verified"
+      }
+    ]
   },
   {
     "id": "28",
