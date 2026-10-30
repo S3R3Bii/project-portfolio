@@ -1,12 +1,12 @@
 {
-  "timestamp_utc": "2026-10-30T16:17:48.669710+00:00",
+  "timestamp_utc": "2026-10-30T16:18:27.976900+00:00",
   "status": "PASS_BOUNDED_SCAN",
   "files_checked": 123,
   "scope": "Exact staged Git index bytes; decompressed text; forbidden paths/extensions, high-confidence key and private machine path patterns; local Markdown links. Image/PDF contents require separate visual/source review. This is not universal secret detection.",
   "findings": [],
   "sha256": {
     ".gitignore": "e529ff4e26c507b2c2f37a7fdec529eab74b3c0522787a85431062d02e1fa8ae",
-    "README.md": "60690e20834cc1cc07762661bb6071adc0649bfa25b9ba3a51f9d4dbe0ca50e9",
+    "README.md": "a1f90292c45c924d948058a90f34c05d9adaf8304139d57a5ef53e5a38518728",
     "a-vessel-for-a-soul.md": "96888d765aef8169007909159e611e177d28bab8c84cdb9ff66f6db9cb28ae51",
     "agent-aegis.md": "f521a2ecb0a4fe022de5fbe4d479e7edd21405cddd3cbbc99f6d5f31efdb6265",
     "agent-evaluation-workbench.md": "dcef57cb3e46079b49e3479924df8cbb893b8eae157ff3c4c50fb8111e2b3aa5",

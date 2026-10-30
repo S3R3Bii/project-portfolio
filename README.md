@@ -40,7 +40,7 @@ The [50-study research register](research-program/README.md) connects specific b
 | [Establishment growth signals](https://github.com/S3R3Bii/establishment-growth-signals) | Fixed past-input pooling comparison with all held-sector/local failures, explicit unavailable components and independently checked denominators |
 | [Paper trail recommendation engine](https://github.com/S3R3Bii/research-paper-recommender) | Working explainable UI/CLI/API and implementation exercise, with independently checked citation-proxy results and an explicit held baseline tie |
 | [Choose buildings for an energy review](https://github.com/S3R3Bii/building-energy-review) | Twenty review slots yield only two shared buildings across peer and consumption objectives; local CSV scorer and full missing-follow-up accounting |
-| [Know where inspection labels are missing](https://github.com/S3R3Bii/inspection-label-coverage) | Only 13,613 of 183,500 current sources have recorded stack-test results in the fixed window; coverage audit prevents absent records becoming passing labels |
+| [Know where inspection labels are missing](https://github.com/S3R3Bii/inspection-label-coverage) | Only 13,613 of 183,500 current sources have recorded pass/fail stack-test results in the fixed window; coverage audit prevents absent records becoming passing labels |
 | [PikiVu](pikivu.md) | A compact recording interface and validated edit/export workflow |
 | [Model Evidence](model-evidence.md) | Statistical diagnostics presented as readable reports |
 | [Open Research Commons](open-research-commons.md) | Shared human/agent workflow with independent release checks |
