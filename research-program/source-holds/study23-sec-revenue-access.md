@@ -1,0 +1,9 @@
+# Study 23: revenue forecasting source access
+
+**Current state: source access hold; no study executed.** A revenue forecast that uses the wrong reporting period or a later restatement can look accurate without answering the real decision. Filing-time provenance and fiscal-quarter reconciliation remain prerequisites.
+
+On 30 October 2026, one bounded preflight made ordinary requests to the official SEC API documentation, developer FAQ and one company-facts endpoint. All three returned HTTP 403 in this execution environment, using an accurately declared research agent and the existing public GitHub noreply contact. The company response was an access-error page; no revenue facts or outcomes were collected. Official documentation was readable through the browsing service, which does not establish that the local data pipeline has source access. Request times and error hashes remain private.
+
+The [SEC API documentation](https://www.sec.gov/search-filings/edgar-application-programming-interfaces) describes current company facts and calendar frames. It warns that frame facts can have different reporting start/end dates. A current calendar frame does not establish the fiscal-quarter input available before a historical forecast. The [developer FAQ](https://www.sec.gov/about/webmaster-frequently-asked-questions) describes declared agents and access policies.
+
+No proxy, credential change, repeated endpoint attempts or access-control bypass was used. This HTTP response is separate from Codex approvals and GitHub access. Keep the study unexecuted until compliant source access or a provenance-preserving original-filing archive is available. Then fix the cohort, filing-time features, amendment embargo, period/unit rules and protected comparisons before collecting outcomes. Continue other eligible studies in the meantime. This note is not a release or a result about forecast quality.

@@ -646,19 +646,49 @@
       }
     ],
     "proposed_analysis": "Selection-bias diagnostics and bounded risk ranking",
-    "validation_plan": "Time and facility holdouts; coverage maps; inverse-weighting sensitivity only with defensible propensity inputs",
+    "validation_plan": "Protocol committed before one official ICIS-Air bulk retrieval. Preserve complete minimal selected rows, exact duplicates, conflicting identities and unknown dates/codes. Fixed current OPR cohort in fifty states plus DC; all annual 2021-2025 and combined windows, every state and source class. Separate Pandas/private-original reconciliation, SQLite identity/date/cohort/count reconstruction, 17 hand fixtures, offline replay and inspected figures/paper. Date-delimiter correction is explicitly retrospective; no learned model, tuning, sampling intervals or protected predictive test.",
     "contribution_to_test": "Identify where an automated queue must abstain because labels are selectively observed",
     "skills": [
+      "data-quality diagnostics",
+      "selection-bias limits",
+      "SQL",
+      "reproducibility"
+    ],
+    "status": "executed; corrected retrospective recorded-coverage audit released; no risk model fitted",
+    "manuscript": "Public reviewed six-page independent LaTeX/PDF and three original figures; not peer reviewed; formal-publication projects excluded.",
+    "novelty": "Transparent current-snapshot recorded-coverage audit using established SQL/count methods. Selective-label evaluation and machine-learning environmental inspection allocation are established prior work. No new estimator, exhaustive novelty, predictive model or measured operational-benefit claim.",
+    "license_gate": "EPA explicitly provides the bulk download for analyst/developer use. Minimal factual source tokens and full SHA256 keys are public with attribution; hashes do not guarantee anonymity. No blanket CC0 claim over submitted state/local content. Original archives, identity mappings, names, addresses, contacts, coordinates, secrets and formal-publication manuscripts excluded.",
+    "publication_gate": "All scoped source, scientific, separation, replay, figure, manuscript, privacy and exact-head Linux/merge/tag gates pass",
+    "repository": "https://github.com/S3R3Bii/inspection-label-coverage",
+    "release": {
+      "checkout": "studies/inspection-label-coverage",
+      "finding": "In a captured current cohort of 183,500 operating air sources, 13,613 (7.4%) have a recorded PSS/FAI stack-test result during 2021-2025; 169,698 have no dated stack-test record. On-site evaluations cover 41,059 sources, with 4,562 off-site-only and 137,879 without a dated evaluation. Full state/class summaries support source reconciliation before model development. Missing records do not supply passing labels; required testing and operational value remain unverified.",
+      "checks": "17 finite fixtures; 39,720,857 independent private-source assertions across 280,423 facility, 1,824,426 evaluation and 658,331 stack-test rows; 1,106 independent SQL assertions covering all 1,101,000 facility-window rows and 354 groups; 17,622,640 exact replay CSV fields and one JSON document; 351 figure checks and 219 paper checks; 81 numeric displays and six inspected pages; scoped canonical audits.",
+      "manuscript": "Public reviewed six-page independent LaTeX/PDF and three original figures; not peer reviewed; formal-publication projects excluded.",
+      "limitations": "Current reported operating cohort, not historical national populations or a complete required-test universe. National absence may reflect reporting rules, state-only records, delay or no event; the mechanism is unidentified. Stack tests and evaluations differ. A historical FAI does not establish current noncompliance. Corrected retrospective date parsing, with failed output retained. No risk model, propensity correction, calibrated probabilities, protected predictive test, improved detection, deployment or realized benefit.",
+      "next_step": "Reconcile state/local and national records, establish required monitoring and comparable outcomes, and document observation selection before training or evaluating a risk model. Record actual review effort and findings before claiming operational value.",
+      "state": "COMPLETE_SCOPED_RELEASE",
+      "repository": "https://github.com/S3R3Bii/inspection-label-coverage",
+      "head": "c505d838c21764dc4e56dd698f053137ad42dd1a",
+      "tested_head": "97d9461f774fd80d7c8c593854cf0af2e2d2803c",
+      "tree": "56ffd95d56ef2bef5787ba21d123e859d289a2a6",
+      "tag": "v0.1.0",
+      "pr": "https://github.com/S3R3Bii/inspection-label-coverage/pull/2",
+      "ci": "https://github.com/S3R3Bii/inspection-label-coverage/actions/runs/41087163366",
+      "merged_ci": "https://github.com/S3R3Bii/inspection-label-coverage/actions/runs/41087901790"
+    },
+    "manuscript_publication": {
+      "head": "c505d838c21764dc4e56dd698f053137ad42dd1a",
+      "pdf": "https://github.com/S3R3Bii/inspection-label-coverage/blob/c505d838c21764dc4e56dd698f053137ad42dd1a/paper/manuscript.pdf",
+      "source": "https://github.com/S3R3Bii/inspection-label-coverage/blob/c505d838c21764dc4e56dd698f053137ad42dd1a/paper/main.tex",
+      "ci": "https://github.com/S3R3Bii/inspection-label-coverage/actions/runs/41087901790"
+    },
+    "proposed_skills": [
       "ML evaluation",
       "selection bias",
       "calibration",
       "SQL"
-    ],
-    "status": "protocol only",
-    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
-    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
-    "license_gate": "unknown until exact dataset terms are checked",
-    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+    ]
   },
   {
     "id": "16",
@@ -978,11 +1008,18 @@
       "feature engineering",
       "panel data"
     ],
-    "status": "protocol only",
+    "status": "source access hold; no study executed",
     "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
     "novelty": "Candidate contribution; systematic prior-work review not yet completed",
     "license_gate": "unknown until exact dataset terms are checked",
-    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+    "publication_gate": "No data/model/manuscript release; source access and all scientific gates remain required",
+    "source_gate": {
+      "state": "HOLD_HTTP403",
+      "checked_utc": "2026-10-30",
+      "note": "source-holds/study23-sec-revenue-access.md",
+      "scope": "Three ordinary preflight requests; no revenue facts or outcomes collected",
+      "next_step": "Obtain compliant source access or an eligible original-filing archive, then fix filing-time and fiscal-quarter rules before outcomes."
+    }
   },
   {
     "id": "24",
