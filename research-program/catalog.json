@@ -1358,29 +1358,71 @@
   {
     "id": "30",
     "slug": "crop-price-alerts-under-changing-product-grades",
-    "title": "Crop-price alerts under changing product grades",
-    "decision": "Can an alert retain precision when reporting markets change product-grade definitions?",
+    "title": "Keep cotton quality in a price alert",
+    "decision": "Can a quote-ingestion rule avoid confusing a changed quality mix with a change in the original quality price, while abstaining on unavailable identity?",
     "sources": [
+      {
+        "key": "USDA_AMS_CottonHistorical",
+        "publisher_dataset": "USDA Agricultural Marketing Service Historical Upland Prices, exact 2022–2023/2023–2024/2024–2025 C-L-S physical-price grids",
+        "landing_url": "https://apps.ams.usda.gov/Cotton/HistoricalUplandPrices/",
+        "status": "executed; three privately preserved original XLSX captures, minimal attributed native spot-quotation projection and independent original-cell reconciliation"
+      }
+    ],
+    "proposed_analysis": "Schema-aware anomaly detection and hierarchical price models",
+    "validation_plan": "Commit the two exact grade definitions, three public USDA workbook requests and authored case grid before capture. Bind native units, cells and exact market names by source year before any benchmark; retain the pre-score header-binding failure and disclosed source exposure. Reconcile original cells with independent readers and all quote keys/coverage with SQL/Decimal. Check development in Southeast/North Delta in two earlier files, then commit 37 dependency hashes before all seven later-year markets. Retain all rules, thresholds, signed changes, expansion states, identity failures and calendar blocks; independently reconstruct every case and metric. Replay in separate paths, reconcile runtime/canonical containers, inspect all figures/paper pages and verify exact candidate/main Linux, tree and tag.",
+    "contribution_to_test": "Treat taxonomy drift as part of the model rather than silently concatenating prices",
+    "skills": [
+      "data engineering",
+      "quotation identity checks",
+      "SQL data-quality reconciliation",
+      "exact arithmetic",
+      "controlled implementation validation"
+    ],
+    "status": "executed; controlled quote-identity study and implementation exercise released",
+    "manuscript": "Public reviewed six-page independent LaTeX/PDF with three original figures; not peer reviewed; formal-publication projects excluded.",
+    "novelty": "Transparent controlled implementation of an elementary quote-identity safeguard, with data-specific mixture effects and exact failure/abstention evidence. No new estimator, scientific-priority, live performance, forecast, peer review or realized-benefit claim.",
+    "license_gate": "USDA AMS historical upland spot-quotation facts are the executed source. USDA public-domain information policy is attributed with marked third-party exceptions; the independently archived USDA report distinguishes physical-price cents/lb from futures and differences. Only a minimal factual projection and new calculations are public. Complete workbooks, source PDFs/pages, ICE futures values, contacts, logos, private data and formal-publication drafts remain excluded. Authored changed values are explicitly labeled; no USDA endorsement or unrestricted third-party rights are claimed.",
+    "publication_gate": "All scoped source, scientific, separation, replay, figure, manuscript, privacy and exact-head Linux/merge/tag gates pass",
+    "historical_proposed_title": "Crop-price alerts under changing product grades",
+    "historical_proposed_decision": "Can an alert retain precision when reporting markets change product-grade definitions?",
+    "historical_proposed_skills": [
+      "data engineering",
+      "anomaly detection",
+      "forecasting"
+    ],
+    "executed_analysis": "Exact quote-key reconciliation and controlled expansion/shock/identity-failure cases; both deterministic rules and all three proposed thresholds retained. Hierarchical forecasting remains unexecuted historical proposal context.",
+    "repository": "https://github.com/S3R3Bii/cotton-grade-price-alerts",
+    "release": {
+      "checkout": "studies/cotton-grade-price-alerts",
+      "finding": "At the fixed 2% threshold, the grade-blind rule raises false alerts in all 1,757 zero-change added-quality cases from the later source year, and misses 2,202 of 10,542 authored positive cases. Matching the unchanged original quality removes the composition effect by construction; missing or changed identity requires abstention. These finite authored cases do not measure live anomaly precision, observed 2025 transition incidents, forecasts or financial savings.",
+      "checks": "Three captured original workbooks; 360,999 independent original selected-cell/native-token conditions; 99,416 independent input checks and all 21 fixed market/year coverage groups; 37 committed dependency hashes before later summaries; 3,584,316 development and 6,284,563 later conditions; 28 finite fixtures; Python 3.10.11/3.12.14 replay of 10,011,319 CSV fields and nine JSON documents; 33 figure values, 180 actual SVG coordinates and nine hashes; 91 manuscript displays, 197 checks and six inspected pages; canonical Git audit.",
+      "manuscript": "Public reviewed six-page independent LaTeX/PDF with three original figures; not peer reviewed; formal-publication projects excluded.",
+      "limitations": "Quotation-grid facts are not independent transactions or realized purchase prices. Authored shocks and expansion/failure cases share source records and have a fixed class mix, not natural anomaly prevalence. The matched normal-key property follows from construction. Older reports already include 31/3/35; the announced 2025 quality is 31/3/36. Source/schema exposure is disclosed, and historical Texas-region definitions remain explicit. No prospective trial, live anomaly precision, causal effect, fitted forecast, new estimator, deployment or financial benefit is established.",
+      "next_step": "Preserve full quote identity and reconcile unavailable keys. For a live integration, retain report versions and arrivals, obtain independent failure labels, and shadow-test actual feeds before choosing thresholds or measuring reconciliation workload and false/missed alerts.",
+      "state": "COMPLETE_SCOPED_RELEASE",
+      "repository": "https://github.com/S3R3Bii/cotton-grade-price-alerts",
+      "head": "584981a70f777d1e166817283cc316eec09c7c90",
+      "tested_head": "4263d9c6b4bfc437459842375d5a4fb1147b7675",
+      "tree": "b5d4825ed5c091b4ad6e7d570551bdc4f7f2425a",
+      "tag": "v0.1.0",
+      "pr": "https://github.com/S3R3Bii/cotton-grade-price-alerts/pull/2",
+      "ci": "https://github.com/S3R3Bii/cotton-grade-price-alerts/actions/runs/41110022938",
+      "merged_ci": "https://github.com/S3R3Bii/cotton-grade-price-alerts/actions/runs/41110222271"
+    },
+    "manuscript_publication": {
+      "head": "584981a70f777d1e166817283cc316eec09c7c90",
+      "pdf": "https://github.com/S3R3Bii/cotton-grade-price-alerts/blob/584981a70f777d1e166817283cc316eec09c7c90/paper/manuscript.pdf",
+      "source": "https://github.com/S3R3Bii/cotton-grade-price-alerts/blob/584981a70f777d1e166817283cc316eec09c7c90/paper/main.tex",
+      "ci": "https://github.com/S3R3Bii/cotton-grade-price-alerts/actions/runs/41110222271"
+    },
+    "historical_proposed_sources": [
       {
         "key": "USDA",
         "publisher_dataset": "USDA agricultural market reports",
         "landing_url": "https://mymarketnews.ams.usda.gov/",
         "status": "targeted; exact export and rights must be verified"
       }
-    ],
-    "proposed_analysis": "Schema-aware anomaly detection and hierarchical price models",
-    "validation_plan": "Market-held-out and future-period evaluation; grade crosswalk audits",
-    "contribution_to_test": "Treat taxonomy drift as part of the model rather than silently concatenating prices",
-    "skills": [
-      "data engineering",
-      "anomaly detection",
-      "forecasting"
-    ],
-    "status": "protocol only",
-    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
-    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
-    "license_gate": "unknown until exact dataset terms are checked",
-    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+    ]
   },
   {
     "id": "31",

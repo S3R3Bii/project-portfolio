@@ -1,6 +1,10 @@
 # Crop-price alerts under changing product grades
 
-**State: protocol only. No result or novelty claim yet.**
+## Execution update — 30 October 2026
+
+A scoped study is executed and released at https://github.com/S3R3Bii/cotton-grade-price-alerts. At the fixed 2% threshold, the grade-blind rule raises false alerts in all 1,757 zero-change added-quality cases from the later source year, and misses 2,202 of 10,542 authored positive cases. Matching the unchanged original quality removes the composition effect by construction; missing or changed identity requires abstention. These finite authored cases do not measure live anomaly precision, observed 2025 transition incidents, forecasts or financial savings. Read its fixed executable protocol, complete exclusions and validation. The broader proposal below is retained as historical design context; it is not the release specification. Independent program manuscripts are public after checks; separate formal-publication projects remain private.
+
+**Historical proposal, superseded by the scoped release above.**
 
 ## Decision
 
