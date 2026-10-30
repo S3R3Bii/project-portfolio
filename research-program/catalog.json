@@ -1125,7 +1125,7 @@
       }
     ],
     "proposed_analysis": "Robust GAM and gradient-boosted residual benchmarks",
-    "validation_plan": "Building-held-out and future-year test; weather normalization; floor-area quality checks",
+    "validation_plan": "Fixed 19-field, four-type source slice and screening rules before outcomes, retaining all raw-row reasons. Disjoint entity-hash groups for 2022 training, 2022-to-2023 development and 2023-to-2024 held pairs. Select exact MAE among six peer candidates and retain own-history comparator; commit 21 dependencies before held results. Form all 192 current queue members before checking later eligibility; retain all capacities, bands and unknown outcomes. Independent Pandas, SQL and fraction arithmetic, offline replay, CLI/model fixtures and inspected figures/paper.",
     "contribution_to_test": "Use calibrated review bands and abstention for implausible records",
     "skills": [
       "R",
@@ -1133,11 +1133,35 @@
       "regression diagnostics",
       "business communication"
     ],
-    "status": "protocol only",
-    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
-    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
-    "license_gate": "unknown until exact dataset terms are checked",
-    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+    "status": "executed; retrospective peer review comparison and local CSV scorer released",
+    "manuscript": "Public reviewed seven-page independent LaTeX/PDF and three original figures; not peer reviewed; formal-publication projects excluded.",
+    "novelty": "Practical transparent review-objective comparison and local scorer using established medians and intensity ratios; no new estimator, independent weather-model validation, exhaustive novelty or measured operational-benefit claim.",
+    "license_gate": "Current NYC open-data source attributed; licenseId is null, with no CC0 or blanket City copyright claim. Minimal factual fields and full SHA256 keys are public; hashes do not guarantee anonymity. Raw responses, property/BIN crosswalk, unused expressive fields, owner/address/contact fields, secrets and formal-publication manuscripts are excluded.",
+    "publication_gate": "All scoped source, scientific, separation, replay, figure, manuscript, privacy and exact-head Linux/merge/tag gates pass",
+    "repository": "https://github.com/S3R3Bii/building-energy-review",
+    "release": {
+      "checkout": "studies/building-energy-review",
+      "finding": "With 20 review slots among 192 screened buildings, the peer-relative and largest-consumption lists share only 2 properties. Median floor areas are 41,062.5 and 707,905.0 square feet. A local CSV scorer compares peer, consumption and EUI rankings. On 119 held annual pairs, peer MAE is 22.958 versus 26.547 pooled and 9.773 own-history. Nine of 20 peer selections lack usable next-year follow-up. Engineering usefulness and savings remain unmeasured.",
+      "checks": "22 finite tests; 12,020 captured source records, 228,380 CSV/JSON cells and 516,872 private-source checks; 21 dependencies frozen before held summaries; 302,146 development and 296,266 held independent checks; 103,262 exact replay CSV fields and seven JSON documents; 31 figure values, 248 SVG coordinates and nine hashes; 274 paper checks, 119 numeric displays and seven rendered pages; scoped canonical audits.",
+      "manuscript": "Public reviewed seven-page independent LaTeX/PDF and three original figures; not peer reviewed; formal-publication projects excluded.",
+      "limitations": "A narrow current four-type NYC source with revised historical values; original vintages and real-time availability are unknown. Quality flags do not establish correct meters. Weather adjustment is inherited. The peer reference is weaker than own-history forecasting. Missing follow-up is retained; relative-use bands are descriptive. No fault, waste, noncompliance, savings, deployment or realized-benefit validation.",
+      "next_step": "Use the local scorer to compare review objectives. Independently inspect a sample from all lists, unflagged properties and missing-follow-up cases; record actual findings and effort before claiming useful detection or savings.",
+      "state": "COMPLETE_SCOPED_RELEASE",
+      "repository": "https://github.com/S3R3Bii/building-energy-review",
+      "head": "5db500c471ce67b79192114200f1d3efaf0d9cbb",
+      "tested_head": "b1aa3e401baeb5089bbe48fa0bc45bdf4bb8035b",
+      "tree": "c6563800b8f9da18651f8e185167635b7c6d7b58",
+      "tag": "v0.1.0",
+      "pr": "https://github.com/S3R3Bii/building-energy-review/pull/2",
+      "ci": "https://github.com/S3R3Bii/building-energy-review/actions/runs/41083907192",
+      "merged_ci": "https://github.com/S3R3Bii/building-energy-review/actions/runs/41084003580"
+    },
+    "manuscript_publication": {
+      "head": "5db500c471ce67b79192114200f1d3efaf0d9cbb",
+      "pdf": "https://github.com/S3R3Bii/building-energy-review/blob/5db500c471ce67b79192114200f1d3efaf0d9cbb/paper/manuscript.pdf",
+      "source": "https://github.com/S3R3Bii/building-energy-review/blob/5db500c471ce67b79192114200f1d3efaf0d9cbb/paper/main.tex",
+      "ci": "https://github.com/S3R3Bii/building-energy-review/actions/runs/41084003580"
+    }
   },
   {
     "id": "29",

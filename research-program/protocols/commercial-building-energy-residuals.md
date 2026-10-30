@@ -1,6 +1,10 @@
 # Commercial building energy residuals
 
-**State: protocol only. No result or novelty claim yet.**
+## Execution update — 30 October 2026
+
+A scoped study is executed and released at https://github.com/S3R3Bii/building-energy-review. With 20 review slots among 192 screened buildings, the peer-relative and largest-consumption lists share only 2 properties. Median floor areas are 41,062.5 and 707,905.0 square feet. A local CSV scorer compares peer, consumption and EUI rankings. On 119 held annual pairs, peer MAE is 22.958 versus 26.547 pooled and 9.773 own-history. Nine of 20 peer selections lack usable next-year follow-up. Engineering usefulness and savings remain unmeasured. Read its fixed executable protocol, complete exclusions and validation. The broader proposal below is retained as historical design context; it is not the release specification. Independent program manuscripts are public after checks; separate formal-publication projects remain private.
+
+**Historical proposal, superseded by the scoped release above.**
 
 ## Decision
 
