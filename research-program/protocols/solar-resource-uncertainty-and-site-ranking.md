@@ -1,6 +1,10 @@
 # Solar resource uncertainty and site ranking
 
-**State: protocol only. No result or novelty claim yet.**
+## Execution update — 30 October 2026
+
+A scoped study is executed and released at https://github.com/S3R3Bii/solar-resource-shortlist. The frozen ten-year mean has zero held western shortlist regret and 0.005710 kWh/m²/day eastern regret. All six candidates match the best western pair in every held year, and four rules tie on the eastern shortlist score. Thirty-day common-calendar removals change 4 of 84 western and 6 of 84 eastern shortlists; a one-day gap changes one close eastern comparison. These artificial cases establish no unique rule advantage, outage probability, plant output or financial return. Read its fixed executable protocol, complete exclusions and validation. The broader proposal below is retained as historical design context; it is not the release specification. Independent program manuscripts are public after checks; separate formal-publication projects remain private.
+
+**Historical proposal, superseded by the scoped release above.**
 
 ## Decision
 

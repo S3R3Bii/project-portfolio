@@ -1303,25 +1303,57 @@
     "decision": "How sensitive is a solar site shortlist to interannual variability and missing weather observations?",
     "sources": [
       {
-        "key": "NSRDB",
-        "publisher_dataset": "National Solar Radiation Database",
-        "landing_url": "https://nsrdb.nrel.gov/",
-        "status": "targeted; exact export and rights must be verified"
+        "key": "NASAPOWERDaily",
+        "publisher_dataset": "NASA Langley POWER Daily API v2.10.1, CERES SYN1DEG daily surface shortwave flux, twelve Southwest grid requests, 2001–2023 UTC",
+        "landing_url": "https://power.larc.nasa.gov/docs/services/api/temporal/daily/",
+        "status": "executed; 24 captured JSON/CSV responses, minimal attributed factual daily projection and independent original-source reconciliation"
       }
     ],
     "proposed_analysis": "Spatial uncertainty and robust ranking",
-    "validation_plan": "Multi-year blocks; held-out stations where available; explicit radiation-to-output assumptions",
+    "validation_plan": "Commit source-specific locations, years, six history-only rules and missing-day schedules before collection. Capture 24 daily JSON/CSV responses once; bind the returned W/m² daily mean through a documented 24/1000 conversion before qualification or ranking. Reconcile calendars, values, units and source metadata independently. Select on western 2011–2016 regret, MAE and fixed order; freeze 28 dependencies before 2017–2023 temporal/geographic outcomes. Earlier eastern local history is allowed as input, without eastern outcome tuning. Freeze four stress hashes before all 1/7/30-day common-calendar removals. Retain every candidate, point/year, boundary tie and scenario; independently reconstruct outputs, replay without changing originals and inspect figures/manuscript.",
     "contribution_to_test": "Distinguish resource screening from financial feasibility and actual plant performance",
     "skills": [
       "geospatial statistics",
       "uncertainty",
       "scenario analysis"
     ],
-    "status": "protocol only",
-    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
-    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
-    "license_gate": "unknown until exact dataset terms are checked",
-    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+    "status": "executed; scoped gridded resource and missing-day comparison released",
+    "manuscript": "Public reviewed six-page independent LaTeX/PDF and three original figures; not peer reviewed; formal-publication projects excluded.",
+    "novelty": "Transparent implementation of established rolling-history summaries and finite shortlist/error diagnostics, with explicit grid, source-vintage and artificial-missingness limits. No new estimator, unique decision advantage, exhaustive novelty, peer review or measured operational-benefit claim.",
+    "license_gate": "NASA POWER daily solar estimates are the actual source; the NSRDB proposal remains historical. NASA Langley/Earth Science Division attribution, service version, access date, source-policy links and change notices are retained. Minimal factual values and new calculations are public; original responses, source pages, unused contact metadata, secrets and formal-publication drafts stay private. No restrictive notice appears in captured responses, and no blanket rights to NASA logos, source text or unrelated third-party products are claimed. Publication/redistribution notification requests are noted without unsolicited email.",
+    "publication_gate": "All scoped source, scientific, separation, replay, figure, manuscript, privacy and exact-head Linux/merge/tag gates pass",
+    "repository": "https://github.com/S3R3Bii/solar-resource-shortlist",
+    "release": {
+      "checkout": "studies/solar-resource-shortlist",
+      "finding": "The frozen ten-year mean has zero held western shortlist regret and 0.005710 kWh/m²/day eastern regret. All six candidates match the best western pair in every held year, and four rules tie on the eastern shortlist score. Thirty-day common-calendar removals change 4 of 84 western and 6 of 84 eastern shortlists; a one-day gap changes one close eastern comparison. These artificial cases establish no unique rule advantage, outage probability, plant output or financial return.",
+      "checks": "35 finite fixtures; 24 captured responses and 100,800 daily rows reconciled in 806,558 independent original-source conditions; 19,451 input checks; 28 core dependency hashes before held outcomes and four stress hashes before stress execution; 3,394 development, 7,884 held and 41,886 stress checks; Python 3.10/3.12.14 replay of 96,847 CSV fields and six JSON documents; 48 figure values, 384 SVG coordinates, twelve map colors and nine hashes; 118 manuscript displays, 287 checks and six inspected pages; canonical Git audit.",
+      "manuscript": "Public reviewed six-page independent LaTeX/PDF and three original figures; not peer reviewed; formal-publication projects excluded.",
+      "limitations": "Twelve deliberately chosen requested grid locations, two spatial cohorts and seven held years; no independent station or parcel validation. Current historical estimates do not establish original delivery vintages. Rolling windows overlap and years share weather; no independent-trial claim. Fixed artificial gaps are not a source-missingness model. Nominal grid separation does not prove spatial independence. The analysis does not establish climate causality, physical site suitability, plant output, actual savings, investment performance or a new estimator.",
+      "next_step": "Inspect close alternatives and data coverage, then obtain finer site measurements, land and connection constraints, system design, installed costs and tariffs before choosing a physical project. Keep resource error, ranking accuracy and gap sensitivity separate.",
+      "state": "COMPLETE_SCOPED_RELEASE",
+      "repository": "https://github.com/S3R3Bii/solar-resource-shortlist",
+      "head": "c280cb712eed04b7a656e4da38b36eb46f7d66e3",
+      "tested_head": "c32b6684a4fa076c4b18753eb4d49406af04ba5d",
+      "tree": "147a0d545f4dc6da15e06f757a85b5e9d5af0163",
+      "tag": "v0.1.0",
+      "pr": "https://github.com/S3R3Bii/solar-resource-shortlist/pull/2",
+      "ci": "https://github.com/S3R3Bii/solar-resource-shortlist/actions/runs/41105548524",
+      "merged_ci": "https://github.com/S3R3Bii/solar-resource-shortlist/actions/runs/41105691359"
+    },
+    "manuscript_publication": {
+      "head": "c280cb712eed04b7a656e4da38b36eb46f7d66e3",
+      "pdf": "https://github.com/S3R3Bii/solar-resource-shortlist/blob/c280cb712eed04b7a656e4da38b36eb46f7d66e3/paper/manuscript.pdf",
+      "source": "https://github.com/S3R3Bii/solar-resource-shortlist/blob/c280cb712eed04b7a656e4da38b36eb46f7d66e3/paper/main.tex",
+      "ci": "https://github.com/S3R3Bii/solar-resource-shortlist/actions/runs/41105691359"
+    },
+    "historical_proposed_sources": [
+      {
+        "key": "NSRDB",
+        "publisher_dataset": "National Solar Radiation Database",
+        "landing_url": "https://nsrdb.nrel.gov/",
+        "status": "targeted; exact export and rights must be verified"
+      }
+    ]
   },
   {
     "id": "30",
