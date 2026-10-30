@@ -2024,9 +2024,65 @@
   {
     "id": "42",
     "slug": "scientific-claim-to-data-link-reliability",
-    "title": "Scientific claim-to-data link reliability",
-    "decision": "Which metadata rules find broken research data links without overwhelming maintainers with false alarms?",
+    "title": "Check the evidence before reporting a research-data link as broken",
+    "decision": "When should recorded DOI responses prompt routing/metadata review, and when should an offline tool preserve an explicit unknown state?",
     "sources": [
+      {
+        "key": "CROSSREF_DATACITE_DOI_METADATA",
+        "publisher_dataset": "One fixed 100-item Crossref 2019 relation response and sixteen public DataCite Findable Dataset qualification responses, with 44 bounded live item observations and 22 later agent browser references",
+        "landing_url": "https://www.crossref.org/documentation/retrieve-metadata/rest-api/",
+        "status": "executed; minimal DOI facts and sanitized evidence only; all 16 real datasets are Karger Figshare, originals private and source-file availability untested"
+      }
+    ],
+    "proposed_analysis": "DOI and repository-link resolution with calibrated rules",
+    "validation_plan": "Commit the fixed public metadata query, rights boundary, sorted unique DOI groups, authored controls, request bounds, reference labels and repeat rule before landing observations. Independently reconstruct metadata from private originals. Retain raw responses and a native 202/204 semantic clarification after first development captures and before comparison/final probes. Complete development, freeze 37 actual source/rule/checker/exercise dependencies before any final landing/reference inspection, execute both real time gates, independently check native/DOM/time/actions/denominators, preserve unknowns and the no-reduction result, replay full-history clones under two runtimes, inspect figures and all source-bound paper pages, then require exact candidate/main CI, matching tree and annotated tag.",
+    "contribution_to_test": "A reproducibility maintenance tool whose false positives are measured",
+    "skills": [
+      "metadata/source reconciliation",
+      "HTTP evidence handling",
+      "SQL and data quality",
+      "temporal observation design",
+      "independent implementation validation",
+      "reproducible research software"
+    ],
+    "status": "executed; bounded DOI-response triage benchmark and offline implementation exercise released",
+    "manuscript": "Public reviewed six-page independent LaTeX/PDF with three original figures; not peer reviewed; separate formal-publication projects remain private.",
+    "novelty": "A small bounded recorded-response case study and implementation exercise using fixed authored rules and established HTTP/metadata semantics. Prior reference-rot research is acknowledged. No new detector, calibrated reliability model, comprehensive scientific-priority claim, population accuracy or operational benefit.",
+    "license_gate": "Crossref permits metadata reuse with separate abstract rights; DataCite public metadata are CC0. Only minimal DOI/relationship facts, sanitized response/reference states, times/hashes and new calculations are public. Complete metadata/HTML/DOM originals, raw source datasets, article abstracts, third-party manuscripts, credentials and formal-publication projects remain excluded. Public metadata rights do not license underlying dataset files.",
+    "publication_gate": "All scoped source, scientific, separation, replay, figure, manuscript, privacy and exact-head Linux/merge/tag gates pass",
+    "historical_proposed_title": "Scientific claim-to-data link reliability",
+    "historical_proposed_decision": "Which metadata rules find broken research data links without overwhelming maintainers with false alarms?",
+    "historical_proposed_skills": [
+      "data engineering",
+      "record linkage",
+      "research operations"
+    ],
+    "executed_analysis": "One fixed Crossref/DataCite metadata cohort, DOI-group separation, authored naive and conservative response rules, two actual time-separated probes per item, later agent-inspected browser references and independent native/DOM/time/action/count checks. No trained model or probability calibration.",
+    "repository": "https://github.com/S3R3Bii/research-data-link-triage",
+    "release": {
+      "checkout": "studies/research-data-link-triage",
+      "finding": "No observed false-alert reduction in this conditional cohort. In each phase both rules flag the same three authored controls and have zero apparent false alerts among eight matching available browser references. All real probes finish with empty HTTP 202 responses, so conservative triage keeps eight real items per phase unknown. Browser metadata do not establish usable dataset files; authored controls do not establish recall on genuine missing scholarly links.",
+      "checks": "Seventeen private exact metadata entities; 100 Crossref items, 72 candidate relations and 16 distinct Findable Dataset parent/target pairs reconstructed in 346 independent native JSON/SQL conditions. Twenty-two fixed items, 44 actual observations and 76 request steps; both actual twenty-minute repeat gates pass. Thirty-seven original dependencies committed before all final landing/reference inspection. Native transcript/DOM/time/action/denominator checks pass 741 development and 760 final conditions. Thirty-six fixture methods and three authored CLI examples; Python 3.10.11/3.12.14 full-history clones reproduce 464 JSON scalar fields with 19 saved source files unchanged and no source requests. Three inspected figures, 64 source values, 248 actual SVG coordinates and nine hashes; 41 source-bound paper measurements, 228 checks and six inspected pages; 79 audited canonical Git blobs and five scoped paper files.",
+      "manuscript": "Public reviewed six-page independent LaTeX/PDF with three original figures; not peer reviewed; separate formal-publication projects remain private.",
+      "limitations": "All sixteen real datasets are Karger Figshare in a current Findable-conditioned 2019-publication metadata slice. No representative multi-repository sample, original historical vintages or genuine broken scholarly-link sample. Browser references are later agent inspections, without independent human adjudication or same-instant truth. No download is explicitly opened; automatic preview traffic is unaudited. The interval and rules are authored bounds, not trained or empirically optimal settings. No population error rate, file availability, long-term permanence, actual workload reduction, automatic repair, adoption, deployment or scientific-claim validation is established.",
+      "next_step": "Preserve response reasons/times and unknowns. Check DOI routing or metadata after two spaced not-found responses, without announcing permanent data loss. Expand to a representative fresh corpus with genuine unresolved identifiers and independent references; authorize and validate file-access/scientific-support checks separately when those are the actual decision.",
+      "state": "COMPLETE_SCOPED_RELEASE",
+      "repository": "https://github.com/S3R3Bii/research-data-link-triage",
+      "head": "2b5294f7d792002ef4d4ed20085e4690f290afba",
+      "tested_head": "459ea1fdda2121b928cac7a39ba7c442507dc97f",
+      "tree": "81f8f823283811329eb6ae5dcf8408e13a9df738",
+      "tag": "v0.1.0",
+      "pr": "https://github.com/S3R3Bii/research-data-link-triage/pull/2",
+      "ci": "https://github.com/S3R3Bii/research-data-link-triage/actions/runs/41133042488",
+      "merged_ci": "https://github.com/S3R3Bii/research-data-link-triage/actions/runs/41133374683"
+    },
+    "manuscript_publication": {
+      "head": "2b5294f7d792002ef4d4ed20085e4690f290afba",
+      "pdf": "https://github.com/S3R3Bii/research-data-link-triage/blob/2b5294f7d792002ef4d4ed20085e4690f290afba/paper/manuscript.pdf",
+      "source": "https://github.com/S3R3Bii/research-data-link-triage/blob/2b5294f7d792002ef4d4ed20085e4690f290afba/paper/main.tex",
+      "ci": "https://github.com/S3R3Bii/research-data-link-triage/actions/runs/41133374683"
+    },
+    "historical_proposed_sources": [
       {
         "key": "CROSSREF",
         "publisher_dataset": "Crossref REST API",
@@ -2039,20 +2095,7 @@
         "landing_url": "https://docs.openalex.org/",
         "status": "targeted; exact export and rights must be verified"
       }
-    ],
-    "proposed_analysis": "DOI and repository-link resolution with calibrated rules",
-    "validation_plan": "Public metadata only; bounded requests; human-checked positive/negative sample; time-separated recheck",
-    "contribution_to_test": "A reproducibility maintenance tool whose false positives are measured",
-    "skills": [
-      "data engineering",
-      "record linkage",
-      "research operations"
-    ],
-    "status": "protocol only",
-    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
-    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
-    "license_gate": "unknown until exact dataset terms are checked",
-    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+    ]
   },
   {
     "id": "43",

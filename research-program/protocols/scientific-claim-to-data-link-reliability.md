@@ -1,6 +1,10 @@
 # Scientific claim-to-data link reliability
 
-**State: protocol only. No result or novelty claim yet.**
+## Execution update — 30 October 2026
+
+A scoped study is executed and released at https://github.com/S3R3Bii/research-data-link-triage. No observed false-alert reduction in this conditional cohort. In each phase both rules flag the same three authored controls and have zero apparent false alerts among eight matching available browser references. All real probes finish with empty HTTP 202 responses, so conservative triage keeps eight real items per phase unknown. Browser metadata do not establish usable dataset files; authored controls do not establish recall on genuine missing scholarly links. Read its fixed executable protocol, complete exclusions and validation. The broader proposal below is retained as historical design context; it is not the release specification. Independent program manuscripts are public after checks; separate formal-publication projects remain private.
+
+**Historical proposal, superseded by the scoped release above.**
 
 ## Decision
 
