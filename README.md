@@ -8,7 +8,7 @@ I build analytical tools and applications that make complex work easier to inspe
 
 ## Research directed at demanding data roles
 
-The [50-study research register](research-program/README.md) connects specific business questions to public data and measurable tests. The [skills map](research-program/SKILLS_AND_SEQUENCE.md) emphasizes SQL, data validation, temporal evaluation, model tuning, kinematics and decision communication. The register separates twenty-seven released studies and 23 awaiting execution or release. Every model-selection claim requires retained optimization and independent metric evidence. The [research manuscripts](research-program/RESEARCH_PAPERS.md) explain the released studies and link their checked source editions.
+The [50-study research register](research-program/README.md) connects specific business questions to public data and measurable tests. The [skills map](research-program/SKILLS_AND_SEQUENCE.md) emphasizes SQL, data validation, temporal evaluation, model tuning, kinematics and decision communication. The register separates twenty-eight released studies and 22 awaiting execution or release. Every model-selection claim requires retained optimization and independent metric evidence. The [research manuscripts](research-program/RESEARCH_PAPERS.md) explain the released studies and link their checked source editions.
 
 
 ## Start here
@@ -42,6 +42,7 @@ The [50-study research register](research-program/README.md) connects specific b
 | [Choose buildings for an energy review](https://github.com/S3R3Bii/building-energy-review) | Twenty review slots yield only two shared buildings across peer and consumption objectives; local CSV scorer and full missing-follow-up accounting |
 | [Know where inspection labels are missing](https://github.com/S3R3Bii/inspection-label-coverage) | Only 13,613 of 183,500 current sources have recorded pass/fail stack-test results in the fixed window; coverage audit prevents absent records becoming passing labels |
 | [Evaluate GDP forecasts with the data available then](https://github.com/S3R3Bii/gdp-vintage-forecast-audit) | Historical GDP snapshots separate input hindsight from target revisions; the development-selected rule loses to a simple mean on held quarters |
+| [Budget a buffer for day-ahead wind shortfalls](https://github.com/S3R3Bii/wind-shortfall-buffer) | Wind shortfall buffers improve a stated hypothetical loss, while lower penalties reverse the decision and point-forecast bias correction can worsen accuracy |
 | [PikiVu](pikivu.md) | A compact recording interface and validated edit/export workflow |
 | [Model Evidence](model-evidence.md) | Statistical diagnostics presented as readable reports |
 | [Open Research Commons](open-research-commons.md) | Shared human/agent workflow with independent release checks |

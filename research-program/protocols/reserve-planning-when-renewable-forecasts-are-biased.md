@@ -1,6 +1,10 @@
 # Reserve planning when renewable forecasts are biased
 
-**State: protocol only. No result or novelty claim yet.**
+## Execution update — 30 October 2026
+
+A scoped study is executed and released at https://github.com/S3R3Bii/wind-shortfall-buffer. On 26,260 held hours per region, selected Q75 lowers primary hypothetical proxy cost from 117.120 to 87.820 in Flanders and 103.987 to 75.474 in Wallonia. Coverage is 79.954% and 75.091%. Q80 is slightly cheaper in Wallonia; at penalty ratio two, zero beats the selected buffer in both regions. Mean bias correction worsens held point MAE in both. No actual reliability or financial benefit is measured. Read its fixed executable protocol, complete exclusions and validation. The broader proposal below is retained as historical design context; it is not the release specification. Independent program manuscripts are public after checks; separate formal-publication projects remain private.
+
+**Historical proposal, superseded by the scoped release above.**
 
 ## Decision
 

@@ -1127,25 +1127,57 @@
     "decision": "When does correcting persistent regional forecast bias reduce reserve shortfalls more than optimizing average error?",
     "sources": [
       {
-        "key": "EIA930",
-        "publisher_dataset": "EIA balancing authority operations",
-        "landing_url": "https://www.eia.gov/electricity/930-content/about.html",
-        "status": "targeted; exact export and rights must be verified"
+        "key": "EliaODS031",
+        "publisher_dataset": "Elia Transmission Belgium SA, historical wind power production estimation and forecast, onshore DSO Flanders/Wallonia",
+        "landing_url": "https://opendata.elia.be/explore/dataset/ods031/information/",
+        "status": "executed; captured 2018–2023 minimal attributed CC BY 4.0 projection, independently reconciled"
       }
     ],
     "proposed_analysis": "Quantile correction and asymmetric reserve policies",
-    "validation_plan": "Season-blocked folds; authority holdout; capacity-ratio sensitivity",
+    "validation_plan": "Committed protocol before 26 source responses. Full UTC calendar and four-slot hourly integration, a 90% quarter coverage gate and a complete exclusion ledger. Earlier Flanders errors fit six signed-error statistics; 2020 equal-quarter normalized primary loss selects Q75. Earlier capacity covariates alone adapt the Wallonia scale. Commit 29 dependency hashes before 2021–2023 temporal/geographic outcomes. Retain all six policies, nine scenarios, three fixed point comparators and year/quarter blocks, with independent SQL, Decimal and exact-loss checks, offline replay and inspected figures/paper.",
     "contribution_to_test": "Evaluate the decision loss associated with forecast bias rather than reporting RMSE alone",
     "skills": [
       "forecasting",
       "optimization",
       "uncertainty"
     ],
-    "status": "protocol only",
-    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
-    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
-    "license_gate": "unknown until exact dataset terms are checked",
-    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+    "status": "executed; retrospective wind shortfall policy comparison released",
+    "manuscript": "Public reviewed seven-page independent LaTeX/PDF and three original figures; not peer reviewed; formal-publication projects excluded.",
+    "novelty": "Transparent implementation of established signed-error quantiles and asymmetric losses, with explicit cost/cap assumptions and temporal/geographic outcome checks. No new estimator, exhaustive novelty, peer review or measured operational-benefit claim.",
+    "license_gate": "Elia Transmission Belgium SA historical wind ods031 metadata links its accessible Open Data License applying CC BY 4.0. Attribution, source/license links, change notice and no endorsement retained. Minimal factual onshore DSO projection and derivatives are public; original exports, source documents, logos, contact metadata, secrets and formal-publication manuscripts are excluded. The general disclaimer redirect returned 403; no bypass.",
+    "publication_gate": "All scoped source, scientific, separation, replay, figure, manuscript, privacy and exact-head Linux/merge/tag gates pass",
+    "repository": "https://github.com/S3R3Bii/wind-shortfall-buffer",
+    "release": {
+      "checkout": "studies/wind-shortfall-buffer",
+      "finding": "On 26,260 held hours per region, selected Q75 lowers primary hypothetical proxy cost from 117.120 to 87.820 in Flanders and 103.987 to 75.474 in Wallonia. Coverage is 79.954% and 75.091%. Q80 is slightly cheaper in Wallonia; at penalty ratio two, zero beats the selected buffer in both regions. Mean bias correction worsens held point MAE in both. No actual reliability or financial benefit is measured.",
+      "checks": "30 finite synthetic fixtures; 420,672 captured records reconciled in 7,992,809 two-format comparisons; 6,099,749 independent calendar comparisons; 29 dependencies committed before held scores; 2,271,889 development and 13,586,122 held field/structural comparisons; 21,916,240 replay CSV fields including headers and eight JSON documents; 54 figure values, 432 SVG coordinates and nine hashes; 328 paper checks, 146 displays and seven rendered pages; scoped canonical audits.",
+      "manuscript": "Public reviewed seven-page independent LaTeX/PDF and three original figures; not peer reviewed; formal-publication projects excluded.",
+      "limitations": "Current historical day-ahead labels do not establish original issuance versions or validated metering. Reported upscaled onshore data may reflect curtailment and revisions; offshore discrepancy warning disclosed and offshore excluded. Hypothetical penalties/caps are not observed market cost, available reserve, dispatch, ramp or duration constraints. Earlier Wallonia capacity covariates used, with no Wallonia error fitting. Small serially dependent regional cohort; no significance, new estimator, deployment, financial saving or reliability claim.",
+      "next_step": "Use the full scenario comparison to state shortfall penalties and capacity assumptions before selecting a buffer. Validate original forecast issuance,production measurement and actual operational constraints with a decision owner before any grid or financial claim;check transfer on another region/source vintage.",
+      "state": "COMPLETE_SCOPED_RELEASE",
+      "repository": "https://github.com/S3R3Bii/wind-shortfall-buffer",
+      "head": "b37890444541a7765985e5d99f386f647341f1d7",
+      "tested_head": "063d03a803ebf03d85170656d3466fb52bd7e9bc",
+      "tree": "73c13e7119e7079bce490f4f1e29c2bc9bc78770",
+      "tag": "v0.1.0",
+      "pr": "https://github.com/S3R3Bii/wind-shortfall-buffer/pull/2",
+      "ci": "https://github.com/S3R3Bii/wind-shortfall-buffer/actions/runs/41099561291",
+      "merged_ci": "https://github.com/S3R3Bii/wind-shortfall-buffer/actions/runs/41100587944"
+    },
+    "manuscript_publication": {
+      "head": "b37890444541a7765985e5d99f386f647341f1d7",
+      "pdf": "https://github.com/S3R3Bii/wind-shortfall-buffer/blob/b37890444541a7765985e5d99f386f647341f1d7/paper/manuscript.pdf",
+      "source": "https://github.com/S3R3Bii/wind-shortfall-buffer/blob/b37890444541a7765985e5d99f386f647341f1d7/paper/main.tex",
+      "ci": "https://github.com/S3R3Bii/wind-shortfall-buffer/actions/runs/41100587944"
+    },
+    "historical_proposed_sources": [
+      {
+        "key": "EIA930",
+        "publisher_dataset": "EIA balancing authority operations",
+        "landing_url": "https://www.eia.gov/electricity/930-content/about.html",
+        "status": "targeted; exact export and rights must be verified"
+      }
+    ]
   },
   {
     "id": "27",
