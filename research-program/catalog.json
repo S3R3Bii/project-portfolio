@@ -1451,15 +1451,15 @@
       "optimization",
       "economic analysis"
     ],
-    "status": "source quantity hold; fixed UN cohort fails required net-weight/common-support gates; scenarios unexecuted",
+    "status": "source quantity hold; both fixed UN and separately planned FAO cohorts fail the support gate; scenarios unexecuted",
     "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
     "novelty": "Candidate contribution; systematic prior-work review not yet completed",
-    "license_gate": "unknown until exact dataset terms are checked",
-    "publication_gate": "Incomplete: required source weights/support fail; reviewed source/code facts only, with no empirical study manuscript or release tag",
+    "license_gate": "Bounded attributed source projections only; FAO CC BY 4.0 retains upstream UN/Eurostat restrictions; raw files private",
+    "publication_gate": "Incomplete: fixed support requirement fails in both sources; no scenario manuscript or release tag",
     "repository": "https://github.com/S3R3Bii/wheat-supplier-stress",
     "source_readiness_note": "source-holds/study31-wheat-quantity-support.md",
     "source_work": {
-      "head": "5b995dade9ee37515c95b7ead916bac212d1b6ee",
+      "head": "19dd918820c5f112d6f465a5cd4713a010ba6b14",
       "branch": "shared-capacity-network",
       "pull_request": "https://github.com/S3R3Bii/wheat-supplier-stress/pull/2",
       "native_source_records": 140,
@@ -1468,7 +1468,12 @@
       "finite_local_tests": 36,
       "source_gate": "fail",
       "scenario_scores_run": false,
-      "released": false
+      "released": false,
+      "fao_source_records": 179,
+      "fao_independent_conditions": 4706,
+      "fao_source_gate": "fail",
+      "fao_common_support_morocco2020_percent": "79.478498",
+      "fao_plan_commit": "cc5d95dbabefb329d0d7d737c0183c1e474a83dc"
     }
   },
   {
