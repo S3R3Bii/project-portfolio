@@ -1870,29 +1870,72 @@
   {
     "id": "39",
     "slug": "physiological-signal-quality-before-prediction",
-    "title": "Physiological signal quality before prediction",
-    "decision": "Can simple signal-quality checks prevent confident errors when recording conditions change?",
+    "title": "Test false rejections before using an ECG quality gate",
+    "decision": "Can two inexpensive authored ECG waveform checks detect added noise on another source recording without exceeding a fixed source-clean rejection budget?",
     "sources": [
+      {
+        "key": "PhysioNet_MIT_BIH_NSTDB_1_0_0",
+        "publisher_dataset": "PhysioNet MIT-BIH Noise Stress Test Database1.0.0 and source-clean MIT-BIH Arrhythmia Database1.0.0, fixed records118/119 and twelve calibrated electrode-motion variants",
+        "landing_url": "https://physionet.org/content/nstdb/1.0.0/",
+        "status": "executed; fourteen privately preserved exact source records with publisher hashes, independent waveform decoding and minimal attributed derived-window features"
+      }
+    ],
+    "proposed_analysis": "Signal quality features and out-of-distribution detection",
+    "validation_plan": "Commit fourteen exact open-access records, fixed windows and both features, three threshold candidates, the clean-window constraint, tie-break and recording separation before waveform retrieval. Preserve originals privately and verify publisher hashes, native header/checksum/physical conversion and every sample against independent WFDB. Correct the absolute-voltage clean-interval test against documented NST segment offsets before features, retaining its failure. Independently reconstruct all derived feature values and SQL keys. Retain every development candidate, declare the secondary later diagnostic after development but before later features, and commit 36 dependency hashes. Independently reconstruct all threshold/selection/metric/flip evidence, preserve fallback and failures, replay separate full-history clones, review all figures/paper pages, then verify exact candidate/main CI, matching tested content, remote annotated tag and metadata.",
+    "contribution_to_test": "Evaluate the quality gate separately from any downstream clinical inference",
+    "skills": [
+      "signal processing",
+      "native waveform/source reconciliation",
+      "SQL and numerical data quality",
+      "constrained threshold selection",
+      "recording-level evaluation",
+      "independent implementation validation"
+    ],
+    "status": "executed; negative-result signal-quality benchmark and implementation exercise released",
+    "manuscript": "Public reviewed six-page independent LaTeX/PDF with three original figures; not peer reviewed; formal-publication projects excluded.",
+    "novelty": "An auditable small negative-result benchmark and practical implementation/evidence-review exercise using elementary authored energy ratios. Prior noise stress testing and ECG quality-index work are explicitly cited. No scientific-priority, new-index, clinical validation, live-performance or realized-benefit claim.",
+    "license_gate": "Both exact PhysioNet datasets are Open Access under Open Data Commons Attribution License1.0, with dataset/author/license notices retained in the derived projection and produced figures/manuscript. Only derived numerical features, fixed public record IDs, sanitized native encoding metadata and new analysis are public. Original waveforms, header demographic/medication comments, annotations, publisher documents, protected clinical datasets, credentials and private records remain excluded; authored MIT code does not relicense source rights.",
+    "publication_gate": "All scoped source, scientific, separation, replay, figure, manuscript, privacy and exact-head Linux/merge/tag gates pass",
+    "historical_proposed_title": "Physiological signal quality before prediction",
+    "historical_proposed_decision": "Can simple signal-quality checks prevent confident errors when recording conditions change?",
+    "historical_proposed_skills": [
+      "signal processing",
+      "uncertainty",
+      "data quality"
+    ],
+    "executed_analysis": "Fixed per-window energy ratios, a retained three-candidate quantile search, constraint-based accept-all fallback, a frozen separate-recording evaluation and explicitly secondary all-candidate audit with authored gain/offset and quantization checks. No clinical predictor or actual device comparison.",
+    "repository": "https://github.com/S3R3Bii/ecg-quality-gate-transfer",
+    "release": {
+      "checkout": "studies/ecg-quality-gate-transfer",
+      "finding": "All three candidate gates violate the authored 5% source-clean false-rejection constraint. The least aggressive flags 58 of 150 later source-clean development windows (38.666666667%); the full range is 38.666666667-52%. The fixed selection keeps accept-all, providing no noise-detection improvement. A secondary separate-recording audit of the same rejected thresholds flags 14-22% of source-clean controls, without recalibration or reselection. This is a negative finding about these two features and the declared calibration/search, without clinical acceptability or safety claims.",
+      "checks": "Fourteen fixed public records and 37 preserved source/integrity/metadata files; publisher waveform/header SHA256 matches; 18,200,000 digital samples/physical conversions independently reconciled with WFDB and 8,812,800 clean-interval cells checked. Each recording has 648 derived rows, 3,888 numerical features and 10,391 independent raw-feature/SQL conditions. Thirty-six dependencies committed before later features; 7,416 predictions per recording; 45,028 development and 45,029 later metric/key conditions; 27 finite test methods; Python 3.10.11/3.12.14 replay of 135,564 CSV fields and four JSON documents; 765 figure values, 1,572 SVG coordinates and nine hashes; 83 manuscript displays, 185 checks and six inspected pages; 77 canonical Git blobs and five scoped paper files.",
+      "manuscript": "Public reviewed six-page independent LaTeX/PDF with three original figures; not peer reviewed; formal-publication projects excluded.",
+      "limitations": "Only one development and one later source recording, with dependent time windows and reused noise variants. Source-clean and calibrated SNR labels are not expert clinical acceptability judgments. The five-minute calibration, two simple features, three quantile candidates, 5% rejection constraint and numerical transformations are authored assumptions. Raw recording119 values were exposed for source qualification before feature freeze; the secondary all-candidate later audit was declared after development and before later features. Public replay uses derived features, not raw-waveform re-extraction. No population confidence interval, clinical prevalence, new quality index, downstream diagnostic accuracy, actual device transfer, deployment, alarm reduction or patient/financial benefit is established.",
+      "next_step": "Keep these gates out of operational use. Gather representative independent participants, recording conditions/device identities and expert quality labels including arrhythmias; justify rejection costs before calibrating a replacement and defining a fresh protected evaluation. Retain unavailable input states and distinguish noise detection from a clinical quality judgment.",
+      "state": "COMPLETE_SCOPED_RELEASE",
+      "repository": "https://github.com/S3R3Bii/ecg-quality-gate-transfer",
+      "head": "90a2b00bdeb7c5ce062bab0110b7e32138a5a3aa",
+      "tested_head": "357fd58676c26914d95c8b1ec73ed83b7db4bea7",
+      "tree": "f9a5fd32ef15761805e1db4c179b13763e141d2a",
+      "tag": "v0.1.0",
+      "pr": "https://github.com/S3R3Bii/ecg-quality-gate-transfer/pull/2",
+      "ci": "https://github.com/S3R3Bii/ecg-quality-gate-transfer/actions/runs/41123265063",
+      "merged_ci": "https://github.com/S3R3Bii/ecg-quality-gate-transfer/actions/runs/41123474801"
+    },
+    "manuscript_publication": {
+      "head": "90a2b00bdeb7c5ce062bab0110b7e32138a5a3aa",
+      "pdf": "https://github.com/S3R3Bii/ecg-quality-gate-transfer/blob/90a2b00bdeb7c5ce062bab0110b7e32138a5a3aa/paper/manuscript.pdf",
+      "source": "https://github.com/S3R3Bii/ecg-quality-gate-transfer/blob/90a2b00bdeb7c5ce062bab0110b7e32138a5a3aa/paper/main.tex",
+      "ci": "https://github.com/S3R3Bii/ecg-quality-gate-transfer/actions/runs/41123474801"
+    },
+    "historical_proposed_sources": [
       {
         "key": "PHYSIONET",
         "publisher_dataset": "PhysioNet research data",
         "landing_url": "https://physionet.org/",
         "status": "targeted; exact export and rights must be verified"
       }
-    ],
-    "proposed_analysis": "Signal quality features and out-of-distribution detection",
-    "validation_plan": "Only openly licensed noncredentialed recordings; subject-held-out validation; recording-device sensitivity",
-    "contribution_to_test": "Evaluate the quality gate separately from any downstream clinical inference",
-    "skills": [
-      "signal processing",
-      "uncertainty",
-      "data quality"
-    ],
-    "status": "protocol only",
-    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
-    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
-    "license_gate": "unknown until exact dataset terms are checked",
-    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+    ]
   },
   {
     "id": "40",

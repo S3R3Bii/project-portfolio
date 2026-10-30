@@ -1,6 +1,10 @@
 # Physiological signal quality before prediction
 
-**State: protocol only. No result or novelty claim yet.**
+## Execution update — 30 October 2026
+
+A scoped study is executed and released at https://github.com/S3R3Bii/ecg-quality-gate-transfer. All three candidate gates violate the authored 5% source-clean false-rejection constraint. The least aggressive flags 58 of 150 later source-clean development windows (38.666666667%); the full range is 38.666666667-52%. The fixed selection keeps accept-all, providing no noise-detection improvement. A secondary separate-recording audit of the same rejected thresholds flags 14-22% of source-clean controls, without recalibration or reselection. This is a negative finding about these two features and the declared calibration/search, without clinical acceptability or safety claims. Read its fixed executable protocol, complete exclusions and validation. The broader proposal below is retained as historical design context; it is not the release specification. Independent program manuscripts are public after checks; separate formal-publication projects remain private.
+
+**Historical proposal, superseded by the scoped release above.**
 
 ## Decision
 
