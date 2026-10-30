@@ -1451,11 +1451,25 @@
       "optimization",
       "economic analysis"
     ],
-    "status": "protocol only",
+    "status": "source quantity hold; fixed UN cohort fails required net-weight/common-support gates; scenarios unexecuted",
     "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
     "novelty": "Candidate contribution; systematic prior-work review not yet completed",
     "license_gate": "unknown until exact dataset terms are checked",
-    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+    "publication_gate": "Incomplete: required source weights/support fail; reviewed source/code facts only, with no empirical study manuscript or release tag",
+    "repository": "https://github.com/S3R3Bii/wheat-supplier-stress",
+    "source_readiness_note": "source-holds/study31-wheat-quantity-support.md",
+    "source_work": {
+      "head": "5b995dade9ee37515c95b7ead916bac212d1b6ee",
+      "branch": "shared-capacity-network",
+      "pull_request": "https://github.com/S3R3Bii/wheat-supplier-stress/pull/2",
+      "native_source_records": 140,
+      "original_source_conditions": 10799,
+      "independent_gate_conditions": 570,
+      "finite_local_tests": 36,
+      "source_gate": "fail",
+      "scenario_scores_run": false,
+      "released": false
+    }
   },
   {
     "id": "32",
