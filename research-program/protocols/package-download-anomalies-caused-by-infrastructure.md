@@ -1,6 +1,10 @@
 # Package download anomalies caused by infrastructure
 
-**State: protocol only. No result or novelty claim yet.**
+## Execution update — 30 October 2026
+
+A scoped study is executed and released at https://github.com/S3R3Bii/download-spike-context. Filtering changes zero flags across 360 final package-days at all three predeclared thresholds. The primary score>6 threshold emits none. The lower score>3 sensitivity threshold flags the same four Flask dates in both series; filtering only today also leaves those flags unchanged. This sample provides no observed alert reduction or true-anomaly accuracy estimate. Read its fixed executable protocol, complete exclusions and validation. The broader proposal below is retained as historical design context; it is not the release specification. Independent program manuscripts are public after checks; separate formal-publication projects remain private.
+
+**Historical proposal, superseded by the scoped release above.**
 
 ## Decision
 

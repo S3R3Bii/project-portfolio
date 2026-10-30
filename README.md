@@ -8,7 +8,7 @@ I build analytical tools and applications that make complex work easier to inspe
 
 ## Research directed at demanding data roles
 
-The [50-study research register](research-program/README.md) connects specific business questions to public data and measurable tests. The [skills map](research-program/SKILLS_AND_SEQUENCE.md) emphasizes SQL, data validation, temporal evaluation, model tuning, kinematics and decision communication. The register separates thirty-six released studies and 14 awaiting execution or release. Every model-selection claim requires retained optimization and independent metric evidence. The [research manuscripts](research-program/RESEARCH_PAPERS.md) explain the released studies and link their checked source editions.
+The [50-study research register](research-program/README.md) connects specific business questions to public data and measurable tests. The [skills map](research-program/SKILLS_AND_SEQUENCE.md) emphasizes SQL, data validation, temporal evaluation, model tuning, kinematics and decision communication. The register separates thirty-seven released studies and 13 awaiting execution or release. Every model-selection claim requires retained optimization and independent metric evidence. The [research manuscripts](research-program/RESEARCH_PAPERS.md) explain the released studies and link their checked source editions.
 
 
 ## Start here
@@ -51,6 +51,7 @@ The [50-study research register](research-program/README.md) connects specific b
 | [Test false rejections before using an ECG quality gate](https://github.com/S3R3Bii/ecg-quality-gate-transfer) | Shows why ECG noise detection can fail a clean-signal rejection budget, with complete negative results and a runnable offline guard exercise |
 | [A better cadence score can still leave the review queue empty](https://github.com/S3R3Bii/release-cadence-review) | Shows why lower retrospective probability error can still miss every gap at a fixed dependency-review threshold, with complete negative policy results and an offline exercise |
 | [Check the evidence before reporting a research-data link as broken](https://github.com/S3R3Bii/research-data-link-triage) | An offline maintenance exercise that preserves uncertain DOI responses, with a transparent no-reduction comparison and exact observation times |
+| [A traffic filter changes counts without changing these alerts](https://github.com/S3R3Bii/download-spike-context) | Shows how to check native and filtered download counters before interpreting a spike, preserving a zero-change result and both teaching directions |
 | [PikiVu](pikivu.md) | A compact recording interface and validated edit/export workflow |
 | [Model Evidence](model-evidence.md) | Statistical diagnostics presented as readable reports |
 | [Open Research Commons](open-research-commons.md) | Shared human/agent workflow with independent release checks |

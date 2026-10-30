@@ -2170,29 +2170,71 @@
   {
     "id": "44",
     "slug": "package-download-anomalies-caused-by-infrastructure",
-    "title": "Package download anomalies caused by infrastructure",
-    "decision": "Which package-demand spikes vanish after removing known automation and mirror effects?",
+    "title": "A traffic filter changes counts without changing these alerts",
+    "decision": "Does applying the publisher filter to both current downloads and their history change fixed spike flags on other packages and later dates?",
     "sources": [
+      {
+        "key": "PYPISTATS_PUBLIC_PAIRED_AGGREGATES",
+        "publisher_dataset": "PyPI / PSF public download statistics delivered by PSF-hosted PyPIStats overall API",
+        "landing_url": "https://pypistats.org/api/",
+        "status": "executed; twelve exact entities independently reconcile to the fixed1,800 paired-date projection; CC BY4.0 attributed, no raw event logs or package files"
+      }
+    ],
+    "proposed_analysis": "Robust aggregation and anomaly triage",
+    "validation_plan": "Commit the exact twelve-package cohort, assignment, calendar windows, nested accounting, missingness/source bounds and all authored settings before statistics collection. Preserve exact private entities and independently reconstruct public aggregates via SQLite JSON 1. Retain all development thresholds; freeze 29 dependencies before other-package/later-window final scores. Independently recompute calendar histories, Decimal 80 scores, flags and denominators. Replay two isolated full-history clones, inspect three source-bound figures and all paper pages, then require exact candidate/main Linux CI, matching tree and an annotated remote tag.",
+    "contribution_to_test": "Measure data-pipeline artifacts before inferring user adoption",
+    "skills": [
+      "SQL and data quality",
+      "time-series accounting",
+      "robust descriptive anomaly scores",
+      "independent numerical validation",
+      "reproducible research software"
+    ],
+    "status": "executed; paired-download accounting benchmark and offline exercise released",
+    "manuscript": "Public reviewed six-page independent LaTeX/PDF with three original figures; not peer reviewed; separate formal-publication projects stay private.",
+    "novelty": "A bounded accounting comparison and implementation exercise using authored standard robust summaries, with an unchanged empirical flag result. No new estimator, exhaustive scientific-priority claim, causal identification, user/adoption measure or demonstrated operational benefit.",
+    "license_gate": "PyPI/PSF public aggregate data under its explicit CC BY 4.0 license, attributed to PyPI/PSF and PSF-hosted PyPIStats with modifications identified. MIT code does not replace source data rights. Raw event logs, IP/client records, package files, credentials and formal-publication manuscripts excluded. Publisher commit/tree label clarified independently without changing inspected blob bytes or frozen analytical inputs.",
+    "publication_gate": "All scoped source, scientific, separation, replay, figure, manuscript, privacy and exact-head Linux/merge/tag gates pass",
+    "historical_proposed_title": "Package download anomalies caused by infrastructure",
+    "historical_proposed_decision": "Which package-demand spikes vanish after removing known automation and mirror effects?",
+    "historical_proposed_skills": [
+      "SQL",
+      "data quality",
+      "anomaly detection"
+    ],
+    "executed_analysis": "A predeclared twelve-package paired PyPIStats aggregate snapshot; fixed calendar accounting and missingness gates; six development and six other final packages, with later final dates; three retained authored log-MAD thresholds and current-only secondary view; both flag-change directions and an offline exercise.",
+    "repository": "https://github.com/S3R3Bii/download-spike-context",
+    "release": {
+      "checkout": "studies/download-spike-context",
+      "finding": "Filtering changes zero flags across 360 final package-days at all three predeclared thresholds. The primary score>6 threshold emits none. The lower score>3 sensitivity threshold flags the same four Flask dates in both series; filtering only today also leaves those flags unchanged. This sample provides no observed alert reduction or true-anomaly accuracy estimate.",
+      "checks": "Twelve exact private aggregate entities, 346, 249 decoded bytes and 4, 920 source cells reconcile to 1, 800 paired rows in 8, 558 independent native SQLite conditions. All 12 packages have 150 paired dates. Development has 372 scorable origins and 168 warm-up exclusions, with 12, 991 independent SQLite/Decimal conditions. Twenty-nine dependencies were committed before 360 final scores, which pass 12, 643 independent conditions with exact flags. Twenty-one fixture methods and three authored examples. Separate full-history CPython 3.10.11/3.12.14 replays reproduce 11, 173 exact and 2, 310 tolerant fields per runtime with four source files unchanged. Three inspected figures, 378 source values, 864 actual SVG coordinates and nine hashes;61 bound manuscript measurements, 272 paper conditions and six inspected pages;65 audited canonical Git blobs and five scoped paper files.",
+      "manuscript": "Public reviewed six-page independent LaTeX/PDF with three original figures; not peer reviewed; separate formal-publication projects stay private.",
+      "limitations": "Authored familiar Python-package cohort in one current aggregate vintage; package-days overlap and share infrastructure. No original historical-vintage reconstruction, package-version holdout, direct BigQuery execution or trusted anomaly/incident labels. The inspected SQL also filters unknown installers; CI/CD remains, mirror end-user activity is unobserved, and publisher-code identity is not a historical deployment audit. Fixed window/floor/thresholds are illustrative and unoptimized. The unchanged flags do not prove no filter effect in other cohorts or settings. No measured adoption, false-positive reduction, causality, analyst time saving, deployment benefit or scientific novelty.",
+      "next_step": "Keep counter definitions with alert evidence and inspect current counts and historical baselines. Preserve the zero-change comparison. Before choosing an operational threshold, collect a broader prospective cohort with verified review decisions and outcomes.",
+      "state": "COMPLETE_SCOPED_RELEASE",
+      "repository": "https://github.com/S3R3Bii/download-spike-context",
+      "head": "d8b51cfb60ea2c9294411e6acf8c7e442947af0a",
+      "tested_head": "186360f4c2dfbf8a32c3bc1d1d838cba196caea0",
+      "tree": "0f621c7a4d0d6f5334b7a55277e7e9442d14f1cb",
+      "tag": "v0.1.0",
+      "pr": "https://github.com/S3R3Bii/download-spike-context/pull/2",
+      "ci": "https://github.com/S3R3Bii/download-spike-context/actions/runs/41135751092",
+      "merged_ci": "https://github.com/S3R3Bii/download-spike-context/actions/runs/41135839146"
+    },
+    "manuscript_publication": {
+      "head": "d8b51cfb60ea2c9294411e6acf8c7e442947af0a",
+      "pdf": "https://github.com/S3R3Bii/download-spike-context/blob/d8b51cfb60ea2c9294411e6acf8c7e442947af0a/paper/manuscript.pdf",
+      "source": "https://github.com/S3R3Bii/download-spike-context/blob/d8b51cfb60ea2c9294411e6acf8c7e442947af0a/paper/main.tex",
+      "ci": "https://github.com/S3R3Bii/download-spike-context/actions/runs/41135839146"
+    },
+    "historical_proposed_sources": [
       {
         "key": "PYPI",
         "publisher_dataset": "PyPI BigQuery download statistics",
         "landing_url": "https://docs.pypi.org/api/bigquery/",
         "status": "targeted; exact export and rights must be verified"
       }
-    ],
-    "proposed_analysis": "Robust aggregation and anomaly triage",
-    "validation_plan": "Document bot-filter limits; version-level and time holdouts; free-query cost guard",
-    "contribution_to_test": "Measure data-pipeline artifacts before inferring user adoption",
-    "skills": [
-      "SQL",
-      "data quality",
-      "anomaly detection"
-    ],
-    "status": "protocol only",
-    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
-    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
-    "license_gate": "unknown until exact dataset terms are checked",
-    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass"
+    ]
   },
   {
     "id": "45",
