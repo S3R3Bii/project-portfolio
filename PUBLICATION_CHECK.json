@@ -1,7 +1,7 @@
 {
-  "timestamp_utc": "2026-10-31T00:56:17.065918+00:00",
+  "timestamp_utc": "2026-10-31T01:01:04.195525+00:00",
   "status": "PASS_BOUNDED_SCAN",
-  "files_checked": 124,
+  "files_checked": 125,
   "scope": "Exact staged Git index bytes; decompressed text; forbidden paths/extensions, high-confidence key and private machine path patterns; local Markdown links. Image/PDF contents require separate visual/source review. This is not universal secret detection.",
   "findings": [],
   "sha256": {
@@ -118,8 +118,9 @@
     "research-program/source-holds/study11-contract-preaward-availability.md": "752b6a83c975004444b5cbbbef47571b9ea94cfca4aff36cb584a2fbdea69472",
     "research-program/source-holds/study12-disaster-snapshot-history.md": "6526938117dafc44295469670361785da5ace060f5e7dac3a6f3e3ec781ae6b0",
     "research-program/source-holds/study14-approval-coverage.md": "8b90fae9d13ae9999685cc1fe094f373549a5a752485c9b627a0de605eacea12",
-    "research-program/source-holds/study16-summary-access.md": "e37bb6a58a604eb2e8cd1e41f2bdeab1a424c8980392718e9c65a7dafea8cce8",
+    "research-program/source-holds/study16-summary-access.md": "b4d4abacb4fc0e60ba17672cdeb85bdd53774c15a84e5fc570a162d7729749e5",
     "research-program/source-holds/study18-remedy-labels.md": "9d194411076da8d475c269f3b631c3e5633432a8f1423df928e22ee71b1b460c",
+    "research-program/source-holds/study22-financial-statement-archive-access.md": "e59047cdd4cc3e6e7fbdcc7bf8315556bea2a7893c99ff55b5d76fb69e429a13",
     "research-program/source-holds/study23-sec-revenue-access.md": "9f4b94dadbc2aa762f6afe12788ed0e41a6cefaffea0d79db40eae6e28168839",
     "research-program/source-holds/study25-chp-key-conflict.md": "aa980e0dcc010b4bf0d4d35af9a18fd2bd44a2033adeef0808f74d2414c2f5c6",
     "research-program/source-holds/study31-wheat-quantity-support.md": "0f845194aff16904a96def3a9becf11637c42d2ef7a6aa9a04df05319acbc4b8",
