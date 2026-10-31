@@ -536,31 +536,74 @@
   {
     "id": "11",
     "slug": "contract-modification-exposure-before-award",
-    "title": "Contract modification exposure before award",
-    "decision": "Can pre-award information identify contracts likely to require repeated modifications without using future fields?",
+    "title": "Contract action counts and net obligations",
+    "decision": "How do current transaction counts, zero-dollar actions and signed obligation adjustments differ from net-dollar review queues in a fixed post-award cohort?",
     "sources": [
+      {
+        "key": "USASPENDING_CURRENT_CONTRACT_ACTIONS",
+        "publisher_dataset": "USAspending v2 current award search, transaction histories, before/after counts and official API/disclosure definitions",
+        "landing_url": "https://api.usaspending.gov/",
+        "status": "executed; fixed post-award current accounting audit; original historical publication and pre-award classifier remain unverified"
+      }
+    ],
+    "proposed_analysis": "Entity resolution and calibrated risk ranking",
+    "validation_plan": "Commit the NASA 2024 first-page cohort, 365-day action window and five-case capacity before outcomes. Reconcile all current histories with before/after counts, exact native tokens and source hashes; preserve all rows and unknowns. Freeze 24 actual dependencies before accounting/ranks. Independently reconstruct every account, source-row classification, probe, rank and request with SQLite/calendar/exact Fraction arithmetic; test meaningful identity, money and date boundaries. Verify two isolated saved-data replays, actual SVG geometry, complete used PDF bindings, all rendered pages, canonical privacy scope and exact candidate/main CI/tree/tag/metadata proof.",
+    "contribution_to_test": "Frame outputs as workload prioritization, never fraud accusations or vendor eligibility decisions",
+    "skills": [
+      "source reconciliation",
+      "exact financial accounting",
+      "SQL verification",
+      "temporal data engineering",
+      "defensive software design",
+      "reproducible research"
+    ],
+    "status": "executed; fixed current post-award accounting and review-queue comparison released; original pre-award classifier remains unexecuted",
+    "manuscript": "Public reviewed six-page independent LaTeX/PDF with three complete case figures and a runnable local implementation exercise. Not peer reviewed. Separate formal-publication projects remain private.",
+    "novelty": "Finite post-award source-accounting and measure-comparison audit using established arithmetic, source reconciliation and ranking methods. No new estimator, exhaustive scientific-priority or generalized staffing validity claim.",
+    "license_gate": "Official public USAspending API and disclosure support research/transparency use of government spending facts. Publish only minimal factual government contract/transaction keys, source dates, type/modification tokens and signed obligation values, with attribution and independent results. Native payloads, descriptions, recipient information, source PDFs, credentials and formal-publication drafts remain private. MIT covers original code, not agency or third-party expressive material; no Treasury endorsement or blanket data-license claim.",
+    "publication_gate": "All scoped source, scientific, separation, replay, figure, manuscript, privacy and exact-head Linux/merge/tag gates pass",
+    "source_readiness_note": "source-holds/study11-contract-preaward-availability.md",
+    "historical_proposed_title": "Contract modification exposure before award",
+    "historical_proposed_decision": "Can pre-award information identify contracts likely to require repeated modifications without using future fields?",
+    "historical_proposed_skills": [
+      "SQL",
+      "classification",
+      "calibration",
+      "entity resolution"
+    ],
+    "executed_analysis": "Source-informed first-page convenience cohort of 20 NASA prime contracts first obligated in 2024, fixed before award/transaction capture. Complete 153-record current histories from 62 responses; declared 365-day source-calendar windows, all case accounts, row classifications, 60 horizon probes and complete five-case queues. Independent exact-rational/SQLite reconstruction and a runnable local measurement-boundary exercise. No fitted model.",
+    "repository": "https://github.com/S3R3Bii/contract-action-accounting",
+    "release": {
+      "checkout": "studies/contract-action-accounting",
+      "finding": "The transaction-count and net-obligation five-contract queues share three cases (union seven, Jaccard 3/7). The 365-day windows contain 104 current source records, including 12 zero-dollar actions and three negative obligations. C02 and C08 net-offset fractions are 31.57% and 3.95%. These are current source-accounting measures, not verified staff tasks, savings or vendor risk.",
+      "checks": "Twenty fixed cases, 153 native current records and 62 native responses pass 1,768 independent native conditions; saved-source conditions 1,236. Twenty-four actual source/method dependencies committed before comparisons. All case accounts, 153 row classifications, 60 horizon probes, ranks and seven authored requests pass 1,582 independent SQL/calendar/exact-rational conditions. Thirty-three meaningful fixture methods pass. Separate full-history CPython 3.10.11/3.12.14 replays reproduce six outputs exactly with nine source files unchanged each; final complete package replay passes. Three inspected figures: 120 source-bound bars, 480 actual SVG coordinate conditions, nine asset hashes and 1,094 conditions. Six current rendered manuscript pages: 158 used source bindings, all 20 actual PDF table rows, 698 conditions, 67 canonical audited Git blobs and five scoped paper files.",
+      "manuscript": "Public reviewed six-page independent LaTeX/PDF with three complete case figures and a runnable local implementation exercise. Not peer reviewed. Separate formal-publication projects remain private.",
+      "limitations": "One agency/base-year first-page convenience cohort, not a random or national sample. Current histories can be revised; agreeing counts/search observations do not establish atomicity, complete historical reporting, original publication or pre-award feature availability. A source transaction is not automatically a distinct legal modification or staff task; calendar dates cannot order same-day records. Obligations are not outlays or paid cash. Five-case capacity is authored, not validated staffing capacity. No vendor-risk, fraud, staff-hour, classifier-accuracy, causal, production-use, saving or new-estimator claim. Original pre-award classifier remains unexecuted.",
+      "next_step": "Retain transaction counts, zero/signed adjustments, gross obligations and net obligations together. Before staffing decisions, collect measured review tasks and time. A pre-award model needs verified feature availability and protected labels at its prediction origin.",
+      "state": "COMPLETE_SCOPED_RELEASE",
+      "repository": "https://github.com/S3R3Bii/contract-action-accounting",
+      "head": "34510cef2482a60823767709db426d1dc14daadb",
+      "tested_head": "f9cd9e0867921c3a96404706fd06deafb1b825da",
+      "tree": "6ed3dc0e7dcd5cfe083cd6e1f03b56a25c711b4d",
+      "tag": "v0.1.0",
+      "pr": "https://github.com/S3R3Bii/contract-action-accounting/pull/2",
+      "ci": "https://github.com/S3R3Bii/contract-action-accounting/actions/runs/41160932180",
+      "merged_ci": "https://github.com/S3R3Bii/contract-action-accounting/actions/runs/41160991324"
+    },
+    "manuscript_publication": {
+      "head": "34510cef2482a60823767709db426d1dc14daadb",
+      "pdf": "https://github.com/S3R3Bii/contract-action-accounting/blob/34510cef2482a60823767709db426d1dc14daadb/paper/manuscript.pdf",
+      "source": "https://github.com/S3R3Bii/contract-action-accounting/blob/34510cef2482a60823767709db426d1dc14daadb/paper/main.tex",
+      "ci": "https://github.com/S3R3Bii/contract-action-accounting/actions/runs/41160991324"
+    },
+    "historical_proposed_sources": [
       {
         "key": "USASPENDING",
         "publisher_dataset": "USAspending API",
         "landing_url": "https://api.usaspending.gov/docs/",
         "status": "targeted; exact export and rights must be verified"
       }
-    ],
-    "proposed_analysis": "Entity resolution and calibrated risk ranking",
-    "validation_plan": "Agency-held-out and time-held-out evaluation; leakage blacklist; precision at review capacity",
-    "contribution_to_test": "Frame outputs as workload prioritization, never fraud accusations or vendor eligibility decisions",
-    "skills": [
-      "SQL",
-      "classification",
-      "calibration",
-      "entity resolution"
-    ],
-    "status": "source timing hold; pre-award field availability unverified",
-    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
-    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
-    "license_gate": "unknown until exact dataset terms are checked",
-    "publication_gate": "Incomplete: required source timing/history evidence remains unverified; no model or release claim",
-    "source_readiness_note": "source-holds/study11-contract-preaward-availability.md"
+    ]
   },
   {
     "id": "12",

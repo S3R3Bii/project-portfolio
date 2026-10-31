@@ -8,7 +8,7 @@ I build analytical tools and applications that make complex work easier to inspe
 
 ## Research directed at demanding data roles
 
-The [50-study research register](research-program/README.md) connects specific business questions to public data and measurable tests. The [skills map](research-program/SKILLS_AND_SEQUENCE.md) emphasizes SQL, data validation, temporal evaluation, model tuning, kinematics and decision communication. The register separates forty-four released studies and 6 awaiting execution or release. Every model-selection claim requires retained optimization and independent metric evidence. The [research manuscripts](research-program/RESEARCH_PAPERS.md) explain the released studies and link their checked source editions.
+The [50-study research register](research-program/README.md) connects specific business questions to public data and measurable tests. The [skills map](research-program/SKILLS_AND_SEQUENCE.md) emphasizes SQL, data validation, temporal evaluation, model tuning, kinematics and decision communication. The register separates forty-five released studies and 5 awaiting execution or release. Every model-selection claim requires retained optimization and independent metric evidence. The [research manuscripts](research-program/RESEARCH_PAPERS.md) explain the released studies and link their checked source editions.
 
 
 ## Start here
@@ -59,6 +59,7 @@ The [50-study research register](research-program/README.md) connects specific b
 | [Check forecast publication deadlines before scoring scheduling errors](https://github.com/S3R3Bii/load-forecast-deadline-audit) | Shows how later forecast files change the reported error while missing the decision deadline,with complete timing evidence and a local guard |
 | [Audit recall notification dates before building a remedy-time model](https://github.com/S3R3Bii/recall-date-role-audit) | Finds a 23-day source discrepancy and preserves planned, generic and unresolved recall events before they become model labels |
 | [Check disaster snapshots before publishing county comparisons](https://github.com/S3R3Bii/disaster-snapshot-audit) | Shows why refresh dates cannot recover historical funding and flags 22 mixed county/Statewide source groups before geographic comparison |
+| [Contract action counts and net obligations](https://github.com/S3R3Bii/contract-action-accounting) | Shows how count and dollar queues differ: three of five cases overlap, with zero-dollar actions and signed adjustments retained |
 | [PikiVu](pikivu.md) | A compact recording interface and validated edit/export workflow |
 | [Model Evidence](model-evidence.md) | Statistical diagnostics presented as readable reports |
 | [Open Research Commons](open-research-commons.md) | Shared human/agent workflow with independent release checks |

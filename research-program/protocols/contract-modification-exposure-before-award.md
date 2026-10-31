@@ -1,6 +1,10 @@
 # Contract modification exposure before award
 
-**State: protocol only. No result or novelty claim yet.**
+## Execution update — 30 October 2026
+
+A scoped study is executed and released at https://github.com/S3R3Bii/contract-action-accounting. The transaction-count and net-obligation five-contract queues share three cases (union seven, Jaccard 3/7). The 365-day windows contain 104 current source records, including 12 zero-dollar actions and three negative obligations. C02 and C08 net-offset fractions are 31.57% and 3.95%. These are current source-accounting measures, not verified staff tasks, savings or vendor risk. Read its fixed executable protocol, complete exclusions and validation. The broader proposal below is retained as historical design context; it is not the release specification. Independent program manuscripts are public after checks; separate formal-publication projects remain private.
+
+**Historical proposal, superseded by the scoped release above.**
 
 ## Decision
 
