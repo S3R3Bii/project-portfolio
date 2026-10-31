@@ -461,7 +461,7 @@
       "calibration",
       "measurement validity"
     ],
-    "status": "source hold; arrival threshold and reporting-population comparability unresolved",
+    "status": "source hold; original cross-region comparability unresolved; separately fixed US recorded-label protocol blocked at official BTS archive form before any flight rows",
     "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
     "novelty": "Candidate contribution; systematic prior-work review not yet completed",
     "license_gate": "unknown until exact dataset terms are checked",
@@ -473,7 +473,19 @@
       "population_and_vintages": "UNKNOWN",
       "fitting_started": false,
       "release_counted": false
-    }
+    },
+    "prepared_execution": {
+      "state": "PROTOCOL_ONLY_SOURCE_ACQUISITION_HOLD",
+      "repository": "https://github.com/S3R3Bii/arrival-label-boundaries",
+      "head": "61c3a92036e5db1fed4723ee836298ed064cac57",
+      "protocol_main": "1e944cf80b32ad500c687678727596f0b1d76aa9",
+      "pull_request": "https://github.com/S3R3Bii/arrival-label-boundaries/pull/2",
+      "native_flight_rows_obtained": 0,
+      "results": "UNEXECUTED",
+      "release": "UNEXECUTED",
+      "original_transfer_scope": "UNEXECUTED;common-event/population/rights/vintage gates unresolved"
+    },
+    "source_readiness_note": "source-holds/study09-flight-common-units.md"
   },
   {
     "id": "10",
