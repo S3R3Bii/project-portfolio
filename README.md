@@ -8,7 +8,7 @@ I build analytical tools and applications that make complex work easier to inspe
 
 ## Research directed at demanding data roles
 
-The [50-study research register](research-program/README.md) connects specific business questions to public data and measurable tests. The [skills map](research-program/SKILLS_AND_SEQUENCE.md) emphasizes SQL, data validation, temporal evaluation, model tuning, kinematics and decision communication. The register separates forty-seven released studies and 3 awaiting execution or release. Every model-selection claim requires retained optimization and independent metric evidence. The [research manuscripts](research-program/RESEARCH_PAPERS.md) explain the released studies and link their checked source editions.
+The [50-study research register](research-program/README.md) connects specific business questions to public data and measurable tests. The [skills map](research-program/SKILLS_AND_SEQUENCE.md) emphasizes SQL, data validation, temporal evaluation, model tuning, kinematics and decision communication. The register separates forty-eight released studies and 2 awaiting execution or release. Every model-selection claim requires retained optimization and independent metric evidence. The [research manuscripts](research-program/RESEARCH_PAPERS.md) explain the released studies and link their checked source editions.
 
 
 ## Start here
@@ -62,6 +62,7 @@ The [50-study research register](research-program/README.md) connects specific b
 | [Contract action counts and net obligations](https://github.com/S3R3Bii/contract-action-accounting) | Shows how count and dollar queues differ: three of five cases overlap, with zero-dollar actions and signed adjustments retained |
 | [Arrival-delay labels at the minute boundary](https://github.com/S3R3Bii/arrival-label-boundaries) | Shows 275 changed labels on unchanged flights and keeps cancellation/diversion denominators visible |
 | [Reported injury rates depend on exposure](https://github.com/S3R3Bii/injury-rate-denominators) | Five records carry 92.53% of reported hours: a concrete reason to audit denominators before smoothing |
+| [Financial facts need their full context](https://github.com/S3R3Bii/financial-fact-contexts) | Shows how a short financial key collapses 247 facts into 27 groups by mixing durations and segment context |
 | [PikiVu](pikivu.md) | A compact recording interface and validated edit/export workflow |
 | [Model Evidence](model-evidence.md) | Statistical diagnostics presented as readable reports |
 | [Open Research Commons](open-research-commons.md) | Shared human/agent workflow with independent release checks |

@@ -1270,35 +1270,78 @@
   {
     "id": "22",
     "slug": "financial-statement-restatements-as-a-data-engineering-test",
-    "title": "Financial-statement restatements as a data engineering test",
-    "decision": "How often does a naive latest-value join rewrite the historical features used in a model?",
+    "title": "Financial facts need their full context",
+    "decision": "How many distinct financial contexts does a short latest-value key collapse, and which omitted source fields explain the collisions?",
     "sources": [
+      {
+        "key": "SEC_FSDS_2026Q3",
+        "publisher_dataset": "SEC current 2026 Q3 Financial Statement Data Sets, including SUB/TAG/PRE/NUM and official table definitions",
+        "landing_url": "https://www.sec.gov/data-research/sec-markets-data/financial-statement-data-sets",
+        "status": "executed; fixed current context-key audit; source truth, formal restatements and original historical availability unestablished"
+      }
+    ],
+    "proposed_analysis": "Point-in-time XBRL panel construction and revision audit",
+    "validation_plan": "Commit the exact archive, CIK/tag cohort and six nested keys before retrieval. Preserve native/member hashes, CRCs, all four table counts and every selected context. Reconcile with independent pandas C chunks, Fraction values and SQLite key multiplicities. Fix quoted-TSV and fractional-timestamp parsing before comparisons. Freeze 24 actual dependencies before key audit. Independently reconstruct every group, member, case, naive winner, abstention and repeated-context result. Preserve a checker-only expectation correction, original requests and unchanged primary-output hashes; label the additive positive control post-analysis. Verify two isolated byte-exact replays, actual SVG geometry, all used PDF bindings/tables/rendered pages, privacy scope and exact candidate/main CI/tree/tag/metadata.",
+    "contribution_to_test": "Quantify leakage introduced by revision handling before fitting any financial model",
+    "skills": [
+      "relational data engineering",
+      "source reconciliation",
+      "XBRL context accounting",
+      "SQL verification",
+      "defensive software design",
+      "reproducible research"
+    ],
+    "status": "executed; complete current financial-fact context-key audit released; original broad historical restatement/model-leakage question remains unexecuted",
+    "manuscript": "Public reviewed six-page independent LaTeX/PDF with three complete context-key figures and a runnable current-fact implementation exercise. Not peer reviewed. Separate formal-publication projects stay private.",
+    "novelty": "Finite current-source relational-key and authored-overwrite audit using established database identity and exact arithmetic. No new estimator, exhaustive scientific-priority, formal-restatement validation or predictive-superiority claim.",
+    "license_gate": "Official public SEC current extract of submitted financial facts and Commission filing identifiers. Publish checked minimal factual context/numeric tokens, hashes and original analysis with attribution. Raw archives, company report prose, footnotes, TAG/PRE labels, business addresses, phone numbers and EINs stay private. Segment/coregistrant content is represented by hashes and blank status, without a general anonymity claim. MIT covers original code, not blanket third-party rights. No SEC endorsement or financial/source-truth certification.",
+    "publication_gate": "All scoped source, scientific, separation, replay, figure, manuscript, privacy and exact-head Linux/merge/tag gates pass",
+    "access_evidence": {
+      "date_utc": "2026-10-28",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000320193.json",
+      "result": "HTTP 403 with declared research user agent; no data obtained; no bypass attempted"
+    },
+    "historical_proposed_title": "Financial-statement restatements as a data engineering test",
+    "historical_proposed_decision": "How often does a naive latest-value join rewrite the historical features used in a model?",
+    "historical_proposed_skills": [
+      "SQL",
+      "data engineering",
+      "data lineage",
+      "testing"
+    ],
+    "executed_analysis": "Fixed current SEC 2026 Q3 archive, three company CIKs and six standard tags committed before retrieval. Retain every selected fact, all six nested keys, all 18 company/tag cells, 108 company/tag/key cases, 632 group accounts and 1,482 memberships. Independent native and SQL/Fraction reconstruction. Defensive current-fact lookup with preserved original abstentions and a separately labeled post-analysis positive control. No model fitting.",
+    "repository": "https://github.com/S3R3Bii/financial-fact-contexts",
+    "release": {
+      "checkout": "studies/financial-fact-contexts",
+      "finding": "A company/tag/end-date key collapses 247 source facts into 27 groups; a one-row join would discard 220 distinct contexts. Adding duration still leaves 210 extra contexts in 37 groups; segment/coregistrant identity separates all observed facts. An authored winner differs numerically from 215 facts, reflecting different quantities as well as values; this is not a verified restatement or historical-leakage count.",
+      "checks": "Native controls cover 6,516 SUB, 87,871 TAG, 731,170 PRE and 3,905,397 NUM rows. All 247 selected facts pass 373 independent native conditions; saved-source conditions 2,232; complete independent SQLite/Fraction conditions 2,039. All 32 meaningful fixture methods and 25 additive positive-control/history conditions pass. Original 24-dependency freeze committed before comparisons; one disclosed checker-only expectation correction preserves source, production, original seven inputs and all six primary output bytes. Separate full-history CPython 3.10.11/3.12.14 replays reproduce six primary outputs byte for byte with eight source files unchanged each; both reproduce and check the positive control. Final full package replay passes. Three inspected figures: 54 source bars, 216 actual SVG coordinates, nine asset hashes and 662 conditions. Six current rendered PDF pages, 154 used source bindings, all 18 company/tag and six key-level table rows, 699 paper conditions, 74 canonical audited Git blobs and five scoped paper files.",
+      "manuscript": "Public reviewed six-page independent LaTeX/PDF with three complete context-key figures and a runnable current-fact implementation exercise. Not peer reviewed. Separate formal-publication projects stay private.",
+      "limitations": "One current reprocessed quarter, three familiar filers and six tags form a convenience cohort. Each company has one selected accession; no repeated context across accessions is available to measure revisions. Source values and rounded dates do not establish financial truth, exact fiscal boundaries or original historical availability. Accepted timestamps receive no verified timezone conversion. The naive winner is authored for audit, not a financial selection policy. Original broad historical restatement/model-leakage study remains unexecuted. No verified formal restatement, financial loss, predictive accuracy, investment advice, new estimator, causal effect, deployment or realized saving.",
+      "next_step": "Carry every source-key field through financial-data joins, require complete current context and abstain when it is absent or ambiguous. Classify duration/unit/dimension/taxonomy/filing differences before interpreting a changed value as a revision. Historical modeling needs verified dated availability and repeated same-context observations.",
+      "state": "COMPLETE_SCOPED_RELEASE",
+      "repository": "https://github.com/S3R3Bii/financial-fact-contexts",
+      "head": "bcedb3a8d44b8e3a47f0ce9d242e7867bc94c3f3",
+      "tested_head": "d8aea297635c2d5c233e8c62ae068c1cb39572d2",
+      "tree": "0ca620660313a3f37a858ebd55dc0b576f1e0820",
+      "tag": "v0.1.0",
+      "pr": "https://github.com/S3R3Bii/financial-fact-contexts/pull/2",
+      "ci": "https://github.com/S3R3Bii/financial-fact-contexts/actions/runs/41170860672",
+      "merged_ci": "https://github.com/S3R3Bii/financial-fact-contexts/actions/runs/41170941115"
+    },
+    "manuscript_publication": {
+      "head": "bcedb3a8d44b8e3a47f0ce9d242e7867bc94c3f3",
+      "pdf": "https://github.com/S3R3Bii/financial-fact-contexts/blob/bcedb3a8d44b8e3a47f0ce9d242e7867bc94c3f3/paper/manuscript.pdf",
+      "source": "https://github.com/S3R3Bii/financial-fact-contexts/blob/bcedb3a8d44b8e3a47f0ce9d242e7867bc94c3f3/paper/main.tex",
+      "ci": "https://github.com/S3R3Bii/financial-fact-contexts/actions/runs/41170941115"
+    },
+    "historical_proposed_sources": [
       {
         "key": "SEC",
         "publisher_dataset": "SEC EDGAR APIs",
         "landing_url": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces",
         "status": "targeted; exact export and rights must be verified"
       }
-    ],
-    "proposed_analysis": "Point-in-time XBRL panel construction and revision audit",
-    "validation_plan": "Accession-date joins; unit and taxonomy checks; duplicate-fact tests; manual filing reconciliation",
-    "contribution_to_test": "Quantify leakage introduced by revision handling before fitting any financial model",
-    "skills": [
-      "SQL",
-      "data engineering",
-      "data lineage",
-      "testing"
-    ],
-    "status": "source-access hold; no study execution",
-    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
-    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
-    "license_gate": "unknown until exact dataset terms are checked",
-    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass",
-    "access_evidence": {
-      "date_utc": "2026-10-28",
-      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000320193.json",
-      "result": "HTTP 403 with declared research user agent; no data obtained; no bypass attempted"
-    }
+    ]
   },
   {
     "id": "23",

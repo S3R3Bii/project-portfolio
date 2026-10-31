@@ -1,6 +1,10 @@
 # Financial-statement restatements as a data engineering test
 
-**State: protocol only. No result or novelty claim yet.**
+## Execution update — 30 October 2026
+
+A scoped study is executed and released at https://github.com/S3R3Bii/financial-fact-contexts. A company/tag/end-date key collapses 247 source facts into 27 groups; a one-row join would discard 220 distinct contexts. Adding duration still leaves 210 extra contexts in 37 groups; segment/coregistrant identity separates all observed facts. An authored winner differs numerically from 215 facts, reflecting different quantities as well as values; this is not a verified restatement or historical-leakage count. Read its fixed executable protocol, complete exclusions and validation. The broader proposal below is retained as historical design context; it is not the release specification. Independent program manuscripts are public after checks; separate formal-publication projects remain private.
+
+**Historical proposal, superseded by the scoped release above.**
 
 ## Decision
 
