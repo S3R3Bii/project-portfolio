@@ -565,30 +565,73 @@
   {
     "id": "12",
     "slug": "disaster-assistance-reporting-latency",
-    "title": "Disaster assistance reporting latency",
-    "decision": "How long must analysts wait before a county-level disaster spending comparison becomes stable?",
+    "title": "Check disaster snapshots before publishing county comparisons",
+    "decision": "What can current disaster records and two captured metadata observations support, and which historical or geographic comparisons must remain unsupported?",
     "sources": [
+      {
+        "key": "OPENFEMA_CURRENT_FUNDED_PROJECTS",
+        "publisher_dataset": "OpenFEMA Public Assistance Funded Projects Details v2, field dictionary, two metadata observations and fixed current-record capture",
+        "landing_url": "https://www.fema.gov/openfema-data-page/public-assistance-funded-projects-details-v2",
+        "status": "executed; current source availability/geographic audit; historical county financial values and stability remain unestablished"
+      }
+    ],
+    "proposed_analysis": "Revision curves and snapshot-stability analysis",
+    "validation_plan": "Fix two disaster IDs and five cutoffs before outcomes, retain all native hashes and counts, reconcile monetary and identity eligibility independently, and freeze 26 source/method dependencies before comparisons. Independently reconstruct every current group/probe with exact Fraction arithmetic and SQL/calendar semantics; retain unknowns and negative cases. Run meaningful guard/aggregation boundaries, isolated saved-data replays, SVG coordinates and PDF bindings, rendered-page review, bounded publication audit and exact candidate/main CI/tree/tag/metadata proof.",
+    "contribution_to_test": "Evaluate the reliability of early dashboards rather than claiming spending causes recovery",
+    "skills": [
+      "source provenance",
+      "temporal data engineering",
+      "SQL verification",
+      "exact arithmetic",
+      "defensive software design",
+      "reproducible research"
+    ],
+    "status": "executed; finite current-record availability/geography audit and comparison guard released; original historical stability horizon remains unexecuted",
+    "manuscript": "Public reviewed five-page independent LaTeX/PDF with three source-bound figures and a runnable local comparison exercise. Not peer reviewed. Separate formal-publication projects remain private.",
+    "novelty": "Finite current-record availability/geographic-semantics audit using established provenance, reconciliation and exact-arithmetic methods. No new estimator, exhaustive priority or generalized reliability claim.",
+    "license_gate": "Official OpenFEMA terms, dataset field definitions and API documentation inspected 31 October 2026. Statistical research/reporting only, no reidentification or individual-benefit decisions. Public package has sufficient aggregates without project/applicant identifiers, names, contact details, addresses or narratives; native records remain private. Required FEMA nonendorsement notice retained in README, data rights and manuscript. No agency seals or formal-publication drafts.",
+    "publication_gate": "All scoped source, scientific, separation, replay, figure, manuscript, privacy and exact-head Linux/merge/tag gates pass",
+    "source_readiness_note": "source-holds/study12-disaster-snapshot-history.md",
+    "historical_proposed_title": "Disaster assistance reporting latency",
+    "historical_proposed_decision": "How long must analysts wait before a county-level disaster spending comparison becomes stable?",
+    "historical_proposed_skills": [
+      "data provenance",
+      "time series",
+      "public finance"
+    ],
+    "executed_analysis": "Source-informed fixed OpenFEMA cohorts 4332 (TX) and 4339 (PR), with 17,994 current records, 132 raw source county groups and all 1,340 fixed date-selector probes. Two metadata observations and one current value capture; native source reconciliation, independent SQL/exact-rational checks and a local evidence guard. The original protocol explicitly permits this data-availability alternative. No fitted model.",
+    "repository": "https://github.com/S3R3Bii/disaster-snapshot-audit",
+    "release": {
+      "checkout": "studies/disaster-snapshot-audit",
+      "finding": "Four pre-2026 lastRefresh cutoffs select no current records; the 2018 first-obligation calendar filter instead selects 3,155 TX and 875 PR current records. Neither reconstructs past financial values. Twenty-two raw county-code groups mix a named county with Statewide labels, and FEMA defines county as applicant location. No physical-county allocation or stability horizon is established.",
+      "checks": "Native reconciliation: 141,166 finite conditions. Saved-source checks: 49,237. All 134 current groups and 1,340 probes pass 18,526 independent exact-rational/calendar conditions. Twenty-six source/method dependencies frozen before cutoff comparisons. Thirty-eight authored fixture methods and seven complete requests; two aggregation fixtures added after initial checks, with source/probe rules unchanged. Separate full-history CPython 3.10.11/3.12.14 replays reproduce five files exactly and preserve 11 data files each. Final current full-package replay passes. Three inspected figures: 44 source-bound bars, 176 actual SVG coordinate conditions, nine hashes and 910 conditions. Five reviewed manuscript pages: 61 used source bindings, 332 conditions, 69 canonical audited Git blobs and five scoped paper files.",
+      "manuscript": "Public reviewed five-page independent LaTeX/PDF with three source-bound figures and a runnable local comparison exercise. Not peer reviewed. Separate formal-publication projects remain private.",
+      "limitations": "Finite source-informed convenience cohorts; current filters, metadata agreement and first-obligation dates do not establish earlier monetary values, immutable first-publication snapshots or historical stability. County is applicant location, not worksite; raw code/name groups require reconciliation and are not certified physical counties. federalShareObligated is reported grant funding, not paid cash or official financial reporting. Pre-obligation projects absent and migration can change population. No national estimate, recovery effect, causal result, saving, deployment or new-estimator claim. The guard checks curated evidence tags rather than certifying another producer.",
+      "next_step": "Retain actual dated value tables with financial, geographic, population and capture definitions before comparing historical county funding. Resolve raw county-code/name mixtures before geographic aggregation. A stability study requires additional verified historical value captures.",
+      "state": "COMPLETE_SCOPED_RELEASE",
+      "repository": "https://github.com/S3R3Bii/disaster-snapshot-audit",
+      "head": "40f672cddc731361163dc6a3c841e69cd5ebe30e",
+      "tested_head": "c6af000672b931c6ee49a5da4db12486d53333ec",
+      "tree": "51f252e82058e262c1b535f3acc23b334d745f75",
+      "tag": "v0.1.0",
+      "pr": "https://github.com/S3R3Bii/disaster-snapshot-audit/pull/2",
+      "ci": "https://github.com/S3R3Bii/disaster-snapshot-audit/actions/runs/41159773920",
+      "merged_ci": "https://github.com/S3R3Bii/disaster-snapshot-audit/actions/runs/41159830145"
+    },
+    "manuscript_publication": {
+      "head": "40f672cddc731361163dc6a3c841e69cd5ebe30e",
+      "pdf": "https://github.com/S3R3Bii/disaster-snapshot-audit/blob/40f672cddc731361163dc6a3c841e69cd5ebe30e/paper/manuscript.pdf",
+      "source": "https://github.com/S3R3Bii/disaster-snapshot-audit/blob/40f672cddc731361163dc6a3c841e69cd5ebe30e/paper/main.tex",
+      "ci": "https://github.com/S3R3Bii/disaster-snapshot-audit/actions/runs/41159830145"
+    },
+    "historical_proposed_sources": [
       {
         "key": "FEMA",
         "publisher_dataset": "OpenFEMA data sets",
         "landing_url": "https://www.fema.gov/about/openfema/data-sets",
         "status": "targeted; exact export and rights must be verified"
       }
-    ],
-    "proposed_analysis": "Revision curves and snapshot-stability analysis",
-    "validation_plan": "Historical snapshots required; if unavailable report a data-availability study instead of reconstructed vintages",
-    "contribution_to_test": "Evaluate the reliability of early dashboards rather than claiming spending causes recovery",
-    "skills": [
-      "data provenance",
-      "time series",
-      "public finance"
-    ],
-    "status": "source history hold; prior county spending snapshots unverified",
-    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
-    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
-    "license_gate": "unknown until exact dataset terms are checked",
-    "publication_gate": "Incomplete: required source timing/history evidence remains unverified; no model or release claim",
-    "source_readiness_note": "source-holds/study12-disaster-snapshot-history.md"
+    ]
   },
   {
     "id": "13",

@@ -1,6 +1,10 @@
 # Disaster assistance reporting latency
 
-**State: protocol only. No result or novelty claim yet.**
+## Execution update — 30 October 2026
+
+A scoped study is executed and released at https://github.com/S3R3Bii/disaster-snapshot-audit. Four pre-2026 lastRefresh cutoffs select no current records; the 2018 first-obligation calendar filter instead selects 3,155 TX and 875 PR current records. Neither reconstructs past financial values. Twenty-two raw county-code groups mix a named county with Statewide labels, and FEMA defines county as applicant location. No physical-county allocation or stability horizon is established. Read its fixed executable protocol, complete exclusions and validation. The broader proposal below is retained as historical design context; it is not the release specification. Independent program manuscripts are public after checks; separate formal-publication projects remain private.
+
+**Historical proposal, superseded by the scoped release above.**
 
 ## Decision
 
