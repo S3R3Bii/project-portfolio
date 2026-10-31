@@ -1126,9 +1126,72 @@
   {
     "id": "25",
     "slug": "plant-level-fuel-efficiency-and-dispatch-mix",
-    "title": "Plant-level fuel efficiency and dispatch mix",
-    "decision": "How much of a change in fleet heat rate comes from plant operation versus changing generation shares?",
+    "title": "Read reported heat-rate change before making efficiency claims",
+    "decision": "How much of a selected reporting cohort’s fuel/output-ratio change is within reported cells, generation-share change or outside-cohort composition, and how does plant influence affect that description?",
     "sources": [
+      {
+        "key": "EIA923_UNAMBIGUOUS_REPORTING_COHORT_V2",
+        "publisher_dataset": "EIA-923 annual final historical 2018–2024 source snapshots, explicitly unambiguous selected reporting cohort",
+        "landing_url": "https://www.eia.gov/electricity/data/eia923/",
+        "status": "executed; exact private archives independently reconciled to attributed selected factual projection; whole-plant quarantine fixed before decomposition; original global source failure preserved"
+      }
+    ],
+    "proposed_analysis": "Index decomposition and uncertainty-aware peer comparison",
+    "validation_plan": "Preserve failed v1 source gate. Fix whole-plant identity quarantine before outcomes. Independently reconstruct all native contexts/keys/raw tokens and reader bounds, exact grouping/eligibility and all case memberships. Verify rational fixtures and complete development paths/bridges/deletions; commit 37 dependencies before held outcomes. Independently recompute all contributions and deletion sufficient sums plus fixed direct deletions. Replay two full-history clones, inspect source-bound SVG/PNG/PDF figures and six current manuscript pages, then require exact candidate/main Linux success, matching tree, annotated tag and synchronized metadata.",
+    "contribution_to_test": "Separate operational improvement from composition effects in energy reporting",
+    "skills": [
+      "energy data engineering",
+      "exact decimal arithmetic",
+      "index and composition decomposition",
+      "independent SQL and native-workbook validation",
+      "influence diagnostics",
+      "reproducible numerical software"
+    ],
+    "status": "executed; explicit unambiguous-cohort reported-ratio decomposition and offline bridge review released; original source failure preserved",
+    "manuscript": "Public reviewed six-page independent LaTeX/PDF with three original figures; original source failure and reported-versus-engineering limits explicit. Not peer reviewed. Formal-publication projects remain private.",
+    "novelty": "A deterministic retrospective reported-ratio audit using an established symmetric two-factor identity and complete finite plant influence. No new estimator, exhaustive scientific priority, predictive-generalization or physical causal attribution claim.",
+    "license_gate": "EIA federal factual-data reuse with attribution; U.S. Energy Information Administration, EIA-923 annual final historical 2018–2024 snapshots captured 29 October 2026. Selected year/row/infrastructure identifiers, classifications, annual electricity-fuel/net-generation raw tokens/types and hashes only. Selection/quarantine/grouping/analysis are project transformations; no EIA endorsement. MIT covers code. Complete workbooks, agency artwork, excluded names/contacts/coordinates/cost fields, credentials and formal-publication manuscripts remain private.",
+    "publication_gate": "All scoped source, scientific, separation, replay, figure, manuscript, privacy and exact-head Linux/merge/tag gates pass",
+    "source_readiness": {
+      "state": "HOLD",
+      "public_note": "source-holds/study25-chp-key-conflict.md",
+      "source_key": "FAIL",
+      "analysis_started": false,
+      "repository": "https://github.com/S3R3Bii/heat-rate-composition"
+    },
+    "historical_proposed_title": "Plant-level fuel efficiency and dispatch mix",
+    "historical_proposed_decision": "How much of a change in fleet heat rate comes from plant operation versus changing generation shares?",
+    "historical_proposed_skills": [
+      "SQL",
+      "decomposition",
+      "energy analytics"
+    ],
+    "executed_analysis": "Separate source-quality-informed v2 design quarantines whole plants before decomposition, preserving the original failed global-key/CHP gate. Seven EIA-923 annual snapshots, exact source sums, 72 fixed pair/fleet/grain/cohort cases, both symmetric factor paths and outside-cohort bridges, complete per-cell contributions, and every primary whole-plant deletion.",
+    "repository": "https://github.com/S3R3Bii/heat-rate-composition",
+    "release": {
+      "checkout": "studies/heat-rate-composition",
+      "finding": "In the selected unambiguous pooled coal/gas cohort, the 2023–2024 reported ratio moves from 8.608466 to 8.597667 MMBtu/MWh. Its net change of −0.010799 contains within −0.031403, mix +0.028037 and outside-cohort remainder −0.007434. Opposing components matter. These are reported-data algebraic terms, not proof of physical efficiency improvement or causal contributions.",
+      "checks": "Seven exact private archives; independent openpyxl identities and separate lxml raw tokens: 27,842 retained rows, 18 quarantined plants/736 rows, 814,042 source/projected field conditions and 55,684 reader-conversion checks. Independent SQLite/80-digit Decimal grouping and membership pass 540,314 conditions for 29,996 group rows and all 72 case supports. Thirty-seven committed dependencies before held outcomes. All 36 development/36 held cases estimable; 36,476/37,636 per-case cell contributions and 9,158/9,814 whole-plant deletions. Direct 80-digit paths/bridges and independently reconstructed deletion sums pass 658,242 development and 682,050 held conditions, plus 27 direct deletions each. Twenty-two authored fixture methods and three bridge-review cases. Two isolated full-history CPython 3.10.11/3.12.14 analysis replays reproduce 615,290 exact and 818,646 numeric facts each with three public source files unchanged. Three inspected figures bind 297 values/positions, 1,236 SVG coordinates, 156 labels, 72 cell colors and nine hashes; 43 bound paper values, 208 paper checks, six current inspected pages, 86 audited canonical blobs and five scoped paper files.",
+      "manuscript": "Public reviewed six-page independent LaTeX/PDF with three original figures; original source failure and reported-versus-engineering limits explicit. Not peer reviewed. Formal-publication projects remain private.",
+      "limitations": "Source-quality-informed narrower cohort fixed before decomposition; ambiguous quantities are not combined, and national output coverage is unknown. All source values and seven-year balanced eligibility were present; the design is retrospective and not blinded. Annual reporting cells can change with load, technology mix, co-fuel allocation and reporting. The outside-cohort remainder is not physical entry/retirement; plant-deletion extrema are finite influence ranges, not confidence intervals. No prediction, causal effect, engineering improvement, saving, deployment or new-method claim follows.",
+      "next_step": "Report the ratio, matched-cohort definition, within/mix/remainder and finite plant influence together. Obtain consistent unit-level fuel/output allocation, technology/load histories and an appropriate measurement design before an engineering or savings claim.",
+      "state": "COMPLETE_SCOPED_RELEASE",
+      "repository": "https://github.com/S3R3Bii/heat-rate-composition",
+      "head": "28396321773471fd6ae2e0b3aa4184072b870c27",
+      "tested_head": "e3fecf1891667698e9831752128f80f6fd95b8b3",
+      "tree": "2c7b09a0ca6f825954a904a1b676da0b94187bbd",
+      "tag": "v0.1.0",
+      "pr": "https://github.com/S3R3Bii/heat-rate-composition/pull/2",
+      "ci": "https://github.com/S3R3Bii/heat-rate-composition/actions/runs/41150769431",
+      "merged_ci": "https://github.com/S3R3Bii/heat-rate-composition/actions/runs/41151028809"
+    },
+    "manuscript_publication": {
+      "head": "28396321773471fd6ae2e0b3aa4184072b870c27",
+      "pdf": "https://github.com/S3R3Bii/heat-rate-composition/blob/28396321773471fd6ae2e0b3aa4184072b870c27/paper/manuscript.pdf",
+      "source": "https://github.com/S3R3Bii/heat-rate-composition/blob/28396321773471fd6ae2e0b3aa4184072b870c27/paper/main.tex",
+      "ci": "https://github.com/S3R3Bii/heat-rate-composition/actions/runs/41151028809"
+    },
+    "historical_proposed_sources": [
       {
         "key": "EIA860",
         "publisher_dataset": "EIA electricity generator inventory",
@@ -1141,27 +1204,7 @@
         "landing_url": "https://www.eia.gov/electricity/data/eia923/",
         "status": "targeted; exact export and rights must be verified"
       }
-    ],
-    "proposed_analysis": "Index decomposition and uncertainty-aware peer comparison",
-    "validation_plan": "Plant-generator key checks; unit reconciliation; matched-fleet sensitivity",
-    "contribution_to_test": "Separate operational improvement from composition effects in energy reporting",
-    "skills": [
-      "SQL",
-      "decomposition",
-      "energy analytics"
-    ],
-    "status": "source hold; conflicting CHP classifications on a duplicate2018source key",
-    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
-    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
-    "license_gate": "unknown until exact dataset terms are checked",
-    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass",
-    "source_readiness": {
-      "state": "HOLD",
-      "public_note": "source-holds/study25-chp-key-conflict.md",
-      "source_key": "FAIL",
-      "analysis_started": false,
-      "repository": "https://github.com/S3R3Bii/heat-rate-composition"
-    }
+    ]
   },
   {
     "id": "26",

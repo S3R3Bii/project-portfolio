@@ -1,10 +1,14 @@
 # Plant-level fuel efficiency and dispatch mix
 
+## Execution update — 30 October 2026
+
+A scoped study is executed and released at https://github.com/S3R3Bii/heat-rate-composition. In the selected unambiguous pooled coal/gas cohort, the 2023–2024 reported ratio moves from 8.608466 to 8.597667 MMBtu/MWh. Its net change of −0.010799 contains within −0.031403, mix +0.028037 and outside-cohort remainder −0.007434. Opposing components matter. These are reported-data algebraic terms, not proof of physical efficiency improvement or causal contributions. Read its fixed executable protocol, complete exclusions and validation. The broader proposal below is retained as historical design context; it is not the release specification. Independent program manuscripts are public after checks; separate formal-publication projects remain private.
+
 ## Source-readiness update — 29 October 2026
 
 Unreleased: the fixed source-key and plant-year CHP-classification gate failed before decomposition. Read the [bounded source hold](../source-holds/study25-chp-key-conflict.md). No completed study counted.
 
-**State: protocol only. No result or novelty claim yet.**
+**Historical proposal, superseded by the scoped release above.**
 
 ## Decision
 
