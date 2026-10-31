@@ -919,37 +919,81 @@
   {
     "id": "16",
     "slug": "injury-rate-stability-for-small-establishments",
-    "title": "Injury rate stability for small establishments",
-    "decision": "When does partial pooling change which workplaces appear to have unusually high reported injury rates?",
+    "title": "Reported injury rates depend on exposure",
+    "decision": "How much can reported exposure concentration influence a pooled injury rate and declared same-cohort smoothing assumptions?",
     "sources": [
       {
-        "key": "OSHA",
-        "publisher_dataset": "OSHA establishment injury and illness records",
-        "landing_url": "https://www.osha.gov/Establishment-Specific-Injury-and-Illness-Data",
-        "status": "targeted; exact export and rights must be verified"
+        "key": "OSHA_2025_SUMMARY",
+        "publisher_dataset": "OSHA Injury Tracking Application2025 Summary Data,submitted January-August2026,official dictionary and users guide",
+        "landing_url": "https://www.osha.gov/itadata",
+        "status": "executed;current submitted summary accounting and descriptive sensitivity;source truth,physical identity and future accuracy unestablished"
       }
     ],
     "proposed_analysis": "Exposure-adjusted hierarchical count models",
-    "validation_plan": "Year-held-out scoring; denominator checks; interval calibration; suppression sensitivity",
+    "validation_plan": "Commit a numerical protocol after native download/header inspection but before establishment-value parsing. Reconcile every native row and minimal sufficient cell with independent pandas C/Fraction/SQLite parsing. Preserve all exclusions and all 9 fixed strata. Commit 21 actual dependencies before comparisons; retain every declared strength and 135204 cell/strength cases. Verify complete numerical exports and meaningful boundaries independently. Declare the top-k concentration audit retrospective and fix all 4 cases before execution. Preserve a nonnumeric gzip amendment and original freeze/code; verify unchanged numerical AST, two isolated byte-exact replays, actual figure geometry, PDF bindings/all rendered pages, privacy scope and exact candidate/main/tree/tag/metadata.",
     "contribution_to_test": "Compare raw rates with shrinkage under sparse exposure, without identifying workers",
     "skills": [
-      "R",
-      "Bayesian modeling",
-      "rate estimation",
-      "uncertainty"
+      "source reconciliation",
+      "exact rate accounting",
+      "Gamma-Poisson sensitivity",
+      "SQL verification",
+      "data quality diagnostics",
+      "defensive software design",
+      "reproducible research"
     ],
-    "status": "source hold; official summary ZIP HTTP403 and longitudinal identity unverified",
-    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
-    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
-    "license_gate": "unknown until exact dataset terms are checked",
-    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass",
+    "status": "executed; complete reported-rate and declared shrinkage sensitivity plus retrospective exposure-concentration audit released; original year-held-out forecast remains unexecuted",
+    "manuscript": "Public reviewed six-page independent LaTeX/PDF with three figures and a runnable source-account implementation exercise. Not peer reviewed. Formal-publication projects stay private.",
+    "novelty": "Finite reported-denominator and declared empirical-prior sensitivity audit using established rate accounting and Gamma-Poisson algebra. No new estimator, scientific-priority, empirical interval calibration or predictive-superiority claim.",
+    "license_gate": "Official public OSHA ITA summary statistical facts with attribution and reporting limitations. Publish minimal broad industry/size/count/exposure/multiplicity facts and original results. Raw establishment names, addresses, EINs, identifiers, native files and worker/case-detail data stay private. No case-detail retrieval. MIT covers original code; no OSHA endorsement or blanket third-party rights claim.",
+    "publication_gate": "All scoped source, scientific, separation, replay, figure, manuscript, privacy and exact-head Linux/merge/tag gates pass",
     "source_readiness": {
       "state": "HOLD",
       "public_note": "source-holds/study16-summary-access.md",
       "source_access": "FAIL_HTTP403",
       "longitudinal_identity": "UNKNOWN",
       "fitting_started": false
-    }
+    },
+    "historical_proposed_title": "Injury rate stability for small establishments",
+    "historical_proposed_decision": "When does partial pooling change which workplaces appear to have unusually high reported injury rates?",
+    "historical_proposed_skills": [
+      "R",
+      "Bayesian modeling",
+      "rate estimation",
+      "uncertainty"
+    ],
+    "executed_analysis": "Complete fixed 2025 OSHA manufacturing summary cohort in broad NAICS 31/32/33 and documented maximum-size codes 21/22/2. Reconcile 400288 native rows,46530 cohort records and 45074 sufficient cells; retain 19 nonpositive-hour exclusions. All 9 strata,27 fixed prior-strength cases,135204 cell/strength cases, zero-count bounds and 7 requests. Explicitly retrospective top 1/5/10/100 exposure audit preserves source and original results. No model selection or predictive evaluation.",
+    "repository": "https://github.com/S3R3Bii/injury-rate-denominators",
+    "release": {
+      "checkout": "studies/injury-rate-denominators",
+      "finding": "Five of 46,511 eligible records carry 92.53% of reported hours and one reported case. The full submitted cohort reports 115,164 cases over 361,383,028,589 hours, a pooled reported rate of 0.063735 per 100 FTE worker-years. Independent parsers match native values, but do not establish source truth. Declared prior exposures 0.1/1/10 move 0/2/55 records below an authored two-times boundary; no safety meaning or selected winner.",
+      "checks": "445,371 independent native conditions;315,540 saved-source conditions;1,004,148 complete independent SQLite/Fraction/integer-rounding conditions;40 retrospective diagnostic conditions; all 31 meaningful fixture methods. Original 21-dependency freeze committed before comparisons; one disclosed post-analysis gzip-writer amendment preserves original code/freeze and all numeric outputs, with unchanged non-writer numerical AST. Separate full-history Python 3.10.11/3.12.14 replays reproduce 6 files byte for byte with 6 source-directory files unchanged each; final full package replay passes. Three inspected figures:62 source bars,248 actual SVG coordinate conditions,9 asset hashes,695 conditions. Six current rendered PDF pages,88 used source bindings, all 9 stratum/4 diagnostic PDF rows,415 conditions,72 canonical audited Git blobs and 5 scoped paper files.",
+      "manuscript": "Public reviewed six-page independent LaTeX/PDF with three figures and a runnable source-account implementation exercise. Not peer reviewed. Formal-publication projects stay private.",
+      "limitations": "Current submitted summary records are not representative worker risk. Optional/nonrequired submissions, mixed NAICS versions, unknown physical-establishment identity and extreme reported exposure limit generalization. Concentration audit is retrospective; conditional remaining rates are diagnostics, not corrected estimates. Gamma-Poisson strengths and the two-times boundary are authored, not tuned or validated. Zero-count Poisson bounds have no measured coverage. No employer safety ranking, legal fault, worker eligibility, future-risk accuracy, new estimator, causal effect, production use or realized saving. Original year-held-out proposal remains unexecuted.",
+      "next_step": "Audit reported exposure concentration before centering smoothing;retain cases,hours,missingness and assumptions. Seek source clarification before operational use. Predictive extensions need clarified exposure,verified identity and dated feature availability.",
+      "state": "COMPLETE_SCOPED_RELEASE",
+      "repository": "https://github.com/S3R3Bii/injury-rate-denominators",
+      "head": "743ae62243ccc5af44735a68727fb603238c00a5",
+      "tested_head": "2222d168693cbf844de9702163608e997640f237",
+      "tree": "1e53b6bccefe1da13165ca74b03b6baebf7eacec",
+      "tag": "v0.1.0",
+      "pr": "https://github.com/S3R3Bii/injury-rate-denominators/pull/2",
+      "ci": "https://github.com/S3R3Bii/injury-rate-denominators/actions/runs/41169358592",
+      "merged_ci": "https://github.com/S3R3Bii/injury-rate-denominators/actions/runs/41169452608"
+    },
+    "manuscript_publication": {
+      "head": "743ae62243ccc5af44735a68727fb603238c00a5",
+      "pdf": "https://github.com/S3R3Bii/injury-rate-denominators/blob/743ae62243ccc5af44735a68727fb603238c00a5/paper/manuscript.pdf",
+      "source": "https://github.com/S3R3Bii/injury-rate-denominators/blob/743ae62243ccc5af44735a68727fb603238c00a5/paper/main.tex",
+      "ci": "https://github.com/S3R3Bii/injury-rate-denominators/actions/runs/41169452608"
+    },
+    "historical_proposed_sources": [
+      {
+        "key": "OSHA",
+        "publisher_dataset": "OSHA establishment injury and illness records",
+        "landing_url": "https://www.osha.gov/Establishment-Specific-Injury-and-Illness-Data",
+        "status": "targeted; exact export and rights must be verified"
+      }
+    ]
   },
   {
     "id": "17",
