@@ -1346,36 +1346,79 @@
   {
     "id": "23",
     "slug": "revenue-forecasting-with-firm-specific-reporting-calendars",
-    "title": "Revenue forecasting with firm-specific reporting calendars",
-    "decision": "Does fiscal-quarter alignment outperform calendar-quarter pooling when forecasting reported revenue?",
+    "title": "Fiscal labels do not guarantee a better revenue forecast",
+    "decision": "Does pooling known revenue growth by fiscal-quarter labels improve a same-fiscal-slot annual forecast over prior-end calendar-quarter labels?",
     "sources": [
       {
-        "key": "SEC",
-        "publisher_dataset": "SEC EDGAR APIs",
+        "key": "SEC_COMPANY_FACTS_SUBMISSIONS",
+        "publisher_dataset": "SEC Company Facts and Submissions, eight native current public JSON bodies",
         "landing_url": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces",
-        "status": "targeted; exact export and rights must be verified"
+        "status": "executed conditional current-source filing-day reconstruction; immutable production-vintage and source truth unestablished"
       }
     ],
     "proposed_analysis": "Panel forecasting with filing-time covariates",
-    "validation_plan": "Company and future-filing holdouts; amendment embargo; scale-normalized losses",
+    "validation_plan": "Commit fixed source and numerical protocol before values, reconcile all native and minimal-source accounts, freeze actual source/method/tests before ten-candidate validation, commit selection before protected test, independently reconstruct all identities/fitting sets/forecasts/metrics, inspect every company/year check, verify two isolated byte-exact replays, actual SVG bars, all used manuscript values/tables/rendered pages, privacy and exact CI/tree/tag/metadata.",
     "contribution_to_test": "Treat reporting-calendar design as an empirical modeling choice",
     "skills": [
-      "forecasting",
-      "feature engineering",
-      "panel data"
+      "panel forecasting",
+      "temporal validation",
+      "fiscal-period data engineering",
+      "exact arithmetic",
+      "source reconciliation",
+      "reproducible research"
     ],
-    "status": "source access hold; no study executed",
-    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
-    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
-    "license_gate": "unknown until exact dataset terms are checked",
-    "publication_gate": "No data/model/manuscript release; source access and all scientific gates remain required",
+    "status": "executed; protected fiscal/calendar reported-revenue forecasting comparison released under current-source filing-day assumptions",
+    "manuscript": "Reviewed six-page independent LaTeX/PDF, three complete figures and runnable fiscal-slot implementation exercise. Not peer reviewed. Formal-publication projects stay private.",
+    "novelty": "Finite calendar-feature comparison and source/availability-account implementation using established seasonal baselines and mean pooling. No new estimator, exhaustive priority or population predictive-superiority claim.",
+    "license_gate": "Public SEC minimal numeric/period/filing facts with source attribution and native hashes. Raw JSON, corporate prose, descriptions/labels, addresses, phones, EINs and credentials remain private. MIT covers original code, not blanket expressive-filing rights. No SEC endorsement.",
+    "publication_gate": "All scoped source, scientific, separation, replay, figure, manuscript, privacy and exact-head Linux/merge/tag gates pass",
     "source_gate": {
       "state": "HOLD_HTTP403",
       "checked_utc": "2026-10-30",
       "note": "source-holds/study23-sec-revenue-access.md",
       "scope": "Three ordinary preflight requests; no revenue facts or outcomes collected",
       "next_step": "Obtain compliant source access or an eligible original-filing archive, then fix filing-time and fiscal-quarter rules before outcomes."
-    }
+    },
+    "historical_proposed_title": "Revenue forecasting with firm-specific reporting calendars",
+    "historical_proposed_decision": "Does fiscal-quarter alignment outperform calendar-quarter pooling when forecasting reported revenue?",
+    "historical_proposed_skills": [
+      "forecasting",
+      "feature engineering",
+      "panel data"
+    ],
+    "executed_analysis": "Fixed Apple/Microsoft fitting and validation, Walmart company holdout, 2024 growth-label embargo, ten validation candidates and four protected-test forecasters. Exact available-label fitting memberships, all source exclusions, all validation/test metrics and company/year dependence accounts. Defensive fiscal-slot forecast implementation exercise.",
+    "repository": "https://github.com/S3R3Bii/revenue-reporting-calendars",
+    "release": {
+      "checkout": "studies/revenue-reporting-calendars",
+      "finding": "On 13 protected pairs, calendar pooling has 4.758807% equal-company macro MAPE and fiscal pooling 4.776929%; the small ordering changes across company/year accounts. Zero-growth same-quarter revenue wins validation at 6.789346% but has 10.048371% test MAPE; test results do not replace the committed selection. Walmart zero growth beats all growth-pooling candidates on its four targets.",
+      "checks": "Eight native JSON bodies: 373 revenue entries, 7,007 filing metadata rows and 38,426 independent conditions. Independent SQLite/Fraction final reconstruction passes 4,243 conditions; all 32 meaningful fixture methods and 23 exercise conditions pass. Actual 26-dependency freeze precedes validation; selection commit 771dfdb4c9a45fad55bc826be633f5ec13c1716d precedes first test. No post-test source/method/strength/primary-output amendment. Separate full-history CPython 3.10.11/3.12.14 replays reproduce 14 files byte for byte and preserve six source files each; final package replay passes. Three inspected figures: 32 source bars, 128 actual SVG coordinates, nine asset hashes and 395 conditions. All six rendered manuscript pages, 90 used bindings, all 16 metric rows and 393 paper conditions. Canonical Git-byte privacy and five-file paper scope checks.",
+      "manuscript": "Reviewed six-page independent LaTeX/PDF, three complete figures and runnable fiscal-slot implementation exercise. Not peer reviewed. Formal-publication projects stay private.",
+      "limitations": "Three familiar companies, one revenue concept, original 10-Q Q1–Q3 only, two target calendar years and 13 protected pairs. Conditional current-source filing-day reconstruction, not verified immutable production point-in-time data or harmonized accounting truth. No calibrated confidence interval, significance, general predictive winner, investment, new estimator, scientific priority, causal, deployment or savings claim.",
+      "next_step": "Carry actual periods/accessions and origin availability through panel construction; compare calendar/fiscal/seasonal baselines. Obtain original-vintage dissemination records, more companies/sectors and independent target years before a production recommendation. Do not retune on this test.",
+      "state": "COMPLETE_SCOPED_RELEASE",
+      "repository": "https://github.com/S3R3Bii/revenue-reporting-calendars",
+      "head": "810c3228206758d0cb273c55eb35d2bf7dd9a2d9",
+      "tested_head": "36313b31db4eaa0516095e7327ce4f414329cf9e",
+      "tree": "35c29d17af4b6b2902199e7a7ac08bea06e1d05b",
+      "tag": "v0.1.0",
+      "pr": "https://github.com/S3R3Bii/revenue-reporting-calendars/pull/2",
+      "ci": "https://github.com/S3R3Bii/revenue-reporting-calendars/actions/runs/41172536516",
+      "merged_ci": "https://github.com/S3R3Bii/revenue-reporting-calendars/actions/runs/41172598314"
+    },
+    "manuscript_publication": {
+      "head": "810c3228206758d0cb273c55eb35d2bf7dd9a2d9",
+      "pdf": "https://github.com/S3R3Bii/revenue-reporting-calendars/blob/810c3228206758d0cb273c55eb35d2bf7dd9a2d9/paper/manuscript.pdf",
+      "source": "https://github.com/S3R3Bii/revenue-reporting-calendars/blob/810c3228206758d0cb273c55eb35d2bf7dd9a2d9/paper/main.tex",
+      "ci": "https://github.com/S3R3Bii/revenue-reporting-calendars/actions/runs/41172598314"
+    },
+    "historical_proposed_sources": [
+      {
+        "key": "SEC",
+        "publisher_dataset": "SEC EDGAR APIs",
+        "landing_url": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces",
+        "status": "targeted; exact export and rights must be verified"
+      }
+    ]
   },
   {
     "id": "24",

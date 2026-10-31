@@ -1,6 +1,10 @@
 # Revenue forecasting with firm-specific reporting calendars
 
-**State: protocol only. No result or novelty claim yet.**
+## Execution update — 31 October 2026 UTC
+
+A scoped study is executed and released at https://github.com/S3R3Bii/revenue-reporting-calendars. On 13 protected pairs, calendar pooling has 4.758807% equal-company macro MAPE and fiscal pooling 4.776929%; the small ordering changes across company/year accounts. Zero-growth same-quarter revenue wins validation at 6.789346% but has 10.048371% test MAPE; test results do not replace the committed selection. Walmart zero growth beats all growth-pooling candidates on its four targets. Read its fixed executable protocol, complete exclusions and validation. The broader proposal below is retained as historical design context; it is not the release specification. Independent program manuscripts are public after checks; separate formal-publication projects remain private.
+
+**Historical proposal, superseded by the scoped release above.**
 
 ## Decision
 
