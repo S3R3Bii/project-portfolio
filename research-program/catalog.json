@@ -866,36 +866,79 @@
   {
     "id": "18",
     "slug": "vehicle-recall-remedy-delays",
-    "title": "Vehicle recall remedy delays",
-    "decision": "Which recall characteristics predict a long period before remedy availability, using only initial notice information?",
+    "title": "Audit recall notification dates before building a remedy-time model",
+    "decision": "Can a generic recall notification date be bound to a reported notice event, and can unsupported remedy-availability conversions be rejected?",
     "sources": [
       {
-        "key": "NHTSA",
-        "publisher_dataset": "NHTSA recall APIs",
+        "key": "NHTSA_CURRENT_RECALL_DOCUMENT_AUDIT",
+        "publisher_dataset": "NHTSA current recall flat file, campaign API and official associated Part573/acknowledgement/owner-notice documents",
         "landing_url": "https://www.nhtsa.gov/nhtsa-datasets-and-apis",
-        "status": "targeted; exact export and rights must be verified"
+        "status": "executed; fixed twelve-campaign event-role audit; physical first availability and original predictive scope remain unverified"
       }
     ],
     "proposed_analysis": "Time-to-event modeling and censored evaluation",
-    "validation_plan": "Manufacturer-held-out and chronological tests; initial-versus-amended field audit",
+    "validation_plan": "Fix all twelve campaign IDs before capture; retain every native row/date token and all document metadata/exclusions. Reconcile native flat/API payloads, both PDF text readers and relevant rendered source pages, preserving failures and unknowns. Commit document adjudication before comparisons and freeze 25 source/method dependencies. Independently reconstruct every case, count, signed source-date difference and exercise expectation; run meaningful authored boundaries, isolated saved-data replays, actual SVG/PDF binding checks, current privacy scope and exact candidate/main CI/tree/tag/metadata closure.",
     "contribution_to_test": "Model service planning lead time rather than classifying vehicle safety for individuals",
     "skills": [
-      "survival analysis",
-      "feature provenance",
-      "model validation"
+      "source and identity reconciliation",
+      "typed data engineering",
+      "SQL verification",
+      "document provenance",
+      "defensive software design",
+      "reproducible research"
     ],
-    "status": "source hold; final-remedy label and initial-information provenance unverified",
-    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
-    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
-    "license_gate": "unknown until exact dataset terms are checked",
-    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass",
+    "status": "executed; finite event-role/date audit and typed-event guard released; original remedy-time prediction remains unexecuted",
+    "manuscript": "Public reviewed five-page independent LaTeX/PDF with three original figures and a runnable local event guard. Not peer reviewed. Formal-publication projects remain private.",
+    "novelty": "A finite source-date/event-role audit and defensive typed-event implementation using established provenance and reconciliation methods. No new estimator, exhaustive scientific-priority, label-validity generalization or production-impact claim.",
+    "license_gate": "NHTSA official datasets/APIs, flat-file dictionary and Terms of Use inspected 30 October 2026 permit attributed public factual projections. Exact native source URLs and hashes retained. Full native archives/PDFs, contact blocks and vehicle identifiers stay private. Necessary short evidence clauses and derived factual results only; MIT code, no agency endorsement, secrets, private personal/clinical data or formal-publication draft.",
+    "publication_gate": "All scoped source, scientific, separation, replay, figure, manuscript, privacy and exact-head Linux/merge/tag gates pass",
     "source_readiness": {
       "state": "HOLD",
       "public_note": "source-holds/study18-remedy-labels.md",
       "target_label": "UNKNOWN",
       "initial_feature_vintages": "UNKNOWN",
       "fitting_started": false
-    }
+    },
+    "historical_proposed_title": "Vehicle recall remedy delays",
+    "historical_proposed_decision": "Which recall characteristics predict a long period before remedy availability, using only initial notice information?",
+    "historical_proposed_skills": [
+      "survival analysis",
+      "feature provenance",
+      "model validation"
+    ],
+    "executed_analysis": "Source-informed fixed cohort of twelve NHTSA campaigns, 23V001000 through 23V012000; complete current flat/API reconciliation, all 60 eligible document adjudications, complete case and planned-range exports, independent SQLite/calendar checks and a local typed-event implementation exercise. No fitted model.",
+    "repository": "https://github.com/S3R3Bii/recall-date-role-audit",
+    "release": {
+      "checkout": "studies/recall-date-role-audit",
+      "finding": "Six campaigns match a current generic notification assertion, one has conflicting source dates and five lack a supported past-event binding. For 23V005, flat ODATE is 7 February 2023 while the current API reports letters mailed 2 March 2023, a signed field-minus-assertion difference of-23 days. No physical first-availability date is established; the discrepancy may reflect phases or revisions.",
+      "checks": "Native 247021-row flat file, 182 selected model rows and 113 API records pass 247156 finite reconciliation conditions. All 197 dossier links retained;64 native PDFs captured, 4 envelope templates excluded, 60 documents/170 pages adjudicated. Fifty-eight structured date cells reconcile across two readers; relevant native pages inspected, with 9 manually checked cells. Native PDF/hash/page checks 712; saved-source conditions 720; independent SQLite/calendar/exercise conditions 152. Twenty-five source/method dependencies committed before comparisons. Twenty-six authored fixture tests and 6 source-backed exercises. Separate full-history CPython 3.10.11/3.12.14 replays reproduce 4 files exactly with 13 source projections unchanged each. Three inspected figures:36 source-bound artists, 60 actual SVG coordinate conditions, 9 hashes and 190 total conditions. Five inspected manuscript pages:48 used source bindings, 273 conditions, 68 canonical audited Git files and 5 scoped paper files.",
+      "manuscript": "Public reviewed five-page independent LaTeX/PDF with three original figures and a runnable local event guard. Not peer reviewed. Formal-publication projects remain private.",
+      "limitations": "Finite unrepresentative, source-informed cohort; current API/flat assertions and amended documents do not reconstruct immutable original filings, historical delivery, first-byte availability or pre-event features. Planned dates, letter dates, SAMPLE assertions and generic final-letter labels do not prove exact mailing, final notification or physical first availability. Dealer and OTA timing differ. Conservative rules can leave real events unresolved. No national error rate, remedy-time distribution, prediction, causal effect, safety benefit, saving, deployment or new-estimator claim.",
+      "next_step": "Keep date role, certainty, precision and evidence together. Investigate the source conflict and preserve unknown availability. A predictive follow-up needs independently documented labels and feature snapshots at the prediction origin; prospective guard evaluation needs monitored ingestion and recorded rejection handling.",
+      "state": "COMPLETE_SCOPED_RELEASE",
+      "repository": "https://github.com/S3R3Bii/recall-date-role-audit",
+      "head": "3806dd1bdd893f44b441868d3af9e1e0c99500b4",
+      "tested_head": "34cf8b39f83e3e11e4861d45a826641b19f7c0ea",
+      "tree": "8e3049aeb9fbee44af127e742f57815f5dc2747c",
+      "tag": "v0.1.0",
+      "pr": "https://github.com/S3R3Bii/recall-date-role-audit/pull/2",
+      "ci": "https://github.com/S3R3Bii/recall-date-role-audit/actions/runs/41156197756",
+      "merged_ci": "https://github.com/S3R3Bii/recall-date-role-audit/actions/runs/41156365119"
+    },
+    "manuscript_publication": {
+      "head": "3806dd1bdd893f44b441868d3af9e1e0c99500b4",
+      "pdf": "https://github.com/S3R3Bii/recall-date-role-audit/blob/3806dd1bdd893f44b441868d3af9e1e0c99500b4/paper/manuscript.pdf",
+      "source": "https://github.com/S3R3Bii/recall-date-role-audit/blob/3806dd1bdd893f44b441868d3af9e1e0c99500b4/paper/main.tex",
+      "ci": "https://github.com/S3R3Bii/recall-date-role-audit/actions/runs/41156365119"
+    },
+    "historical_proposed_sources": [
+      {
+        "key": "NHTSA",
+        "publisher_dataset": "NHTSA recall APIs",
+        "landing_url": "https://www.nhtsa.gov/nhtsa-datasets-and-apis",
+        "status": "targeted; exact export and rights must be verified"
+      }
+    ]
   },
   {
     "id": "19",

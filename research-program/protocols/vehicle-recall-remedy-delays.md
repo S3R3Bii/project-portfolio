@@ -1,10 +1,14 @@
 # Vehicle recall remedy delays
 
+## Execution update — 30 October 2026
+
+A scoped study is executed and released at https://github.com/S3R3Bii/recall-date-role-audit. Six campaigns match a current generic notification assertion, one has conflicting source dates and five lack a supported past-event binding. For 23V005, flat ODATE is 7 February 2023 while the current API reports letters mailed 2 March 2023, a signed field-minus-assertion difference of-23 days. No physical first-availability date is established; the discrepancy may reflect phases or revisions. Read its fixed executable protocol, complete exclusions and validation. The broader proposal below is retained as historical design context; it is not the release specification. Independent program manuscripts are public after checks; separate formal-publication projects remain private.
+
 ## Source-readiness update — 29 October 2026
 
 This study is unreleased: final-remedy labels and initial-versus-amended feature provenance remain unverified. Read the [bounded source hold](../source-holds/study18-remedy-labels.md). No fitting or result claim.
 
-**State: protocol only. No result or novelty claim yet.**
+**Historical proposal, superseded by the scoped release above.**
 
 ## Decision
 
