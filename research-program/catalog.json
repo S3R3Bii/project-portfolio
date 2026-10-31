@@ -437,35 +437,31 @@
   {
     "id": "09",
     "slug": "flight-forecast-transfer-across-aviation-systems",
-    "title": "Flight forecast transfer across aviation systems",
-    "decision": "Does a delay model tuned on US airports retain useful calibration on European operational aggregates?",
+    "title": "Arrival-delay labels at the minute boundary",
+    "decision": "How much do recorded-minute arrival labels change when the cutoff moves from 15 to 16 minutes while source population and eligible denominator stay fixed?",
     "sources": [
       {
-        "key": "BTS",
-        "publisher_dataset": "Bureau of Transportation Statistics aviation data",
-        "landing_url": "https://www.transtats.bts.gov/",
-        "status": "targeted; exact export and rights must be verified"
-      },
-      {
-        "key": "EUROCONTROL",
-        "publisher_dataset": "EUROCONTROL aviation intelligence",
-        "landing_url": "https://ansperformance.eu/data/",
-        "status": "targeted; exact export and rights must be verified"
+        "key": "BTS_JANUARY_2024_REPORTING_CARRIER",
+        "publisher_dataset": "U.S. DOT/BTS January 2024 Reporting Carrier On-Time Performance official archive and field definitions",
+        "landing_url": "https://transtats.bts.gov/PREZIP/",
+        "status": "executed; fixed recorded-minute audit; physical-second, European equivalence and original transfer remain unestablished"
       }
     ],
     "proposed_analysis": "Domain shift and aggregate forecast calibration",
-    "validation_plan": "Common-unit reconciliation; region holdout; matched seasonal windows",
+    "validation_plan": "Fix month, destination codes, eligibility and thresholds before capture. Preserve failed download-form evidence; commit the official same-file direct-transport addendum before reading its body. Reconcile all native rows and retained sufficient cells with independent pandas/SQLite parsing. Freeze 26 actual dependencies before comparisons. Independently reconstruct every account, threshold and request with SQL/exact Fraction arithmetic; test meaningful identity, date, missingness and cutoff boundaries. Verify isolated saved-data replays, actual SVG coordinates, used PDF bindings, all rendered pages, canonical privacy scope and exact candidate/main CI/tree/tag/metadata proof.",
     "contribution_to_test": "Test when cross-region transfer should be rejected instead of advertising one universal model",
     "skills": [
-      "transfer learning",
-      "calibration",
-      "measurement validity"
+      "source reconciliation",
+      "exact rate accounting",
+      "SQL verification",
+      "defensive software design",
+      "reproducible research"
     ],
-    "status": "source hold; original cross-region comparability unresolved; separately fixed US recorded-label protocol blocked at official BTS archive form before any flight rows",
-    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
-    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
-    "license_gate": "unknown until exact dataset terms are checked",
-    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass",
+    "status": "executed; fixed recorded-minute label comparison released; original US-to-Europe transfer remains unexecuted",
+    "manuscript": "Public reviewed six-page independent LaTeX/PDF with three complete source-account and threshold figures and a runnable implementation exercise. Not peer reviewed. Separate formal-publication projects remain private.",
+    "novelty": "Finite recorded-label and denominator sensitivity audit using established arithmetic, source reconciliation and exact rates. No new estimator, exhaustive scientific-priority or generalized cross-region transfer claim.",
+    "license_gate": "Official DOT/BTS public federal statistical data, with attribution. Publish minimal day/airport/carrier/source-state/delay-bin counts and original independent analysis. Native archives, flight identities and tail numbers remain private. MIT covers original code, not blanket third-party expressive rights. No DOT/BTS endorsement.",
+    "publication_gate": "All scoped source, scientific, separation, replay, figure, manuscript, privacy and exact-head Linux/merge/tag gates pass",
     "source_readiness": {
       "state": "HOLD",
       "public_note": "source-holds/study09-flight-common-units.md",
@@ -485,7 +481,53 @@
       "release": "UNEXECUTED",
       "original_transfer_scope": "UNEXECUTED;common-event/population/rights/vintage gates unresolved"
     },
-    "source_readiness_note": "source-holds/study09-flight-common-units.md"
+    "source_readiness_note": "source-holds/study09-flight-common-units.md",
+    "historical_proposed_title": "Flight forecast transfer across aviation systems",
+    "historical_proposed_decision": "Does a delay model tuned on US airports retain useful calibration on European operational aggregates?",
+    "historical_proposed_skills": [
+      "transfer learning",
+      "calibration",
+      "measurement validity"
+    ],
+    "executed_analysis": "Complete January 2024 BTS reporting-carrier arrivals to ORD and ATL, fixed before native flight capture. Reconcile 547,271 national rows, 46,621 selected records and 21,303 sufficient source cells. Retain all 90 airport/day/carrier accounts and 270 fixed threshold cases with exact rational rates, explicit eligibility and unavailable values. Independent SQLite/Fraction reconstruction and seven-request implementation exercise. No fitted model.",
+    "repository": "https://github.com/S3R3Bii/arrival-label-boundaries",
+    "release": {
+      "checkout": "studies/arrival-label-boundaries",
+      "finding": "Changing the recorded cutoff from 15 to 16 minutes changes 275 of 44,707 eligible completed nondiverted labels: 131 of 18,805 at ORD and 144 of 25,902 at ATL, or 0.697 and 0.556 percentage points. Physical-second and European OTP15 equivalence remain unestablished.",
+      "checks": "Independent native reconciliation: 131,867 finite conditions; saved-source checks: 191,424; independent SQL/Fraction complete accounting, threshold and request checks: 2,947. Twenty-six actual source/method dependencies committed before comparisons; all 29 meaningful fixture methods pass. Separate full-history CPython 3.10.11/3.12.14 replays reproduce six outputs exactly with ten source-directory files unchanged each; final full package replay passes. Three inspected figures: 90 source-bound bars, 360 actual SVG coordinate conditions, nine asset hashes and 766 conditions. Six current rendered manuscript pages: 63 used source bindings, complete airport/threshold PDF table rows, 312 conditions, 69 canonical audited Git blobs and five scoped paper files.",
+      "manuscript": "Public reviewed six-page independent LaTeX/PDF with three complete source-account and threshold figures and a runnable implementation exercise. Not peer reviewed. Separate formal-publication projects remain private.",
+      "limitations": "One winter month, two destination codes and one reporting-carrier source form a convenience cohort. Current historical data may be revised and are not an immutable original-vintage capture. Recorded-minute probes do not identify physical-second timing or European OTP15. No carrier or airport safety/quality ranking, cross-region calibration, causal effect, new estimator, deployment or realized saving is claimed. Original US-to-Europe forecast transfer remains unexecuted.",
+      "next_step": "Carry the source field, exact cutoff and eligible denominator with every label. Reconstruct compatible target and population definitions from supported observations before pooling systems; retain cancelled, diverted and unknown counts alongside rates.",
+      "state": "COMPLETE_SCOPED_RELEASE",
+      "repository": "https://github.com/S3R3Bii/arrival-label-boundaries",
+      "head": "0743bbe4b9762a6bfaa6da319d4428787c3dd0ce",
+      "tested_head": "baa6a3ea7d92486b5f2eb9fc210f5a44cac6e72e",
+      "tree": "d65713dc7de9a0b9e10a518e42c5aaddad21c521",
+      "tag": "v0.1.0",
+      "pr": "https://github.com/S3R3Bii/arrival-label-boundaries/pull/2",
+      "ci": "https://github.com/S3R3Bii/arrival-label-boundaries/actions/runs/41168150345",
+      "merged_ci": "https://github.com/S3R3Bii/arrival-label-boundaries/actions/runs/41168294944"
+    },
+    "manuscript_publication": {
+      "head": "0743bbe4b9762a6bfaa6da319d4428787c3dd0ce",
+      "pdf": "https://github.com/S3R3Bii/arrival-label-boundaries/blob/0743bbe4b9762a6bfaa6da319d4428787c3dd0ce/paper/manuscript.pdf",
+      "source": "https://github.com/S3R3Bii/arrival-label-boundaries/blob/0743bbe4b9762a6bfaa6da319d4428787c3dd0ce/paper/main.tex",
+      "ci": "https://github.com/S3R3Bii/arrival-label-boundaries/actions/runs/41168294944"
+    },
+    "historical_proposed_sources": [
+      {
+        "key": "BTS",
+        "publisher_dataset": "Bureau of Transportation Statistics aviation data",
+        "landing_url": "https://www.transtats.bts.gov/",
+        "status": "targeted; exact export and rights must be verified"
+      },
+      {
+        "key": "EUROCONTROL",
+        "publisher_dataset": "EUROCONTROL aviation intelligence",
+        "landing_url": "https://ansperformance.eu/data/",
+        "status": "targeted; exact export and rights must be verified"
+      }
+    ]
   },
   {
     "id": "10",
