@@ -1,6 +1,10 @@
 # Import dependence with substitution constraints
 
-**State: protocol only. No result or novelty claim yet.**
+## Execution update — 31 October 2026 UTC
+
+A scoped study is executed and released at https://github.com/S3R3Bii/wheat-supplier-stress. At the full authored outside-capacity envelope, 41 of 456 positive-loss configurations remain unresolved. Known-only separate-country calculations overclaim shared supply in four mirror configurations and zero import configurations; the maximum gap is 454,708.41 tonnes. Morocco 2020 coverage of 79.478498% still fails the original 80% gate. Accounting residuals are not measured spare supply; results are conditional on authored capacities. Read its fixed executable protocol, complete exclusions and validation. The broader proposal below is retained as historical design context; it is not the release specification. Independent program manuscripts are public after checks; separate formal-publication projects remain private.
+
+**Historical proposal, superseded by the scoped release above.**
 
 ## Decision
 

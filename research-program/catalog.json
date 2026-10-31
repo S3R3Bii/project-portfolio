@@ -1869,9 +1869,65 @@
   {
     "id": "31",
     "slug": "import-dependence-with-substitution-constraints",
-    "title": "Import dependence with substitution constraints",
-    "decision": "Which food import portfolios remain vulnerable after allowing realistic supplier substitution?",
+    "title": "Return a range when supplier data are incomplete",
+    "decision": "How do authored bounds on unknown outside capacity change replacement feasibility in a restricted supplier network, and where do separate-country calculations overclaim shared supply?",
     "sources": [
+      {
+        "key": "FAOSTAT_TM_TCL_BOUNDED",
+        "publisher_dataset": "FAO/FAOSTAT TM bilateral wheat grain and TCL national totals;four bounded native exports with UNSD/Eurostat upstream inputs",
+        "landing_url": "https://www.fao.org/faostat/en/#data/TM/metadata",
+        "status": "executed distinct restricted-network conditional-bounds scope;original80percent source gate remains failed;actual outside capacity unmeasured"
+      }
+    ],
+    "proposed_analysis": "Network exposure and constrained substitution scenarios",
+    "validation_plan": "Commit a distinct source-informed uncertainty protocol before scenarios. Preserve 39 historical file hashes and failed source gates; independently reconcile 179 native positions, signed residuals and all support. Freeze actual source/method/tests/development results before the 2020 application. Reconstruct every finite constraint, cut, interval and classification independently. Verify two isolated byte-exact replays, actual SVG stack geometry, all used manuscript values/tables/rendered pages, bounded privacy and exact CI/tree/tag/metadata proof.",
+    "contribution_to_test": "Avoid equating trade concentration with observed shortage probability",
+    "skills": [
+      "network optimization",
+      "partial-information scenario analysis",
+      "exact max-flow/min-cut certificates",
+      "source reconciliation",
+      "defensive decision tools",
+      "reproducible research"
+    ],
+    "status": "executed; distinct source-informed conditional replacement-bounds study released; original coverage-gated network proposal remains unexecuted and source gate failed",
+    "manuscript": "Reviewed six-page independent LaTeX/PDF with three complete figures, explicit conditional-bound proof and runnable scenario interval exercise. Original failed source study clearly preserved. Not peer reviewed. Formal-publication projects stay private.",
+    "novelty": "Finite source-informed conditional-capacity uncertainty exercise using established max-flow/min-cut theory and sharp endpoint reasoning. No new solver, population frequency, actual-capacity estimate, scientific-priority or predictive-superiority claim.",
+    "license_gate": "Minimal attributed FAO/FAOSTAT facts with UNSD/Eurostat upstream restrictions; free bounded independent research with no bulk/resale service or unrestricted source-data license. Native exports, expressive source material, contact fields, credentials and formal manuscripts stay private. Author conversions/filtering/scenarios are labeled; no publisher endorsement. MIT covers original code. Historical Git authorship is preserved; new release checkpoints use noreply.",
+    "publication_gate": "All scoped source, scientific, separation, replay, figure, manuscript, privacy and exact-head Linux/merge/tag gates pass",
+    "repository": "https://github.com/S3R3Bii/wheat-supplier-stress",
+    "historical_proposed_title": "Import dependence with substitution constraints",
+    "historical_proposed_decision": "Which food import portfolios remain vulnerable after allowing realistic supplier substitution?",
+    "historical_proposed_skills": [
+      "network analysis",
+      "optimization",
+      "economic analysis"
+    ],
+    "executed_analysis": "All 480 fixed year/basis/alpha/beta/origin configurations with three residual-scaled outside-capacity endpoints each. Sharp conditional coverage/unmet bounds, unrestricted-outside comparison, complete allocations/slacks and importer/supplier accounts, with independent exact cut proofs. Defensive saved-scenario interval exercise. The original 39 held source/code/test files and failed 80% gate remain unchanged.",
+    "release": {
+      "checkout": "studies/wheat-supplier-stress",
+      "finding": "At the full authored outside-capacity envelope, 41 of 456 positive-loss configurations remain unresolved. Known-only separate-country calculations overclaim shared supply in four mirror configurations and zero import configurations; the maximum gap is 454,708.41 tonnes. Morocco 2020 coverage of 79.478498% still fails the original 80% gate. Accounting residuals are not measured spare supply; results are conditional on authored capacities.",
+      "checks": "Four native captures, 179 requested source positions and 4,706 independent CSV/SQL/Decimal conditions preserve the original failed gate. Independent SQLite/Fraction reconstruction passes 145,694 conditions per year across 480 base configurations, 1,440 endpoints, 67,680 arc accounts and 11,520 cut subsets. All 56 fixture methods and 37 summary/exercise conditions pass. A 64-dependency development freeze precedes later-year summaries; both years are source informed, not predictive validation. The original 39 held files remain unchanged. Full-history CPython 3.10.11 and 3.12.14 replays reproduce 14 primary files byte for byte and preserve 23 source files each; final full package replay passes. Three inspected figures: 64 bound artists, 256 SVG corner conditions and 719 checks. Six rendered pages: 107 used bindings, all six source/twelve classification/four overclaim rows and 469 paper checks. Canonical project-file privacy and five-file paper scope checks; historical Git author metadata retained, new release checkpoints use noreply.",
+      "manuscript": "Reviewed six-page independent LaTeX/PDF with three complete figures, explicit conditional-bound proof and runnable scenario interval exercise. Original failed source study clearly preserved. Not peer reviewed. Formal-publication projects stay private.",
+      "limitations": "Compiled 2019/2020 grain quantities from three importers and ten origins; 39 missing source positions and 17 positive imputed positions. Restricted support and authored shared/route/outside capacities. Accounting residuals do not measure physical spare supply or identify future upper bounds. The original coverage-gated study remains unexecuted. No shipment guarantee, shortage probability, current food-risk measure, political priority, predictive validation, causal benefit, deployment, saving, new algorithm or exhaustive scientific-priority claim. Historical Git author metadata is preserved; new release checkpoints use verified noreply.",
+      "next_step": "Return conditional intervals and abstain when scenario assumptions are missing. Obtain dated supplier-specific volumes, compatible grain grades, routing/freight capacity and contract evidence before making a delivery commitment. Preserve original failed gates and do not infer capacity from accounting residuals.",
+      "state": "COMPLETE_SCOPED_RELEASE",
+      "repository": "https://github.com/S3R3Bii/wheat-supplier-stress",
+      "head": "c215d8db93bfd60bdebc1d95b77181294b2cc0f6",
+      "tested_head": "c60de03e3f1de525c2b5007d2ad58a47db58017d",
+      "tree": "f480e7f4a1500694097d15ee7b84007494a75202",
+      "tag": "v0.1.0",
+      "pr": "https://github.com/S3R3Bii/wheat-supplier-stress/pull/2",
+      "ci": "https://github.com/S3R3Bii/wheat-supplier-stress/actions/runs/41173566832",
+      "merged_ci": "https://github.com/S3R3Bii/wheat-supplier-stress/actions/runs/41173662798"
+    },
+    "manuscript_publication": {
+      "head": "c215d8db93bfd60bdebc1d95b77181294b2cc0f6",
+      "pdf": "https://github.com/S3R3Bii/wheat-supplier-stress/blob/c215d8db93bfd60bdebc1d95b77181294b2cc0f6/paper/manuscript.pdf",
+      "source": "https://github.com/S3R3Bii/wheat-supplier-stress/blob/c215d8db93bfd60bdebc1d95b77181294b2cc0f6/paper/main.tex",
+      "ci": "https://github.com/S3R3Bii/wheat-supplier-stress/actions/runs/41173662798"
+    },
+    "historical_proposed_sources": [
       {
         "key": "FAO",
         "publisher_dataset": "FAOSTAT",
@@ -1885,22 +1941,8 @@
         "status": "targeted; exact export and rights must be verified"
       }
     ],
-    "proposed_analysis": "Network exposure and constrained substitution scenarios",
-    "validation_plan": "Reconcile quantity/value units; mirrored-trade sensitivity; commodity aggregation checks",
-    "contribution_to_test": "Avoid equating trade concentration with observed shortage probability",
-    "skills": [
-      "network analysis",
-      "optimization",
-      "economic analysis"
-    ],
-    "status": "source quantity hold; both fixed UN and separately planned FAO cohorts fail the support gate; scenarios unexecuted",
-    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
-    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
-    "license_gate": "Bounded attributed source projections only; FAO CC BY 4.0 retains upstream UN/Eurostat restrictions; raw files private",
-    "publication_gate": "Incomplete: fixed support requirement fails in both sources; no scenario manuscript or release tag",
-    "repository": "https://github.com/S3R3Bii/wheat-supplier-stress",
-    "source_readiness_note": "source-holds/study31-wheat-quantity-support.md",
-    "source_work": {
+    "historical_source_readiness_note": "source-holds/study31-wheat-quantity-support.md",
+    "historical_source_work": {
       "head": "19dd918820c5f112d6f465a5cd4713a010ba6b14",
       "branch": "shared-capacity-network",
       "pull_request": "https://github.com/S3R3Bii/wheat-supplier-stress/pull/2",
@@ -1916,7 +1958,8 @@
       "fao_source_gate": "fail",
       "fao_common_support_morocco2020_percent": "79.478498",
       "fao_plan_commit": "cc5d95dbabefb329d0d7d737c0183c1e474a83dc"
-    }
+    },
+    "source_scope_note": "Current release is the distinct BOUNDS_PROTOCOL conditional exercise. Original UN/FAO gates remain failed; original coverage-gated proposal and Issue1 remain unexecuted/open. No original source failure is counted as a passed experiment."
   },
   {
     "id": "32",
