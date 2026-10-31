@@ -43,9 +43,67 @@
   {
     "id": "02",
     "slug": "electricity-forecasts-that-respect-release-time",
-    "title": "Electricity forecasts that respect release time",
-    "decision": "When does correcting the balancing authority demand forecast improve the next-day reserve estimate?",
+    "title": "Check forecast publication deadlines before scoring scheduling errors",
+    "decision": "How does substituting later load-forecast documents change errors attributed to a fixed prior-day scheduling cutoff?",
     "sources": [
+      {
+        "key": "ERCOT_PUBLIC_ARCHIVE_DECLARED_PUBLICATION",
+        "publisher_dataset": "ERCOT NP3-561-CD forecast and NP6-345-CD actual-load paired public reports,declared publication archive",
+        "landing_url": "https://www.ercot.com/mp/data-products/data-product-details?id=NP3-561-CD",
+        "status": "executed;fixed five-day source cohort,paired native reconciliation and explicit metadata-immutability limits"
+      }
+    ],
+    "proposed_analysis": "Residual models and calibrated prediction intervals",
+    "validation_plan": "Fix source plan before target outcomes. Select all documents by metadata only;reconcile original archive/payload hashes and all native CSV/XML cells. Commit source before scores and 53 dependencies in freeze. Export every fixed case and independently reconstruct source joins, sufficient sums, derived errors, timing flags and peak ties. Run authored guard/source/math tests, isolated Python replays, source-bound SVG/PNG/PDF checks, and current manuscript/privacy verification;require exact candidate/main CI, matching tree, annotated tag and synchronized metadata.",
+    "contribution_to_test": "Separate weather hindsight from information actually available when reserves are scheduled",
+    "skills": [
+      "time-aware data engineering",
+      "source and identity reconciliation",
+      "SQL lineage checks",
+      "exact numerical verification",
+      "defensive software design",
+      "reproducible research"
+    ],
+    "status": "executed; five-day declared-publication archive audit and local deadline guard released; broader EIA residual-model proposal remains unexecuted",
+    "manuscript": "Public reviewed five-page independent LaTeX/PDF with three original figures and runnable local guard. Not peer reviewed. Separate formal-publication projects remain private.",
+    "novelty": "A deterministic archive-metadata deadline audit using established error metrics and a defensive as-of selector. No new estimator, exhaustive scientific-priority, predictive-generalization or reserve-policy improvement claim.",
+    "license_gate": "ERCOT public products NP 3-561-CD/NP 6-345-CD and Terms of Use paragraph 5, inspected 30 October 2026, permit raw factual data in compilations, charts and analyses. Reviewed native factual payloads, necessary metadata and derived results are attributed. MIT code. Original ZIPs and captured website content remain private;no logos, endorsement, secrets, personal data or formal-publication drafts.",
+    "publication_gate": "All scoped source, scientific, separation, replay, figure, manuscript, privacy and exact-head Linux/merge/tag gates pass",
+    "source_verification_note": "EIA documentation reviewed28October2026: revised historical submissions and some forecast/demand definition mismatches require vintage/definition verification before strict release-time claims. Missing evidence is unverified, not a proven model failure.",
+    "historical_proposed_title": "Electricity forecasts that respect release time",
+    "historical_proposed_decision": "When does correcting the balancing authority demand forecast improve the next-day reserve estimate?",
+    "historical_proposed_skills": [
+      "time series",
+      "feature engineering",
+      "calibration",
+      "data engineering"
+    ],
+    "executed_analysis": "Fixed 25–29 October 2026 ERCOT descriptive cohort, eight weather zones plus reported system total, three metadata-only cutoffs, paired native CSV/XML reconciliation, complete hourly/pooled/daily/peak exports, independent SQLite/Fraction arithmetic and a deadline-safe local implementation exercise. No fitted model or calibration.",
+    "repository": "https://github.com/S3R3Bii/load-forecast-deadline-audit",
+    "release": {
+      "checkout": "studies/load-forecast-deadline-audit",
+      "finding": "Across 120 system hours, prior-day noon MAE is 857.6 MW versus 619.3 MW at same-day noon and 338.0 MW using end-of-day files. Both same-day selectors miss the prior-day deadline for all 120 hours; end-of-day files were published after 115 intervals ended. The smaller retrospective error does not establish a better scheduling policy. Same-day noon worsens MAE on 25 October:668.6 versus 591.3 MW.",
+      "checks": "32 native documents/16 CSV-XML pairs;246224 retained ZIP bytes and 260 independent archive conditions. All 2242 native CSV rows, 4320 projected source rows and metadata/SQLite selectors pass 101139 finite conditions. Fifty-three source/method dependencies committed before descriptive scoring. All 3240 comparisons, 162 metric rows and 135 peaks pass 48524 independent SQL/Fraction/80-digit conditions, maximum derived difference 3.334e-54 under 1e-45. Twenty-two authored fixture methods and 3 exercises/6 conditions. Two isolated full-history CPython 3.10.11/3.12.14 analysis replays reproduce 6 result files exactly with 40 source files unchanged each. Three inspected figures:45 bound values, 360 actual SVG coordinates, 45 labels, 9 hashes and 597 conditions. Five current inspected manuscript pages, 43 used bindings/239 conditions, 95 canonical audited blobs and 5 scoped paper files.",
+      "manuscript": "Public reviewed five-page independent LaTeX/PDF with three original figures and runnable local guard. Not peer reviewed. Separate formal-publication projects remain private.",
+      "limitations": "Five dependent adjacent autumn days in one system; metadata-informed source design, not blinded or confirmatory generalization. Declared publication times do not independently prove immutable original files, first-byte availability or historical delivery. Actual loads are retrospective labels, not proven revision-free or settlement-final. Noon and 90-minute freshness are authored study settings, not actual ERCOT deadlines or optimized limits. Unsupported repeated-hour flags fail closed. No learned residual correction, interval calibration, season/authority transfer, reserve saving, deployment, causal effect or new-estimator claim.",
+      "next_step": "Retain publication identifiers and aware deadlines, fail closed on late/stale/ambiguous input, and audit timing before reporting scheduling error. Prospective work needs monitored ingest, immutable retention, verified actual deadlines and sustained evaluation.",
+      "state": "COMPLETE_SCOPED_RELEASE",
+      "repository": "https://github.com/S3R3Bii/load-forecast-deadline-audit",
+      "head": "df12b1ba66cdc352ecd575e97e61d2027cfaf14c",
+      "tested_head": "2c1be6483c341567782dc5aad5b4da850a80eabc",
+      "tree": "47abf41e10a2cc2e3aba9b41095dbb760f52fddf",
+      "tag": "v0.1.0",
+      "pr": "https://github.com/S3R3Bii/load-forecast-deadline-audit/pull/2",
+      "ci": "https://github.com/S3R3Bii/load-forecast-deadline-audit/actions/runs/41152640437",
+      "merged_ci": "https://github.com/S3R3Bii/load-forecast-deadline-audit/actions/runs/41152713043"
+    },
+    "manuscript_publication": {
+      "head": "df12b1ba66cdc352ecd575e97e61d2027cfaf14c",
+      "pdf": "https://github.com/S3R3Bii/load-forecast-deadline-audit/blob/df12b1ba66cdc352ecd575e97e61d2027cfaf14c/paper/manuscript.pdf",
+      "source": "https://github.com/S3R3Bii/load-forecast-deadline-audit/blob/df12b1ba66cdc352ecd575e97e61d2027cfaf14c/paper/main.tex",
+      "ci": "https://github.com/S3R3Bii/load-forecast-deadline-audit/actions/runs/41152713043"
+    },
+    "historical_proposed_sources": [
       {
         "key": "EIA930",
         "publisher_dataset": "EIA balancing authority operations",
@@ -58,22 +116,7 @@
         "landing_url": "https://www.ncei.noaa.gov/products/land-based-station/integrated-surface-database",
         "status": "targeted; exact export and rights must be verified"
       }
-    ],
-    "proposed_analysis": "Residual models and calibrated prediction intervals",
-    "validation_plan": "Strict forecast-vintage alignment; held-out seasons and authorities; coverage by load regime",
-    "contribution_to_test": "Separate weather hindsight from information actually available when reserves are scheduled",
-    "skills": [
-      "time series",
-      "feature engineering",
-      "calibration",
-      "data engineering"
-    ],
-    "status": "protocol only",
-    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
-    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
-    "license_gate": "unknown until exact dataset terms are checked",
-    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass",
-    "source_verification_note": "EIA documentation reviewed28October2026: revised historical submissions and some forecast/demand definition mismatches require vintage/definition verification before strict release-time claims. Missing evidence is unverified, not a proven model failure."
+    ]
   },
   {
     "id": "03",

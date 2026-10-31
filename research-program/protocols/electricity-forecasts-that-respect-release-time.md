@@ -1,6 +1,10 @@
 # Electricity forecasts that respect release time
 
-**State: protocol only. No result or novelty claim yet.**
+## Execution update — 30 October 2026
+
+A scoped study is executed and released at https://github.com/S3R3Bii/load-forecast-deadline-audit. Across 120 system hours, prior-day noon MAE is 857.6 MW versus 619.3 MW at same-day noon and 338.0 MW using end-of-day files. Both same-day selectors miss the prior-day deadline for all 120 hours; end-of-day files were published after 115 intervals ended. The smaller retrospective error does not establish a better scheduling policy. Same-day noon worsens MAE on 25 October:668.6 versus 591.3 MW. Read its fixed executable protocol, complete exclusions and validation. The broader proposal below is retained as historical design context; it is not the release specification. Independent program manuscripts are public after checks; separate formal-publication projects remain private.
+
+**Historical proposal, superseded by the scoped release above.**
 
 ## Decision
 

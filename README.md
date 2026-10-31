@@ -8,7 +8,7 @@ I build analytical tools and applications that make complex work easier to inspe
 
 ## Research directed at demanding data roles
 
-The [50-study research register](research-program/README.md) connects specific business questions to public data and measurable tests. The [skills map](research-program/SKILLS_AND_SEQUENCE.md) emphasizes SQL, data validation, temporal evaluation, model tuning, kinematics and decision communication. The register separates forty-one released studies and 9 awaiting execution or release. Every model-selection claim requires retained optimization and independent metric evidence. The [research manuscripts](research-program/RESEARCH_PAPERS.md) explain the released studies and link their checked source editions.
+The [50-study research register](research-program/README.md) connects specific business questions to public data and measurable tests. The [skills map](research-program/SKILLS_AND_SEQUENCE.md) emphasizes SQL, data validation, temporal evaluation, model tuning, kinematics and decision communication. The register separates forty-two released studies and 8 awaiting execution or release. Every model-selection claim requires retained optimization and independent metric evidence. The [research manuscripts](research-program/RESEARCH_PAPERS.md) explain the released studies and link their checked source editions.
 
 
 ## Start here
@@ -56,6 +56,7 @@ The [50-study research register](research-program/README.md) connects specific b
 | [Keep flight replay timing accurate when reducing trajectory storage](https://github.com/S3R3Bii/flight-compression-query-audit) | Tests whether a smaller trajectory still answers route and timing queries correctly; preserves the measured failures and the keep-original recommendation |
 | [Test what a second river gauge adds before changing monitoring](https://github.com/S3R3Bii/gauge-information-budget) | Tests one extra river-gauge feed against local history, with a log-error gain, a physical-unit reversal and transparent source redesign |
 | [Read reported heat-rate change before making efficiency claims](https://github.com/S3R3Bii/heat-rate-composition) | Separates reported fuel/output change into within, mix and cohort terms, with transparent ambiguous-plant quarantine and complete influence evidence |
+| [Check forecast publication deadlines before scoring scheduling errors](https://github.com/S3R3Bii/load-forecast-deadline-audit) | Shows how later forecast files change the reported error while missing the decision deadline,with complete timing evidence and a local guard |
 | [PikiVu](pikivu.md) | A compact recording interface and validated edit/export workflow |
 | [Model Evidence](model-evidence.md) | Statistical diagnostics presented as readable reports |
 | [Open Research Commons](open-research-commons.md) | Shared human/agent workflow with independent release checks |
