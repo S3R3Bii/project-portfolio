@@ -1,10 +1,14 @@
 # River monitoring with a limited sensor budget
 
+## Execution update — 30 October 2026
+
+A scoped study is executed and released at https://github.com/S3R3Bii/gauge-information-budget. On the declared log-flow objective, the pair model has lower MSE than local history in all four primary panels. Equal-panel mean skill versus persistence is 28.96% versus 15.32%, a 13.64-percentage-point difference. Physical-unit MSE reverses the comparison in Susquehanna 2023: pair 416.16 versus local 403.45 million cfs squared. This is not an overall win on every loss. The original 2020–2025 approval failure remains unchanged. Read its fixed executable protocol, complete exclusions and validation. The broader proposal below is retained as historical design context; it is not the release specification. Independent program manuscripts are public after checks; separate formal-publication projects remain private.
+
 ## Source-readiness update —29October2026
 
 Unreleased: the fixed Approved-day source-coverage gate failed before fitting; read the [bounded source hold](../source-holds/study14-approval-coverage.md). No predictive result or completed study counted.
 
-**State: protocol only. No result or novelty claim yet.**
+**Historical proposal, superseded by the scoped release above.**
 
 ## Decision
 

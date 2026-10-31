@@ -601,36 +601,79 @@
   {
     "id": "14",
     "slug": "river-monitoring-with-a-limited-sensor-budget",
-    "title": "River monitoring with a limited sensor budget",
-    "decision": "Which gauges add the most independent warning information for downstream water-level changes?",
+    "title": "Test what a second river gauge adds before changing monitoring",
+    "decision": "Does a fixed additional gauge improve retrospective daily-discharge prediction over local history and persistence, under declared lags/outages and both transformed and physical-unit losses?",
     "sources": [
       {
-        "key": "USGS",
-        "publisher_dataset": "USGS water data APIs",
-        "landing_url": "https://api.waterdata.usgs.gov/",
-        "status": "targeted; exact export and rights must be verified"
+        "key": "USGS_FIXED_APPROVED_DAILY_V2",
+        "publisher_dataset": "USGS Primary Daily Mean Discharge, eight fixed gauges, explicit v2 2019-12 warm-up and 2020–2024 cohort",
+        "landing_url": "https://api.waterdata.usgs.gov/ogcapi/v1/collections/daily",
+        "status": "executed; selected attributed factual projection independently reconciled against exact private original captures; original v1 approval failure preserved"
       }
     ],
     "proposed_analysis": "Lagged conditional dependence and sensor subset selection",
-    "validation_plan": "Basin-held-out and chronological testing; missing telemetry stress; lead-time audit",
+    "validation_plan": "Preserve failed v1 source gate. Commit separately labelled approval-informed v2 scope before recorded-data modelling. Reconcile all selected native fields, metadata versions and coverage independently. Retain all development candidates; freeze 34 dependencies before final outcomes. Independently reconstruct SQL date joins/common support, SVD ridge fits, every prediction/metric, synthetic fallback, selector and all retained bootstrap draws/endpoints. Replay two full-history clones, inspect three source-bound figures and six current manuscript pages, and require exact candidate/main Linux success, matching tree, annotated tag and metadata proof.",
     "contribution_to_test": "Optimize informational redundancy while distinguishing predictive association from hydrologic causality",
     "skills": [
-      "sensor analytics",
-      "feature selection",
-      "time series"
+      "environmental time-series engineering",
+      "temporal feature availability",
+      "regularized regression",
+      "geographic configuration validation",
+      "independent SQL and SVD verification",
+      "reproducible research software"
     ],
-    "status": "source hold; fixed Approved-day coverage fails in three2025station-years",
-    "manuscript": "After analysis; GitHub publication permitted for this independent study after checks",
-    "novelty": "Candidate contribution; systematic prior-work review not yet completed",
-    "license_gate": "unknown until exact dataset terms are checked",
-    "publication_gate": "blocked until data, results, privacy, reproducibility and figure checks pass",
+    "status": "executed; separately specified Approved-period gauge comparison and offline review released; original v1 source failure preserved",
+    "manuscript": "Public reviewed six-page independent LaTeX/PDF with three original figures, original source failure and physical-unit reversal explicit; not peer reviewed. Formal-publication projects remain private.",
+    "novelty": "A bounded retrospective information-value and sensitivity exercise using established persistence, ridge and block-resampling methods. No new estimator, comprehensive priority, actual-vintage backtest or realized operational benefit claimed.",
+    "license_gate": "USGS-produced factual data are public domain with acknowledgment. Credit U.S. Geological Survey; selected date/value/unit/approval/qualifier fields and minimal infrastructure metadata only. Selection, filtering and analysis are project transformations. MIT covers code. Complete original responses, agency artwork, unreviewed fields, credentials and formal-publication manuscripts stay private; no USGS endorsement.",
+    "publication_gate": "All scoped source, scientific, separation, replay, figure, manuscript, privacy and exact-head Linux/merge/tag gates pass",
     "source_readiness": {
       "state": "HOLD",
       "public_note": "source-holds/study14-approval-coverage.md",
       "source_approval": "FAIL",
       "model_fitting_started": false,
       "repository": "https://github.com/S3R3Bii/gauge-information-budget"
-    }
+    },
+    "historical_proposed_title": "River monitoring with a limited sensor budget",
+    "historical_proposed_decision": "Which gauges add the most independent warning information for downstream water-level changes?",
+    "historical_proposed_skills": [
+      "sensor analytics",
+      "feature selection",
+      "time series"
+    ],
+    "executed_analysis": "Explicit v2 source-approval-informed period fixed before modelling, preserving the failed v1 protocol. Eight fixed USGS gauges, 2020–2021 training, 2022 development-basin selection and 2023–2024 final evaluation; local/pair ridge and persistence, all fixed penalties, common scoring support, outage/qualifier/lag sensitivities and conditional paired-block resampling.",
+    "repository": "https://github.com/S3R3Bii/gauge-information-budget",
+    "release": {
+      "checkout": "studies/gauge-information-budget",
+      "finding": "On the declared log-flow objective, the pair model has lower MSE than local history in all four primary panels. Equal-panel mean skill versus persistence is 28.96% versus 15.32%, a 13.64-percentage-point difference. Physical-unit MSE reverses the comparison in Susquehanna 2023: pair 416.16 versus local 403.45 million cfs squared. This is not an overall win on every loss. The original 2020–2025 approval failure remains unchanged.",
+      "checks": "Complete native-source and before/after metadata reconciliation for 14,864 v2 Approved rows including warm-up; 40 station-year gates and 1,421 qualified rows. Thirty-four committed dependencies before final outcomes. All 32 development fits, 36 fold scores, 16 candidate objectives and 13,140 predictions; 192 final metric rows and 59,154 predictions. Independent SQL feature joins, augmented-design SVD fits, scalar forecasts, SQL metrics and retained-draw bootstrap checks pass 216,162 development and 831,539 final conditions. Twenty-three authored fixture methods and three offline review cases. Two isolated full-history CPython 3.10.11/3.12.14 analysis replays reproduce 1,079,126 exact and 298,395 numeric facts each, with three public source files unchanged. Three inspected figures bind 108 values, 648 SVG coordinates, 72 numeric labels, 64 cell colors and nine hashes. Forty-three bound manuscript values, 204 paper checks and all six current inspected pages; 82 audited canonical Git blobs and five scoped paper files.",
+      "manuscript": "Public reviewed six-page independent LaTeX/PDF with three original figures, original source failure and physical-unit reversal explicit; not peer reviewed. Formal-publication projects remain private.",
+      "limitations": "The revised period was informed by the existing approval ledger before any modelling; all values were present, so collection was not blinded. Later Approved daily observations under synthetic lags do not establish original operational availability or warning lead time. Held basins fit their own historical coefficients; this is configuration separation, not transfer of one model. Fixed pairs, dependent panels, synthetic outages and conditional within-year intervals do not establish new-basin/future-year coverage, causal benefit, network optimality, safety, actual sensor costs, deployment or savings. Loss scale can reverse the model ordering.",
+      "next_step": "Keep local history and persistence in the comparison. Fix the decision-relevant loss and capture prospective source availability, revisions and actual outages before selecting an operational forecast or making a monitoring investment.",
+      "state": "COMPLETE_SCOPED_RELEASE",
+      "repository": "https://github.com/S3R3Bii/gauge-information-budget",
+      "head": "6efcdebd2e4dd08673a6510dffd9216cc32a20a0",
+      "tested_head": "fc95dca986722f133537767dbf891738be03647a",
+      "tree": "158d0ff4ae107bb4f61f1edc5f2f1cfad0f34412",
+      "tag": "v0.1.0",
+      "pr": "https://github.com/S3R3Bii/gauge-information-budget/pull/2",
+      "ci": "https://github.com/S3R3Bii/gauge-information-budget/actions/runs/41147949322",
+      "merged_ci": "https://github.com/S3R3Bii/gauge-information-budget/actions/runs/41148022475"
+    },
+    "manuscript_publication": {
+      "head": "6efcdebd2e4dd08673a6510dffd9216cc32a20a0",
+      "pdf": "https://github.com/S3R3Bii/gauge-information-budget/blob/6efcdebd2e4dd08673a6510dffd9216cc32a20a0/paper/manuscript.pdf",
+      "source": "https://github.com/S3R3Bii/gauge-information-budget/blob/6efcdebd2e4dd08673a6510dffd9216cc32a20a0/paper/main.tex",
+      "ci": "https://github.com/S3R3Bii/gauge-information-budget/actions/runs/41148022475"
+    },
+    "historical_proposed_sources": [
+      {
+        "key": "USGS",
+        "publisher_dataset": "USGS water data APIs",
+        "landing_url": "https://api.waterdata.usgs.gov/",
+        "status": "targeted; exact export and rights must be verified"
+      }
+    ]
   },
   {
     "id": "15",
