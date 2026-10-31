@@ -1,12 +1,12 @@
 {
-  "timestamp_utc": "2026-10-31T05:44:09.541870+00:00",
+  "timestamp_utc": "2026-10-31T05:46:20.796858+00:00",
   "status": "PASS_BOUNDED_SCAN",
   "files_checked": 125,
   "scope": "Exact staged Git index bytes; decompressed text; forbidden paths/extensions, high-confidence key and private machine path patterns; local Markdown links. Image/PDF contents require separate visual/source review. This is not universal secret detection.",
   "findings": [],
   "sha256": {
     ".gitignore": "e529ff4e26c507b2c2f37a7fdec529eab74b3c0522787a85431062d02e1fa8ae",
-    "README.md": "820dfe9babb00b27e74017b1e35df52b98b36ffa75735eae14da41d036f520c9",
+    "README.md": "269fd7f777705a174926a46e64adb1aa484d258455c5fafcad170949573afbac",
     "a-vessel-for-a-soul.md": "96888d765aef8169007909159e611e177d28bab8c84cdb9ff66f6db9cb28ae51",
     "agent-aegis.md": "f521a2ecb0a4fe022de5fbe4d479e7edd21405cddd3cbbc99f6d5f31efdb6265",
     "agent-evaluation-workbench.md": "dcef57cb3e46079b49e3479924df8cbb893b8eae157ff3c4c50fb8111e2b3aa5",
@@ -60,7 +60,7 @@
     "postgresql-data-integrity.md": "c266a33e58fe4be83cd6af01400d9d1188dc1677d82cb879c36a5dacbda2900a",
     "research-program/GITHUB_WORKFLOW.md": "bb2ce99b6d713d6771bd15b61ff3ad7f98550a3647ee1d507a833cceee2e2b9e",
     "research-program/MODEL_VALIDATION_STANDARD.md": "40f9cab5117e572ed4727620e8952269c40e3118c117d6c0ea438aead3195c01",
-    "research-program/README.md": "697b58ff326f4215395acae9cf1ccbfeb293b8f9d3f1392f4473e715eaa9edbf",
+    "research-program/README.md": "1e2cc3bd8a0b0ec4272e5c88a3729577655ca441347f4f1b81604a361e6fd044",
     "research-program/RESEARCH_PAPERS.md": "7145e112e386a9b974e03d1a89fa27b5c9ebaef200a6c9a2c0d0bb857f7179f8",
     "research-program/SKILLS_AND_SEQUENCE.md": "c323c20adbfa47a56becf707f7638b13e37e73db7515940a6323e96cfa2b5598",
     "research-program/catalog.json": "977602b61ef6a71aa56d5381e95acdaae3634c2ced90437ccb32748a5461d411",

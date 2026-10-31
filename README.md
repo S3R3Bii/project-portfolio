@@ -8,7 +8,7 @@ I build analytical tools and applications that make complex work easier to inspe
 
 ## Research directed at demanding data roles
 
-The [50-study research register](research-program/README.md) connects specific business questions to public data and measurable tests. The [skills map](research-program/SKILLS_AND_SEQUENCE.md) emphasizes SQL, data validation, temporal evaluation, model tuning, kinematics and decision communication. The register separates fifty released studies with public independent manuscripts. Every model-selection claim requires retained optimization and independent metric evidence. The [research manuscripts](research-program/RESEARCH_PAPERS.md) explain the released studies and link their checked source editions.
+The [50-study research register](research-program/README.md) connects specific business questions to public data and measurable tests. The [skills map](research-program/SKILLS_AND_SEQUENCE.md) emphasizes SQL, data validation, temporal evaluation, model tuning, kinematics and decision communication. All fifty scoped studies have public independent manuscripts, with results, reproducible evidence and limits stated in each repository. Every model-selection claim requires retained optimization and independent metric evidence. The [research manuscripts](research-program/RESEARCH_PAPERS.md) explain the released studies and link their checked source editions.
 
 
 ## Start here
