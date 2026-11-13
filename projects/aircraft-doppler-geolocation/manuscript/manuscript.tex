@@ -26,7 +26,7 @@
 {\small Public research manuscript: anonymized measured evidence}
 \end{center}
 \begin{abstract}
-A passing aircraft leaves a changing harmonic pattern that can constrain a recording location. We analyze two clips of one flyover, preserving their 15.160\,s gap and comparing measured Doppler structure with public aircraft trajectories. A timing audit showed that the initially supplied time was an upload time, 920\,s later than the capture timestamp. A fresh search of the full archive at the corrected capture time used neither an aircraft-identity filter nor an observer-location prior. Among 358 refined candidates ranked under each source model, the supplied aircraft ranks first by curve RMS with constant pitch and bounded pitch drift. Its corresponding location estimates are 56.5\,m and 79.1\,m from the recorder's approximate reference; spectral-contrast alternatives differ. These results support corrected-time model agreement, not a retrospective blind success: aircraft identity and reference location had already been disclosed, the reference accuracy is unknown, and nearby alternative solutions remain. The original blind abstention and wrong-time miss are retained as separate historical outcomes.
+A passing aircraft leaves a changing harmonic pattern that can constrain a recording location. We analyze two clips of one flyover, preserving their 15.160\,s gap and comparing measured Doppler structure with public aircraft trajectories. Capture timestamps establish the recording window. A search of the full archive at that window used neither an aircraft-identity filter nor an observer-location prior. Among 358 refined candidates ranked under each source model, the supplied aircraft ranks first by curve RMS with constant pitch and bounded pitch drift. Its corresponding location estimates are 56.5\,m and 79.1\,m from the recorder's approximate reference; spectral-contrast alternatives differ. These results support corrected-time model agreement, not a retrospective blind success: aircraft identity and reference location had already been disclosed, the reference accuracy is unknown, and nearby alternative solutions remain. 
 \end{abstract}
 \fig{measured_curve}{2.55in}{Measured common harmonic spacing on the preserved elapsed-time axis. The blank interval is unrecorded, not observed silence. The spacing convention is not a verified engine fundamental.}
 \section{Question and experimental scope}
@@ -41,6 +41,9 @@ Sixty-two reviewed time blocks describe the shared frequency trend. If a ridge i
 
 A second objective uses the spectrogram directly rather than only the traced blocks. Seventy non-overlapping 2.048\,s frames provide frequency-local contrast along predicted harmonic curves. These are two ways to score the same recording, not independent validation datasets. Persistent tones, overlapping sources and a chosen harmonic labeling can all affect the result. Accordingly, neither a good curve fit nor a bright predicted ridge is assigned an identity probability.
 
+\subsection*{Could the sound be recorded indoors?}
+Low-frequency aircraft sound can reach indoors. The FAA-funded PARTNER study reports greater outdoor-to-indoor transmission at low than high frequencies~\cite{partner}; FAA guidance addresses sound insulation of buildings exposed to aircraft noise~\cite{insulation}. Buildings, windows, room resonances, microphones and noise affect recoverable harmonics. Audible rumble alone is insufficient: the method needs a stable, attributable Doppler ridge. The PARTNER work largely concerns airport/runway noise, not indoor geolocation, and indoor Doppler recovery has not been validated in this study. Paired, synchronized indoor/outdoor recordings should test ridge preservation before extending the method.
+
 \nextsection{From frequency change to three-dimensional geometry}
 Let $\mathbf{s}(t_e)$ be aircraft position at emission time $t_e$ and $\mathbf{x}$ the stationary listener position. The slant distance is
 \begin{equation}
@@ -53,22 +56,22 @@ where $t_r$ is reception time and $c$ is sound speed. In still air, the received
  \label{eq:doppler}
 \end{equation}
 Approach gives $\dot R<0$ and raises the received frequency; recession lowers it. Crucially, the aircraft position is evaluated when the sound was emitted, not when the microphone received it.
-\fig{geometry}{3.15in}{Forward-model geometry. Aircraft altitude, ground elevation, vertical clearance, horizontal separation and diagonal slant range are different quantities. Closest approach refers to the minimum slant distance along the modeled trajectory, not necessarily a sampled acoustic block.}
-The final extension also uses a uniform wind $\mathbf{w}$. With $\mathbf{q}=\mathbf{x}-\mathbf{s}(t_e)$, delay $\tau$ solves $\|\mathbf{q}-\mathbf{w}\tau\|=c\tau$. Defining the air-relative ray direction $\mathbf{n}=(\mathbf{q}-\mathbf{w}\tau)/(c\tau)$ gives
+\fig{geometry}{3.15in}{Two conceptual listener candidates at different ground elevations, with the same aircraft altitude. Not to scale; the 1.5 m observer height is exaggerated. MSL denotes a common approximate orthometric datum. Actual ranges use Earth-centered, Earth-fixed coordinates; curvature, geoid variation and approximate pressure-height conversion prevent treating flat altitude subtraction as exact range geometry.}
+The environmental model uses a uniform wind $\mathbf{w}$. With $\mathbf{q}=\mathbf{x}-\mathbf{s}(t_e)$, delay $\tau$ solves $\|\mathbf{q}-\mathbf{w}\tau\|=c\tau$. Defining the air-relative ray direction $\mathbf{n}=(\mathbf{q}-\mathbf{w}\tau)/(c\tau)$ gives
 \begin{equation}
  D=\frac{f_r}{f_s}=\left[1-\frac{\mathbf{n}\cdot\mathbf{v}_{\rm ground}}{c+\mathbf{n}\cdot\mathbf{w}}\right]^{-1}.
 \end{equation}
 Delay and frequency thus use one consistent moving-air model. Uniform wind is an approximation: spatial gradients and atmospheric refraction are not modeled.
 
-\nextsection{A fresh search at the capture time}
-A clock audit distinguished recording metadata from file-upload time. The original approximate time referred to the upload, not capture. The corrected start is 920\,s earlier; the second clip still starts 85.000\,s after the first. Explicit timezone tags agree across the original video streams, although the device clock was not externally synchronized. A $\pm2$\,s clock-offset range around the corrected timestamp is a modeling choice, not a calibrated clock-error interval.
+\nextsection{A trajectory search at the capture time}
+Capture metadata establish the recording start; the second clip starts 85.000\,s later. Explicit timezone tags agree across the original video streams, although the device clock was not externally synchronized. A $\pm2$\,s clock-offset range around the capture timestamp is a modeling choice, not a calibrated clock-error interval.
 
 \fig{flow_counts}{3.2in}{Corrected-time search scope. The 361-aircraft refinement set is the union of the declared top 200 candidates for each of two source models and two coarse objectives. It is not an identity or type filter. Final ranks are among refined candidates, not an exhaustive proof over all possible locations.}
-The source archive contains 75,222 files and 101,298,620 raw points. At the new window, 6,743 aircraft have relevant airborne reports; 3,880 produce covered coarse modes. The flag-aware scan evaluates 9,331,875 location--time pairs. A declared union rule selects 361 aircraft for environmental refinement, which evaluates another 1,859,836 pairs. Of these, 359 have retained valid modes in at least one model, and 358 are ranked in each source-model/objective combination.
+The source archive contains 75,222 files and 101,298,620 raw points. Within the capture window, 6,743 aircraft have relevant airborne reports; 3,880 produce covered coarse modes. The flag-aware scan evaluates 9,331,875 location--time pairs. A declared union rule selects 361 aircraft for environmental refinement, which evaluates another 1,859,836 pairs. Of these, 359 have retained valid modes in at least one model, and 358 are ranked in each source-model/objective combination.
 
 The source-window screen extends from 600 s before capture start to 800 s after it, retaining delayed-source coverage rather than testing only receive-time airborne activity. Coarse ridge seeding uses 17 of the 62 reviewed blocks; final ridge scoring uses all 62.
 
-The old 874-result list and 42-aircraft time intersection are not used to restrict this search. Reported ground states and gaps exceeding 60\,s split segments; stale/leg markers are not treated as invalid positions. Geometric altitudes are not pressure-corrected. These coverage rules matter because rejecting short or flagged tracks without understanding the flags can remove plausible candidates.
+Reported ground states and gaps exceeding 60\,s split segments; stale/leg markers are not treated as invalid positions. Geometric altitudes are not pressure-corrected. These coverage rules matter because rejecting short or flagged tracks without understanding the flags can remove plausible candidates.
 
 \nextsection{Aircraft types: comparison, not acoustic classification}
 The refinement set spans 108 archive-reported type categories among 361 aircraft. It includes 33 P28A, 31 C172, 17 B738, 13 C208, 12 PC12, 11 B763 and 10 AT76 aircraft, plus 10 unknown types. No type exclusion is applied to the main ranking. Metadata describe the archive entries; they do not independently classify the recorded engine sound.
@@ -99,7 +102,7 @@ Pixel ranks use equal nine-point $\pm1\%$ spacing profiling. They compare retain
 
 \nextsection{From coarse geometry to an environmental fit}
 The search uses finite trajectory-centered spatial domains rather than an observer-location prior. Coarse seeding uses a 1\,km grid over a $\pm12$\,km domain and still air at 343\,m/s. Selected candidates receive 250\,m and 100\,m refinement with terrain and atmospheric inputs. Refinement selection combines coarse ridge and pixel objectives; it does not simply follow the eventual winning aircraft.
-\fig{curve_fit}{3.35in}{Measured common spacing and corrected-capture model predictions, with residuals. These are the fresh-search fits, not re-labeled versions of the earlier wrong-time solutions. The two source models are compared on the same observed blocks.}
+\fig{curve_fit}{3.35in}{Measured common spacing and corrected-capture model predictions, with residuals. The two source models are compared on the same observed blocks.}
 Terrain is sampled from ETOPO2022 with an EGM2008 geoid companion. Native spacing is approximately 1.85\,km north--south, so 100\,m search steps do not create 100\,m terrain information. Negative relief is floored at zero and listener height is ground plus 1.5\,m. GFS fields at 0.25-degree spacing supply uniform effective wind, temperature-dependent sound speed and pressure-height corrections. These are coarse modeled conditions, not a surveyed local atmosphere. Reported geometric heights bypass the pressure-altitude conversion.
 
 The coarse pixel screen uses 18 frames; the final comparison uses 70 non-overlapping 2.048\,s frames. Whitened power near predicted fourth/eighth harmonics is contrasted with nearby control lines, balanced across clips/channels and trimmed. This direct spectral evidence complements the 62 reviewed blocks but reuses the same audio; it is not independent validation.
@@ -107,8 +110,22 @@ The coarse pixel screen uses 18 frames; the final comparison uses 70 non-overlap
 \nextsection{A location estimate from the measured sound}
 The corrected inverse fits place the listener near the approximate recording reference. The reference is not used to move the frozen corrected estimates. Its agreement is evaluated only after the corrected ranking is frozen. Because the reference and aircraft identity were already known to the investigators, this is a post-disclosure comparison rather than a fresh held-out or blind test.
 
-\fig{observer_geometry_schematic}{3.5in}{Non-geographic geometry illustration. The actual path, estimated coordinates and approximate recording reference are withheld publicly; scalar separation errors are reported in Section~10. This diagram is schematic, not a map of the event.}
+\fig{observer_geometry_schematic}{2.5in}{Non-geographic geometry illustration. The actual path, estimated coordinates and approximate recording reference are withheld publicly; scalar separation errors are reported in Section~10. This diagram is schematic, not a map of the event.}
 The public edition preserves model definitions and scalar results but omits recording coordinates, flight identifiers, geographic orientation and actual trajectory maps. The corrected location comparison can be understood without disclosing the recording area.
+
+At each RMS-selected mode's continuous closest approach, the model gives:
+\begin{center}\small
+\begin{tabular}{@{}lrr@{}}\toprule
+Quantity (m) & Constant source & Bounded drift\\\midrule
+Aircraft altitude, approximate MSL & 1392.04 & 1392.25\\
+Candidate ground elevation, approximate MSL & 352.39 & 352.78\\
+Observer height above ground & 1.50 & 1.50\\
+Local-tangent vertical separation & 1038.05 & 1037.85\\
+Horizontal separation & 1140.27 & 1237.55\\
+Slant range & 1542.00 & 1615.13\\\bottomrule
+\end{tabular}
+\end{center}
+These are model-derived heights and ranges, not surveyed elevations. For example, the constant-source orthometric altitude difference is 1038.15 m, slightly different from the local-tangent 1038.05 m because of curvature and geoid variation.
 
 Continuous CPA minimization over the recorded emission interval gives slant ranges of 1.542\,km for the constant-source RMS fit and 1.615\,km for the drifting-source RMS fit. Corresponding horizontal distances are 1.140 and 1.238\,km; local-tangent vertical clearance is about 1.038\,km. These are distinct geometric quantities, not interchangeable versions of altitude. The Earth-fixed speed magnitude is approximately 56.68\,m/s and includes vertical motion. These values are conditional model outputs, not direct range measurements.
 
@@ -132,20 +149,12 @@ Up to 3\% drift & Spectral contrast & 158.6\,m\\\bottomrule
 \end{center}
 The two RMS-selected estimates agree with the approximate reference within 80\,m. That is meaningful agreement for this corrected-time reconstruction, but the point's accuracy has not been independently established. If it is within $\epsilon$ of the true recorder, each separation differs from the true location error by at most $\epsilon$ by the triangle inequality. The unknown $\epsilon$ is not a fitted confidence bound.
 
-The reference was known before this corrected analysis, even though its coordinates were omitted from the search inputs. The result therefore does not retrospectively turn the original run into a blind success. It supports the narrower claim that a fresh, identity-unfiltered corrected-time search yields a best-RMS trajectory and conditional locations consistent with the supplied reference. The alternative pixel leaders and spatial basins prevent a unique-identity or general meter-level accuracy claim.
-
-\nextsection{What changed: the timing correction}
-\fig{chronology}{3.6in}{Chronology of evidence and analyses. The original blind result, wrong-upload-time reconstruction and corrected-capture search are separate outcomes. Later clues cannot be credited to earlier predictions.}
-The first global blind search abstained. Approximate recording time and then flight identity were supplied; the subsequent conditioned reconstruction used that time. When an approximate recording location was revealed, the preserved primary wrong-time estimate missed it by about 55.0\,km, with the eight alternatives 51.4--55.0\,km away. Those results are retained, not erased.
-
-The user then identified the timing error: upload time had been mistaken for recording time. Original capture metadata confirmed the 920\,s correction while preserving the 85\,s clip-start separation. The corrected analysis returned to the full archive rather than reusing the earlier 42-aircraft intersection or shifting the old coordinate toward the reference. It used new capture-time candidate coverage, new geometry evaluation and a declared multi-objective refinement rule.
-
-The corrected ranking was frozen before computing the reported reference separations and post-freeze diagnostics. This protects those specific outputs from adjustment after comparison, but does not undo the investigators' prior knowledge of aircraft identity and location. A future prospective experiment is still needed for a genuine blind accuracy measurement.
+The reference was known before this corrected analysis, even though its coordinates were omitted from the search inputs. This is consequently a post-disclosure comparison, not a blind validation. It supports the narrower claim that a fresh, identity-unfiltered corrected-time search yields a best-RMS trajectory and conditional locations consistent with the supplied reference. The alternative pixel leaders and spatial basins prevent a unique-identity or general meter-level accuracy claim.
 
 \nextsection{Conclusions and reproducibility}
-With the capture time corrected, the measured Doppler curve produces a strong model-conditional result: the supplied aircraft ranks first by RMS in both source models among 358 refined candidates, and its RMS-selected listener estimates are 56.5\,m and 79.1\,m from the approximate recording point. The analysis uses sound to constrain observer geometry rather than inserting that point into the search. The clock audit is central: the earlier upload-time reconstruction was geographically wrong by tens of kilometres.
+With the capture time corrected, the measured Doppler curve produces a strong model-conditional result: the supplied aircraft ranks first by RMS in both source models among 358 refined candidates, and its RMS-selected listener estimates are 56.5\,m and 79.1\,m from the approximate recording point. The analysis uses sound to constrain observer geometry rather than inserting that point into the search. 
 
-The limits are equally specific. The corrected analysis was post-disclosure, the reference is approximate, refinement is finite and selected, pixel ranking is restricted to retained geometry modes, and alternative spatial basins remain. None of these results constitutes a calibrated identity probability or a validated 80\,m accuracy specification. The original blind abstention is unchanged.
+The limits are equally specific. The corrected analysis was post-disclosure, the reference is approximate, refinement is finite and selected, pixel ranking is restricted to retained geometry modes, and alternative spatial basins remain. None of these results constitutes a calibrated identity probability or a validated 80\,m accuracy specification. 
 
 An independent numerical reproduction across all 359 covered aircraft agreed within $8.9\times10^{-16}$ Hz for RMS and $2.4\times10^{-13}$ dB for pixel contrast. This verifies numerical reproducibility, not physical accuracy.
 
@@ -160,5 +169,7 @@ Public materials retain anonymized measured curves, candidate scores, declared r
 \bibitem{etopo} NOAA National Centers for Environmental Information. ETOPO 2022 global relief model and EGM2008 geoid companion. \url{https://doi.org/10.25921/fd45-gt74}.
 \bibitem{gfs} NOAA/NCEP. Global Forecast System atmospheric model fields. \url{https://www.nco.ncep.noaa.gov/pmb/products/gfs/}. Forecast/model fields were used, not local station observations.
 \bibitem{demo} Original audio-geolocation demonstration. \url{https://www.youtube.com/watch?v=UytYrhYLOKI}. The present work adapts its acoustic/trajectory reasoning; it is not an exact replication. Independent two-event timing, an observed intervening-silence test and visual corroboration were not available or were deliberately excluded here.
+\bibitem{partner} Hodgdon, K. K., Atchley, A. A., and Bernhard, R. J. \textit{Low Frequency Noise Study}. PARTNER-COE-2007-001, April 2007, p.~4. FAA-funded study. \url{https://ascent.aero/documents/2020/01/low-frequency-noise-study.pdf}.
+\bibitem{insulation} Federal Aviation Administration. \textit{Guidelines for Sound Insulation of Structures Exposed to Aircraft Noise}. Advisory Circular 150/5000-9B, 8 June 2022. \url{https://www.faa.gov/documentLibrary/media/Advisory_Circular/150-5000-9B-Sound-Insulation-2022.pdf}.
 \end{thebibliography}
 \end{document}

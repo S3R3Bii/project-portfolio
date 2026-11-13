@@ -1,0 +1,32 @@
+[
+  {
+    "source_model": "constant",
+    "epoch": "Each frozen RMS mode continuous slant closest approach in observed emission interval",
+    "aircraft_model_orthometric_altitude_m": 1392.0383483654177,
+    "candidate_ground_orthometric_elevation_m": 352.38934386647725,
+    "observer_height_above_ground_m": 1.5,
+    "observer_model_orthometric_altitude_m": 353.88934386647725,
+    "orthometric_height_difference_m": 1038.1490044989405,
+    "local_tangent_vertical_separation_m": 1038.0510705182376,
+    "horizontal_tangent_distance_m": 1140.2722270555544,
+    "slant_distance_m": 1542.002197403847,
+    "euclidean_triangle_check_m": 1542.002197403847,
+    "datum_caveat": "MSL labels approximate orthometric height H=h-N using EGM2008 geoid; aircraft height also depends on approximate pressure/weather conversion. Actual range uses WGS84 ECEF, not flat-datum subtraction. Local-tangent vertical separation differs slightly from orthometric height difference through Earth curvature/geoid variation.",
+    "status": "Conditional model outputs, not surveyed heights or measured range."
+  },
+  {
+    "source_model": "bounded_3pct_drift",
+    "epoch": "Each frozen RMS mode continuous slant closest approach in observed emission interval",
+    "aircraft_model_orthometric_altitude_m": 1392.2497365119405,
+    "candidate_ground_orthometric_elevation_m": 352.78169568703436,
+    "observer_height_above_ground_m": 1.5,
+    "observer_model_orthometric_altitude_m": 354.28169568703436,
+    "orthometric_height_difference_m": 1037.968040824906,
+    "local_tangent_vertical_separation_m": 1037.8523114094494,
+    "horizontal_tangent_distance_m": 1237.546457641343,
+    "slant_distance_m": 1615.1342529704996,
+    "euclidean_triangle_check_m": 1615.1342529704993,
+    "datum_caveat": "MSL labels approximate orthometric height H=h-N using EGM2008 geoid; aircraft height also depends on approximate pressure/weather conversion. Actual range uses WGS84 ECEF, not flat-datum subtraction. Local-tangent vertical separation differs slightly from orthometric height difference through Earth curvature/geoid variation.",
+    "status": "Conditional model outputs, not surveyed heights or measured range."
+  }
+]

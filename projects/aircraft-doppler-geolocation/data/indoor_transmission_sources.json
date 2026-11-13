@@ -1,0 +1,26 @@
+{
+  "scope": "Physical plausibility of outdoor aircraft sound reaching indoor microphones, not validated indoor geolocation or a new test of this recording",
+  "sources": [
+    {
+      "title": "Low Frequency Noise Study",
+      "authors": [
+        "Kathleen K. Hodgdon",
+        "Anthony A. Atchley",
+        "Robert J. Bernhard"
+      ],
+      "report": "PARTNER-COE-2007-001",
+      "date": "April2007",
+      "url": "https://ascent.aero/documents/2020/01/low-frequency-noise-study.pdf",
+      "relevant_location": "Printed page4 (PDF page8): comparatively greater low-frequency outdoor-to-indoor transmission; noise/vibration/rattle and insulation context",
+      "funding": "FAA-funded research in FAA/NASA/Transport Canada-sponsored Center of Excellence"
+    },
+    {
+      "title": "Guidelines for Sound Insulation of Structures Exposed to Aircraft Noise",
+      "publisher": "Federal Aviation Administration",
+      "identifier": "AC150/5000-9B",
+      "date": "2022-06-08",
+      "url": "https://www.faa.gov/documentLibrary/media/Advisory_Circular/150-5000-9B-Sound-Insulation-2022.pdf",
+      "scope": "Building-specific insulation programs and acoustical testing, not Doppler geolocation validation"
+    }
+  ]
+}

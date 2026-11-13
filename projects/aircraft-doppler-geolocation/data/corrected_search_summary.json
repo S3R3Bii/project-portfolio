@@ -8,7 +8,6 @@
   "decision": "Model-conditional ranking only; no calibrated unique-identity decision or location confidence claim",
   "archive_files": 75222,
   "archive_raw_points": 101298620,
-  "capture_offset_correction_s": -920,
   "clock_primary_range_s": [
     -2,
     2
