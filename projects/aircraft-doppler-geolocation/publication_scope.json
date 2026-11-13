@@ -1,0 +1,7 @@
+{
+  "measured_data": "Real anonymous elapsed-time harmonic-spacing measurements; no raw audio or original spectral pixels",
+  "search_outputs": "Anonymous scalar corrected-time candidate scores; no actual flight identifiers, exact date/time or geographic coordinates",
+  "synthetic_data": "Physics and sensitivity demonstrations explicitly synthetic",
+  "scope": "Post-disclosure corrected-time search excludes supplied aircraft identity and observer coordinates as input; not a new blind experiment",
+  "private_reproduction": "Full actual trace/terrain/weather/pixel reruns require separately private evidence bundle"
+}

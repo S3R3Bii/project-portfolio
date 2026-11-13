@@ -1,0 +1,5 @@
+source_model,objective,rank,ranked_candidates,distance_to_reference_m,rms_hz
+constant,curve_rms,1,358,56.50156188306183,0.10932475637758012
+bounded_3pct_drift,curve_rms,1,358,79.06242359970959,0.09559630994519268
+constant,spectral_contrast,2,358,167.57130938530898,0.11156674937895254
+bounded_3pct_drift,spectral_contrast,5,358,158.64364479776296,0.09581129328015188

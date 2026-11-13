@@ -1,0 +1,74 @@
+{
+  "coarse_aircraft": 6743,
+  "coarse_covered_aircraft": 3880,
+  "coarse_grid_pairs": 9331875,
+  "selected_for_refinement": 361,
+  "refined_covered_aircraft": 359,
+  "refinement_grid_pairs": 1859836,
+  "decision": "Model-conditional ranking only; no calibrated unique-identity decision or location confidence claim",
+  "archive_files": 75222,
+  "archive_raw_points": 101298620,
+  "capture_offset_correction_s": -920,
+  "clock_primary_range_s": [
+    -2,
+    2
+  ],
+  "source_model_bounds": [
+    0,
+    0.03
+  ],
+  "refinement_rule": "Union of top200aircraft for each of two source models and two coarse objectives, not an identity/location filter",
+  "target_label": "A-27",
+  "phase": "Post-disclosure fresh corrected-capture-time analysis; not a blind identification replay",
+  "ranked_count_by_model_objective": {
+    "0|rms_hz": 358,
+    "0|profiled_brightness_db": 358,
+    "0.03|rms_hz": 358,
+    "0.03|profiled_brightness_db": 358
+  },
+  "pixel_scope": "Ranking among retained ridge-screened geometry modes, not independent exhaustive pixel optimization",
+  "target_scores": {
+    "0|rms_hz": {
+      "rank": 1,
+      "rms_hz": 0.10932475637758012,
+      "profiled_brightness_db": 13.413069231893356
+    },
+    "0|profiled_brightness_db": {
+      "rank": 2,
+      "rms_hz": 0.11156674937895254,
+      "profiled_brightness_db": 13.551919485361744
+    },
+    "0.03|rms_hz": {
+      "rank": 1,
+      "rms_hz": 0.09559630994519268,
+      "profiled_brightness_db": 13.906658871050386
+    },
+    "0.03|profiled_brightness_db": {
+      "rank": 5,
+      "rms_hz": 0.09581129328015188,
+      "profiled_brightness_db": 13.966583316927437
+    }
+  },
+  "leaders": {
+    "0|rms_hz": {
+      "label": "A-27",
+      "aircraft_type": "P28A",
+      "score": 0.10932475637758012
+    },
+    "0|profiled_brightness_db": {
+      "label": "C-236",
+      "aircraft_type": "DA40",
+      "score": 13.768885061926419
+    },
+    "0.03|rms_hz": {
+      "label": "A-27",
+      "aircraft_type": "P28A",
+      "score": 0.09559630994519268
+    },
+    "0.03|profiled_brightness_db": {
+      "label": "C-130",
+      "aircraft_type": "DA42",
+      "score": 14.432822927932751
+    }
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "stage": "Post-ranking sensitivity demonstrations, not validated acoustic exclusions",
+  "jet_codes": [
+    "A20N",
+    "A21N",
+    "A306",
+    "A319",
+    "A320",
+    "A321",
+    "A332",
+    "A333",
+    "A359",
+    "B38M",
+    "B39M",
+    "B737",
+    "B738",
+    "B739",
+    "B744",
+    "B748",
+    "B752",
+    "B753",
+    "B763",
+    "B77L",
+    "B77W",
+    "B789",
+    "B78X",
+    "BCS3",
+    "C510",
+    "C525",
+    "C560",
+    "C68A",
+    "CL30",
+    "CL35",
+    "CRJ2",
+    "CRJ9",
+    "E75L",
+    "GLEX",
+    "GLF5",
+    "PRM1"
+  ],
+  "type_status": "Explicit illustrative subset of conventional jet type codes; archive metadata is not an engine identification from sound. Unknown types retained.",
+  "speed_definition": "3D ground-relative speed at continuous slant CPA in recorded emission interval. Air-relative speed retained separately.",
+  "bounds_status": "Speed/range rectangles are retrospective illustrations, not joint confidence/admissibility contours. Tight cut may discard the true flight.",
+  "gates": [
+    {
+      "objective": "0|rms_hz",
+      "gate": "none",
+      "survivors": 358,
+      "target_survives": true,
+      "target_rank": 1
+    },
+    {
+      "objective": "0|rms_hz",
+      "gate": "jet_subset_pass",
+      "survivors": 257,
+      "target_survives": true,
+      "target_rank": 1
+    },
+    {
+      "objective": "0|rms_hz",
+      "gate": "computational_domain_pass",
+      "survivors": 258,
+      "target_survives": true,
+      "target_rank": 1
+    },
+    {
+      "objective": "0|rms_hz",
+      "gate": "illustrative_broad_pass",
+      "survivors": 204,
+      "target_survives": true,
+      "target_rank": 1
+    },
+    {
+      "objective": "0|rms_hz",
+      "gate": "strict_nominal_pass",
+      "survivors": 55,
+      "target_survives": false,
+      "target_rank": null
+    },
+    {
+      "objective": "0|profiled_brightness_db",
+      "gate": "none",
+      "survivors": 358,
+      "target_survives": true,
+      "target_rank": 2
+    },
+    {
+      "objective": "0|profiled_brightness_db",
+      "gate": "jet_subset_pass",
+      "survivors": 257,
+      "target_survives": true,
+      "target_rank": 2
+    },
+    {
+      "objective": "0|profiled_brightness_db",
+      "gate": "computational_domain_pass",
+      "survivors": 259,
+      "target_survives": true,
+      "target_rank": 2
+    },
+    {
+      "objective": "0|profiled_brightness_db",
+      "gate": "illustrative_broad_pass",
+      "survivors": 212,
+      "target_survives": true,
+      "target_rank": 2
+    },
+    {
+      "objective": "0|profiled_brightness_db",
+      "gate": "strict_nominal_pass",
+      "survivors": 58,
+      "target_survives": false,
+      "target_rank": null
+    },
+    {
+      "objective": "0.03|rms_hz",
+      "gate": "none",
+      "survivors": 358,
+      "target_survives": true,
+      "target_rank": 1
+    },
+    {
+      "objective": "0.03|rms_hz",
+      "gate": "jet_subset_pass",
+      "survivors": 258,
+      "target_survives": true,
+      "target_rank": 1
+    },
+    {
+      "objective": "0.03|rms_hz",
+      "gate": "computational_domain_pass",
+      "survivors": 260,
+      "target_survives": true,
+      "target_rank": 1
+    },
+    {
+      "objective": "0.03|rms_hz",
+      "gate": "illustrative_broad_pass",
+      "survivors": 213,
+      "target_survives": true,
+      "target_rank": 1
+    },
+    {
+      "objective": "0.03|rms_hz",
+      "gate": "strict_nominal_pass",
+      "survivors": 52,
+      "target_survives": false,
+      "target_rank": null
+    },
+    {
+      "objective": "0.03|profiled_brightness_db",
+      "gate": "none",
+      "survivors": 358,
+      "target_survives": true,
+      "target_rank": 5
+    },
+    {
+      "objective": "0.03|profiled_brightness_db",
+      "gate": "jet_subset_pass",
+      "survivors": 258,
+      "target_survives": true,
+      "target_rank": 5
+    },
+    {
+      "objective": "0.03|profiled_brightness_db",
+      "gate": "computational_domain_pass",
+      "survivors": 260,
+      "target_survives": true,
+      "target_rank": 5
+    },
+    {
+      "objective": "0.03|profiled_brightness_db",
+      "gate": "illustrative_broad_pass",
+      "survivors": 213,
+      "target_survives": true,
+      "target_rank": 5
+    },
+    {
+      "objective": "0.03|profiled_brightness_db",
+      "gate": "strict_nominal_pass",
+      "survivors": 58,
+      "target_survives": false,
+      "target_rank": null
+    }
+  ]
+}
