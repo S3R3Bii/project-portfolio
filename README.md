@@ -6,6 +6,18 @@ I build analytical tools and applications that make complex work easier to inspe
 
 [Professional profile](https://github.com/S3R3Bii) · [Publications](https://github.com/S3R3Bii/S3R3Bii/blob/main/PUBLICATIONS.md) · [Interactive portfolio](https://james-jean-data-science.s3r3bii.chatgpt.site)
 
+## Featured study: Doppler geolocation
+
+**From a passing aircraft's sound to constraints on the recording location.** I connected 62 measured harmonic-spacing observations with public flight trajectories and a three-dimensional acoustic propagation model in an independent, AI-assisted study.
+
+The supplied aircraft ranked **1st of 358 refined candidates** by curve RMS under both source models. The two curve-optimal observer estimates were **56.5 m and 79.1 m** from an approximate reference point.
+
+[Explore the visual case study](https://james-jean-data-science.s3r3bii.chatgpt.site/assets/aircraft-doppler/index.html) · [Read the manuscript](https://github.com/S3R3Bii/project-portfolio/blob/main/projects/aircraft-doppler-geolocation/Audio_Location_Public.pdf) · [Open the executed Python notebook](https://github.com/S3R3Bii/project-portfolio/blob/main/projects/aircraft-doppler-geolocation/notebooks/Aircraft_Audio_Geolocation.ipynb) · [Inspect methods and code](https://github.com/S3R3Bii/project-portfolio/blob/main/aircraft-audio-geolocation.md)
+
+<a href="https://james-jean-data-science.s3r3bii.chatgpt.site/assets/aircraft-doppler/index.html"><img src="https://raw.githubusercontent.com/S3R3Bii/project-portfolio/main/projects/aircraft-doppler-geolocation/figures/measured_curve.png" width="760" alt="Measured harmonic spacing over elapsed time across two clips of one flyover; the missing recording interval is preserved."></a>
+
+*One retrospective event; identity and approximate location were disclosed before analysis but excluded from fitting inputs. This is not blind identification, a unique-location result or a validated accuracy guarantee. The notebook reproduces retained-data figures and synthetic physics checks; the original private audio extraction and full trajectory/environment search are outside its scope.*
+
 ## Research directed at demanding data roles
 
 The [50-study research register](research-program/README.md) connects specific business questions to public data and measurable tests. The [skills map](research-program/SKILLS_AND_SEQUENCE.md) emphasizes SQL, data validation, temporal evaluation, model tuning, kinematics and decision communication. All fifty scoped studies have public independent manuscripts, with results, reproducible evidence and limits stated in each repository. Every model-selection claim requires retained optimization and independent metric evidence. The [research manuscripts](research-program/RESEARCH_PAPERS.md) explain the released studies and link their checked source editions.
