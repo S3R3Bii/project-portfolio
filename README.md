@@ -18,6 +18,18 @@ The supplied aircraft ranked **1st of 358 refined candidates** by curve RMS unde
 
 *One retrospective event; identity and approximate location were disclosed before analysis but excluded from fitting inputs. This is not blind identification, a unique-location result or a validated accuracy guarantee. The notebook reproduces retained-data figures and synthetic physics checks; the original private audio extraction and full trajectory/environment search are outside its scope.*
 
+## Featured NLP project: Banking Intent Atlas
+
+**Knowing when an NLP router should defer.** An executed Python/SQL workflow compares word TF-IDF with frozen MiniLM embeddings across 77 banking intents, calibrates probabilities and locks a human-review policy before final testing.
+
+The encoder reached **91.7% top-1 accuracy** on 3,080 test queries. Its frozen policy accepted **89.4%** with **3.5% error among accepted suggestions** (95% Wilson interval: 2.9–4.2%). Two of twelve synthetic non-banking probes were also accepted: a visible reason to add a validated domain gate before a supervised pilot.
+
+[Explore the interactive decisions](https://james-jean-data-science.s3r3bii.chatgpt.site/assets/banking-intent-atlas/index.html) · [Read the visual paper](projects/banking-intent-atlas/showcase/Banking_Intent_Atlas.pdf) · [Code, SQL and evidence](projects/banking-intent-atlas/README.md)
+
+[![Held-out coverage and accepted-error tradeoff](projects/banking-intent-atlas/showcase/risk_coverage.webp)](banking-intent-atlas.md)
+
+*Independent, substantially AI-assisted benchmark work. No production adoption, banking automation, cost saving or prior professional NLP tenure is claimed.*
+
 ## Research directed at demanding data roles
 
 The [50-study research register](research-program/README.md) connects specific business questions to public data and measurable tests. The [skills map](research-program/SKILLS_AND_SEQUENCE.md) emphasizes SQL, data validation, temporal evaluation, model tuning, kinematics and decision communication. All fifty scoped studies have public independent manuscripts, with results, reproducible evidence and limits stated in each repository. Every model-selection claim requires retained optimization and independent metric evidence. The [research manuscripts](research-program/RESEARCH_PAPERS.md) explain the released studies and link their checked source editions.
@@ -159,3 +171,4 @@ This repository is a public showcase. Proprietary product code, client and patie
 ## Aircraft audio and geolocation
 
 [Aircraft Doppler case study](aircraft-audio-geolocation.md): signal extraction, public flight-path comparison, terrain/weather modeling and sensitivity analysis. The capture-time analysis ranks the supplied aircraft first of 358 by curve RMS under both source models, with inferred points 56.5 m and 79.1 m from the approximate reference. Includes a visual technical manuscript, direct competing-fit comparison and one executed Python notebook with embedded public inputs. This is a post-disclosure retrospective analysis, not a blind experiment or a unique-location claim.
+

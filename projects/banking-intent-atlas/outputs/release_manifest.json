@@ -1,0 +1,209 @@
+{
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "6f636e8cbf2909fabcc5884e73480957b45332e890d74605e3609609eec6cb8f",
+      "bytes": 166
+    },
+    {
+      "path": "PROTOCOL.md",
+      "sha256": "a31a19366b7d11a3fac9f4d15eb19a4f8225628e3a7ed6875129afb9db282420",
+      "bytes": 6522
+    },
+    {
+      "path": "README.md",
+      "sha256": "9ecf15cbcc741760ba3e7aa6b717c85adfea14d096ad4de920704edcdc12f791",
+      "bytes": 7583
+    },
+    {
+      "path": "NOTICE.md",
+      "sha256": "80f71a2272c6c1abe9026d2afdf1044bef2f18866195a5599cac5e22203d2edb",
+      "bytes": 1162
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "62acb467410105316610cff9791b9d1855cd8575962537469d7be4c287f375df",
+      "bytes": 174
+    },
+    {
+      "path": "fetch_sources.py",
+      "sha256": "9d1a0784e3c4da6fc6922c5d3a03b1bd379aeba3be33b453d827d5317aa3e0b7",
+      "bytes": 2180
+    },
+    {
+      "path": "pipeline.py",
+      "sha256": "4c6eb0d39b57e2a4be3e63ceb99825ebe792ae5d951c0cdd3d61315444f11d08",
+      "bytes": 17869
+    },
+    {
+      "path": "audit.py",
+      "sha256": "c0a8a50e80192e9fb8337acdc427284d20aa93baa151a845b11d1c826a60d2a9",
+      "bytes": 5969
+    },
+    {
+      "path": "queries.sql",
+      "sha256": "06816115607f987bfd2b7e36905485e70d9fc419fa26dee5e58622b9a20b1b5f",
+      "bytes": 607
+    },
+    {
+      "path": "reproduce.py",
+      "sha256": "da35488b131588886809a90ebbb34616709fdad30fdcb12d44dda3f093f1fb7d",
+      "bytes": 874
+    },
+    {
+      "path": "build_artifacts.py",
+      "sha256": "f5103b02a04836355d0ffcce16a1cc18f1c7d45522039e9cd9bee7b0a2640199",
+      "bytes": 23914
+    },
+    {
+      "path": "test_ui.mjs",
+      "sha256": "23d94358709a679c6027cf0caf795edcc316d65a9a990c50e62075723d7da21f",
+      "bytes": 4230
+    },
+    {
+      "path": "licenses/BANKING77_CC_BY_4.0.txt",
+      "sha256": "7e7170e3cebf88a9f60c7b8421418323c09304da1af4d5e90f4da1dc1c8a2661",
+      "bytes": 18650
+    },
+    {
+      "path": "outputs/source_manifest.json",
+      "sha256": "60d126407280ad5bd288b6f7b7a82318ddf380d0ff4e98fd2b476158a0c87800",
+      "bytes": 2232
+    },
+    {
+      "path": "outputs/data_audit.json",
+      "sha256": "0b3ec44d9497049748982ddb976bb750be3244c548728d215945f52ef7319a5a",
+      "bytes": 11823
+    },
+    {
+      "path": "outputs/labels.json",
+      "sha256": "1458c0ac1fa3825c30bdaf77fe6bfd898411cbd9e58d13b1400cfbd5d270d9c4",
+      "bytes": 2114
+    },
+    {
+      "path": "outputs/training.json",
+      "sha256": "bf77414e24688e1fce69353dec9f0ce28e67ff174463f588a1bba2e4ca2be65e",
+      "bytes": 69789
+    },
+    {
+      "path": "outputs/policy_lock.json",
+      "sha256": "ecc0ecd2ae3ef74e668a9c3409c49a0884295cfb3749527475864286f05d5fa5",
+      "bytes": 5398
+    },
+    {
+      "path": "outputs/environment.json",
+      "sha256": "5f6dea427f1a11546c90ec7c74521bbf1a4ac37359edea7e2c15419a243ff6d5",
+      "bytes": 371
+    },
+    {
+      "path": "outputs/metrics.json",
+      "sha256": "8445db268e514468873965e1c46d82247a46715a3af8052a41456bc77ca066b3",
+      "bytes": 66673
+    },
+    {
+      "path": "outputs/ood_probes.json",
+      "sha256": "90794e0c4a205d1b2077bfb00a24a21511f865c213ad46b90008faad16fcec35",
+      "bytes": 4646
+    },
+    {
+      "path": "outputs/confusion_pairs.csv",
+      "sha256": "60af9a36c0f5813857d1fd72519efe27703c9ec001ca49eb472ac83a4f40fffa",
+      "bytes": 587
+    },
+    {
+      "path": "outputs/independent_audit.json",
+      "sha256": "43e066214c4c250406321f4407b8f080aa7c7eb4e45f3550f531e9c2d1f3833a",
+      "bytes": 3412
+    },
+    {
+      "path": "outputs/ui_checks.json",
+      "sha256": "f6b89c20abbe750ee3a2e1d53deac88dba288eab48d40d83ea8cc4164dcd216a",
+      "bytes": 679
+    },
+    {
+      "path": "outputs/compressed_evidence.json",
+      "sha256": "2e5e80848c519e62656045824f70a6b2c02493c4903e7b46b703af7cc8328675",
+      "bytes": 414
+    },
+    {
+      "path": "outputs/predictions.csv.gz",
+      "sha256": "4616af01355bd545efe97788b6b9de988140dbac338a16abde887218b04789e6",
+      "bytes": 453871
+    },
+    {
+      "path": "outputs/split_manifest.csv.gz",
+      "sha256": "73957de92cf1174d0f10f6fb31029b466a0bbe0f9460578be8f4683de9c726e8",
+      "bytes": 587463
+    },
+    {
+      "path": "outputs/paper_text.md",
+      "sha256": "3ed24d18071008316d6701c69aece137fd5748028eb44f454f98210032b0b872",
+      "bytes": 9351
+    },
+    {
+      "path": "outputs/presentation_manifest.json",
+      "sha256": "60360b039ce796b0eaa9ab24445bece2ee3b55e481b7640494752a00919f44ec",
+      "bytes": 1460
+    },
+    {
+      "path": "showcase/app.js",
+      "sha256": "2364949f84117f55ca21dca2b023dce323d95d62224065a9a9aa2090a9c5a4f5",
+      "bytes": 4372
+    },
+    {
+      "path": "showcase/Banking_Intent_Atlas.pdf",
+      "sha256": "03858c63c4223db130d8138e5386f9addc0a7b211b55079b5ce07db78f4d5b0b",
+      "bytes": 328274
+    },
+    {
+      "path": "showcase/confusion_pairs.webp",
+      "sha256": "2030d2355755a10e987f4a45561fe0abea5065cf544a1bb82456971956037d4e",
+      "bytes": 27740
+    },
+    {
+      "path": "showcase/data_flow.webp",
+      "sha256": "7f9db98bd24a47fad78533c1540036ecd0c2b98d88f151f1e8729b5275e8cd4f",
+      "bytes": 29054
+    },
+    {
+      "path": "showcase/evidence.json",
+      "sha256": "b70306e82447b133a12a552f4fb81548f746f834390686a74c6d4d68f71d5abc",
+      "bytes": 128005
+    },
+    {
+      "path": "showcase/index.html",
+      "sha256": "8af871249dfc8caf6be06198fbdad085c94948f9d9f4c3c22116651f8c30b4c6",
+      "bytes": 8255
+    },
+    {
+      "path": "showcase/metrics.mjs",
+      "sha256": "a60b52fa4ac69bdc1782f9f1b69c4acb4bc818b15067eac7796e4e1e96dcbb41",
+      "bytes": 873
+    },
+    {
+      "path": "showcase/model_comparison.webp",
+      "sha256": "43e6de8a748237b838c9cfe737335c4652be4d2710f91cb7ae59d8a9aed66f9c",
+      "bytes": 20146
+    },
+    {
+      "path": "showcase/reliability.webp",
+      "sha256": "c0f45eed3bf7acdc2b9244fa1740ef43b13a67accd37db28b794ff4b2cbc0833",
+      "bytes": 33308
+    },
+    {
+      "path": "showcase/risk_coverage.webp",
+      "sha256": "5b39ffe9d8aa60b2129dee34ca4f100b5a200b32c2b25f7957d5f2ee4410e31e",
+      "bytes": 41108
+    },
+    {
+      "path": "showcase/style.css",
+      "sha256": "05d9922cf89f65313d014edf9541d7067ca53480bbb539d054076b8ddba643e1",
+      "bytes": 6208
+    },
+    {
+      "path": "outputs/release_review.json",
+      "sha256": "6131a6e73f261f13c3f83a4be40427ac88e770e4dcd0534f1307a1242de522ab",
+      "bytes": 2441
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "reviewed_utc": "2026-11-13T19:09:12.594893+00:00",
+  "version": "1.0",
+  "status": "ready_for_publication",
+  "criteria": {
+    "executed_and_source_supported": {
+      "grade": 4,
+      "state": "pass",
+      "evidence": "Two fitted/calibrated classifiers; pinned source hashes, retained official-test outcomes and policy lock."
+    },
+    "independently_checked": {
+      "grade": 4,
+      "state": "pass",
+      "evidence": "35 standard-library/SQL/source checks plus 13 Node calculation/event checks."
+    },
+    "clear_presentation": {
+      "grade": 4,
+      "state": "pass",
+      "evidence": "Seven rendered pages inspected. Overlapping chart annotation corrected; pages 2-7 are pixel-identical to inspected first render. Problem, finding, recommendation and limits precede methods."
+    },
+    "reproducible_source": {
+      "grade": 4,
+      "state": "pass",
+      "evidence": "Runnable Python stages used for this release; pinned dependencies; lossless prediction/split tables with hashes; new-directory reproduction helper; fresh-inference CLI exercised."
+    },
+    "privacy_and_scope": {
+      "grade": 4,
+      "state": "pass",
+      "evidence": "Explicit public-file allowlist; licensed public benchmark examples; no private campaign data, credentials, employer records, model weights or clinical data."
+    }
+  },
+  "limitations": [
+    "Live browser visual/interaction inspection was unavailable after an existing desktop access denial. Node event checks are not browser QA or accessibility certification.",
+    "New-directory reproduction wrapper has syntax/guard inspection; a second end-to-end model run was not performed. Original stages were executed successfully.",
+    "Fixed benchmark and pretrained representations; no production, novelty, domain-safety or savings claim."
+  ],
+  "revision_history": [
+    {
+      "round": 1,
+      "result": "revise",
+      "defect": "Lexical annotation overlapped x-axis on paper page 1; analytical checks passed."
+    },
+    {
+      "round": 2,
+      "result": "pass_with_stated_limits",
+      "change": "Moved annotation within plot; reread rendered page 1 and verified pages 2-7 unchanged."
+    }
+  ],
+  "review_budget": {
+    "substantive_rounds": 2,
+    "active_review_minutes_approx": 22,
+    "review_tool_calls_approx": 25,
+    "limits": {
+      "rounds": 3,
+      "minutes": 45,
+      "calls": 60
+    }
+  }
+}

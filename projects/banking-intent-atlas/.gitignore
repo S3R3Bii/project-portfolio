@@ -1,0 +1,13 @@
+.venv/
+data/raw/
+data/models/
+data/embeddings*
+data/*.sqlite
+models/
+__pycache__/
+outputs/render/
+outputs/*.joblib
+outputs/test_logits.npz
+*.log
+tmp/
+private-review/

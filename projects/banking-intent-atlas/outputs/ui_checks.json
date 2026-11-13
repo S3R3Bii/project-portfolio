@@ -1,0 +1,19 @@
+{
+  "pass": true,
+  "checks": [
+    "lexical frozen counts and rates",
+    "lexical extreme thresholds",
+    "lexical monotone accepted count",
+    "semantic frozen counts and rates",
+    "semantic extreme thresholds",
+    "semantic monotone accepted count",
+    "Wilson known synthetic case",
+    "initial view reflects frozen policy",
+    "slider changes counts and marks exploration",
+    "reset restores original policy",
+    "model selection restores matching cutoff",
+    "example filter replaces cards",
+    "failed fetch disables misleading controls"
+  ],
+  "limitation": "Node event harness; no browser rendering or accessibility conformance test."
+}

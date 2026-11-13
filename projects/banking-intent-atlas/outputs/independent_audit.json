@@ -1,0 +1,102 @@
+{
+  "checked_utc": "2026-11-13T18:49:37.718041+00:00",
+  "checks": {
+    "policy_lock_hash_unchanged": true,
+    "protocol_hash_unchanged": true,
+    "split_hash_unchanged": true,
+    "policy_locked_before_test_scoring": true,
+    "predictions_unique": true,
+    "split_fingerprints_disjoint": true,
+    "recorded_correctness_matches_labels": true,
+    "sqlite_join_preserves_rows": true,
+    "sqlite_only_official_test": true,
+    "lexical_n": true,
+    "lexical_correct": true,
+    "lexical_accuracy": true,
+    "lexical_macro_f1": true,
+    "lexical_accepted": true,
+    "lexical_errors": true,
+    "lexical_coverage": true,
+    "lexical_bounds": true,
+    "lexical_sqlite": true,
+    "lexical_acceptance_flags": true,
+    "lexical_empty_high_threshold": true,
+    "lexical_full_coverage_zero_threshold": true,
+    "semantic_n": true,
+    "semantic_correct": true,
+    "semantic_accuracy": true,
+    "semantic_macro_f1": true,
+    "semantic_accepted": true,
+    "semantic_errors": true,
+    "semantic_coverage": true,
+    "semantic_bounds": true,
+    "semantic_sqlite": true,
+    "semantic_acceptance_flags": true,
+    "semantic_empty_high_threshold": true,
+    "semantic_full_coverage_zero_threshold": true,
+    "selection_uses_policy_only": true,
+    "all_input_hashes_match": true
+  },
+  "models": {
+    "lexical": {
+      "n": 3080,
+      "correct": 2672,
+      "accuracy": 0.8675324675324675,
+      "macro_f1": 0.8677295193429791,
+      "accepted": 2151,
+      "errors": 54,
+      "coverage": 0.6983766233766234,
+      "error_ci95": [
+        0.019291816367903197,
+        0.03261059081981768
+      ],
+      "posthoc_unique_unambiguous_test_sensitivity": {
+        "n": 3075,
+        "correct": 2668,
+        "accuracy": 0.8676422764227643,
+        "macro_f1": 0.8678663036649028,
+        "accepted": 2146,
+        "errors": 53,
+        "coverage": 0.6978861788617886,
+        "error_ci95": [
+          0.01893115253577725,
+          0.03216166566717442
+        ]
+      }
+    },
+    "semantic": {
+      "n": 3080,
+      "correct": 2825,
+      "accuracy": 0.9172077922077922,
+      "macro_f1": 0.9171530967632633,
+      "accepted": 2755,
+      "errors": 96,
+      "coverage": 0.8944805194805194,
+      "error_ci95": [
+        0.02861966221301608,
+        0.04236718561564072
+      ],
+      "posthoc_unique_unambiguous_test_sensitivity": {
+        "n": 3075,
+        "correct": 2821,
+        "accuracy": 0.9173983739837398,
+        "macro_f1": 0.9174008508549051,
+        "accepted": 2750,
+        "errors": 95,
+        "coverage": 0.8943089430894309,
+        "error_ci95": [
+          0.028343031576698204,
+          0.042046444985146016
+        ]
+      }
+    }
+  },
+  "pass": true,
+  "method": "Independent CSV counts, manual per-class F1/Wilson formula, SQL aggregate/join checks and source/version hashes. Does not import pipeline.py.",
+  "additional_sensitivity": "Post hoc diagnostic only: remove conflicting-label test fingerprints and deduplicate remaining test text. Main benchmark and model/threshold selection unchanged.",
+  "limits": [
+    "Exact-normalized duplicates guarded; semantic near-duplicates may remain.",
+    "Row-level intervals and bootstrap do not model latent customer grouping or pretraining contamination.",
+    "The 12 OOD probes are synthetic and not representative."
+  ]
+}

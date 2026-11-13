@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="An executed NLP benchmark comparing lexical and pretrained semantic intent classifiers, with calibrated confidence and a human-review policy.">
+  <title>Banking Intent Atlas · James Jean</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to evidence</a>
+<header><a href="/">James Jean / Research &amp; engineering</a><span>Independent study · November 2026</span></header>
+<main id="main">
+  <section class="hero">
+    <p class="eyebrow">NLP / classification / uncertainty</p>
+    <h1>Knowing when an<br> NLP router should defer.</h1>
+    <p class="lead">A customer asks about a missing card. A model must distinguish <em>card arrival</em> from <em>delivery estimate</em>—and recognize when its answer deserves a second look.</p>
+    <p>Banking Intent Atlas compares two working classifiers across 77 banking intents. It connects the technical question—how accurately can we classify a query?—to an operational one: how much should we refer for human review?</p>
+    <nav class="actions" aria-label="Project resources"><a class="primary" href="#explorer">Explore the decisions ↓</a><a href="Banking_Intent_Atlas.pdf">Read the 7-page paper</a><a href="https://github.com/S3R3Bii/project-portfolio/tree/main/projects/banking-intent-atlas">Code &amp; evidence ↗</a></nav>
+    <div class="metrics" aria-label="Frozen semantic-pipeline test results"><div><strong>91.7<span>%</span></strong><small>Top-1 accuracy<br>3,080 official test queries</small></div><div><strong>89.4<span>%</span></strong><small>Accepted for intent suggestion<br>at the frozen 0.66 cutoff</small></div><div><strong>3.5<span>%</span></strong><small>Error among accepted queries<br>95% interval: 2.9–4.2%</small></div></div>
+  </section>
+  <section class="two-col intro">
+    <div><p class="eyebrow">01 / The decision</p><h2>Fewer manual reviews.<br>Visible mistakes.</h2></div>
+    <div><p>The frozen sentence encoder improved accuracy by <b>4.97 percentage points</b> over a TF-IDF baseline on the same held-out queries. Its separately selected policy accepted 2,755 and referred 325; 96 accepted suggestions were wrong.</p><p><b>Recommendation:</b> the encoder is the stronger candidate for a supervised pilot under this study’s illustrative error target. Keep a human escalation route and add a validated domain check before operational use.</p><p class="notice">This is an offline benchmark, not a deployed banking service. Coverage is not measured labor savings. The encoder confidently accepted <b>2 of 12 synthetic non-banking probes</b>.</p></div>
+  </section>
+  <section id="explorer" class="explorer">
+    <div class="section-head"><div><p class="eyebrow">02 / Decision explorer</p><h2>Move the cutoff.<br>See who gets referred.</h2></div><p>This replays saved predictions for all 3,080 official test queries. It does not call an AI service or run fresh inference.</p></div>
+    <div class="controls"><label>Pipeline<select id="model"><option value="semantic">Frozen MiniLM + logistic regression</option><option value="lexical">TF-IDF + logistic regression</option></select></label><label for="cutoff">Confidence cutoff <output id="cutoff-value" for="cutoff">0.66</output><input id="cutoff" type="range" min="0" max="1" step="0.01" value="0.66"></label><button id="reset" type="button">Reset frozen policy</button></div>
+    <p id="policy-note" class="policy-note" role="status">Loading saved evidence…</p>
+    <div class="explorer-grid"><div><svg id="curve" viewBox="0 0 680 355" role="img" aria-labelledby="curve-title curve-desc"><title id="curve-title">Coverage versus error among accepted queries</title><desc id="curve-desc">Each curve changes the confidence cutoff for a fixed model. The marker shows the current selection. Exact selected counts appear alongside.</desc></svg><p class="caption">Test curves are descriptive; exploring them does not revise the published policy. Curve segments with fewer than 100 accepted queries are omitted.</p></div><div class="readout" aria-live="polite" aria-atomic="true"><div><span>Accepted</span><strong id="accepted">—</strong></div><div><span>Human review</span><strong id="review">—</strong></div><div><span>Accepted errors</span><strong id="errors">—</strong></div><div><span>Error interval (95% Wilson)</span><strong id="interval">—</strong></div></div></div>
+  </section>
+  <section>
+    <div class="section-head"><div><p class="eyebrow">03 / Open the black box</p><h2>Confident can still be wrong.</h2></div><p>These examples are selected from the highest-confidence cases in each displayed category; they are not a random sample. Labels are the benchmark annotations.</p></div>
+    <label class="example-filter">Inspect semantic-model examples<select id="example-kind"><option value="accepted_error">Accepted mistakes</option><option value="referred">Referred for review</option><option value="correct">Correct predictions</option></select></label>
+    <div id="examples" class="examples"></div>
+    <p class="caption">Examples use the original frozen MiniLM policy, independent of the slider above. Public BANKING77 text is reproduced under CC BY 4.0, attributed below.</p>
+  </section>
+  <section class="two-col methods"><div><p class="eyebrow">04 / Engineering choices</p><h2>Separate the data.<br>Lock the policy.<br>Then measure.</h2><p>Python · SQL · scikit-learn · ONNX Runtime · pretrained embeddings · probability calibration</p></div><div>
+    <ol class="pipeline"><li><b>Audit the source</b><span>Remove 62 overlapping, conflicting or duplicate training rows. Preserve the official test; report a separate sensitivity check.</span></li><li><b>Fit two pipelines</b><span>6,958 queries train a word TF-IDF baseline and a frozen 384-dimensional MiniLM representation, each with logistic regression.</span></li><li><b>Calibrate, then choose</b><span>1,491 queries fit temperature scaling. Another 1,492 select the model and confidence cutoff. Both are locked before final testing.</span></li><li><b>Reconcile the evidence</b><span>35 independent checks reconstruct metrics and intervals, confirm split isolation, and reconcile 6,160 model/query records through SQL.</span></li></ol>
+    <p>No customer identifiers or timestamps are available, so this is not a customer-group or temporal holdout. Exact-normalized deduplication does not remove every paraphrase.</p></div>
+  </section>
+  <section class="two-col limit"><div><p class="eyebrow">05 / What comes next</p><h2>Prove it on new queries.</h2></div><div><p>A prospective pilot should use a permitted sample from a new institution or time period, include unknown intents, and measure review time rather than infer it from benchmark coverage. Select error tolerances with the team that bears their cost.</p><p>The current project demonstrates an executed NLP workflow and inspectable evidence. It makes no claim of research novelty, production adoption, financial impact or a universal safety guarantee.</p></div></section>
+  <section class="sources"><h2>Sources &amp; authorship</h2><p><a href="https://aclanthology.org/2020.nlp4convai-1.5/">Casanueva et al. (2020), BANKING77</a> · <a href="https://github.com/PolyAI-LDN/task-specific-datasets">Dataset / CC BY 4.0</a> · <a href="https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2">all-MiniLM-L6-v2 / Apache 2.0</a> · <a href="https://proceedings.mlr.press/v70/guo17a.html">Guo et al. (2017), temperature scaling</a></p><p>James N. Jean IV set the portfolio objective. ChatGPT Codex substantially assisted protocol design, implementation, execution, verification, writing and presentation. This is independent portfolio work, not prior professional NLP tenure.</p><p class="caption">Pinned sources, environment, predictions, policy lock, audit and reproduction commands are available in the repository. Browser interactions run locally; no user text is collected.</p></section>
+</main><footer>Banking Intent Atlas / Evidence before automation <a href="/">Back to portfolio ↑</a></footer>
+<script type="module" src="app.js"></script>
+</body></html>

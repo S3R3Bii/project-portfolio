@@ -1,0 +1,170 @@
+[
+  {
+    "text": "What is the weather in Tokyo tomorrow?",
+    "model": "lexical",
+    "prediction": "direct_debit_payment_not_recognised",
+    "confidence": 0.3032588936915446,
+    "accepted": false
+  },
+  {
+    "text": "Book a table for four at an Italian restaurant.",
+    "model": "lexical",
+    "prediction": "transaction_charged_twice",
+    "confidence": 0.1838936151737788,
+    "accepted": false
+  },
+  {
+    "text": "How do I reset my television remote?",
+    "model": "lexical",
+    "prediction": "passcode_forgotten",
+    "confidence": 0.22290034472512105,
+    "accepted": false
+  },
+  {
+    "text": "Write a poem about autumn leaves.",
+    "model": "lexical",
+    "prediction": "request_refund",
+    "confidence": 0.1220129814193257,
+    "accepted": false
+  },
+  {
+    "text": "My dog will not eat its food.",
+    "model": "lexical",
+    "prediction": "beneficiary_not_allowed",
+    "confidence": 0.09137767224644065,
+    "accepted": false
+  },
+  {
+    "text": "Can you help me plan a hiking trip?",
+    "model": "lexical",
+    "prediction": "lost_or_stolen_card",
+    "confidence": 0.35515881289667095,
+    "accepted": false
+  },
+  {
+    "text": "What is the capital of Peru?",
+    "model": "lexical",
+    "prediction": "direct_debit_payment_not_recognised",
+    "confidence": 0.3894850410143278,
+    "accepted": false
+  },
+  {
+    "text": "I need to reschedule my dentist appointment.",
+    "model": "lexical",
+    "prediction": "edit_personal_details",
+    "confidence": 0.41907127823554785,
+    "accepted": false
+  },
+  {
+    "text": "How do I change the oil in my car?",
+    "model": "lexical",
+    "prediction": "edit_personal_details",
+    "confidence": 0.28589733377725496,
+    "accepted": false
+  },
+  {
+    "text": "The movie subtitles are not displaying.",
+    "model": "lexical",
+    "prediction": "beneficiary_not_allowed",
+    "confidence": 0.1648223006300116,
+    "accepted": false
+  },
+  {
+    "text": "Explain photosynthesis to a child.",
+    "model": "lexical",
+    "prediction": "age_limit",
+    "confidence": 0.273253041823517,
+    "accepted": false
+  },
+  {
+    "text": "Which train goes to the airport?",
+    "model": "lexical",
+    "prediction": "cancel_transfer",
+    "confidence": 0.27746313791574717,
+    "accepted": false
+  },
+  {
+    "text": "What is the weather in Tokyo tomorrow?",
+    "model": "semantic",
+    "prediction": "exchange_rate",
+    "confidence": 0.41051679849624634,
+    "accepted": false
+  },
+  {
+    "text": "Book a table for four at an Italian restaurant.",
+    "model": "semantic",
+    "prediction": "lost_or_stolen_phone",
+    "confidence": 0.1325955092906952,
+    "accepted": false
+  },
+  {
+    "text": "How do I reset my television remote?",
+    "model": "semantic",
+    "prediction": "passcode_forgotten",
+    "confidence": 0.7495453357696533,
+    "accepted": true
+  },
+  {
+    "text": "Write a poem about autumn leaves.",
+    "model": "semantic",
+    "prediction": "passcode_forgotten",
+    "confidence": 0.25119566917419434,
+    "accepted": false
+  },
+  {
+    "text": "My dog will not eat its food.",
+    "model": "semantic",
+    "prediction": "card_not_working",
+    "confidence": 0.6385683417320251,
+    "accepted": false
+  },
+  {
+    "text": "Can you help me plan a hiking trip?",
+    "model": "semantic",
+    "prediction": "card_delivery_estimate",
+    "confidence": 0.2855377197265625,
+    "accepted": false
+  },
+  {
+    "text": "What is the capital of Peru?",
+    "model": "semantic",
+    "prediction": "exchange_rate",
+    "confidence": 0.2683207392692566,
+    "accepted": false
+  },
+  {
+    "text": "I need to reschedule my dentist appointment.",
+    "model": "semantic",
+    "prediction": "card_delivery_estimate",
+    "confidence": 0.2658638656139374,
+    "accepted": false
+  },
+  {
+    "text": "How do I change the oil in my car?",
+    "model": "semantic",
+    "prediction": "edit_personal_details",
+    "confidence": 0.3722163438796997,
+    "accepted": false
+  },
+  {
+    "text": "The movie subtitles are not displaying.",
+    "model": "semantic",
+    "prediction": "card_not_working",
+    "confidence": 0.5374575853347778,
+    "accepted": false
+  },
+  {
+    "text": "Explain photosynthesis to a child.",
+    "model": "semantic",
+    "prediction": "age_limit",
+    "confidence": 0.7704042196273804,
+    "accepted": true
+  },
+  {
+    "text": "Which train goes to the airport?",
+    "model": "semantic",
+    "prediction": "atm_support",
+    "confidence": 0.509402871131897,
+    "accepted": false
+  }
+]

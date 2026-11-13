@@ -1,0 +1,14 @@
+[
+  {
+    "file": "predictions.csv.gz",
+    "uncompressed_sha256": "fdd6f82036cde6fcb4e9910fe8b0a8b2d3921de861d255c69cf6a12e4ac18afa",
+    "uncompressed_bytes": 1383378,
+    "gzip_bytes": 453871
+  },
+  {
+    "file": "split_manifest.csv.gz",
+    "uncompressed_sha256": "9f824cc792af28dd052e7379f05b34d32f0904c6250cefe5f91111a31223113a",
+    "uncompressed_bytes": 1445425,
+    "gzip_bytes": 587463
+  }
+]
