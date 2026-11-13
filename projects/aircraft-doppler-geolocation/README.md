@@ -2,7 +2,7 @@
 ## Capture-time inference and retrospective validation
 **James N. Jean IV · Applied signal processing and inverse problems**
 
-[Technical manuscript](Audio_Location_Public.pdf) · [Executed real-data notebook](notebooks/01_real_data_audit.ipynb) · [Synthetic physics notebook](notebooks/02_synthetic_propagation.ipynb) · [Project ZIP](Aircraft_Audio_Public_Project.zip)
+[Technical manuscript](Audio_Location_Public.pdf) · [Single executed Python notebook](notebooks/Aircraft_Audio_Geolocation.ipynb) · [Project ZIP](Aircraft_Audio_Public_Project.zip)
 
 > A short recording contains measurable Doppler structure. This project tests how much that structure can tell us about the aircraft and the observer, and where a favorable fit can still mislead.
 
@@ -15,6 +15,11 @@ Two clips of one flyover were aligned on a shared reception-time axis, preservin
 The supplied aircraft ranked first by curve RMS under both source models and second/fifth by spectral contrast. Its curve-optimal inferred observer points were approximately **56.5 m and 79.1 m** from the participant's approximate reference. These are encouraging retrospective results, not confidence radii or proof of unique identification. An alternative near-optimal spatial basin remains, and a preregistered blind replication is required.
 
 ![Search and refinement counts](figures/flow_counts.png)
+
+## Why the top candidate ranks first
+The five lowest curve-error scores and the top three actual prediction curves are shown below. Each aircraft is compared at its own best retained location, clock and pitch parameters. A-27 has the smallest RMS in both models; its advantages of 0.0131 Hz and 0.0205 Hz over the runners-up are numerical preferences, not calibrated exclusion thresholds. The close alternatives and full residuals remain visible.
+
+![Actual top-candidate curves and score comparison](figures/candidate_selection.png)
 
 ## Research questions
 1. What information survives in a real harmonic-spacing curve?
@@ -54,21 +59,24 @@ Aircraft altitude, ground elevation and microphone height are separate quantitie
 
 Low-frequency aircraft sound may remain measurable inside a building, depending on construction, openings, background noise and recording hardware. That physical possibility is not validation of an indoor location or of this particular recording. The manuscript discusses the transmission limits and supporting references.
 
-## Run the notebooks
+## Run the single notebook
+Download [Aircraft_Audio_Geolocation.ipynb](notebooks/Aircraft_Audio_Geolocation.ipynb), then:
+
 ```bash
-cd projects/aircraft-doppler-geolocation
-python -m pip install -r requirements.txt
-python tests/test_doppler.py
-jupyter lab notebooks/
+python -m pip install numpy pandas matplotlib jupyterlab ipykernel
+jupyter lab Aircraft_Audio_Geolocation.ipynb
 ```
 
-- **01_real_data_audit.ipynb** reproduces actual anonymized measurements, missing-interval handling, all 361 retained candidates, model-dependent rankings and scalar reference-error plots.
-- **02_synthetic_propagation.ipynb** tests retarded time, wind, numerical derivatives and inverse-time recovery, then demonstrates mirror ambiguity and source-pitch sensitivity using invented coordinates.
+Choose **Restart Kernel and Run All Cells**. The notebook embeds its sanitized CSV/JSON tables and propagation functions. No other project files or network access are needed to reproduce its retained-data figures and synthetic physics checks after installing dependencies.
 
-Both include executed outputs. Public data reproduce retained-table analyses and equation checks, **not** the original private audio extraction or full trajectory/environment optimization. Synthetic correctness checks do not establish real-world accuracy.
+The walkthrough follows measured sound and its missing interval, the search/refinement funnel, all 361 retained candidates, scalar validation, observer geometry and synthetic tests. Executed outputs are included.
+
+**Star markers identify A-27, the supplied reference aircraft.** They do not mark observer positions or statistical significance. The funnel's spatial grids are schematic, not confidence regions.
+
+This one file does **not** reproduce original private audio extraction or the full trajectory/environment search; those require separately archived private inputs. Synthetic checks verify equation consistency, not real-world localization accuracy.
 
 ## Repository guide
-- `notebooks/`: executed Python walkthroughs.
+- `notebooks/Aircraft_Audio_Geolocation.ipynb`: single executed, embedded-input walkthrough.
 - `data/`: relative-time measurements, corrected candidate scores and scalar validation.
 - `src/`, `tests/`: propagation code and consistency tests.
 - `manuscript/`: LaTeX source and figure assets.
