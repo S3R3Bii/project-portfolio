@@ -143,3 +143,7 @@ Screenshots are actual interface captures or generated analytical outputs, not i
 This repository is a public showcase. Proprietary product code, client and patient data, private recordings, financial information, credentials, job-search records and school assignments are not included. Selected safe source projects are linked separately.
 
 © James N. Jean IV. Product images and original prose are provided for portfolio review. Linked projects and third-party data retain their own licenses.
+
+## Aircraft audio and geolocation
+
+[Aircraft Doppler case study](aircraft-audio-geolocation.md): signal extraction, public flight-path comparison, terrain/weather modeling and sensitivity analysis. The blind search abstained; the participant later supplied the flight identity. Numerical fits did not establish a unique audio-only identification or verified observer location.
