@@ -14,7 +14,17 @@ The supplied aircraft ranked **1st of 358 refined candidates** by curve RMS unde
 
 [Explore the visual case study](https://james-jean-data-science.s3r3bii.chatgpt.site/assets/aircraft-doppler/index.html) · [Read the manuscript](https://github.com/S3R3Bii/project-portfolio/blob/main/projects/aircraft-doppler-geolocation/Audio_Location_Public.pdf) · [Open the executed Python notebook](https://github.com/S3R3Bii/project-portfolio/blob/main/projects/aircraft-doppler-geolocation/notebooks/Aircraft_Audio_Geolocation.ipynb) · [Inspect methods and code](https://github.com/S3R3Bii/project-portfolio/blob/main/aircraft-audio-geolocation.md)
 
-<a href="https://james-jean-data-science.s3r3bii.chatgpt.site/assets/aircraft-doppler/index.html"><img src="https://raw.githubusercontent.com/S3R3Bii/project-portfolio/main/projects/aircraft-doppler-geolocation/figures/measured_curve.png" width="760" alt="Measured harmonic spacing over elapsed time across two clips of one flyover; the missing recording interval is preserved."></a>
+**Candidate-match scatterplot**
+
+<a href="https://raw.githubusercontent.com/S3R3Bii/project-portfolio/main/projects/aircraft-doppler-geolocation/figures/score_scatter.png"><img src="https://raw.githubusercontent.com/S3R3Bii/project-portfolio/main/projects/aircraft-doppler-geolocation/figures/score_scatter.png" width="760" alt="Candidate-match scatterplot for 358 ranked aircraft under two source models: curve RMS error versus spectral contrast; a star marks reference aircraft A-27."></a>
+
+Lower curve error and higher spectral contrast are better. The star marks the supplied reference aircraft, ranked first by curve RMS under both source models. Open the figure for full-size detail.
+
+**Search and filtering funnel**
+
+<a href="https://raw.githubusercontent.com/S3R3Bii/project-portfolio/main/projects/aircraft-doppler-geolocation/figures/flow_counts.png"><img src="https://raw.githubusercontent.com/S3R3Bii/project-portfolio/main/projects/aircraft-doppler-geolocation/figures/flow_counts.png" width="760" alt="Search and filtering funnel from 75,222 daily aircraft trajectories through source-time and coverage filters to 358 ranked aircraft per source model; spatial search grids are schematic."></a>
+
+The funnel shows the screening and refinement stages; the spatial grids are schematic, not confidence regions. Open the figure for full-size detail.
 
 *One retrospective event; identity and approximate location were disclosed before analysis but excluded from fitting inputs. This is not blind identification, a unique-location result or a validated accuracy guarantee. The notebook reproduces retained-data figures and synthetic physics checks; the original private audio extraction and full trajectory/environment search are outside its scope.*
 
