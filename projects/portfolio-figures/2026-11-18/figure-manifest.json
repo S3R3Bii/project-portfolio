@@ -1,0 +1,182 @@
+[
+  {
+    "file": "banking-risk-coverage.png",
+    "bytes": 145754,
+    "sha256": "9a4b4b9ed9fc88a5bd4de3096a7b1ccbc1527f8067038d02f8b8ff7f8d1a7783"
+  },
+  {
+    "file": "banking-risk-coverage.webp",
+    "bytes": 74160,
+    "sha256": "636fc2b4d9ccc9c04698a5132ffb568c9df403d228cac93a6fb4245dec4c6edd"
+  },
+  {
+    "file": "banking-risk-coverage@2x.png",
+    "bytes": 313834,
+    "sha256": "7b7fb2f5d7673bce26c0c1c905ce5165d8271fc4be7b5a3d2f072440639a33cb"
+  },
+  {
+    "file": "banking-risk-coverage@2x.webp",
+    "bytes": 160620,
+    "sha256": "5ab3e8ee6427f1e1b711b20e050e42fecde8fbc047485fb0bfd424454b220c16"
+  },
+  {
+    "file": "doppler-candidate-scatter.png",
+    "bytes": 143973,
+    "sha256": "0e46a6a1b8d9618776c11089156a54e82debcbd9409cd4a055873dd822841761"
+  },
+  {
+    "file": "doppler-candidate-scatter.webp",
+    "bytes": 85914,
+    "sha256": "47050d9d3cf4e7f6111dccda30f522cb2ad21140d9fee0dea9166e9fbb988d5e"
+  },
+  {
+    "file": "doppler-candidate-scatter@2x.png",
+    "bytes": 349309,
+    "sha256": "735e9019678c1ce265a822e6a6fb8e1dd11c0a65df000e1dc28d6be7c7a4dd9c"
+  },
+  {
+    "file": "doppler-candidate-scatter@2x.webp",
+    "bytes": 183542,
+    "sha256": "64811dac899e21283ee18eb09e4e12e6fddefe62ad3b1fce776b817435e5a3ea"
+  },
+  {
+    "file": "doppler-measured-model.png",
+    "bytes": 105006,
+    "sha256": "2bbdfb6830a198b8f39ad4fdba23da42f45aa96af5e7eb691acf9de4ae184486"
+  },
+  {
+    "file": "doppler-measured-model.webp",
+    "bytes": 53560,
+    "sha256": "4fcaffa7790df5642a78f8761762ed45718ff00ff1780c2a5e2b968af3fbc2a1"
+  },
+  {
+    "file": "doppler-measured-model@2x.png",
+    "bytes": 235487,
+    "sha256": "0c48d94ff54cb30be05122dff80ae70a1dbc252bedfe7f42c47655ff31a56c3b"
+  },
+  {
+    "file": "doppler-measured-model@2x.webp",
+    "bytes": 114854,
+    "sha256": "2bc870e2486d127f9eaf7f878019d334c2150f0cadccd1f6bff9e40026386f6f"
+  },
+  {
+    "file": "doppler-spectrum-map.png",
+    "bytes": 219016,
+    "sha256": "06b0df544d0539f1c8bafbb01e1802e1d3456e2688280a2193e1b36ab95dc1f3"
+  },
+  {
+    "file": "doppler-spectrum-map.webp",
+    "bytes": 145908,
+    "sha256": "14d519010c64ccfa3453da7ade1036e71fb4b5798206e3c7f27b6c7daaad5f15"
+  },
+  {
+    "file": "doppler-spectrum-map@2x.png",
+    "bytes": 403600,
+    "sha256": "def2e7f9a58c8acb1f94559cf1b126dd3ab84a75fb4d7077161ecc8d35285cb0"
+  },
+  {
+    "file": "doppler-spectrum-map@2x.webp",
+    "bytes": 294278,
+    "sha256": "c431bbfa0c96e78795aff7a4aca7a5065886a4233178e3e0a90ecc69daf18982"
+  },
+  {
+    "file": "epilepsy-map.png",
+    "bytes": 72792,
+    "sha256": "c5a0b6c7866445d01ff13bb20c68021176f900b0e689f57691b3373440a8fdc6"
+  },
+  {
+    "file": "epilepsy-map.webp",
+    "bytes": 66130,
+    "sha256": "f98bc144e3c6182cc595e689501d6989d258e87e876cf4371dc9fad39096011c"
+  },
+  {
+    "file": "epilepsy-map@2x.png",
+    "bytes": 166615,
+    "sha256": "917e8b18ac53f64e6d4b1bd5b6d293e72d6c8533b22bb2ddc4ba07e079bf4d69"
+  },
+  {
+    "file": "epilepsy-map@2x.webp",
+    "bytes": 141290,
+    "sha256": "7aca726b8eec3ddd54e60bfb1857901227f65c68ae384328630cd66b9bda9d88"
+  },
+  {
+    "file": "epilepsy-selected-forest.png",
+    "bytes": 43306,
+    "sha256": "4dfca8a4e6e927c3f2fb5e2b57ab8a1f8246ed32c9e6a1f2355f81e3525e199c"
+  },
+  {
+    "file": "epilepsy-selected-forest.webp",
+    "bytes": 56102,
+    "sha256": "cc89452b10c70b4e3b47dc98b52470b8684b1e8d80ec3b4a3e9d2cc0a82aa6a4"
+  },
+  {
+    "file": "epilepsy-selected-forest@2x.png",
+    "bytes": 97391,
+    "sha256": "4c26d1aeb66a912c32b62777b8f276ce6379bc6536fcb8ab3a8afc8f6023f4f3"
+  },
+  {
+    "file": "epilepsy-selected-forest@2x.webp",
+    "bytes": 124076,
+    "sha256": "1bc5952a9b4705570eb5dd2e86e7405eebb0995bee97b759478c1add51796c40"
+  },
+  {
+    "file": "finance-waterfall.png",
+    "bytes": 96645,
+    "sha256": "f7891621a35445887fdded2e9ad93b22536ad0d1957bc8726ea4266fee423b5b"
+  },
+  {
+    "file": "finance-waterfall.webp",
+    "bytes": 49826,
+    "sha256": "e804bf00c717f1112d37f17ab3cfb160ad528947d62c0f6c3c60c3dda87d4e13"
+  },
+  {
+    "file": "finance-waterfall@2x.png",
+    "bytes": 207928,
+    "sha256": "3231a4b86cc6a2f55d8f7882d88b27b992ed81859d7723efc100ee98b5bb4887"
+  },
+  {
+    "file": "finance-waterfall@2x.webp",
+    "bytes": 109870,
+    "sha256": "ce264a565411a2a8f5991f04715ed317dc774a2ca399744c3fac5355fc9b25d3"
+  },
+  {
+    "file": "trialops-handoff.png",
+    "bytes": 84133,
+    "sha256": "5dc3ea01f0864798bfbcacd91a641ecf57c118ee61c44ad8185c3783bd717684"
+  },
+  {
+    "file": "trialops-handoff.webp",
+    "bytes": 45170,
+    "sha256": "e03daa4f1c605363be4f68293ccf27427b0e08a7672ff0c3422b357093076e62"
+  },
+  {
+    "file": "trialops-handoff@2x.png",
+    "bytes": 188456,
+    "sha256": "62818dbe0f7b941345e6cab2b39cce488bebdd5cf146a34feb23bef98275b394"
+  },
+  {
+    "file": "trialops-handoff@2x.webp",
+    "bytes": 95236,
+    "sha256": "017eafb07dc78043fdccd772f0c1492df3d06401bd0ac8514557ec3172272a63"
+  },
+  {
+    "file": "trialops-workflow.png",
+    "bytes": 174889,
+    "sha256": "633a7cfb5829d865855f2d5e524031aededbbf3559731e9edf48af1bfca1ed8d"
+  },
+  {
+    "file": "trialops-workflow.webp",
+    "bytes": 76116,
+    "sha256": "de7cdd71e9b8f1a9ec5b2142b0db29b0446b53a053d712a7b13a92fddf79c296"
+  },
+  {
+    "file": "trialops-workflow@2x.png",
+    "bytes": 460044,
+    "sha256": "1fa400a7471460bbde6a89db16b197f8e62d27da3632f54650fd0a7dfbb74d19"
+  },
+  {
+    "file": "trialops-workflow@2x.webp",
+    "bytes": 168168,
+    "sha256": "8222eafd8e4e1f97c6b844b8b282f2c90e1606c5fcc4b6b124e6db55ae0c9580"
+  }
+]
