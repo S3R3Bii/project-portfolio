@@ -1,0 +1,273 @@
+{
+  "cases": [
+    {
+      "case": "retired-value-trap",
+      "asset": "Atlas A1",
+      "question": "What is the retry interval?",
+      "expected": "15 minutes",
+      "expected_revision": "1.4",
+      "expected_section": "retry",
+      "guarded_correct": true,
+      "baseline_correct": false,
+      "guarded_response": {
+        "status": "cited",
+        "quote": "After a failed report upload, wait 15 minutes before selecting Retry upload.",
+        "citation": {
+          "asset": "Atlas A1",
+          "revision": "1.4",
+          "section": "retry"
+        }
+      },
+      "baseline_passage": {
+        "body": "After a failed report upload, the retry interval is 30 minutes. Wait 30 minutes before selecting Retry upload.",
+        "section": "retry",
+        "asset": "Atlas A1",
+        "revision": "1.3",
+        "status": "retired",
+        "locale": "en"
+      }
+    },
+    {
+      "case": "retry-paraphrase",
+      "asset": "Atlas A1",
+      "question": "How long should I wait before retrying?",
+      "expected": "15 minutes",
+      "expected_revision": "1.4",
+      "expected_section": "retry",
+      "guarded_correct": true,
+      "baseline_correct": false,
+      "guarded_response": {
+        "status": "cited",
+        "quote": "After a failed report upload, wait 15 minutes before selecting Retry upload.",
+        "citation": {
+          "asset": "Atlas A1",
+          "revision": "1.4",
+          "section": "retry"
+        }
+      },
+      "baseline_passage": {
+        "body": "Wait 12 minutes after a failed upload.",
+        "section": "retry",
+        "asset": "Atlas A1",
+        "revision": "1.5",
+        "status": "draft",
+        "locale": "en"
+      }
+    },
+    {
+      "case": "different-asset",
+      "asset": "Atlas A2",
+      "question": "When can I retry a failed upload?",
+      "expected": "20 minutes",
+      "expected_revision": "2.0",
+      "expected_section": "retry",
+      "guarded_correct": true,
+      "baseline_correct": true,
+      "guarded_response": {
+        "status": "cited",
+        "quote": "After a failed report upload, wait 20 minutes before selecting Retry upload.",
+        "citation": {
+          "asset": "Atlas A2",
+          "revision": "2.0",
+          "section": "retry"
+        }
+      },
+      "baseline_passage": {
+        "body": "After a failed report upload, wait 20 minutes before selecting Retry upload.",
+        "section": "retry",
+        "asset": "Atlas A2",
+        "revision": "2.0",
+        "status": "released",
+        "locale": "en"
+      }
+    },
+    {
+      "case": "csv-export",
+      "asset": "Atlas A1",
+      "question": "How do I export the report log?",
+      "expected": "Download CSV",
+      "expected_revision": "1.4",
+      "expected_section": "export",
+      "guarded_correct": true,
+      "baseline_correct": true,
+      "guarded_response": {
+        "status": "cited",
+        "quote": "Open Review history and select Download CSV to export the report log.",
+        "citation": {
+          "asset": "Atlas A1",
+          "revision": "1.4",
+          "section": "export"
+        }
+      },
+      "baseline_passage": {
+        "body": "Open Review history and select Download CSV to export the report log.",
+        "section": "export",
+        "asset": "Atlas A1",
+        "revision": "1.4",
+        "status": "released",
+        "locale": "en"
+      }
+    },
+    {
+      "case": "json-export",
+      "asset": "Atlas A2",
+      "question": "Where can I find the report log?",
+      "expected": "Export JSON",
+      "expected_revision": "2.0",
+      "expected_section": "export",
+      "guarded_correct": true,
+      "baseline_correct": true,
+      "guarded_response": {
+        "status": "cited",
+        "quote": "Open Audit history and select Export JSON to export the report log.",
+        "citation": {
+          "asset": "Atlas A2",
+          "revision": "2.0",
+          "section": "export"
+        }
+      },
+      "baseline_passage": {
+        "body": "Open Audit history and select Export JSON to export the report log.",
+        "section": "export",
+        "asset": "Atlas A2",
+        "revision": "2.0",
+        "status": "released",
+        "locale": "en"
+      }
+    },
+    {
+      "case": "a1-escalation",
+      "asset": "Atlas A1",
+      "question": "What should I include in the handoff?",
+      "expected": "{{ticket_id}}",
+      "expected_revision": "1.4",
+      "expected_section": "escalation",
+      "guarded_correct": true,
+      "baseline_correct": false,
+      "guarded_response": {
+        "status": "cited",
+        "quote": "Escalate three consecutive failures to the documentation queue. Include {{ticket_id}} and the sync token. See [handoff](https://example.org/handoff).",
+        "citation": {
+          "asset": "Atlas A1",
+          "revision": "1.4",
+          "section": "escalation"
+        }
+      },
+      "baseline_passage": {
+        "body": "Include the sync key in the handoff.",
+        "section": "escalation",
+        "asset": "Atlas A1",
+        "revision": "1.5",
+        "status": "draft",
+        "locale": "en"
+      }
+    },
+    {
+      "case": "a2-escalation",
+      "asset": "Atlas A2",
+      "question": "Where should I send repeated upload failures?",
+      "expected": "service queue",
+      "expected_revision": "2.0",
+      "expected_section": "escalation",
+      "guarded_correct": true,
+      "baseline_correct": true,
+      "guarded_response": {
+        "status": "cited",
+        "quote": "Send repeated upload failures to the service queue. Include {{ticket_id}} and the sync token.",
+        "citation": {
+          "asset": "Atlas A2",
+          "revision": "2.0",
+          "section": "escalation"
+        }
+      },
+      "baseline_passage": {
+        "body": "Send repeated upload failures to the service queue. Include {{ticket_id}} and the sync token.",
+        "section": "escalation",
+        "asset": "Atlas A2",
+        "revision": "2.0",
+        "status": "released",
+        "locale": "en"
+      }
+    },
+    {
+      "case": "unknown",
+      "asset": "Atlas A1",
+      "question": "How do I reset the administrator password?",
+      "expected": "defer",
+      "expected_revision": null,
+      "expected_section": null,
+      "guarded_correct": true,
+      "baseline_correct": true,
+      "guarded_response": {
+        "status": "defer",
+        "message": "This question is outside the supported manual workflows."
+      },
+      "baseline_passage": null
+    },
+    {
+      "case": "unsupported-retry-detail",
+      "asset": "Atlas A1",
+      "question": "What is the retry interval during maintenance?",
+      "expected": "defer",
+      "expected_revision": null,
+      "expected_section": null,
+      "guarded_correct": true,
+      "baseline_correct": false,
+      "guarded_response": {
+        "status": "defer",
+        "message": "This question is outside the supported manual workflows."
+      },
+      "baseline_passage": {
+        "body": "After a failed report upload, the retry interval is 30 minutes. Wait 30 minutes before selecting Retry upload.",
+        "section": "retry",
+        "asset": "Atlas A1",
+        "revision": "1.3",
+        "status": "retired",
+        "locale": "en"
+      }
+    },
+    {
+      "case": "unsupported-compound",
+      "asset": "Atlas A2",
+      "question": "How do I export the report log and upload it elsewhere?",
+      "expected": "defer",
+      "expected_revision": null,
+      "expected_section": null,
+      "guarded_correct": true,
+      "baseline_correct": false,
+      "guarded_response": {
+        "status": "defer",
+        "message": "This question is outside the supported manual workflows."
+      },
+      "baseline_passage": {
+        "body": "Open Audit history and select Export JSON to export the report log.",
+        "section": "export",
+        "asset": "Atlas A2",
+        "revision": "2.0",
+        "status": "released",
+        "locale": "en"
+      }
+    },
+    {
+      "case": "underspecified-asset",
+      "asset": null,
+      "question": "What is the retry interval?",
+      "expected": "clarify",
+      "expected_revision": null,
+      "expected_section": null,
+      "guarded_correct": true,
+      "baseline_correct": true,
+      "guarded_response": {
+        "status": "clarify",
+        "message": "Select Atlas A1 or Atlas A2 first."
+      },
+      "baseline_passage": null
+    }
+  ],
+  "totals": {
+    "cases": 11,
+    "answerable_cases": 7,
+    "guarded_correct": 11,
+    "baseline_correct": 6
+  }
+}
