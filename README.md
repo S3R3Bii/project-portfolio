@@ -40,6 +40,11 @@ The encoder reached **91.7% top-1 accuracy** on 3,080 test queries. Its frozen p
 
 *Independent, substantially AI-assisted benchmark work. No production adoption, banking automation, cost saving or prior professional NLP tenure is claimed.*
 
+## Grant evaluation and AI adoption
+
+- **Pricing a vaccination incentive.** In a Rajasthan trial, adding an incentive to reliable camps raised completion by 20.8 percentage points. A grant officer can enter a local bid and see the coverage gain needed to justify the extra spending. [Grant analysis and bid calculator](https://github.com/S3R3Bii/immunization-incentive-budget)
+- **Comparing AI adoption across survey years.** EU enterprise AI use rose 6.47 points under the published questionnaires. A survey redesign complicates the comparison. This study quantifies the possible change for six comparable technologies and identifies the missing survey tabulation. [Survey analysis and reproducible bounds](https://github.com/S3R3Bii/ai-survey-comparability)
+
 ## Research directed at demanding data roles
 
 The [50-study research register](research-program/README.md) connects specific business questions to public data and measurable tests. The [skills map](research-program/SKILLS_AND_SEQUENCE.md) emphasizes SQL, data validation, temporal evaluation, model tuning, kinematics and decision communication. All fifty scoped studies have public independent manuscripts, with results, reproducible evidence and limits stated in each repository. Every model-selection claim requires retained optimization and independent metric evidence. The [research manuscripts](research-program/RESEARCH_PAPERS.md) explain the released studies and link their checked source editions.
