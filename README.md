@@ -40,6 +40,12 @@ The encoder reached **91.7% top-1 accuracy** on 3,080 test queries. Its frozen p
 
 *Independent, substantially AI-assisted benchmark work. No production adoption, banking automation, cost saving or prior professional NLP tenure is claimed.*
 
+## Featured applied AI project: Service Manual AI Lab
+
+An offline Python and LangGraph prototype checks fictional service-manual drafts, catches changed values in Spanish localization, and answers scoped questions with exact quotations from a released revision. A case-level regression suite shows where plain search surfaced retired or draft instructions and how the workflow handled those cases.
+
+[Run the demo and inspect the evidence](projects/service-manual-ai-lab/) · [Banking Intent Atlas](banking-intent-atlas.md) · [Agent Evaluation Workbench](agent-evaluation-workbench.md)
+
 ## Research directed at demanding data roles
 
 The [50-study research register](research-program/README.md) connects specific business questions to public data and measurable tests. The [skills map](research-program/SKILLS_AND_SEQUENCE.md) emphasizes SQL, data validation, temporal evaluation, model tuning, kinematics and decision communication. All fifty scoped studies have public independent manuscripts, with results, reproducible evidence and limits stated in each repository. Every model-selection claim requires retained optimization and independent metric evidence. The [research manuscripts](research-program/RESEARCH_PAPERS.md) explain the released studies and link their checked source editions.
